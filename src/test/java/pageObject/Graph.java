@@ -1,5 +1,10 @@
 package pageObject;
 
-public class Graph {
 
-}
+
+
+
+public class Graph{
+	
+	
+	}

@@ -5,12 +5,9 @@ Background: User sign into dsalgo portal
 Scenario: Verify that user is able to navigate to "Data Structures - Introduction" page
 Given  user is on the Home page  
 When user clicks on GetStarted button
-Then user lands on data-structures-introduction page
+Then user lands on data-structures-introduction page and able to see NumpyNinja,Data structures dropdown,username and signout links
 
-Scenario: Verify that user is able to view NumpyNinja,Data structures dropdown,username and signout links on page
-Given user is on data-structures-introduction page
-When user lands on  data-structures-introduction page
-Then use is able to see NumpyNinja,Data structures dropdown,username and signout links 
+
 
 Scenario: Verify that by clicking NumpyNinja link user should be navigated to dsalgo portal
 Given user is on data-structures-introduction page
@@ -19,7 +16,7 @@ Then user lands on dsalgo portal
 
 Scenario Outline: User selects an item from the Data Structures dropdown
 Given user is on data-structures-introduction page
-When user select "<Option>" from the "Data Structures" dropdown
+When user select "<Option>" from the Data Structures dropdown
 Then user should be navigated to the <ExpectedPath> page
 
   Examples:
