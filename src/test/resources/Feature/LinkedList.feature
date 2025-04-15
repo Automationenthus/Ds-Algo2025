@@ -270,7 +270,6 @@ Feature: This feature file contain scenario for the LinkedList module
 
   Scenario: Verify that user can type in editor by clicking "ok" button on alert window
     GivenThe user is on " tryEditor" page with alert window open of "Deletion" page
-
     When The user clicks on "ok" button on alert window
     Then The user should be able to edit code on editor and perform other operations as well
 

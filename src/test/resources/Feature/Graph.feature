@@ -28,7 +28,7 @@ Feature: This feature file contain scenario for the Graph module
     Then The user should land on navigate to Graph page of Graph
 
   Scenario: Verify that user is able to navigate to "Practice" page
-    Given user is on "Graph" page Of Graph
+    Given user is on "Graph" page 
     When user clicks on Practice Questions link
     Then user should land on practice page
 
