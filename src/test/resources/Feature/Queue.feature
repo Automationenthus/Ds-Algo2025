@@ -161,8 +161,7 @@ Feature: This feature file contain scenario for the Queue module
     Then The user should not able to perform any other operation on page
 
   Scenario: Verify that user can type in editor by clicking "ok" button on alert window
-    GivenThe user is on " tryEditor" page with alert window open of "Queue Operations" page
-
+    Given The user is on tryEditor page with alert window open of "Queue Operations" page
     When The user clicks on "ok" button on alert window
     Then The user should be able to edit code on editor and perform other operations as well
 
