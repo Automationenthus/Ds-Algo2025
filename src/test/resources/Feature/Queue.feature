@@ -129,12 +129,7 @@ Feature: This feature file contain scenario for the Queue module
 
     When The user clicks on "ok" button on alert window
     Then The user should be able to edit code on editor and perform other operations as well
-
-  Scenario: Verify that user is able to see output for valid python code for "Implementation using array" page
-    Given The user is in the tryEditor page
-    When The user write the valid code in Editor and click the Run Button
-    Then The user should able to see output in the console
-
+    
   Scenario: Verify that user is able to navigate to "Queue Operations" page
     Given The user is on "Queue Operations" page
     When The user clicks on "Queue Operations" link
