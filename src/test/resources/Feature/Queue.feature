@@ -172,6 +172,6 @@ Feature: This feature file contain scenario for the Queue module
     Then The user should able to see output in the console
 
   Scenario: Verify if user is able to navigate to Home page on clicking "SignOut " link
-    Given The user is on "Queue" page
+    Given The user is on Queue page
     When The user clicks on Signout button
     Then Then user should be navigate back to "Home" page and "Logged out successfully" message should be displayed on home page
