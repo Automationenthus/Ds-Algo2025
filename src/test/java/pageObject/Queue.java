@@ -19,10 +19,6 @@ public class Queue {
 		PageFactory.initElements(driver, this);
 		
  }
-
-	/*
-	 * @FindBy(linkText = "Queue") private WebElement getStartQueue;
-	 */
 	    @FindBy(xpath = "//a[@href='queue']")
 	    private WebElement getStartQueue;
 	    

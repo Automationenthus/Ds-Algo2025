@@ -19,10 +19,6 @@ public class LinkedList {
 		PageFactory.initElements(driver, this);
 		
  }
- 
-	/*
-	 * @FindBy(linkText = "linked-list") private WebElement getLinkedList;
-	 */
 	    
  @FindBy(xpath = "//a[@href='linked-list']") 
  private WebElement getLinkedList;

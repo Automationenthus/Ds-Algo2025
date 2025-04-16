@@ -19,11 +19,7 @@ public class Graph {
 			PageFactory.initElements(driver, this);
 			
 	 }
-			
-
-		/*
-		 * @FindBy(linkText = "Graph") private WebElement getStartGraph;
-		 */
+		
 
 		    @FindBy(xpath = "//a[@href='graph']")
 		    private WebElement getStartGraph;
