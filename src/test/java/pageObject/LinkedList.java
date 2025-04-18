@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LinkedList {
 
+	/*
 	WebDriver driver;
 	
 	//constructor
@@ -168,5 +169,5 @@ public class LinkedList {
 			}
 		}
 	
-	
+	*/
 }

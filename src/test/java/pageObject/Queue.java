@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Queue {
 
+	/*
 	WebDriver driver;
 	
 	//constructor
@@ -134,5 +135,5 @@ public class Queue {
 			}
 		}
 	
-	
+	*/
 }

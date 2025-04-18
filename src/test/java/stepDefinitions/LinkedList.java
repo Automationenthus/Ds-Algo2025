@@ -1,11 +1,11 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.Given;
+/*import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import io.cucumber.java.en.When;*/
 
 public class LinkedList {
-	
+	/*
 	@Given("The user is on Home page after logged in")
 	public void the_user_is_on_home_page_after_logged_in() {
 	    // Write code here that turns the phrase above into concrete actions
@@ -414,7 +414,7 @@ public class LinkedList {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-
+*/
 
 }
 

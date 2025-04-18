@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Graph {
 
+	/*
 	
 	 WebDriver driver;
 		
@@ -20,7 +21,6 @@ public class Graph {
 			
 	 }
 		
-
 		    @FindBy(xpath = "//a[@href='graph']")
 		    private WebElement getStartGraph;
 		    
@@ -131,5 +131,5 @@ public class Graph {
 
 				}
 			}
-
+*/
 }
