@@ -1,5 +1,19 @@
 package testRunner;
+import org.junit.runner.RunWith;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 
-public class DsalgoRunner {
+	
 
-}
+
+	@RunWith(Cucumber.class)
+	@CucumberOptions(
+	    features = "src/test/resources/Feature/Home.feature",
+	    glue = {"stepDefinitions","pageObject"},
+	    plugin = {"pretty", "html:target/report.html"},
+	    monochrome = true
+	)
+	public class DsalgoRunner  {
+	}
+
+

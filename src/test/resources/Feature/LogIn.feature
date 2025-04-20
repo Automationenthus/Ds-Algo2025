@@ -2,11 +2,11 @@ Feature: Login Functionality
  
  Scenario Outline: Login with invalid crdentials
  Given User is on Dsportal login page
- When User enters invalid "username" and "passowrd" 
+ When User enters invalid "Username1" and "Passowrd1" 
  Then User should get proper warning message
  
 Examples: 
-|username|password|
+|Username1|Passowrd1|
 |automatione|Numpy@ninja20|
 |    |Numpy@ninja2025|
 |automation||
@@ -14,10 +14,12 @@ Examples:
  
  Scenario Outline: Verify that user able to see validation message when trying to login with empty fields
  Given User is on Dsportal login page
- When The user clicks login button after leaving the "Username" textbox and "Password" textbox empty
- Then The error message "Please fill out this field." appears below Username textbox
- |username|password|
- |||
+ When The user clicks login button after leaving the "Username1" textbox and "Passowrd1" textbox empty
+ Then The error message "Message" appears below Username textbox
+
+Examples:
+ |Username1|Passowrd1|Message|
+ |||Please fill out this field|
 
  
  Scenario: Verify that the user able to navigate to register page after click register button
@@ -36,10 +38,10 @@ Examples:
  
 Scenario Outline: Login is working with valid crdentials
  Given User is on login page
- When User enters valid "username" and "password" and clicks login button
+ When User enters valid "Username1" and "Password1" and clicks login button
  Then User is navigated to home page
 Examples: 
-|username|password|
+|Username1|Password1|
 |automationenthu|Numpy@ninja2025|
  
  Scenario: Verify user is able to see username in the home page after successful login

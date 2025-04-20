@@ -1,38 +1,35 @@
 package driverFactory;
 
+import dsUtilities.ConfigReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
-    private static WebDriver driver;
 
-    public static WebDriver getDriver(String browser) {
-        if (driver == null) {
-            switch (browser.toLowerCase()) {
-                case "chrome":
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
-                    break;
-                case "firefox":
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
-                    break;
-                // More browsers...
-            }
-            driver.manage().window().maximize();
-        }
-        return driver;
-    }
+	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-    public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
-        }
-    }
+	public static WebDriver getDriver() {
+		if (driver.get() == null) {
+			createDriver();
+		}
+		return driver.get();
+	}
+
+	private static void createDriver() {
+		String browser = ConfigReader.getBrowser();
+		switch (browser.toLowerCase()) {
+		case "chrome":
+			driver.set(new ChromeDriver());
+			break;
+		default:
+			throw new IllegalArgumentException("Unsupported browser: " + browser);
+		}
+	}
+
+	public void quitDriver() {
+		if (driver.get() != null) {
+			driver.get().quit();
+			driver.remove();
+		}
+	}
 }
-
-

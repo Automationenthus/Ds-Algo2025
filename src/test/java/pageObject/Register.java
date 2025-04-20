@@ -16,6 +16,7 @@ public class Register {
 	@FindBy(xpath="//a[text()='id_password2']")WebElement PasswordConfirmation;
 	@FindBy(xpath="//input[@value='Register']")WebElement RegisterButton;
 	@FindBy(xpath="//a[text()='Login ']")WebElement LoginLink;
+	@FindBy(xpath="//div[@class='alert alert-primary' and contains(text(), 'You are logged in')]")WebElement SuccessMessage;
 	
 	
  public Register(WebDriver driver) {
@@ -24,11 +25,18 @@ public class Register {
 	PageFactory.initElements(driver,this);
 }
  
- public void click() {
+ public void reg_linkclick() {
 	 RegisterLink.click();
+ }
+ public void sign_click() {
 	 SignIn.click();
+ }
+ public void reg_button() {
 	 RegisterButton.click();
-	 LoginLink.click();
+ }
+ public void log_click() {
+		 
+	 LoginLink.click(); 
 	 
 	 }
  public void enterusername(String Username_Field) {
@@ -50,6 +58,10 @@ public class Register {
 	 PasswordConfirmation.clear();
 	 PasswordConfirmation.sendKeys(Passowrd_2);
 	 
+ }
+ 
+ public String getsuccess_msg() {
+	 return SuccessMessage.getText();
  }
  
 }
