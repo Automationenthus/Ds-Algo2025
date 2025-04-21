@@ -6,26 +6,22 @@ import org.testng.annotations.DataProvider;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
-	
+
 //@RunWith(Cucumber.class) //Junit execution
 
-		@CucumberOptions(
-				plugin = {"pretty", "html:target/arc.html"}, //reporting purpose
-				monochrome=false,  //console output color
-				//tags from feature file
-				features = {"src/test/resources/feature"}, //location of feature files
-				glue={"stepDefinitions","dsUtilities"} )//location of step definition files
+@CucumberOptions(plugin = { "pretty", "html:target/arc.html" }, // reporting purpose
+		monochrome = false, // console output color
+		// tags from feature file
+		features = { "src/test/resources/feature" }, // location of feature files
+		glue = { "stepDefinitions", "dsUtilities", "dsalgoHooks" }) // location of step definition files
 
+public class DsalgoRunner extends AbstractTestNGCucumberTests {
 
-		public class DsalgoRunner extends AbstractTestNGCucumberTests{
-			
-			@Override
-		    @DataProvider(parallel = false)
-		    public Object[][] scenarios() {
-						
-				return super.scenarios();
-		    }
+	@Override
+	@DataProvider(parallel = false)
+	public Object[][] scenarios() {
+
+		return super.scenarios();
+	}
 
 }
-
-

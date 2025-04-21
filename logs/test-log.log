@@ -1,0 +1,12 @@
+2025-04-21 15:21:30 INFO  Home:28 - Page title is: NumpyNinja
+2025-04-21 15:21:30 INFO  Home:28 - Page title is: NumpyNinja
+2025-04-21 15:21:30 INFO  Home:40 - Page title is: Login
+2025-04-21 15:21:30 INFO  Home:40 - Page title is: Login
+2025-04-21 15:21:30 INFO  Home:43 - Verified title contains expected text: login
+2025-04-21 15:21:30 INFO  Home:43 - Verified title contains expected text: login
+2025-04-21 15:23:28 INFO  Home:28 - Page title is: NumpyNinja
+2025-04-21 15:23:29 INFO  Home:40 - Page title is: Login
+2025-04-21 15:23:29 INFO  Home:43 - Verified title contains expected text: login
+2025-04-21 15:29:31 INFO  HomeSteps:28 - Page title is: NumpyNinja
+2025-04-21 15:29:31 INFO  HomeSteps:40 - Page title is: Login
+2025-04-21 15:29:31 INFO  HomeSteps:43 - Verified title contains expected text: login
