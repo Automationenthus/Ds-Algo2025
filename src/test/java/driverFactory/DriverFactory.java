@@ -1,59 +1,56 @@
 package driverFactory;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import dsUtilities.ConfigReader;
+
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+
+
 public class DriverFactory {
+    private static WebDriver driver;
+    
 
-    private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+    public static WebDriver initDriver() {
+        String browser = ConfigReader.getProperty("browser");
 
-    public static WebDriver initDriver(String browser) {
-        if (browser == null || browser.isEmpty()) {
-            throw new IllegalArgumentException("Browser must not be null or empty!");
+        if (browser.equalsIgnoreCase("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } else if (browser.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } else if (browser.equalsIgnoreCase("edge")) {
+            WebDriverManager.edgedriver().setup();
+            driver = new EdgeDriver();
+        } else if (browser.equalsIgnoreCase("safari")) {
+            WebDriverManager.safaridriver().setup();
+            driver = new SafariDriver();
+        } else {
+            throw new RuntimeException("Unsupported browser: " + browser);
         }
 
-        switch (browser.toLowerCase()) {
-            case "chrome":
-                WebDriverManager.chromedriver().setup();
-                tlDriver.set(new ChromeDriver());
-                break;
-
-            case "firefox":
-                WebDriverManager.firefoxdriver().setup();
-                tlDriver.set(new FirefoxDriver());
-                break;
-
-            case "edge":
-                WebDriverManager.edgedriver().setup();
-                tlDriver.set(new EdgeDriver());
-                break;
-
-            case "safari":
-                // Safari driver is usually already available on macOS
-                tlDriver.set(new SafariDriver());
-                break;
-
-            default:
-                throw new RuntimeException("Unsupported browser: " + browser);
-        }
-
-        getDriver().manage().window().maximize();
-        return getDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        return driver;
     }
 
     public static WebDriver getDriver() {
-        return tlDriver.get();
+        return driver;
     }
 
     public static void quitDriver() {
-        if (getDriver() != null) {
-            getDriver().quit();
-            tlDriver.remove();
+        if (driver != null) {
+            driver.quit();
+            driver = null;
         }
     }
 }
+
 
