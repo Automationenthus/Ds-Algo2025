@@ -1,108 +1,85 @@
 package stepDefinitions;
 
+import org.junit.Assert;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObject.HomeFactory;
+import dsalgoHooks.Hooks;
+import pageObject.LoginFactory;
 
 public class Login {
 	
-	@When("User enters invalid username and passowrd {string} {string}")
-	public void user_enters_invalid_username_and_passowrd(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	LoginFactory login = new LoginFactory(Hooks.driver);
+	
+
+	@Given("The user clicks the Sign In link")
+	public void the_user_clicks_the_sign_in_link() {
+		login.click_homesignin();
 	}
 
-	@Then("User should get proper warning message")
-	public void user_should_get_proper_warning_message() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("The user gets valid data  {string} and {string} for the login page")
+	public void the_user_gets_valid_data_for_the_login_page(String username, String Password) {
+		login.login_user(username);
+		login.login_passowrd(Password);
+		login.login_button();
 	}
 
-	@When("The user clicks login button after leaving the {string} textbox and {string} textbox empty")
-	public void the_user_clicks_login_button_after_leaving_the_textbox_and_textbox_empty(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("The user is on home page after sign in")
+	public void the_user_is_on_home_page_after_sign_in() {
+		boolean isyourloggedindisplayed = login.is_logedin_messagedisplayed();
+		Assert.assertTrue("User not navigated to log in page",isyourloggedindisplayed);
+	}
+}
+/*
+	@Then("The user clicks sign out")
+	public void the_user_clicks_sign_out() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("The error message {string} appears below Username textbox")
-	public void the_error_message_appears_below_username_textbox(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("The user should be navigated to home page with message {string}")
+	public void the_user_should_be_navigated_to_home_page_with_message(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
 	}
 
-	@When("The user clicks the register button from login page")
-	public void the_user_clicks_the_register_button_from_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("The user enters invalid username and password")
+	public void the_user_enters_invalid_username_and_password() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("The user should get navigae to register page")
-	public void the_user_should_get_navigae_to_register_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("The user should get the error message {string}")
+	public void the_user_should_get_the_error_message(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
 	}
 
 	@When("The user clicks numpy ninja button on the top left")
 	public void the_user_clicks_numpy_ninja_button_on_the_top_left() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
 	}
 
 	@Then("The user should get navigate to get started home page")
 	public void the_user_should_get_navigate_to_get_started_home_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
 	}
 
-	@When("The user clicks datastructure button on the top left")
-	public void the_user_clicks_datastructure_button_on_the_top_left() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("The user clicks Register link")
+	public void the_user_clicks_register_link() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("The user should see all six menus")
-	public void the_user_should_see_all_six_menus() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("The user should navigate to Register page")
+	public void the_user_should_navigate_to_register_page() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
 	}
-
-	@Given("User is on login page")
-	public void user_is_on_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User enters valid {string} and {string} and clicks login button")
-	public void user_enters_valid_and_and_clicks_login_button(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is navigated to home page")
-	public void user_is_navigated_to_home_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Given("user is on the login page")
-	public void user_is_on_the_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User clicks login button with valid credentials")
-	public void user_clicks_login_button_with_valid_credentials() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User should see the username on the right side top of the home page")
-	public void user_should_see_the_username_on_the_right_side_top_of_the_home_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-
-
 
 }
+*/

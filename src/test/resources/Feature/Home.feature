@@ -1,10 +1,13 @@
 Feature: Home Page
 
-Background:
-Given I am on the herokuapp home page
+Background: Verify user is able to launch the dsalgo app
+Given User is in the ds-algo launch page 
+When User click the get started button in dsalgo launch page
+Then User should be navigated to the home page
 
-Scenario: User able to land on register page
-Given I am on the herokuapp home page
+Scenario: Verify user landed on the home page
+
+
 #When User click register button
 #Then User should land on register page
 
@@ -27,7 +30,7 @@ Given I am on the herokuapp home page
 #Given: I am on the herokuapp home page
 #When: User click get started button in datastructure introduction
 #Then: User should Datastructure introduction page
-#
+#Verify user la
 #Scenario: User able to sign out 
 #Given: I am on the herokuapp home page
 #When: User click sign out button

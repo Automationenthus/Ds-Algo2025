@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -11,48 +10,52 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.HomeFactory;
-import pageObject.Hooks;
+import dsalgoHooks.Hooks;
 
 public class HomeSteps {
-	
-    @Given("I am on the herokuapp home page")
-    public void i_launch_the_application() {
-    	System.out.println("Welcome GIRI");
-    	HomeFactory homef = new HomeFactory(Hooks.driver);
-    	
-    	System.out.println("Welcome");
-    	homef.launchURL();
-        
-    }
-	
-	/*	 driver = DriverFactory.initDriver();
 
-	 public static Properties prop;
-	
-	 HomeFactory hf = new HomeFactory(driver);
-	
-	
-	@Given("I am on the herokuapp home page")
-	public void i_am_on_the_herokuapp_home_page() {
-		driver.get(prop.getProperty("baseUrl"));
-	    
+	HomeFactory homef = new HomeFactory(Hooks.driver);
+
+	@Given("User is in the ds-algo launch page")
+	public void User_is_in_the_dsalgo_launch_page() {
+		homef.launchURL();
 	}
 
-	@When("User click register button")
-	public void user_click_register_button() {
-	   
-	   hf.reg_linkclick();
+	@When("User click the get started button in dsalgo launch page")
+	public void user_click_the_get_started_button_in_dsalgo_launch_page() {
+		homef.launchgetstarted();
 	}
 
-	@Then("User should land on register page")
-	public void user_should_land_on_register_page() {
-	    
-		String actual_title = driver.getTitle();
-        String expected_title = "Registration";
-        Assert.assertEquals(actual_title, expected_title);
+	@Then("User should be navigated to the home page")
+	public void user_should_be_navigated_to_the_home_page() {
+	homef.validate_hometitle();	
 	}
 
-*/
+	/*
+	 * driver = DriverFactory.initDriver();
+	 * 
+	 * public static Properties prop;
+	 * 
+	 * HomeFactory hf = new HomeFactory(driver);
+	 * 
+	 * 
+	 * @Given("I am on the herokuapp home page") public void
+	 * i_am_on_the_herokuapp_home_page() { driver.get(prop.getProperty("baseUrl"));
+	 * 
+	 * }
+	 * 
+	 * @When("User click register button") public void user_click_register_button()
+	 * {
+	 * 
+	 * hf.reg_linkclick(); }
+	 * 
+	 * @Then("User should land on register page") public void
+	 * user_should_land_on_register_page() {
+	 * 
+	 * String actual_title = driver.getTitle(); String expected_title =
+	 * "Registration"; Assert.assertEquals(actual_title, expected_title); }
+	 * 
+	 */
 
 //	
 //	@Given("User is on Dsportal login page")

@@ -2,7 +2,17 @@ package dsalgoHooks;
 
 import org.openqa.selenium.WebDriver;
 
-public class Hooks {
-	
+import driverFactory.DriverFactory;
+import io.cucumber.java.Before;
 
+public class Hooks {
+	public static WebDriver driver;
+
+	@Before
+	public void setUp() {
+		driver = DriverFactory.getDriver();
+	}
+	/*
+	 * @After public void tearDown() { DriverFactory.quitDriver(); }
+	 */
 }
