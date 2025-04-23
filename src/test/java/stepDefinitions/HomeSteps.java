@@ -18,7 +18,7 @@ public class HomeSteps {
 
 	@Given("User is in the ds-algo launch page")
 	public void User_is_in_the_dsalgo_launch_page() {
-		homef.launchURL();
+		homef.validate_launchtitle();
 	}
 
 	@When("User click the get started button in dsalgo launch page")

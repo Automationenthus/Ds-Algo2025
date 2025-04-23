@@ -1,28 +1,28 @@
 package dsUtilities;
 
+import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
 
 public class ConfigReader {
+	 private static Properties prop;
 
-	private static Properties properties = new Properties();
+	    public static Properties initProperties() {
+	        try {
+	            FileInputStream file = new FileInputStream("src/test/resources/config/config.properties");
+	            prop = new Properties();
+	            prop.load(file);
+	        } catch (IOException e) {
+	            e.printStackTrace();
+	        }
+	        return prop;
+	    }
 
-	static {
+	    public static String getProperty(String key) {
+	        if (prop == null) {
+	            initProperties();
+	        }
+	        return prop.getProperty(key);
+	    }
 
-		try {
-			InputStream input = ConfigReader.class.getClassLoader().getResourceAsStream("Config/config.properties");
-			properties.load(input);
-		} catch (IOException e) {
-			throw new RuntimeException("Failed to load config file", e);
-		}
-	}
-
-	public static String getBrowser() {
-		return properties.getProperty("browser");
-	}
-
-	public static String getUrl() {
-		return properties.getProperty("baseurl");
-	}
 }

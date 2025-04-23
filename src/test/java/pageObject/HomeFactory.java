@@ -18,16 +18,18 @@ public class HomeFactory {
 		PageFactory.initElements(homef_driver, this);
 	}
 
-	public void launchURL() {
-		homef_driver.get(ConfigReader.getUrl());
-	}
-	
+
 	@FindBy(xpath = "//button[text()='Get Started']")WebElement Launch_getstarted;
 	@FindBy(xpath ="//a[text()='Sign in']")WebElement Home_signin;
 
 	@FindBy(xpath = "//a[text()=' Register ']")
 	WebElement RegisterLink;
 
+	public void validate_launchtitle() {
+		String Actual_title = homef_driver.getTitle();
+		String Expected_title = "Numpy Ninja";
+		Assert.assertEquals(Actual_title, Expected_title);
+	}
 	public void launchgetstarted() {
 		
 		Launch_getstarted.click();

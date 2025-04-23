@@ -1,35 +1,54 @@
 package driverFactory;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import dsUtilities.ConfigReader;
+
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+
 
 public class DriverFactory {
+    private static WebDriver driver;
+    
 
-	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    public static WebDriver initDriver() {
+        String browser = ConfigReader.getProperty("browser");
 
-	public static WebDriver getDriver() {
-		if (driver.get() == null) {
-			createDriver();
-		}
-		return driver.get();
-	}
+        if (browser.equalsIgnoreCase("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } else if (browser.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } else if (browser.equalsIgnoreCase("edge")) {
+            WebDriverManager.edgedriver().setup();
+            driver = new EdgeDriver();
+        } else if (browser.equalsIgnoreCase("safari")) {
+            WebDriverManager.safaridriver().setup();
+            driver = new SafariDriver();
+        } else {
+            throw new RuntimeException("Unsupported browser: " + browser);
+        }
 
-	private static void createDriver() {
-		String browser = ConfigReader.getBrowser();
-		switch (browser.toLowerCase()) {
-		case "chrome":
-			driver.set(new ChromeDriver());
-			break;
-		default:
-			throw new IllegalArgumentException("Unsupported browser: " + browser);
-		}
-	}
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        return driver;
+    }
 
-	public void quitDriver() {
-		if (driver.get() != null) {
-			driver.get().quit();
-			driver.remove();
-		}
-	}
+    public static WebDriver getDriver() {
+        return driver;
+    }
+
+    public static void quitDriver() {
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
+    }
 }

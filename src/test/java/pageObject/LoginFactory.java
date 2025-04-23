@@ -13,9 +13,6 @@ public class LoginFactory {
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
-	public void launchURL() {
-		driver.get(ConfigReader.getUrl());
-	}
 
 	WebDriver driver;
 	@FindBy(linkText = "Sign in")WebElement signIn;
