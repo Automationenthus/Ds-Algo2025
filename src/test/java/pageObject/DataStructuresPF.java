@@ -1,15 +1,23 @@
 package pageObject;
 
+import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.ElementNotInteractableException;
+import org.openqa.selenium.InvalidElementStateException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import dsUtilities.*;
 
 public class DataStructuresPF {
 	WebDriver driver;
+	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	public DataStructuresPF(WebDriver driver) {
 		this.driver = driver;
@@ -18,6 +26,46 @@ public class DataStructuresPF {
 
 	@FindBy(xpath = "//h5[text()='Data Structures-Introduction']/../a[text()='Get Started']")
 	WebElement getStartedBtn; //getstaredbutton
+	
+	@FindBy(linkText = "Sign in")
+	WebElement signInLink;
+	@FindBy(id = "id_username")
+	WebElement inputUserName;
+	
+	@FindBy(id = "id_password")
+	WebElement inputPassword;
+	
+	@FindBy(xpath = "//input[@type='submit']")
+	WebElement loginBtn;
+	
+	@FindBy(xpath = "//div[contains(@class,'alert-primary')]")
+    WebElement sucessMessage;
+	
+	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+	public void enterUserName(String username) {
+		inputUserName.clear();
+		//wait.until(ExpectedConditions.visibilityOf(inputUserName));
+		inputUserName.sendKeys(username);
+	
+	}
+	public void enterPassword(String password) {
+		//wait.until(ExpectedConditions.visibilityOf(inputPassword));
+		inputPassword.sendKeys(password);
+	}
+	
+	public void clickLogin() {
+		
+		loginBtn.click();
+	}
+	public String getMessage() {
+		String loginMessage=sucessMessage.getText();
+		return loginMessage;
+	}
+	
+	public void gotoPage() {
+		driver.get(ConfigReader.getProperty("dataStructuresIntroUrl"));;
+	}
+	
 
 	@FindBy(linkText = "NumpyNinja")
 	WebElement numpylink;
@@ -29,39 +77,58 @@ public class DataStructuresPF {
 	WebElement logOutMsg;
 
 	@FindBy(xpath = "//div[@id='navbarCollapse']/div[2]/ul/a[2]")
-	WebElement usernamelink;
-
-
-	@FindBy(linkText = "Time Complexity")
-	WebElement timeComplexityLink;
-
-
-
+	WebElement usernamelink;	
+	
 	@FindBy(xpath = "//div[@class='navbar-nav']/div/a[text()='Data Structures']")
 	WebElement dropDown;
-
-	@FindBy(xpath = "//div[contains(@class,'dropdown-menu')]//a")
-	List <WebElement> options;
-
+	
+	@FindBy(linkText = "Time Complexity")
+	WebElement timeComplexityLink;
+	
 	@FindBy(linkText = "Practice Questions")
 	WebElement practiceQuestLink;
-
+	
 	@FindBy(linkText = "Try here>>>")
 	WebElement tryHereLink;
-
+	
+	@FindBy(xpath = "//form[@id='answer_form']/button")
+	WebElement runBtn;
+	
 	@FindBy(xpath = "//div[@class='input']/div")
 	WebElement codeEditor;
-
-
-	@FindBy(xpath = "//button[text()='Run']")
-	WebElement runBtn;
-
-	@FindBy(xpath = "//pre[@id='output']")
+	
+	@FindBy(id = "output")
 	WebElement outputText;
 
+
+
+	public void signIn() {
+		signInLink.click();
+	
+	}
+	
+	public String pageTitle() {
+		String title=driver.getTitle();
+		return title;
+	}
+	public void loginPage() {
+		driver.get(ConfigReader.getProperty("loginUrl"));
+	}
+	
+	public void timeComplexityPage() {
+		driver.get(ConfigReader.getProperty("timeComplexityUrl"));
+		
+	}
+	public void tryEditorPage() {
+		driver.get(ConfigReader.getProperty("tryEditorUrl"));
+		
+	}
+//	
 	public void getStartbtnclick() {
 		getStartedBtn.click();
 	}
+	
+	
 	public boolean isNumpyNinjaVisible() {
 		return numpylink.isDisplayed();
 	}
@@ -77,69 +144,147 @@ public class DataStructuresPF {
 	public boolean isSignOutVisible() {
 		return signOutLink.isDisplayed();
 	}
-	public void numpyNinjaClick() {
-		numpylink.click();
-	}
-
-	public void signOut() {
-		signOutLink.click();
-
-	}
-
 	public void timeComplexity() {
 		timeComplexityLink.click();
 
 	}
-
-	public void dropdown() {
-		dropDown.click();
-
-	}
-	public void selectFromDropdown(String option) {
-		Actions actions = new Actions(driver);
-		actions.moveToElement(dropDown).perform();
-
-		for (WebElement item : options) {
-			if (item.getText().equalsIgnoreCase(option)) {
-				item.click();
-				return;
-			}
-
-		}
-	}
-
-
 	public void clickOnPracticeQuest() {
-
 		practiceQuestLink.click();
-	}
-
-
+			}
+	
+	public String getPageURL() {
+        return driver.getCurrentUrl();
+    }
+	
 	public void clickOnTryHere() {
 		tryHereLink.click();
 
+     }
+	
+	public boolean runButtonDisplayed() {
+		
+		return runBtn.isDisplayed();
 	}
+	public void clickOnRunBtn() {
+		
+		try {
+			WebElement run=wait.until(ExpectedConditions.elementToBeClickable(runBtn));
+			run.click();
+	}
+		catch(InvalidElementStateException e) {
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].click();", runBtn);
+
+		}
+			
+		}
+		
+	public boolean isAlertIsPresent() {
+		
+		try {
+			wait.until(ExpectedConditions.alertIsPresent());
+			return true;
+		}
+		
+		catch(Exception e){
+			return false;
+		}
+	}
+	
 	public void clearEditor() {
 		codeEditor.clear();
 	}
-
-	public void editor(String code) {
-		clearEditor();
-		codeEditor.sendKeys(code);
-
+	public void editor(String code1) {
+		
+		
+		//clearEditor();
+		if (code1!= null && !code1.trim().isEmpty()) {
+		    // If using sendKeys
+		    
+//			wait.until(ExpectedConditions.visibilityOf(codeEditor));
+//			codeEditor.sendKeys(code1);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+		    js.executeScript("document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);", code1);
+					
+		}
 	}
-
-	public void clickOnRunBtn() {
-		runBtn.click();
-
+	
+	public String getOutputData() {
+		String consoleOutput=outputText.getText();
+		return consoleOutput;
 	}
-	public boolean output() {
-		return outputText.isDisplayed();
-	}
-
-	public String logOutMessage() {
-		return logOutMsg.getText();
-	}
-
-
+	
+//	public boolean output() {
+//		return outputText.isDisplayed();
+//     }
 }
+//
+	
+//
+//
+//	
+//
+//
+//
+	
+//
+//	@FindBy(xpath = "//div[contains(@class,'dropdown-menu')]//a")
+//	List <WebElement> options;
+//
+//	
+//	
+//	
+//
+//	
+//
+//	
+//
+//	
+	
+//	public void numpyNinjaClick() {
+//		numpylink.click();
+//	}
+//
+//	public void signOut() {
+//		signOutLink.click();
+//
+//	}
+//
+//	
+//
+//	public void dropdown() {
+//		dropDown.click();
+//
+//	}
+//	public void selectFromDropdown(String option) {
+//		Actions actions = new Actions(driver);
+//		actions.moveToElement(dropDown).perform();
+//
+//		for (WebElement item : options) {
+//			if (item.getText().equalsIgnoreCase(option)) {
+//				item.click();
+//				return;
+//			}
+//
+//		}
+//	}
+//
+//
+//	
+//
+//	
+//	
+//
+//	
+//
+//	
+//	public boolean output() {
+//		return outputText.isDisplayed();
+//	}
+//
+//	public String logOutMessage() {
+//		return logOutMsg.getText();
+//	}
+//
+//
+//}
