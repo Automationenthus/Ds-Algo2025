@@ -5,15 +5,15 @@ Feature: Login Functionality
     When User click the get started button in dsalgo launch page
  
  Scenario Outline: Verify user enters valid username and password
-    Given The user clicks the Sign In link
-    When The user gets valid data  "<Username1>" and "<Passowrd1>" for the login page
-    Then The user is on home page after sign in
-    #And The user clicks sign out
-    #Then The user should be navigated to home page with message "Loged out successfully"
-Examples: 
-|Username1|Passowrd1|
-|Automation_enthus|Numpy@ninja2025|
-#
+    
+    When The user gets valid data  '<Sheetname>' and <RowNumber> for the login page
+   
+    
+     Examples: 
+      | Sheetname   | RowNumber |
+      | Valid_Login |         1 |
+   
+
 #Scenario Outline: Verify user receives validation message when username and password fields are blank during Login
     #Given The user clicks the Sign In link
     #When The user gets data from excel sheet '<Username1>' and <Passowrd1> for the login page
