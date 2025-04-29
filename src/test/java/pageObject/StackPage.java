@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Stack {
+public class StackPage {
 	
 	//CheckoutPage checkoutPage = new CheckoutPage(); (to initiate page factory)
 
@@ -14,7 +14,7 @@ public class Stack {
  WebDriver driver;
 	
 	//constructor
- public Stack(WebDriver driver) {
+ public StackPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		

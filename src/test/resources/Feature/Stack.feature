@@ -1,113 +1,108 @@
-Feature: This feature file contain scenario for the Stack module
+#Feature: This feature file contain scenario for the Stack module
+#
+#Background: The user sign in to dsAlgo Portal
 
-Background: The user sign in to dsAlgo Portal  
-
-Scenario: Verify that user is able to navigate to "Stack" data structure page
-Given The user is in the Home page after Sign in	"The user clicks the ""Getting Started"" button in Array Panel 
-When The user select Array item from the drop down menu"	
-Then The user be directed to "Stack" Data Structure Page
-
-Scenario: Verify that user is able to navigate to "Operations in Stack" page	
-Given The user is in the "Array" page after Sign in	
-When The user clicks "Operations in stack" button	
-Then The user should be redirected to "Operations in stack" page
-
-
-Scenario: Verify that user is able to navigate to "try Editor" page for "Operations in Stack" page	
-Given The user is on the "Operations in Stack" page	
-When The user clicks "Try Here" button in Operations in Stack page	
-Then The user should be redirected to a page having an try Editor with a Run button to test
+ #Given The User is in home page
+ #When User clicks sign in and enters valid username and password
+ #Then The user is navigated to Home page
+#
+#Scenario: Scroll down in dropdown and select "Stack"
+    #Given The user is on Home page
+    #When The user scrolls down to the Data Structures dropdown and selects Stack
+    #Then User is navigated to Stack Page
+#
 
 
-Scenario: Verify that user receives error when click on Run button without entering code for "Operations in Stack" page	
-Given The user is in the tryEditor page	
-When The user clicks the Run Button without entering the code in the Editor	
-Then The user should able to see an error message in alert window
-
-
-
-Scenario: Verify that user receives error for invalid python code for "Operations in Stack" page	
-Given The user is in the tryEditor page	
-When The user write the invalid code in Editor and click the Run Button	
-Then The user should able to see an error message in alert window
-
-
-Scenario: Verify that user is able to see output for valid python code for "Operations in Stack" page
-Given The user is in the tryEditor page	
-When The user write the valid code in Editor and click the Run Button	
-Then The user should able to see output in the console
-
-
-
-Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Operations in Stack" page	
-Given The user is on the "Arrays in Python" page	
-When The user clicks "Practice Questions" button	
-Then The user should be redirected to "Practice" page
-
-Scenario: Verify that user is able to navigate to "Implementation" page	
-Given The user is in the "Array" page after Sign in	
-When The user clicks "Implementation" button	
-Then The user should be redirected to "Implementation" page
-
-
-Scenario: Verify that user is able to navigate to "try Editor" page for "Implementation" page	
-Given The user is on the "Implementation" page	
-When The user clicks "Try Here" button in Arrays in Python page	
-Then The user should be redirected to a page having an try Editor with a Run button to test
-
-
-Scenario: Verify that user receives error when click on Run button without entering code for "Implementation" page	
-Given The user is in the tryEditor page	
-When The user clicks the Run Button without entering the code in the Editor	
-Then The user should able to see an error message in alert window
-
-
-Scenario: Verify that user receives error for invalid python code for "Implementation" page	
-Given The user is in the tryEditor page	
-When The user write the invalid code in Editor and click the Run Button	
-Then The user should able to see an error message in alert window
-
-
-Scenario: Verify that user is able to see output for valid python code for "Implementation" page
-Given The user is in the tryEditor page	
-When The user write the valid code in Editor and click the Run Button	
-Then The user should able to see output in the console
-
-
-Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Implementation" page
-Given The user is on the "Implementation" page	
-When The user clicks "Practice Questions" button	
-Then The user should be redirected to "Practice" page
-
-Scenario: Verify that user is able to navigate to "Application" page	
-Given The user is in the "Array" page after Sign in
-When The user clicks "Application" button	
-Then The user should be redirected to "Application" page
-
-
-Scenario: Verify that user is able to navigate to "try Editor" page for "Application" page	
-Given The user is on the "Application" page	
-When The user clicks "Try Here" button in Arrays in Python page	
-Then The user should be redirected to a page having an try Editor with a Run button to test
-
-Scenario: Verify that user receives error when click on Run button without entering code for "Application" page	
-Given The user is in the tryEditor page	
-When The user clicks the Run Button without entering the code in the Editor
-Then The user should able to see an error message in alert window
-
-
-Scenario: Verify that user receives error for invalid python code for "Application" page	
-Given The user is in the tryEditor page
-When The user write the invalid code in Editor and click the Run Button	
-Then The user should able to see an error message in alert window
-
-Scenario: Verify that user is able to see output for valid python code for "Application" page	
-Given The user is in the tryEditor page	
-When The user write the valid code in Editor and click the Run Button	
-Then The user should able to see output in the console
-
-
-Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Application" page
-Given The user is on the "Application" page	
-When The user clicks "Practice Questions" button	
-Then The user should be redirected to "Practice" page
+#
+#Operations in Stack
+#Scenario: Verify that user is able to navigate to "Operations in Stack" page
+    #Given The user is in the Stack Page
+    #When The user clicks Operations in stack button
+    #Then The user should be redirected to Operations in stack page
+#
+  #Scenario: Verify that the user is able to scroll down and click Try Here button
+    #Given The user is on the Operations in Stack page
+    #When The user scrolls down and clicks Try Here button in Operations in Stack page
+    #Then The user is redirected to a page having a Stacks try Editor with a Run button to test
+#
+  #Scenario: Verify that user receives error when click on Run button without entering code for "Operations in Stack" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user clicks Run button without entering the code in the stacks tryEditor
+    #Then The user is able to see an error message in alert window
+#
+  #Scenario: Verify that user receives error for invalid python code for "Operations in Stack" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user writes the invalid code in stacks tryEditor and clicks the Run Button
+    #Then The user is able to see an error message in alert window
+#
+  #Scenario: Verify that user is able to see output for valid python code for "Operations in Stack" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user writes the valid code in stacks tryEditor and clicks the Run Button
+    #Then The user is able to see output in the console
+#
+  #Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Operations in Stack" page
+    #Given The user is on the Operations in Stack page
+    #When The user clicks Practice Question button in stack
+    #Then The user should be redirected to Practice page in stack
+#
+#Implementation
+#Scenario: Verify that user is able to navigate to "Implementation" page
+    #Given The user is in the Stack Page
+    #When The user clicks Implementation button
+    #Then The user should be redirected to Implementation page
+#
+  #Scenario: Verify that user is able to navigate to "try Editor" page for "Implementation" page
+    #Given The user is on the Implementation page
+    #When The user scrolls down and clicks Try Here button in Implementation page
+     #Then The user is redirected to a page having a Stacks try Editor with a Run button to test
+#
+  #Scenario: Verify that user receives error when click on Run button without entering code for "Implementation" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user clicks Run button without entering the code in the stacks tryEditor
+    #Then The user is able to see an error message in alert window
+#
+  #Scenario: Verify that user receives error for invalid python code for "Implementation" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user writes the invalid code in stacks tryEditor and clicks the Run Button
+    #Then The user is able to see an error message in alert window
+#
+  #Scenario: Verify that user is able to see output for valid python code for "Implementation" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user writes the valid code in stacks tryEditor and clicks the Run Button
+    #Then The user is able to see output in the console
+#
+  #Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Implementation" page
+    #Given The user is on the Implementation page
+    #When The user clicks Practice Question button in stack
+    #Then The user should be redirected to Practice page in stack
+#
+#Application
+#Scenario: Verify that user is able to navigate to "Application" page
+    #Given The user is in the Stack page after Sign in
+    #When The user clicks Application button
+    #Then The user should be redirected to Application page
+#
+  #Scenario: Verify that user is able to navigate to "try Editor" page for "Application" page
+    #Given The user is on the Application page
+    #When The user scrolls down and clicks Try Here button in Application page
+    #Then The user is redirected to a page having a Stacks try Editor with a Run button to test
+#
+  #Scenario: Verify that user receives error when click on Run button without entering code for "Application" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user clicks Run button without entering the code in the stacks tryEditor
+    #Then The user is able to see an error message in alert window
+#
+  #Scenario: Verify that user receives error for invalid python code for "Application" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user writes the invalid code in stacks tryEditor and clicks the Run Button
+    #Then The user is able to see an error message in alert window
+#
+  #Scenario: Verify that user is able to see output for valid python code for "Application" page
+    #Given The user is in the Stacks tryEditor page
+    #When The user writes the valid code in stacks tryEditor and clicks the Run Button
+    #Then The user is able to see output in the console
+#
+  #Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Application" page
+    #Given The user is on the Application page
+    #When The user clicks Practice Questionb button in stack
+    #Then The user should be redirected to Practice page in stack

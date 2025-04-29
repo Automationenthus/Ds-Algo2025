@@ -6,8 +6,8 @@
       <class name="testRunner.DsalgoRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="4 5 6 7"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
         </methods>
       </class> <!-- testRunner.DsalgoRunner -->
     </classes>
