@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2025-04-27T22:40:45 CDT" name="Default suite" finished-at="2025-04-27T22:41:38 CDT" duration-ms="53062">
+
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-27T17:23:49 PDT" name="Default suite" finished-at="2025-04-27T17:24:36 PDT" duration-ms="46708">
+
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+
     <test started-at="2025-04-27T22:40:45 CDT" name="Default test" finished-at="2025-04-27T22:41:38 CDT" duration-ms="53062">
       <class name="testRunner.DsalgoRunner">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:40:45 CDT" name="setUpClass" finished-at="2025-04-27T22:40:46 CDT" duration-ms="596" status="PASS">
@@ -15,108 +23,190 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@3a5ce4b8]]>
+
+    <test started-at="2025-04-27T17:23:49 PDT" name="Default test" finished-at="2025-04-27T17:24:36 PDT" duration-ms="46708">
+      <class name="testRunner.DsalgoRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T17:23:49 PDT" name="setUpClass" finished-at="2025-04-27T17:23:50 PDT" duration-ms="947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77c692b4]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:40:46 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T22:40:50 CDT" duration-ms="4637" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Scroll down in dropdown and select "Array""]]>
+
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T17:23:50 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T17:23:59 PDT" duration-ms="8571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Data Structures - Introduction" page"]]>
+
               </value>
             </param>
             <param index="1">
               <value>
+
                 <![CDATA["Arrays in Python"]]>
+
+                <![CDATA["To test DataStructuresIntroduction functionality"]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:40:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T22:40:54 CDT" duration-ms="3619" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user is able to navigate to "Arrays in Python" page"]]>
+
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T17:23:59 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T17:24:06 PDT" duration-ms="6931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Time Complexity" page"]]>
+
               </value>
             </param>
             <param index="1">
               <value>
+
                 <![CDATA["Arrays in Python"]]>
+
+                <![CDATA["To test DataStructuresIntroduction functionality"]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:40:54 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T22:40:58 CDT" duration-ms="3911" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that the user is able to scroll down and click Try Here button"]]>
+
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T17:24:06 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T17:24:12 PDT" duration-ms="6596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Practice" page"]]>
+
               </value>
             </param>
             <param index="1">
               <value>
+
                 <![CDATA["Arrays in Python"]]>
+
+                <![CDATA["To test DataStructuresIntroduction functionality"]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:40:58 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T22:41:01 CDT" duration-ms="3366" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user is able to navigate to "Practice Questions" Page for "Arrays in Python" page"]]>
+
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T17:24:12 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T17:24:21 PDT" duration-ms="8232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page"]]>
+
               </value>
             </param>
             <param index="1">
               <value>
+
                 <![CDATA["Arrays in Python"]]>
+
+                <![CDATA["To test DataStructuresIntroduction functionality"]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:41:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T22:41:05 CDT" duration-ms="3784" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user is able to navigate to a question page from Practice Question page of "Arrays in Python""]]>
+
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T17:24:21 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T17:24:27 PDT" duration-ms="6569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user recieves error messgae on click on run button without entering code"]]>
+
               </value>
             </param>
             <param index="1">
               <value>
+
                 <![CDATA["Arrays in Python"]]>
+
+                <![CDATA["To test DataStructuresIntroduction functionality"]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:41:05 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T22:41:09 CDT" duration-ms="3762" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user is able to navigate to a question page from Practice Question page of "Arrays in Python""]]>
+
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T17:24:27 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T17:24:36 PDT" duration-ms="8748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that Python code runs and output matches expected"]]>
+
               </value>
             </param>
             <param index="1">
               <value>
+
                 <![CDATA["Arrays in Python"]]>
+
+                <![CDATA["To test DataStructuresIntroduction functionality"]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:41:09 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-27T22:41:13 CDT" duration-ms="3729" status="PASS">
           <params>
             <param index="0">
@@ -246,6 +336,9 @@
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T22:41:38 CDT" name="tearDownClass" finished-at="2025-04-27T22:41:38 CDT" duration-ms="33" status="PASS">
+
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-04-27T17:24:36 PDT" name="tearDownClass" finished-at="2025-04-27T17:24:36 PDT" duration-ms="37" status="PASS">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
