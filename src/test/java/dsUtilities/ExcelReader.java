@@ -1,54 +1,73 @@
 package dsUtilities;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import java.io.FileInputStream;
+import java.util.*;
+
 public class ExcelReader {
-	public  String[] excelDataRead(String SheetName, int RowNumber) throws IOException {
-		String path = System.getProperty("user.dir") + "/src/test/resources/TestData/Ds-AlgoTestData.xlsx";
-		File excelFile = new File(path);
-		FileInputStream Fis = new FileInputStream(excelFile);
-		XSSFWorkbook workbook = new XSSFWorkbook(Fis);
-		XSSFSheet sheet = workbook.getSheet("Valid_Login");
+    String filePath;
 
-		Row row = sheet.getRow(RowNumber);
+    public ExcelReader(String filePath) {
+        this.filePath = filePath;
+    }
 
-		String username = getCellValue(row, 0);
-		String password = getCellValue(row, 1);
-		String passwordConfirmation = getCellValue(row, 2);
-		workbook.close();
-		Fis.close();
+    // This method will read all rows from the given sheet
+    public List<Map<String, String>> readAllRows(String sheetName) {
+        List<Map<String, String>> allRowsData = new ArrayList<>();  // List to store all row data maps
 
-		String[] credentials = new String[3];
-		credentials[0] = username;
-		credentials[1] = password;
-		credentials[2] = passwordConfirmation;
+        try {
+            FileInputStream fis = new FileInputStream(filePath);
+            XSSFWorkbook workbook = new XSSFWorkbook(fis);
+            XSSFSheet sheet = workbook.getSheet(sheetName);
 
-		return credentials;
-	}
+            // Get the header row (first row) to use as keys for the map
+            Row header = sheet.getRow(0);
+            DataFormatter formatter = new DataFormatter();
 
-	private String getCellValue(Row row, int cellIndex) {
-		Cell cell = row.getCell(cellIndex);
-		if (cell == null || cell.getCellType() == CellType.BLANK) {
-			return "";
-		}
-		if (cell.getCellType() == CellType.NUMERIC) {
-			return String.valueOf(cell.getNumericCellValue());
-		}
-		if (cell.getCellType() == CellType.STRING) {
-			System.out.println("Passed" + cell.getStringCellValue());
-			return cell.getStringCellValue();
-		}
-		return "";
-	
-	
-	}
-	
-		}
+            // Loop through all rows (starting from the second row since the first is the header)
+            for (int rowIndex = 1; rowIndex <= sheet.getLastRowNum(); rowIndex++) {
+                Row row = sheet.getRow(rowIndex); // Get the row
+
+                // Create a map to store data for each row
+                Map<String, String> rowData = new HashMap<>();
+
+                // Loop through all columns (cells) in the row
+                for (int cellIndex = 0; cellIndex < header.getLastCellNum(); cellIndex++) {
+                    String key = header.getCell(cellIndex).getStringCellValue();  // Header value as key
+                    String value = formatter.formatCellValue(row.getCell(cellIndex));  // Cell value as value
+                    rowData.put(key, value); // Add the data to the map
+                }
+
+                // Add this row data map to the list of all rows
+                allRowsData.add(rowData);
+            }
+
+            workbook.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return allRowsData;  // Return the list of all row data
+    }
+
+//    public static void main(String[] args) {
+//        // Path to your Excel file
+//        String filePath = "src/test/resources/TestData/PythonCode.xlsx"; 
+//        
+//        // Create an instance of ExcelReader
+//        ExcelReader reader = new ExcelReader(filePath);
+//
+//        // Fetch all rows data from the "pythoncode" sheet
+//        List<Map<String, String>> allRowsData = reader.readAllRows("pythoncode");
+//
+//        // Print the data of each row
+//        for (int i = 0; i < allRowsData.size(); i++) {
+//            System.out.println("Row " + (i + 1) + ": " + allRowsData.get(i));
+//        }
+//    }
+
+	    
+}
