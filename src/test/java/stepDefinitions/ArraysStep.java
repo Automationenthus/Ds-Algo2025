@@ -465,115 +465,115 @@ public void the_user_writes_valid_code_from_row_number_and_clicks_the_submit_but
 	}
 
 
-//
-//@When("The user clicks Arrays using List button")
-//public void the_user_clicks_arrays_using_list_button() {
-//arraysPage.clickArraysUsingList();
-//}
-//
-//@Then("The user should be redirected to Arrays using List page")
-//public void the_user_should_be_redirected_to_arrays_using_list_page() {
-//String pageTitle = DriverFactory.getDriver().getTitle();
-//Assert.assertTrue("User is not on Arrays Using List page", pageTitle.contains("Arrays Using List"));
-//    //Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArrayinPythonPageDisplayed());
-//}
-//
-//@Given("The user is on the Arrays using List page")
-//public void the_user_is_on_the_arrays_using_list_page() {
-//	arraysPage.navigateToArraysUsingListPage();
-//logger.info("Navigated to: Arrays using List page");
-//}
-//
-//@When("The user scrolls down and clicks Try Here button in Arrays Using List page")
-//public void the_user_scrolls_down_and_clicks_try_here_button_in_arrays_using_list_page() {
-//	try {
-//	    arraysPage.scrollToTryHere();  // Optional but good to ensure visibility
-//	    arraysPage.clickTryhere();     // Click the link
-//	} catch (Exception e) {
-//	    System.out.println("Error while trying to scroll and click Try Here: " + e.getMessage());
-//	    e.printStackTrace();  // Optional: prints full error trace
-//	}
-//}
-//
-//@Then("The user navigates back to the Arrays Using List page")
-//    public void the_user_navigates_back_to_the_arrays_using_list_page() {
-//	 driver.navigate().back();
-//	String pageTitle = DriverFactory.getDriver().getTitle();
-//	Assert.assertTrue("User is not on Arrays using List page", pageTitle.contains("Arrays using List"));
-//	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-//	}
-//
-//@Given("The user is on the Arrays Using List page")
-//public void the_user_is_on_the_arrayys_using_list_page() {
-//	arraysPage.navigateToArraysUsingListPage();
-//logger.info("Navigated to: Arrays using List page");
-//}
-//
-//
-//@When("The user clicks Basic Operations in List button")
-//public void the_user_clicks_basic_operations_in_list_button() {
-//arraysPage.clickBasicOperationsInList();
-//}
-//
-//@Then("The user should be redirected to Basic Operations in List page")
-//public void the_user_should_be_redirected_to_basic_operations_in_list_page() {
-//	String pageTitle = DriverFactory.getDriver().getTitle();
-//	Assert.assertTrue("User is not on Basic Operations in List page", pageTitle.contains("Basic Operations in List"));
-//	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-//	 }
-//
-//@Given("The user is on the Basic Operations in List page")
-//public void the_user_is_on_the_basic_operations_in_list_page() {
-//	arraysPage.navigateToBasicOperationsInListPage();
-//logger.info("Navigated to: Basic Operations in List page");
-//}
-//
-//@When("The user scrolls down and clicks Try Here button in Basic Operations in List page")
-//public void the_user_scrolls_down_and_clicks_try_here_button_in_basic_operations_in_list_page() {
-//	arraysPage.scrollToTryHere();     // Optional but good to ensure visibility
-//    arraysPage.clickTryhere();        // Click the link
-//}
-//    
-//    @Then("The user navigates back to the Basic Operations in List page")
-//    public void the_user_navigates_back_to_the_basic_operations_in_list_page() {
-//    	 driver.navigate().back();
-//    	String pageTitle = DriverFactory.getDriver().getTitle();
-//    	Assert.assertTrue("User is not on Basic Operations in List page", pageTitle.contains("Basic Operations in List"));
-//    	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-//
-//    	 }
-//
-//	@When("The user clicks Applications of Array button")
-//	public void the_user_clicks_applications_of_array_button() {
-//	    arraysPage.clickApplicationsOfArray();
-//	}
-//
-//	@Then("The user should be redirected to Applications of Array page")
-//	public void the_user_should_be_redirected_to_applications_of_array_page() {
-//		String pageTitle = DriverFactory.getDriver().getTitle();
-//		Assert.assertTrue("User is not on Applications of Array page", pageTitle.contains("Applications of Array"));
-//		//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-//		 }
-//	
-//
-//	@Given("The user is on the Applications of Array page")
-//	public void the_user_is_on_the_applications_of_array_page() {
-//		arraysPage.navigateToApplicationsOfArrayPage();
-//logger.info("Navigated to: Applications of Array page");
-//    }
-//
-//
-//	    @When("The user clicks Try Here button in Applications of Array page")
-//	    public void the_user_clicks_try_here_button_in_applications_of_array_page() {
-//	    	 arraysPage.clickTryhere();        // Click the link
-//	    }
-//
-//@Then("The user navigates back to the Applications of Array page")
-//	        public void the_user_navigates_back_to_the_applications_of_array_page() {
-//	 driver.navigate().back();
-//	String pageTitle = DriverFactory.getDriver().getTitle();
-//	Assert.assertTrue("User is not on Applications of Array page", pageTitle.contains("Applications of Array"));
-//	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-//	 }       
-//	     
+
+@When("The user clicks Arrays using List button")
+public void the_user_clicks_arrays_using_list_button() {
+arraysPage.clickArraysUsingList();
+}
+
+@Then("The user should be redirected to Arrays using List page")
+public void the_user_should_be_redirected_to_arrays_using_list_page() {
+String pageTitle = DriverFactory.getDriver().getTitle();
+Assert.assertTrue("User is not on Arrays Using List page", pageTitle.contains("Arrays Using List"));
+    //Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArrayinPythonPageDisplayed());
+}
+
+@Given("The user is on the Arrays using List page")
+public void the_user_is_on_the_arrays_using_list_page() {
+	arraysPage.navigateToArraysUsingListPage();
+logger.info("Navigated to: Arrays using List page");
+}
+
+@When("The user scrolls down and clicks Try Here button in Arrays Using List page")
+public void the_user_scrolls_down_and_clicks_try_here_button_in_arrays_using_list_page() {
+	try {
+	    arraysPage.scrollToTryHere();  // Optional but good to ensure visibility
+	    arraysPage.clickTryhere();     // Click the link
+	} catch (Exception e) {
+	    System.out.println("Error while trying to scroll and click Try Here: " + e.getMessage());
+	    e.printStackTrace();  // Optional: prints full error trace
+	}
+}
+
+@Then("The user navigates back to the Arrays Using List page")
+    public void the_user_navigates_back_to_the_arrays_using_list_page() {
+	 driver.navigate().back();
+	String pageTitle = DriverFactory.getDriver().getTitle();
+	Assert.assertTrue("User is not on Arrays using List page", pageTitle.contains("Arrays using List"));
+	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+	}
+
+@Given("The user is on the Arrays Using List page")
+public void the_user_is_on_the_arrayys_using_list_page() {
+	arraysPage.navigateToArraysUsingListPage();
+logger.info("Navigated to: Arrays using List page");
+}
+
+
+@When("The user clicks Basic Operations in List button")
+public void the_user_clicks_basic_operations_in_list_button() {
+arraysPage.clickBasicOperationsInList();
+}
+
+@Then("The user should be redirected to Basic Operations in List page")
+public void the_user_should_be_redirected_to_basic_operations_in_list_page() {
+	String pageTitle = DriverFactory.getDriver().getTitle();
+	Assert.assertTrue("User is not on Basic Operations in List page", pageTitle.contains("Basic Operations in List"));
+	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+	 }
+
+@Given("The user is on the Basic Operations in List page")
+public void the_user_is_on_the_basic_operations_in_list_page() {
+	arraysPage.navigateToBasicOperationsInListPage();
+logger.info("Navigated to: Basic Operations in List page");
+}
+
+@When("The user scrolls down and clicks Try Here button in Basic Operations in List page")
+public void the_user_scrolls_down_and_clicks_try_here_button_in_basic_operations_in_list_page() {
+	arraysPage.scrollToTryHere();     // Optional but good to ensure visibility
+    arraysPage.clickTryhere();        // Click the link
+}
+    
+    @Then("The user navigates back to the Basic Operations in List page")
+    public void the_user_navigates_back_to_the_basic_operations_in_list_page() {
+    	 driver.navigate().back();
+    	String pageTitle = DriverFactory.getDriver().getTitle();
+    	Assert.assertTrue("User is not on Basic Operations in List page", pageTitle.contains("Basic Operations in List"));
+    	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+
+    	 }
+
+	@When("The user clicks Applications of Array button")
+	public void the_user_clicks_applications_of_array_button() {
+	    arraysPage.clickApplicationsOfArray();
+	}
+
+	@Then("The user should be redirected to Applications of Array page")
+	public void the_user_should_be_redirected_to_applications_of_array_page() {
+		String pageTitle = DriverFactory.getDriver().getTitle();
+		Assert.assertTrue("User is not on Applications of Array page", pageTitle.contains("Applications of Array"));
+		//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+		 }
+	
+
+	@Given("The user is on the Applications of Array page")
+	public void the_user_is_on_the_applications_of_array_page() {
+		arraysPage.navigateToApplicationsOfArrayPage();
+logger.info("Navigated to: Applications of Array page");
+    }
+
+
+	    @When("The user clicks Try Here button in Applications of Array page")
+	    public void the_user_clicks_try_here_button_in_applications_of_array_page() {
+	    	 arraysPage.clickTryhere();        // Click the link
+	    }
+
+@Then("The user navigates back to the Applications of Array page")
+	        public void the_user_navigates_back_to_the_applications_of_array_page() {
+	 driver.navigate().back();
+	String pageTitle = DriverFactory.getDriver().getTitle();
+	Assert.assertTrue("User is not on Applications of Array page", pageTitle.contains("Applications of Array"));
+	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+	 }       
+	     
 }
