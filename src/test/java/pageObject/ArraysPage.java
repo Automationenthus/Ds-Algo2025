@@ -35,8 +35,6 @@ public class ArraysPage {
 	    @FindBy(xpath = "//a[text()='Arrays']")  // Array option under the dropdown
 	    WebElement arrayOption;
 
-	   
-	    
 	    @FindBy(xpath = "//h4[contains(text(),'Array')]")
 	    private WebElement arrayPageHeader;
 	    
@@ -63,6 +61,51 @@ public class ArraysPage {
 	    private WebElement tryhereLink;
 	    
 	    
+	  // TRY EDITOR
+	    
+	    @FindBy(xpath = "//form[@id='answer_form']/div/div/div/textarea")
+	    private WebElement codeEditor;
+
+	    @FindBy(xpath = "//button[text()='Run']")
+	    private WebElement runButton;
+
+	    @FindBy(id = "output")
+	    private WebElement outputArea;
+	
+	    // Question Page 
+	    
+	    @FindBy(xpath = "//*[contains(text(),'Search the array')]")
+	    private WebElement searchTheArrayLink;
+
+	    @FindBy(linkText = "Max Consecutive Ones")
+	    private WebElement maxConsecutiveOnesLink;
+
+	    @FindBy(linkText = "Find Numbers with Even Number of Digits")
+	    private WebElement evenNumberDigitsLink;
+
+	    @FindBy(linkText = "Squares of a Sorted Array")
+	    private WebElement squaresOfSortedArrayLink;
+	    
+	    //QUESTION EDITOR
+	    
+	    @FindBy(xpath = "//strong[text()='QUESTION']")
+	    private WebElement questionText;
+	    
+	    @FindBy(xpath = "//div[@class='input']//textarea")
+	    private WebElement codeEditor1;
+
+	    @FindBy(xpath = "//button[text()='Run']")
+	    private WebElement runButton1;
+
+	    @FindBy(xpath = "//input[@value='Submit']")
+	    private WebElement submitButton;
+
+	    @FindBy(xpath = "//pre[@id='output']")
+	    private WebElement outputConsole;
+
+	    
+	    
+	    
 	    
 	 //Actions
 	    
@@ -80,6 +123,9 @@ public class ArraysPage {
 	    public boolean isArrayPageDisplayed() {
 	        return arrayPageHeader.isDisplayed(); // Or driver.getTitle().contains("Array")
 	    }
+	    //public boolean isArrayPageDisplayed() {
+	    //return driver.getTitle().contains("Array"); // Adjust the string to match the actual page title
+	
 	    
 	    public boolean isArrayinPythonPageDisplayed() {
 	        return arraysInPythonText.isDisplayed(); // Or driver.getTitle().contains("Array")
@@ -143,182 +189,10 @@ public class ArraysPage {
 	    	driver.get(ConfigReader.getProperty("arrayspracticequestion"));
 	    }
 	    	
-	    public void navigateToQuestionEditor(String questionName) {
-	        try {
-	            WebElement questionLink = driver.findElement(By.linkText(questionName));
-	            questionLink.click();
-	        } catch (Exception e) {
-	            System.out.println("Failed to find or click the question: " + questionName);
-	            e.printStackTrace();
-	        }
-	    }
+	   
 	    
-	    //  Practice Question Links
+ // Try Editor Actions 
 	    
-	    @FindBy(xpath = "//*[contains(text(),'Search the array')]")
-	    private WebElement searchTheArrayLink;
-
-	    @FindBy(linkText = "Max Consecutive Ones")
-	    private WebElement maxConsecutiveOnesLink;
-
-	    @FindBy(linkText = "Find Numbers with Even Number of Digits")
-	    private WebElement evenNumberDigitsLink;
-
-	    @FindBy(linkText = "Squares of a Sorted Array")
-	    private WebElement squaresOfSortedArrayLink;
-
-	    // Actions 
-	    
-	    public void clickPracticeQuestion(String linkText) {
-	        WebDriver driver = DriverFactory.getDriver();
-	        try {
-	            WebElement link = driver.findElement(By.linkText(linkText));
-	            link.click();
-	        } catch (NoSuchElementException e) {
-	            System.out.println("Link not found: " + linkText);
-	        } catch (ElementNotInteractableException e) {
-	            System.out.println("Link not interactable: " + linkText);
-	        }
-	    }
-	    
-	    public boolean isSearchTheArrayLinkVisible() {
-	        try {
-	            return searchTheArrayLink.isDisplayed();
-	        } catch (NoSuchElementException e) {
-	            return false;
-	        }
-	    }
-	    
-	    public void clickSearchTheArray() {
-	        searchTheArrayLink.click();
-	    }
-
-	    public void clickMaxConsecutiveOnes() {
-	        maxConsecutiveOnesLink.click();
-	    }
-
-	    public void clickEvenNumberDigits() {
-	        evenNumberDigitsLink.click();
-	    }
-
-	    public void clickSquaresOfSortedArray() {
-	        squaresOfSortedArrayLink.click();
-	    }
-	    
-	    // Question Page 
-	    
-	    @FindBy(xpath = "//div[@class='input']//textarea")
-	    private WebElement codeEditor1;
-
-	    @FindBy(xpath = "//button[text()='Run']")
-	    private WebElement runButton1;
-
-	    @FindBy(xpath = "//input[@value='Submit']")
-	    private WebElement submitButton;
-
-	    @FindBy(xpath = "//pre[@id='output']")
-	    private WebElement outputConsole;
-	    
-	    
-	    public boolean isRunButton1Visible() {
-	        try {
-	            return runButton1.isDisplayed();
-	        } catch (NoSuchElementException e) {
-	            return false;  // Return false if the element is not found
-	        }
-	    }
-
-	    // Method to check if Submit button is visible
-	    public boolean isSubmitButtonVisible() {
-	        try {
-	            return submitButton.isDisplayed();
-	        } catch (NoSuchElementException e) {
-	            return false;  // Return false if the element is not found
-	        }
-	    }
-
-	    // ======= Actions =======
-
-	    public void enterCode1(String code) {
-	        codeEditor1.clear();
-	        codeEditor1.sendKeys(code);
-	    }
-
-	    public void clickRun() {
-	        runButton1.click();
-	    }
-
-	    public void clickSubmit() {
-	        submitButton.click();
-	    }
-	    
-	    public boolean isAlertIsPresent() {
-	        try {
-	            driver.switchTo().alert();
-	            return true;
-	        } catch (Exception e) {
-	            return false;
-	        }
-	    }
-
-	    public String getAlertText() {
-	        try {
-	            Alert alert = driver.switchTo().alert();
-	            String alertText = alert.getText();
-	            return alertText;
-	        } catch (Exception e) {
-	            return null;
-	        }
-	    }
-
-	    public void acceptAlert() {
-	        try {
-	            Alert alert = driver.switchTo().alert();
-	            alert.accept();
-	        } catch (Exception e) {
-	            // ignore
-	        }
-	    }
-
-	    public String getConsoleOutput() {
-	        return outputConsole.getText();
-	    }
-	
-
-//	    public String getOutput() {
-//	        try {
-//	            return outputConsole.getText().trim();
-//	        } catch (NoSuchElementException e) {
-//	            return "No output displayed";
-//	        }
-//	    }
-
-//	    public String getSubmissionMessage() {
-//	        try {
-//	            WebElement successMessage = driver.findElement(By.xpath("//div[contains(text(),'Submission successful')]"));
-//	            return successMessage.getText();
-//	        } catch (NoSuchElementException e) {
-//	            try {
-//	                WebElement errorMessage = driver.findElement(By.xpath("//div[contains(text(),'Error occurred during submission')]"));
-//	                return errorMessage.getText();
-//	            } catch (NoSuchElementException ex) {
-//	                return "No message displayed";
-//	            }
-//	        }
-//	    }
-
-	    
-	    
- // Try Editor Elements and Actions 
-	    
-	    @FindBy(xpath = "//form[@id='answer_form']/div/div/div/textarea")
-	    private WebElement codeEditor;
-
-	    @FindBy(xpath = "//button[text()='Run']")
-	    private WebElement runButton;
-
-	    @FindBy(id = "output")
-	    private WebElement outputArea;
 	    
 	    public void enterCode(String code) {
 	        try {
@@ -345,9 +219,206 @@ public class ArraysPage {
 	            return false;  // Return false if the element is not found
 	        }
 	    }
+	    
+//PRACTICE QUESTIONS PAGE
+
+// Navigate methods inside PracticeQuestionPage
+  
+  public void navigateToQuestionEditor(String questionName) {
+      try {
+          WebElement questionLink = driver.findElement(By.linkText(questionName));
+          questionLink.click();
+      } catch (Exception e) {
+          System.out.println("Failed to find or click the question: " + questionName);
+          e.printStackTrace();
+      }
+  }
+  
+  public void navigateToSearchthearray() {
+  	driver.get(ConfigReader.getProperty("Searchthearray"));
+  }
+  
+  public void navigateToMaxConsecutiveOnes() {
+  	driver.get(ConfigReader.getProperty("MaxConsecutiveOnes"));
+  }
+  
+  public void navigateToFindnumberswithevennumberofdigits() {
+  	driver.get(ConfigReader.getProperty("Findnumberswithevennumberofdigit"));
+  }
+  
+  public void navigateToSquaresofasortedArray() {
+  	driver.get(ConfigReader.getProperty("SquaresofasortedArray"));
+  }
+
+
+//Actions 
+
+
+public void clickSearchTheArray() {
+  searchTheArrayLink.click();
 }
-	    
-	    
+
+public void clickMaxConsecutiveOnes() {
+  maxConsecutiveOnesLink.click();
+}
+
+public void clickEvenNumberDigits() {
+  evenNumberDigitsLink.click();
+}
+
+public void clickSquaresOfSortedArray() {
+  squaresOfSortedArrayLink.click();
+}
+
+
+
+
+
+//visiblity methods
+
+public void clickPracticeQuestion(String linkText) {
+  WebDriver driver = DriverFactory.getDriver();
+  try {
+      WebElement link = driver.findElement(By.linkText(linkText));
+      link.click();
+  } catch (NoSuchElementException e) {
+      System.out.println("Link not found: " + linkText);
+  } catch (ElementNotInteractableException e) {
+      System.out.println("Link not interactable: " + linkText);
+  }
+}
+
+public boolean isSearchTheArrayLinkVisible() {
+  try {
+      return searchTheArrayLink.isDisplayed();
+  } catch (NoSuchElementException e) {
+      return false;
+  }
+}
+
+public boolean isQuestionDisplayed() {
+    try {
+        return questionText.isDisplayed();
+    } catch (NoSuchElementException e) {
+        return false;
+    }
+}
+
+
+public boolean isRunButton1Visible() {
+  try {
+      return runButton1.isDisplayed();
+  } catch (NoSuchElementException e) {
+      return false;  // Return false if the element is not found
+  }
+}
+
+public boolean isSubmitButtonVisible() {
+  try {
+      return submitButton.isDisplayed();
+  } catch (NoSuchElementException e) {
+      return false;  // Return false if the element is not found
+  }
+}
+
+//======= Actions =======
+
+
+
+public void clearEditor1() {
+    codeEditor1.clear();
+}
+
+
+public void enterCode1(String code) {
+  codeEditor1.clear();
+  codeEditor1.sendKeys(code);
+}
+
+public void clickRun() {
+  runButton1.click();
+}
+
+public void clickSubmit() {
+  submitButton.click();
+}
+
+public boolean isAlertIsPresent() {
+  try {
+      driver.switchTo().alert();
+      return true;
+  } catch (Exception e) {
+      return false;
+  }
+}
+
+public String getAlertText() {
+  try {
+      Alert alert = driver.switchTo().alert();
+      String alertText = alert.getText();
+      return alertText;
+  } catch (Exception e) {
+      return null;
+  }
+}
+
+public void acceptAlert() {
+  try {
+      Alert alert = driver.switchTo().alert();
+      alert.accept();
+  } catch (Exception e) {
+      // ignore
+  }
+}
+
+
+//==== Handle alert pop-up ====
+public String getAlertTextAndAccept() {
+try {
+   driver.switchTo().alert();
+   Alert alert = driver.switchTo().alert();
+   String alertText = alert.getText();
+   alert.accept();
+   return alertText.trim();
+} catch (Exception e) {
+   throw new RuntimeException("No alert found");
+}
+}
+
+
+public String getConsoleOutput() {
+  return outputConsole.getText();
+  
+}
+
+}
+
+
+//public String getOutput() {
+//try {
+//return outputConsole.getText().trim();
+//} catch (NoSuchElementException e) {
+//return "No output displayed";
+//}
+//}
+
+
+
+
+//public String getSubmissionMessage() {
+//  try {
+//      WebElement successMessage = driver.findElement(By.xpath("//div[contains(text(),'Submission successful')]"));
+//      return successMessage.getText();
+//  } catch (NoSuchElementException e) {
+//      try {
+//          WebElement errorMessage = driver.findElement(By.xpath("//div[contains(text(),'Error occurred during submission')]"));
+//          return errorMessage.getText();
+//      } catch (NoSuchElementException ex) {
+//          return "No message displayed";
+//      }
+//  }
+//}
+
 	    
 	    
 	    

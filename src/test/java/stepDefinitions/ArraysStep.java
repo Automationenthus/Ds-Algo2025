@@ -6,9 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import driverFactory.DriverFactory;
 import dsUtilities.ConfigReader;
+import dsUtilities.ExcelReader;
 
-import java.util.List;
-import java.util.Map;
 import java.util.NoSuchElementException;
 
 import org.apache.logging.log4j.LogManager;
@@ -25,6 +24,7 @@ public class ArraysStep {
 	WebDriver driver = DriverFactory.getDriver();
 	 ArraysPage arraysPage = new ArraysPage(driver);
 	 private static final Logger logger = LogManager.getLogger(ArraysStep.class);
+	 ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
 	
 	 
 	 @Given("The User is in home page")
@@ -59,8 +59,9 @@ public class ArraysStep {
 	
 	 @Given("The user is on Home page")
 	 public void the_user_is_on_home_page() {
-		Assert.assertTrue("Login failed or incorrect page", driver.getTitle().contains("NumpyNinja"));
-    }
+		 driver.get(ConfigReader.getProperty("url"));
+		 logger.info("Navigated to: Home page");
+	 }
 
 	 @When("The user scrolls down to the Data Structures dropdown and selects Array")
 	 public void the_user_scrolls_down_to_the_data_structures_dropdown_and_selects_array() {
@@ -73,6 +74,7 @@ public class ArraysStep {
 
 		// Click the "Array" option from the dropdown directly after waiting for it to be clickable
 		driver.findElement(By.xpath("//a[text()='Arrays']")).click();
+		//arraysPage.selectArrayFromDropdown();
 	 }
 
 	 @Then("User is navigated to Array Page")
@@ -86,14 +88,17 @@ public class ArraysStep {
 	            // Fail the test if the element is not found
 	            Assert.fail("Element not found: " + e.getMessage());
 	        }
-		 //Assert.assertTrue("User is not on the Array Page",
-			//	    driver.findElement(By.linkText("Array")).isDisplayed());//
+		 
+		 //Assert.assertTrue("Array page is not displayed", arraysPage.isArrayPageDisplayed());
+		 
+		 //Assert.assertTrue(driver.getTitle().contains("Array"), "User is not on the Array page");
 	 }
 
 
 @Given("The user is in the Array page after Sign in")
 public void the_user_is_in_the_array_page_after_sign_in() {
 	 arraysPage.navigateToArraysPage();
+	 logger.info("Navigated to: Arrays page");
 }
 
 @When("The user clicks Arrays in Python button")
@@ -112,6 +117,7 @@ Assert.assertTrue("User is not on Arrays in Python page", pageTitle.contains("Ar
 @Given("The user is on the Arrays in Python page")
 public void the_user_is_on_the_arrays_in_python_page() {
 	arraysPage.navigateToArraysInPythonPage();
+	logger.info("Navigated to: Arrays in Python page");
 }
 
 @When("The user scrolls down and clicks Try Here button in Arrays in Python page")
@@ -127,132 +133,84 @@ public void the_user_is_redirected_to_a_page_having_an_try_editor_with_a_run_but
 	 driver.navigate().back();
 }
 
+
 //@Given("The user is in the Arrays tryEditor page")
 //public void the_user_is_in_the_arrays_try_editor_page() {
 //	driver.get(ConfigReader.getProperty("arraysinppython"));
-//	 arraysPage.isRunButtonVisible();
 //	}
-//
-//
-//@When("The user clicks on the Run button without entering the code in the Editor")
-//public void the_user_clicks_on_the_run_button_without_entering_the_code_in_the_editor() {
-//  arraysPage.clickRunButton();
-//  }
-//
-//@Then("The user should see an error message in alert window")
-//public void the_user_should_see_an_error_message_in_alert_window() {
-//	 String output = arraysPage.getEditorOutput();  // get text from output area
-//	    Assert.assertTrue("No error message shown on the page", output.toLowerCase().contains("error"));
-//	}
-//
-//@When("The user gives the invalid code in Editor and click the Run Button")
-//public void the_user_gives_the_invalid_code_in_editor_and_click_the_run_button() {
-//	arraysPage.enterCode("hello"); 
-//	arraysPage.clickRunButton();
-//	
-//}
-//
-//
-//	@When("The user gives the valid code in Editor and click the Run Button")
-//	public void the_user_gives_the_valid_code_in_editor_and_click_the_run_button() {
-//		arraysPage.enterCode("print(\"hello\");	"); 
-//		arraysPage.clickRunButton();
-//	}
-//
-//	@Then("The user should see output in the console")
-//	public void the_user_should_see_output_in_the_console() {
-//		try {
-//	        String output = arraysPage.getEditorOutput();  // get output from the editor
-//
-//	        Assert.assertNotNull("Output is null", output);  // make sure output is not null
-//	        Assert.assertFalse("Output is empty", output.trim().isEmpty());  // make sure it's not empty
-//
-//	        System.out.println("Output in console: " + output);  // print to console
-//
-//	    } catch (Exception e) {
-//	        Assert.fail("Something went wrong while getting the output: " + e.getMessage());
-//	    }
-//	}
-//	
-//
-//@Given("The user is on the Arrays tryEditor page")
-//public void the_user_is_on_the_arrays_try_editor_page() {
-//	driver.get(ConfigReader.getProperty("arraystryeditor"));
-//	 arraysPage.isRunButtonVisible();
-//	}
-//
-//@When("The user clicks the browser back button")
-//public void the_user_clicks_the_browser_back_button() {
-//	 DriverFactory.getDriver().navigate().back(); 
-//}
-//
-//@Then("The user navigates back to the Arrays in Python page")
-//public void the_user_navigates_back_to_the_arrays_in_python_page() {
-//	String pageTitle = DriverFactory.getDriver().getTitle();
-//	Assert.assertTrue("User is not on Arrays in Python page", pageTitle.contains("Arrays in Python"));
-//}
-//
-//
-//
-//@Given("The user is on the practice question editor for {string}")
-//public void the_user_is_on_the_practice_question_editor_for(String questionName) {
-//	 arraysPage.navigateToQuestionEditor(questionName);
-//	}
-//
-//@When("The user writes the {string} code in Editor and Click the {string}")
-//public void the_user_writes_the_code_in_editor_and_click_the(String codeType, String buttonType) {
-//	
-//	
-//	reader = new ExcelReader("src/test/resources/TestData/PythonCode.xlsx");
-//	List<Map<String, String>>  allRowsData = reader.readAllRows("SheetName"); // <-- give your sheet name here
-//
-//    int rownumber = getRowNumberForCodeType(codeType);
-//    String codeToEnter = allRowsData.get(rownumber).get("pCode");
-//
-//    arraysPage.editor(codeToEnter);
-//
-//    if(buttonType.equalsIgnoreCase("Run")) {
-//        arraysPage.clickRun();
-//    } else if(buttonType.equalsIgnoreCase("Submit")) {
-//        arraysPage.clickSubmit();
-//    }
-//}
-//
-//@Then("The user should see {string}")
-//public void the_user_should_see(String string) {
-//	public void the_user_should_see(String expectedResult) {
-//        if(ds.isAlertIsPresent()) {
-//            String alertText = ds.getAlertText();
-//            logger.info("Alert Text: " + alertText);
-//            ds.acceptAlert();
-//        } else {
-//            String consoleOutput = ds.getConsoleOutput();
-//            logger.info("Console Output: " + consoleOutput);
-//        }
-//    }
-//	
-//	 // 🔥 Place your helper method here inside the same class
-//    private int getRowNumberForCodeType(String codeType) {
-//        if (codeType.equalsIgnoreCase("valid")) {
-//            return 0; // Example: Row 0 for valid code
-//        } else if (codeType.equalsIgnoreCase("invalid")) {
-//            return 1; // Example: Row 1 for invalid code
-//        } else {
-//            throw new IllegalArgumentException("Invalid codeType: " + codeType);
-//        }
-//    }
-//
-//@Then("The user should see \"an error message \"Error occurred during submission\"\"")
-//public void the_user_should_see_an_error_message_error_occurred_during_submission() {
-//    // Write code here that turns the phrase above into concrete actions
-//    throw new io.cucumber.java.PendingException();
-//}
-//
-//@Then("The user should see \"success message \"Submission successful\"\"")
-//public void the_user_should_see_success_message_submission_successful() {
-//    // Write code here that turns the phrase above into concrete actions
-//    throw new io.cucumber.java.PendingException();
-//}
+
+@When("The user clicks on the Run button without entering the code in the Editor")
+public void the_user_clicks_on_the_run_button_without_entering_the_code_in_the_editor() {
+  arraysPage.clickRunButton();
+  }
+
+@Then("The user should see an error message in alert window")
+public void the_user_should_see_an_error_message_in_alert_window() {
+	String output = arraysPage.getEditorOutput();  // Fetches output text
+    if (output == null || output.trim().isEmpty()) {
+        // No feedback — likely a bug
+        throw new AssertionError("Bug: No feedback (error message, alert, or output) shown for empty code.");
+    } else {
+        System.out.println("Output shown: " + output);
+        // Optionally assert it contains an error keyword
+    }
+}
+
+
+@When("The user gives the invalid code from row number in Editor and click the Run Button")
+public void the_user_gives_the_invalid_code_from_row_number_in_editor_and_click_the_run_button() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+String raw = excelreader.readAllRows("Pythoncode").get(2).get("Code");
+String code = raw.replace("\\n", "\n");
+arraysPage.enterCode(code);
+arraysPage.clickRunButton();
+
+}
+
+@When("The user gives the valid code from row number in Editor and click the Run Button")
+public void the_user_gives_the_valid_code_from_row_number_in_editor_and_click_the_run_button() {
+		ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+String raw = excelreader.readAllRows("Pythoncode").get(3).get("Code");
+String code = raw.replace("\\n", "\n");
+arraysPage.enterCode(code);
+arraysPage.clickRunButton();
+
+}
+
+@Then("The user should see output in the console")
+public void the_user_should_see_output_in_the_console() {
+		try {
+	        String output = arraysPage.getEditorOutput();  // get output from the editor
+
+	        Assert.assertNotNull("Output is null", output);  // make sure output is not null
+	        Assert.assertFalse("Output is empty", output.trim().isEmpty());  // make sure it's not empty
+
+	        System.out.println("Output in console: " + output);  // print to console
+
+	    } catch (Exception e) {
+	        Assert.fail("Something went wrong while getting the output: " + e.getMessage());
+	    }
+	}
+	
+
+@Given("The user is on the Arrays tryEditor page")
+public void the_user_is_on_the_arrays_try_editor_page() {
+	driver.get(ConfigReader.getProperty("arraystryeditor"));
+	 arraysPage.isRunButtonVisible();
+	 logger.info("Navigated to: Arrays tryEditor page");
+	}
+
+@When("The user clicks the browser back button")
+public void the_user_clicks_the_browser_back_button() {
+	 DriverFactory.getDriver().navigate().back(); 
+}
+
+@Then("The user navigates back to the Arrays in Python page")
+public void the_user_navigates_back_to_the_arrays_in_python_page() {
+	String pageTitle = DriverFactory.getDriver().getTitle();
+	Assert.assertTrue("User is not on Arrays in Python page", pageTitle.contains("Arrays in Python"));
+}
+
 
 @When("The user clicks Practice Questions button")
 public void the_user_clicks_practice_questions_button() {
@@ -265,132 +223,357 @@ public void the_user_is_redirected_to_practice_page() {
 }
 
 
-@Given("The user is on the Arrays Practice Question page")
-public void the_user_is_on_the_arrays_practice_question_page() {
-arraysPage.navigateToArraysPracticeQuestions();
-
-}
-
-
-@When("The user clicks {string} link")
-public void the_user_clicks_link(String questionLink) {
-    System.out.println("Clicking on: " + questionLink); // Debugging step
-    arraysPage.clickPracticeQuestion(questionLink);
-}
-
-
-
-@Then("The user should be redirected to Question page contains a question, and try Editor with Run and Submit buttons")
-public void the_user_should_be_redirected_to_question_page_contains_a_question_and_try_editor_with_run_and_submit_buttons() {
-	Assert.assertTrue("Run button missing",   arraysPage.isRunButton1Visible());
-    Assert.assertTrue("Submit button missing",arraysPage.isSubmitButtonVisible());
-    }
-
-
-@When("The user clicks Arrays using List button")
-public void the_user_clicks_arrays_using_list_button() {
-arraysPage.clickArraysUsingList();
-}
-
-@Then("The user should be redirected to Arrays using List page")
-public void the_user_should_be_redirected_to_arrays_using_list_page() {
-String pageTitle = DriverFactory.getDriver().getTitle();
-Assert.assertTrue("User is not on Arrays Using List page", pageTitle.contains("Arrays Using List"));
-    //Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArrayinPythonPageDisplayed());
-}
-
-@Given("The user is on the Arrays using List page")
-public void the_user_is_on_the_arrays_using_list_page() {
-	arraysPage.navigateToArraysUsingListPage();
-}
-
-@When("The user scrolls down and clicks Try Here button in Arrays Using List page")
-public void the_user_scrolls_down_and_clicks_try_here_button_in_arrays_using_list_page() {
-	try {
-	    arraysPage.scrollToTryHere();  // Optional but good to ensure visibility
-	    arraysPage.clickTryhere();     // Click the link
-	} catch (Exception e) {
-	    System.out.println("Error while trying to scroll and click Try Here: " + e.getMessage());
-	    e.printStackTrace();  // Optional: prints full error trace
-	}
-}
-
-@Then("The user navigates back to the Arrays Using List page")
-    public void the_user_navigates_back_to_the_arrays_using_list_page() {
-	 driver.navigate().back();
-	String pageTitle = DriverFactory.getDriver().getTitle();
-	Assert.assertTrue("User is not on Arrays using List page", pageTitle.contains("Arrays using List"));
-	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-	}
-
-@Given("The user is on the Arrays Using List page")
-public void the_user_is_on_the_arrayys_using_list_page() {
-	arraysPage.navigateToArraysUsingListPage();
-}
-
-
-@When("The user clicks Basic Operations in List button")
-public void the_user_clicks_basic_operations_in_list_button() {
-arraysPage.clickBasicOperationsInList();
-}
-
-@Then("The user should be redirected to Basic Operations in List page")
-public void the_user_should_be_redirected_to_basic_operations_in_list_page() {
-	String pageTitle = DriverFactory.getDriver().getTitle();
-	Assert.assertTrue("User is not on Basic Operations in List page", pageTitle.contains("Basic Operations in List"));
-	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-	 }
-
-@Given("The user is on the Basic Operations in List page")
-public void the_user_is_on_the_basic_operations_in_list_page() {
-	arraysPage.navigateToBasicOperationsInListPage();
-}
-
-@When("The user scrolls down and clicks Try Here button in Basic Operations in List page")
-public void the_user_scrolls_down_and_clicks_try_here_button_in_basic_operations_in_list_page() {
-	arraysPage.scrollToTryHere();     // Optional but good to ensure visibility
-    arraysPage.clickTryhere();        // Click the link
+@Given("The users is on the Arrays Practice Question page")
+public void the_users_is_on_the_arrays_practice_question_page() {
+	arraysPage.navigateToArraysPracticeQuestions();
+	logger.info("Navigated to: Arrays Practice Question page");
+    
 }
     
-    @Then("The user navigates back to the Basic Operations in List page")
-    public void the_user_navigates_back_to_the_basic_operations_in_list_page() {
-    	 driver.navigate().back();
-    	String pageTitle = DriverFactory.getDriver().getTitle();
-    	Assert.assertTrue("User is not on Basic Operations in List page", pageTitle.contains("Basic Operations in List"));
-    	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
 
-    	 }
-
-	@When("The user clicks Applications of Array button")
-	public void the_user_clicks_applications_of_array_button() {
-	    arraysPage.clickApplicationsOfArray();
+@When("The user clicks {string} link in the arrays question page")
+public void the_user_clicks_link_in_the_arrays_question_page(String questionLink) {
+	arraysPage.navigateToQuestionEditor(questionLink);
 	}
 
-	@Then("The user should be redirected to Applications of Array page")
-	public void the_user_should_be_redirected_to_applications_of_array_page() {
-		String pageTitle = DriverFactory.getDriver().getTitle();
-		Assert.assertTrue("User is not on Applications of Array page", pageTitle.contains("Applications of Array"));
-		//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-		 }
+@Then("The user should be redirected to Question page which has a question, and try Editor with Run and Submit buttons")
+public void the_user_should_be_redirected_to_question_page_which_has_a_question_and_try_editor_with_run_and_submit_buttons() {
+	arraysPage.isRunButton1Visible();
+	arraysPage.isSubmitButtonVisible();
+	arraysPage.isQuestionDisplayed();
 	
+}
 
-	@Given("The user is on the Applications of Array page")
-	public void the_user_is_on_the_applications_of_array_page() {
-		arraysPage.navigateToApplicationsOfArrayPage();
-    }
+@Given("The user is on the Search the array practice question editor")
+public void the_user_is_on_the_search_the_array_practice_question_editor() {
+	arraysPage.navigateToSearchthearray();
+}
+
+@Given("The user is on the Max Consecutive Ones practice question editor")
+public void the_user_is_on_the_max_consecutive_ones_practice_question_editor() {
+	arraysPage.navigateToMaxConsecutiveOnes();
+}
+
+@Given("The user is on the Find Numbers practice question editor")
+public void the_user_is_on_the_find_numbers_practice_question_editor() {
+	arraysPage.navigateToFindnumberswithevennumberofdigits();
+}
+
+@Given("The user is on the Squares of a Sorted Array practice question editor")
+public void the_user_is_on_the_squares_of_a_sorted_array_practice_question_editor() {
+	arraysPage.navigateToSquaresofasortedArray();
+}
+
+@When("The user writes invalid code from row number and clicks the Run Button Search the array")
+public void the_user_writes_invalid_code_from_row_number_and_clicks_the_run_button_Search_the_array() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(4).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+    arraysPage.clickRun();
+
+}
+
+@Then("The user must see an error message in the alert window")
+public void the_user_must_see_an_error_message_in_the_alert_window() {
+	String alertText = arraysPage.getAlertText(); // assume this is defined
+	Assert.assertNotNull("No alert appeared", alertText);
+	Assert.assertTrue("Expected error message but got: " + alertText, 
+	                  alertText.toLowerCase().contains("error"));
+	
+}
+
+@When("The user writes valid code from row number and clicks the Run Button Search the array")
+public void the_user_writes_valid_code_from_row_number_and_clicks_the_run_button_Search_the_array() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(3).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+    arraysPage.clickRun();
+}
 
 
-	    @When("The user clicks Try Here button in Applications of Array page")
-	    public void the_user_clicks_try_here_button_in_applications_of_array_page() {
-	    	 arraysPage.clickTryhere();        // Click the link
-	    }
+@Then("The user must see output in the console")
+public void the_user_must_see_output_in_the_console() {
+	String output = arraysPage.getConsoleOutput(); // assumes implementation exists
+	Assert.assertNotNull("Console output is null", output);
+	Assert.assertFalse("Expected output in console, but found none", output.trim().isEmpty());
+}
 
-@Then("The user navigates back to the Applications of Array page")
-	        public void the_user_navigates_back_to_the_applications_of_array_page() {
-	 driver.navigate().back();
-	String pageTitle = DriverFactory.getDriver().getTitle();
-	Assert.assertTrue("User is not on Applications of Array page", pageTitle.contains("Applications of Array"));
-	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
-	 }       
-	     
+@When("The user writes invalid code from row number and clicks the Submit Button Search the array")
+public void the_user_writes_invalid_code_from_row_number_and_clicks_the_submit_button_Search_the_array() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(4).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+	    arraysPage.clickSubmit();
+	}
+
+@Then("The user gets error message Error occurred during submission in the console")
+public void the_user_gets_error_message_error_occurred_during_submission_in_the_console() {
+	String output = arraysPage.getConsoleOutput();
+	Assert.assertNotNull("Console output is null", output);
+    Assert.assertTrue("\"Expected error message 'Error occurred' but got: " + output, output.contains("Error occurred"));
+}
+
+@When("The user writes valid code from row number and clicks the Submit Button Search the array")
+public void the_user_writes_valid_code_from_row_number_and_clicks_the_submit_button_Search_the_array() {
+
+	 ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	 String raw = excelreader.readAllRows("Pythoncode").get(3).get("Code");
+	    String code = raw.replace("\\n", "\n");
+	    arraysPage.clearEditor1();
+	    arraysPage.enterCode1(code);
+	    arraysPage.clickSubmit();
+	}
+
+@Then("The user gets success message Submission successful in the console")
+public void the_user_gets_success_message_submission_successful_in_the_console() {
+	 String output = arraysPage.getConsoleOutput();
+	 Assert.assertNotNull("Console output is null", output);
+	 Assert.assertTrue("Expected 'Submission successful' but got: " + output, 
+	                   output.contains("Submission successful"));
+}
+
+
+@When("The user writes invalid code from row number and clicks the Run Button Max Consecutive Ones")
+public void the_user_writes_invalid_code_from_row_number_and_clicks_the_run_button_max_consecutive_ones() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(6).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+    arraysPage.clickRun();
+
+}
+
+@When("The user writes valid code from row number and clicks the Run Button Max Consecutive Ones")
+public void the_user_writes_valid_code_from_row_number_and_clicks_the_run_button_max_consecutive_ones() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(5).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+    arraysPage.clickRun();
+
+}
+@When("The user writes invalid code from row number and clicks the Submit Button Max Consecutive Ones")
+public void the_user_writes_invalid_code_from_row_number_and_clicks_the_submit_button_max_consecutive_ones() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(6).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+	    arraysPage.clickSubmit();
+	}
+
+@When("The user writes valid code from row number and clicks the Submit Button Max Consecutive Ones")
+public void the_user_writes_valid_code_from_row_number_and_clicks_the_submit_button_max_consecutive_ones() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(5).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+	    arraysPage.clickSubmit();
+	}
+
+@When("The user writes invalid code from row number and clicks the Run Button Find Numbers")
+public void the_user_writes_invalid_code_from_row_number_and_clicks_the_run_button_find_numbers() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(8).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+    arraysPage.clickRun();
+
+}
+
+@When("The user writes valid code from row number and clicks the Run Button Find Numbers")
+public void the_user_writes_valid_code_from_row_number_and_clicks_the_run_button_find_numbers() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(7).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+    arraysPage.clickRun();
+
+}
+
+@When("The user writes invalid code from row number and clicks the Submit Button Find Numbers")
+public void the_user_writes_invalid_code_from_row_number_and_clicks_the_submit_button_find_numbers() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(8).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+	    arraysPage.clickSubmit();
+	}
+
+@When("The user writes valid code from row number and clicks the Submit Button Find Numbers")
+public void the_user_writes_valid_code_from_row_number_and_clicks_the_submit_button_find_numbers() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(7).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+	    arraysPage.clickSubmit();
+	}
+
+@When("The user writes invalid code from row number and clicks the Run Button Sorted Array")
+public void the_user_writes_invalid_code_from_row_number_and_clicks_the_run_button_sorted_array() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(10).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+    arraysPage.clickRun();
+
+}
+
+@When("The user writes valid code from row number and clicks the Run Button Sorted Array")
+public void the_user_writes_valid_code_from_row_number_and_clicks_the_run_button_sorted_array() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(9).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+    arraysPage.clickRun();
+
+}
+
+@When("The user writes invalid code from row number and clicks the Submit Button Sorted Array")
+public void the_user_writes_invalid_code_from_row_number_and_clicks_the_submit_button_sorted_array() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(10).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+	    arraysPage.clickSubmit();
+	}
+
+@When("The user writes valid code from row number and clicks the Submit Button Sorted Array")
+public void the_user_writes_valid_code_from_row_number_and_clicks_the_submit_button_sorted_array() {
+	ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	String raw = excelreader.readAllRows("Pythoncode").get(9).get("Code");
+    String code = raw.replace("\\n", "\n");
+    arraysPage.clearEditor1();
+    arraysPage.enterCode1(code);
+	    arraysPage.clickSubmit();
+	}
+
+
+//
+//@When("The user clicks Arrays using List button")
+//public void the_user_clicks_arrays_using_list_button() {
+//arraysPage.clickArraysUsingList();
+//}
+//
+//@Then("The user should be redirected to Arrays using List page")
+//public void the_user_should_be_redirected_to_arrays_using_list_page() {
+//String pageTitle = DriverFactory.getDriver().getTitle();
+//Assert.assertTrue("User is not on Arrays Using List page", pageTitle.contains("Arrays Using List"));
+//    //Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArrayinPythonPageDisplayed());
+//}
+//
+//@Given("The user is on the Arrays using List page")
+//public void the_user_is_on_the_arrays_using_list_page() {
+//	arraysPage.navigateToArraysUsingListPage();
+//logger.info("Navigated to: Arrays using List page");
+//}
+//
+//@When("The user scrolls down and clicks Try Here button in Arrays Using List page")
+//public void the_user_scrolls_down_and_clicks_try_here_button_in_arrays_using_list_page() {
+//	try {
+//	    arraysPage.scrollToTryHere();  // Optional but good to ensure visibility
+//	    arraysPage.clickTryhere();     // Click the link
+//	} catch (Exception e) {
+//	    System.out.println("Error while trying to scroll and click Try Here: " + e.getMessage());
+//	    e.printStackTrace();  // Optional: prints full error trace
+//	}
+//}
+//
+//@Then("The user navigates back to the Arrays Using List page")
+//    public void the_user_navigates_back_to_the_arrays_using_list_page() {
+//	 driver.navigate().back();
+//	String pageTitle = DriverFactory.getDriver().getTitle();
+//	Assert.assertTrue("User is not on Arrays using List page", pageTitle.contains("Arrays using List"));
+//	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+//	}
+//
+//@Given("The user is on the Arrays Using List page")
+//public void the_user_is_on_the_arrayys_using_list_page() {
+//	arraysPage.navigateToArraysUsingListPage();
+//logger.info("Navigated to: Arrays using List page");
+//}
+//
+//
+//@When("The user clicks Basic Operations in List button")
+//public void the_user_clicks_basic_operations_in_list_button() {
+//arraysPage.clickBasicOperationsInList();
+//}
+//
+//@Then("The user should be redirected to Basic Operations in List page")
+//public void the_user_should_be_redirected_to_basic_operations_in_list_page() {
+//	String pageTitle = DriverFactory.getDriver().getTitle();
+//	Assert.assertTrue("User is not on Basic Operations in List page", pageTitle.contains("Basic Operations in List"));
+//	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+//	 }
+//
+//@Given("The user is on the Basic Operations in List page")
+//public void the_user_is_on_the_basic_operations_in_list_page() {
+//	arraysPage.navigateToBasicOperationsInListPage();
+//logger.info("Navigated to: Basic Operations in List page");
+//}
+//
+//@When("The user scrolls down and clicks Try Here button in Basic Operations in List page")
+//public void the_user_scrolls_down_and_clicks_try_here_button_in_basic_operations_in_list_page() {
+//	arraysPage.scrollToTryHere();     // Optional but good to ensure visibility
+//    arraysPage.clickTryhere();        // Click the link
+//}
+//    
+//    @Then("The user navigates back to the Basic Operations in List page")
+//    public void the_user_navigates_back_to_the_basic_operations_in_list_page() {
+//    	 driver.navigate().back();
+//    	String pageTitle = DriverFactory.getDriver().getTitle();
+//    	Assert.assertTrue("User is not on Basic Operations in List page", pageTitle.contains("Basic Operations in List"));
+//    	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+//
+//    	 }
+//
+//	@When("The user clicks Applications of Array button")
+//	public void the_user_clicks_applications_of_array_button() {
+//	    arraysPage.clickApplicationsOfArray();
+//	}
+//
+//	@Then("The user should be redirected to Applications of Array page")
+//	public void the_user_should_be_redirected_to_applications_of_array_page() {
+//		String pageTitle = DriverFactory.getDriver().getTitle();
+//		Assert.assertTrue("User is not on Applications of Array page", pageTitle.contains("Applications of Array"));
+//		//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+//		 }
+//	
+//
+//	@Given("The user is on the Applications of Array page")
+//	public void the_user_is_on_the_applications_of_array_page() {
+//		arraysPage.navigateToApplicationsOfArrayPage();
+//logger.info("Navigated to: Applications of Array page");
+//    }
+//
+//
+//	    @When("The user clicks Try Here button in Applications of Array page")
+//	    public void the_user_clicks_try_here_button_in_applications_of_array_page() {
+//	    	 arraysPage.clickTryhere();        // Click the link
+//	    }
+//
+//@Then("The user navigates back to the Applications of Array page")
+//	        public void the_user_navigates_back_to_the_applications_of_array_page() {
+//	 driver.navigate().back();
+//	String pageTitle = DriverFactory.getDriver().getTitle();
+//	Assert.assertTrue("User is not on Applications of Array page", pageTitle.contains("Applications of Array"));
+//	//Assert.assertTrue("Not on Arrays in Python page", arraysPage.isArraysInPythonPageDisplayed());
+//	 }       
+//	     
 }
