@@ -12,7 +12,7 @@ Scenario: Scroll down in dropdown and select "Array"
     Then User is navigated to Array Page
 
 
-#Arraysin Python
+  #Arraysin Python
 
   Scenario: Verify that user is able to navigate to "Arrays in Python" page
   Given The user is in the Array page after Sign in
@@ -104,7 +104,7 @@ Scenario: Verify that user receives error for invalid python code on running Sea
     When The user writes valid code from row number and clicks the Submit Button Max Consecutive Ones
     Then The user gets success message Submission successful in the console
 
- #Running inValid Code
+   #Running inValid Code
 Scenario: Verify that user receives error for invalid python code on running Find Numbers with Even Number of Digits question
     Given The user is on the Find Numbers practice question editor
     When The user writes invalid code from row number and clicks the Run Button Find Numbers
@@ -128,7 +128,7 @@ Scenario: Verify that user receives error for invalid python code on running Fin
     When The user writes valid code from row number and clicks the Submit Button Find Numbers
     Then The user gets success message Submission successful in the console
 
- #Running Valid Code- 
+  #Running Valid Code- 
 Scenario: Verify that user receives error for invalid python code on running Squares of a Sorted Array question
     Given The user is on the Squares of a Sorted Array practice question editor
     When The user writes invalid code from row number and clicks the Run Button Sorted Array
