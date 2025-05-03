@@ -1,3 +1,4 @@
+
 Feature: This feature file contain scenario for the Stack module
 
 Background: The user sign in to dsAlgo Portal
