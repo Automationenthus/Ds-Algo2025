@@ -1,3 +1,4 @@
+
 Feature: To test DataStructuresIntroduction functionality
 
   Background: 
@@ -62,7 +63,9 @@ Feature: To test DataStructuresIntroduction functionality
     When user clicks on browser back button
     Then user lands on  the "time-complexity" page
 
+
   Scenario: Verify if user is able to navigate to Home page on clicking "SignOut " link
     Given user is on Time complexity page
     When user clicks on Signout button
     Then user should land on Home page and can view "Logged out successfully" message
+

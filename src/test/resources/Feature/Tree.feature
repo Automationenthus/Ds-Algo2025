@@ -1,3 +1,4 @@
+
 Feature: To test Tree functionality
 
   Background: 
@@ -13,8 +14,7 @@ Feature: To test Tree functionality
     When user clicks the Getting Started button of Tree
     Then user lands on the "tree" page
 
-  #
-  #
+  
   Scenario Outline: Verify that user is able to navigate to all the links in tree page
     Given user is on the Tree page
     When user clicks on "<Topic>" link
@@ -40,7 +40,8 @@ Scenario: Verify that user is able to navigate to Practice page
 Given user is on the overview of tree page
 When user clicks on the Practice Questions link
 Then user should land on "Practice Questions"
-#
+
+
 Scenario Outline: Verify Try here button on each page fo Tree page links
 Given user is on the overview of tree page
 When user clicks on "<Treelinks>" and Try Here button
@@ -85,21 +86,13 @@ Scenario Outline: Verify tryEditor with correct Python code  and click on run an
       | sheetname  | rownumber | expectedOutput |
       | pythoncode |         0 | hello          |
 
-
-#Scenario: Verify  that user canot type in editor without clicking "ok" button on alert window
-#Given user is on try Editor page with alert window
-#When  user does not click on ok button 
-#Then  user can not perform any operation
-#
 Scenario: Verify that user is able to navigate to Overview of Trees page  by clicking browser back button
     Given user is on the try Editor page
     When user clicks on the browser back button
     Then user should lands on "Overview of Trees" page
-#
+
 Scenario: Verify if user is able to navigate to Home page on clicking "SignOut " link
 Given user is on the Tree page
 When  user clicks on the Signout button
 Then  user should land on Home page and can see "Logged out successfully" message         
        
-#
-#
