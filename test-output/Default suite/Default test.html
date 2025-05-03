@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>49/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 03 01:20:02 CDT 2025</td>
+<td>Started on:</td><td>Sat May 03 13:45:45 CDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>39 seconds (39414 ms)</td>
+<tr><td>Total time:</td><td>258 seconds (258536 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,44 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code for Squares of a Sorted Array question", "Arrays PracticeQuestion"</td>
-<td><div><pre>java.lang.AssertionError: BUG: Expected message &apos;Error occurred&apos; but got: &apos;No tests were collected&apos;
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Arrays Using List" page", "Arrays PracticeQuestion"</td>
+<td><div><pre>java.lang.AssertionError: Bug: No alert displayed when clicking Run without entering code.
 	at org.junit.Assert.fail(Assert.java:89)
-	at stepDefinitions.ArraysStep.the_user_gets_error_message_error_occurred_during_submission_in_the_console(ArraysStep.java:375)
-	at ✽.The user gets error message Error occurred during submission in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:147)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1357927175", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1357927175'><pre>java.lang.AssertionError: BUG: Expected message &apos;Error occurred&apos; but got: &apos;No tests were collected&apos;
+	at stepDefinitions.ArraysStep.the_user_should_see_an_error_message_in_alert_window(ArraysStep.java:161)
+	at ✽.The user should see an error message in alert window(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:174)
+</pre></div><a href='#' onClick='toggleBox("stack-trace665743262", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace665743262'><pre>java.lang.AssertionError: Bug: No alert displayed when clicking Run without entering code.
 	at org.junit.Assert.fail(Assert.java:89)
-	at stepDefinitions.ArraysStep.the_user_gets_error_message_error_occurred_during_submission_in_the_console(ArraysStep.java:375)
-	at ✽.The user gets error message Error occurred during submission in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:147)
+	at stepDefinitions.ArraysStep.the_user_should_see_an_error_message_in_alert_window(ArraysStep.java:161)
+	at ✽.The user should see an error message in alert window(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:174)
+</pre></div></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Arrays in Python" page", "Arrays PracticeQuestion"</td>
+<td><div><pre>java.lang.AssertionError: Bug: No alert displayed when clicking Run without entering code.
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_should_see_an_error_message_in_alert_window(ArraysStep.java:161)
+	at ✽.The user should see an error message in alert window(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace196539383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace196539383'><pre>java.lang.AssertionError: Bug: No alert displayed when clicking Run without entering code.
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_should_see_an_error_message_in_alert_window(ArraysStep.java:161)
+	at ✽.The user should see an error message in alert window(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:31)
+</pre></div></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives Success message on submitting valid python code for Squares of a Sorted Array question", "Arrays PracticeQuestion"</td>
+<td><div><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;No tests were collected&apos;
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:386)
+	at ✽.The user gets success message Submission successful in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:153)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1347456723", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1347456723'><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;No tests were collected&apos;
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:386)
+	at ✽.The user gets success message Submission successful in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:153)
 </pre></div></td>
 <td>4</td>
 <td>testRunner.DsalgoRunner@48c76607</td></tr>
@@ -93,29 +121,71 @@ function toggleAllBoxes() {
 <td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives Success message on submitting valid python code for Find Numbers with Even Number of Digits question", "Arrays PracticeQuestion"</td>
 <td><div><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;Error occurred during submission&apos;
 	at org.junit.Assert.fail(Assert.java:89)
-	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:402)
+	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:386)
 	at ✽.The user gets success message Submission successful in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:129)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1560391896", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1560391896'><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;Error occurred during submission&apos;
+</pre></div><a href='#' onClick='toggleBox("stack-trace602812856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace602812856'><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;Error occurred during submission&apos;
 	at org.junit.Assert.fail(Assert.java:89)
-	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:402)
+	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:386)
 	at ✽.The user gets success message Submission successful in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:129)
 </pre></div></td>
 <td>4</td>
 <td>testRunner.DsalgoRunner@48c76607</td></tr>
 <tr>
-<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives Success message on submitting valid python code for Squares of a Sorted Array question", "Arrays PracticeQuestion"</td>
-<td><div><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;No tests were collected&apos;
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Basic Operations in List" page", "Arrays PracticeQuestion"</td>
+<td><div><pre>java.lang.AssertionError: Bug: No alert displayed when clicking Run without entering code.
 	at org.junit.Assert.fail(Assert.java:89)
-	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:402)
-	at ✽.The user gets success message Submission successful in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:153)
-</pre></div><a href='#' onClick='toggleBox("stack-trace952457866", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace952457866'><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;No tests were collected&apos;
+	at stepDefinitions.ArraysStep.the_user_should_see_an_error_message_in_alert_window(ArraysStep.java:161)
+	at ✽.The user should see an error message in alert window(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:222)
+</pre></div><a href='#' onClick='toggleBox("stack-trace413215160", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace413215160'><pre>java.lang.AssertionError: Bug: No alert displayed when clicking Run without entering code.
 	at org.junit.Assert.fail(Assert.java:89)
-	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:402)
-	at ✽.The user gets success message Submission successful in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:153)
+	at stepDefinitions.ArraysStep.the_user_should_see_an_error_message_in_alert_window(ArraysStep.java:161)
+	at ✽.The user should see an error message in alert window(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:222)
+</pre></div></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code for Squares of a Sorted Array question", "Arrays PracticeQuestion"</td>
+<td><div><pre>java.lang.AssertionError: BUG: Expected message &apos;Error occurred&apos; but got: &apos;No tests were collected&apos;
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_gets_error_message_error_occurred_during_submission_in_the_console(ArraysStep.java:359)
+	at ✽.The user gets error message Error occurred during submission in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:147)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1222762890", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1222762890'><pre>java.lang.AssertionError: BUG: Expected message &apos;Error occurred&apos; but got: &apos;No tests were collected&apos;
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_gets_error_message_error_occurred_during_submission_in_the_console(ArraysStep.java:359)
+	at ✽.The user gets error message Error occurred during submission in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:147)
 </pre></div></td>
 <td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives Success message on submitting valid python code for "Search the array" question", "Arrays PracticeQuestion"</td>
+<td><div><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;Some Tests failed. Please review code&apos;
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:386)
+	at ✽.The user gets success message Submission successful in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:81)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1222267142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1222267142'><pre>java.lang.AssertionError: BUG: Expected message &apos;Submission successful&apos; but got: &apos;Some Tests failed. Please review code&apos;
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_gets_success_message_submission_successful_in_the_console(ArraysStep.java:386)
+	at ✽.The user gets success message Submission successful in the console(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:81)
+</pre></div></td>
+<td>15</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Applications of Array" page", "Arrays PracticeQuestion"</td>
+<td><div><pre>java.lang.AssertionError: Bug: No alert displayed when clicking Run without entering code.
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_should_see_an_error_message_in_alert_window(ArraysStep.java:161)
+	at ✽.The user should see an error message in alert window(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:269)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2093457610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2093457610'><pre>java.lang.AssertionError: Bug: No alert displayed when clicking Run without entering code.
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDefinitions.ArraysStep.the_user_should_see_an_error_message_in_alert_window(ArraysStep.java:161)
+	at ✽.The user should see an error message in alert window(file:///C:/Workspace/Ds-Algo2025/src/test/resources/Feature/Arrays.feature:269)
+</pre></div></td>
+<td>3</td>
 <td>testRunner.DsalgoRunner@48c76607</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -127,7 +197,187 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code on running Squares of a Sorted Array question", "Arrays PracticeQuestion"</td>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Arrays Using List"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Arrays in Python" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Arrays Using List"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code for "Max Consecutive Ones" question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to scroll down and click Try Here button", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Applications of Array"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code for "Arrays Using List" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code on running "Search the array" question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code for "Applications of Array" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Arrays Using List" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Applications of Array" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for "Search the array" question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code for "Basic Operations in List" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Arrays in Python"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code for "Basic Operations in List" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for Squares of a Sorted Array question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scroll down in dropdown and select "Array"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>8</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to scroll down and click Try Here button", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Arrays in Python"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for Find Numbers with Even Number of Digits question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Basic Operations in List" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code for "Applications of Array" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Applications of Array"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to scroll down and click Try Here button", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Arrays Using List"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code for "Arrays in Python" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Basic Operations in List"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Practice Questions" Page for "Applications of Array" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Basic Operations in List"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Basic Operations in List"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for Max Consecutive Ones question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code on running Find Numbers with Even Number of Digits question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Arrays in Python"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code for "Search the array" question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>10</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Applications of Array"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code on running Search the array question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives Success message on submitting valid python code for "Max Consecutive Ones" question", "Arrays PracticeQuestion"</td>
 <td></td>
 <td>4</td>
 <td>testRunner.DsalgoRunner@48c76607</td></tr>
@@ -137,17 +387,57 @@ function toggleAllBoxes() {
 <td>4</td>
 <td>testRunner.DsalgoRunner@48c76607</td></tr>
 <tr>
-<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code on running Find Numbers with Even Number of Digits question", "Arrays PracticeQuestion"</td>
-<td></td>
-<td>6</td>
-<td>testRunner.DsalgoRunner@48c76607</td></tr>
-<tr>
-<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for Squares of a Sorted Array question", "Arrays PracticeQuestion"</td>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Arrays in Python"", "Arrays PracticeQuestion"</td>
 <td></td>
 <td>4</td>
 <td>testRunner.DsalgoRunner@48c76607</td></tr>
 <tr>
-<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for Find Numbers with Even Number of Digits question", "Arrays PracticeQuestion"</td>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Basic Operations in List"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Practice Questions" Page for "Basic Operations in List" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to scroll down and click Try Here button", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Arrays Using List"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to a question page from Practice Question page of "Applications of Array"", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code for "Arrays in Python" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>5</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code for "Arrays Using List" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>4</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Practice Questions" Page for "Arrays Using List" page", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error for invalid python code on running Squares of a Sorted Array question", "Arrays PracticeQuestion"</td>
+<td></td>
+<td>3</td>
+<td>testRunner.DsalgoRunner@48c76607</td></tr>
+<tr>
+<td title='testRunner.DsalgoRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.DsalgoRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Practice Questions" Page for "Arrays in Python" page", "Arrays PracticeQuestion"</td>
 <td></td>
 <td>3</td>
 <td>testRunner.DsalgoRunner@48c76607</td></tr>

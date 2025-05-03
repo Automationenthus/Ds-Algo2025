@@ -67,6 +67,7 @@ public class ArraysStep {
 
 	 @Then("The user is navigated to Home page")
 	 public void the_user_is_navigated_to_home_page() {
+		 new WebDriverWait(driver, Duration.ofSeconds(10));
 		 AssertJUnit.assertTrue("Login failed or incorrect page", driver.getTitle().contains("NumpyNinja"));
 	    }
 	
@@ -238,23 +239,6 @@ public void the_user_is_on_the_arrays_try_editor_page() {
 	 arraysPage.isRunButtonVisible();
 	 logger.info("Navigated to: Arrays tryEditor page");
 	}
-
-//@When("The user clicks the browser back button")
-//public void the_user_clicks_the_browser_back_button() {
-//	 DriverFactory.getDriver().navigate().back(); 
-//}
-//
-//@Then("The user navigates back to the Arrays in Python page")
-//public void the_user_navigates_back_to_the_arrays_in_python_page() {
-//	 WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(5));
-//	    wait.until(ExpectedConditions.titleContains("Arrays in Python"));
-//
-//	    String pageTitle = DriverFactory.getDriver().getTitle();
-//	    System.out.println("Actual Page Title: " + pageTitle);  // Debug log
-//	    AssertJUnit.assertTrue("User is not on Arrays in Python page", pageTitle.contains("Arrays in Python"));
-//	    System.out.println("Current URL: " + DriverFactory.getDriver().getCurrentUrl());
-//	}
-
 
 @When("The user clicks Practice Questions button")
 public void the_user_clicks_practice_questions_button() {

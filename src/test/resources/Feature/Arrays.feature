@@ -56,49 +56,49 @@ Scenario Outline: Verify that user is able to navigate to a question page from P
     | Find Numbers with Even Number of Digits |
     | Squares of a Sorted Array               |
     
-   Running Valid Code - Search the array
+   
  Scenario: Verify that user receives error for invalid python code on running "Search the array" question
     Given The user is on the Search the array practice question editor
     When The user writes invalid code from row number and clicks the Run Button Search the array
     Then The user must see an error message in the alert window
 
-   Running Valid Code - "Search the array"
+   
   Scenario: Verify that user is able to run valid python code for "Search the array" question
     Given The user is on the Search the array practice question editor
     When The user writes valid code from row number and clicks the Run Button Search the array 
     Then The user must see output in the console
 
-   Error on Submitting Invalid Code - "Search the array"
+   
   Scenario: Verify that user receives error on submitting invalid python code for "Search the array" question
     Given The user is on the Search the array practice question editor
     When The user writes invalid code from row number and clicks the Submit Button Search the array
     Then The user gets error message Error occurred during submission in the console
 
-   Success on Submitting Valid Code - "Search the array"
+   
   Scenario: Verify that user receives Success message on submitting valid python code for "Search the array" question
     Given The user is on the Search the array practice question editor
     When The user writes valid code from row number and clicks the Submit Button Search the array
     Then The user gets success message Submission successful in the console
 
- Running Valid Code
+ 
 Scenario: Verify that user receives error for invalid python code on running Search the array question
     Given The user is on the Max Consecutive Ones practice question editor
     When The user writes invalid code from row number and clicks the Run Button Max Consecutive Ones
     Then The user must see an error message in the alert window
 
-   Running Valid Code - "Max Consecutive Ones"
+   
   Scenario: Verify that user is able to run valid python code for Max Consecutive Ones question
     Given The user is on the Max Consecutive Ones practice question editor
     When The user writes valid code from row number and clicks the Run Button Max Consecutive Ones
     Then The user must see output in the console
 
-   Error on Submitting Invalid Code - "Max Consecutive Ones"
+ 
   Scenario: Verify that user receives error on submitting invalid python code for "Max Consecutive Ones" question
     Given The user is on the Max Consecutive Ones practice question editor
     When The user writes invalid code from row number and clicks the Submit Button Max Consecutive Ones
     Then The user gets error message Error occurred during submission in the console
 
-   Success on Submitting Valid Code - "Max Consecutive Ones"
+
   Scenario: Verify that user receives Success message on submitting valid python code for "Max Consecutive Ones" question
     Given The user is on the Max Consecutive Ones practice question editor
     When The user writes valid code from row number and clicks the Submit Button Max Consecutive Ones
@@ -155,7 +155,7 @@ Scenario: Verify that user receives error for invalid python code on running Squ
 
 
  
-   Arrays Using List
+   #Arrays Using List
 
   Scenario: Verify that user is able to navigate to "Arrays Using List" page
   Given The user is in the Array page after Sign in
@@ -202,7 +202,7 @@ Scenario: Verify that user is able to navigate to "Practice Questions" Page for 
   
 
 
-     Basic Operations in List
+     #Basic Operations in List
 
   Scenario: Verify that user is able to navigate to "Basic Operations in List" page
   Given The user is in the Array page after Sign in
@@ -250,7 +250,7 @@ Scenario Outline: Verify that user is able to navigate to a question page from P
     | Squares of a Sorted Array               |
 
 
-Applications of Array
+  #Applications of Array
 
 Scenario: Verify that user is able to navigate to "Applications of Array" page
   Given The user is in the Array page after Sign in
