@@ -143,20 +143,6 @@ public void user_clicks_on_run_button_without_code() {
 public void user_should_see_the_error_message_in_alert_window() {
 	
 	Assert.assertTrue(ds.isAlertIsPresent());
-	
-//	 if(ds.isAlertIsPresent()) {
-//		Alert alert=driver.switchTo().alert();
-//		logger.info(alert.getText());
-//	}
-//	
-//	else {
-//		
-//	logger.info("no alert found");
-//	}
-}
-	
-		
-
 @When("user clicks on run button with incorrect code from {string} and {int}")
 public void user_clicks_on_run_button_with_incorrect_code_from_and(String sheetname, Integer rownumber)throws InterruptedException {
 	List<Map<String, String>> allRowsData1= reader.readAllRows(sheetname);
