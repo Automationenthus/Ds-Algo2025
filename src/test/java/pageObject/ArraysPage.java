@@ -10,6 +10,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
 import driverFactory.DriverFactory;
 import dsUtilities.ConfigReader;
 
@@ -65,12 +70,22 @@ public class ArraysPage {
 	    
 	    @FindBy(xpath = "//form[@id='answer_form']/div/div/div/textarea")
 	    private WebElement codeEditor;
+	    
+	    public WebElement getCodeEditor() {
+	        return codeEditor;
+	    }
+
+	  
 
 	    @FindBy(xpath = "//button[text()='Run']")
 	    private WebElement runButton;
 
 	    @FindBy(id = "output")
 	    private WebElement outputArea;
+	    
+	    public WebElement getRunButton() {
+	        return runButton;
+	    }
 	
 	    // Question Page 
 	    
@@ -193,6 +208,8 @@ public class ArraysPage {
 	    
  // Try Editor Actions 
 	    
+	    
+
 	    
 	    public void enterCode(String code) {
 	        try {
@@ -385,13 +402,27 @@ try {
 }
 }
 
+public void enterpythonCode(String code) {
+	 String cleanCode = code.replaceAll("^\"|\"$", "");
+	 
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    js.executeScript("window.editor.setValue(arguments[0]);", cleanCode);
+}
 
 public String getConsoleOutput() {
-  return outputConsole.getText();
+	try {
+        WebElement outputElement = new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOf(outputConsole));
+        return outputElement.getText().trim();
+    } catch (Exception e) {
+        System.out.println("Console output not found or empty.");
+        return "";
+    }
+}
   
 }
 
-}
+
 
 
 //public String getOutput() {

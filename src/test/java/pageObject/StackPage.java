@@ -35,7 +35,7 @@ public class StackPage {
  @FindBy(xpath = "//a[text()='Stack']")  // Array option under the dropdown
  WebElement StackOption;
  
- @FindBy(xpath = "//h4[contains(text(),'Array')]")
+ @FindBy(xpath = "//h4[contains(text(),'Stack')]")
  private WebElement StackPageHeader;
  
  //@FindBy(xpath = "//a[text()='Try here']")
@@ -64,8 +64,8 @@ public class StackPage {
 	        dropdownMenu.click();
 	    }
 	    
-	    public void selectArrayFromDropdown() {
-	    	StackOption.click();
+	    public void selectstackFromDropdown() {
+	    	StackOption.click(); // Click the "Stack" option from the dropdown directly after waiting for it to be clickable
 	    }
 	    
 	    public void clickGettingStarted() {
