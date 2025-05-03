@@ -2,7 +2,9 @@ package pageObject;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.TimeoutException;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.InvalidElementStateException;
 import org.openqa.selenium.JavascriptExecutor;
@@ -41,32 +43,6 @@ public class DataStructuresPF {
 	@FindBy(xpath = "//div[contains(@class,'alert-primary')]")
     WebElement sucessMessage;
 	
-	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
-	public void enterUserName(String username) {
-		inputUserName.clear();
-		//wait.until(ExpectedConditions.visibilityOf(inputUserName));
-		inputUserName.sendKeys(username);
-	
-	}
-	public void enterPassword(String password) {
-		//wait.until(ExpectedConditions.visibilityOf(inputPassword));
-		inputPassword.sendKeys(password);
-	}
-	
-	public void clickLogin() {
-		
-		loginBtn.click();
-	}
-	public String getMessage() {
-		String loginMessage=sucessMessage.getText();
-		return loginMessage;
-	}
-	
-	public void gotoPage() {
-		driver.get(ConfigReader.getProperty("dataStructuresIntroUrl"));;
-	}
-	
-
 	@FindBy(linkText = "NumpyNinja")
 	WebElement numpylink;
 
@@ -101,6 +77,32 @@ public class DataStructuresPF {
 	WebElement outputText;
 
 
+	
+	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+	public void enterUserName(String username) {
+		inputUserName.clear();
+		//wait.until(ExpectedConditions.visibilityOf(inputUserName));
+		inputUserName.sendKeys(username);
+	
+	}
+	public void enterPassword(String password) {
+		//wait.until(ExpectedConditions.visibilityOf(inputPassword));
+		inputPassword.sendKeys(password);
+	}
+	
+	public void clickLogin() {
+		
+		loginBtn.click();
+	}
+	public String getMessage() {
+		String loginMessage=sucessMessage.getText();
+		return loginMessage;
+	}
+	
+	public void gotoPage() {
+		driver.get(ConfigReader.getProperty("dataStructuresIntroUrl"));;
+	}
+	
 
 	public void signIn() {
 		signInLink.click();
@@ -123,7 +125,7 @@ public class DataStructuresPF {
 		driver.get(ConfigReader.getProperty("tryEditorUrl"));
 		
 	}
-//	
+	
 	public void getStartbtnclick() {
 		getStartedBtn.click();
 	}
@@ -179,17 +181,18 @@ public class DataStructuresPF {
 			
 		}
 		
-	public boolean isAlertIsPresent() {
-		
+	public boolean isAlertIsPresent() 
+	{
 		try {
-			wait.until(ExpectedConditions.alertIsPresent());
-			return true;
-		}
-		
-		catch(Exception e){
-			return false;
-		}
-	}
+	        
+	        wait.until(ExpectedConditions.alertIsPresent());
+	        return true;
+	    } catch (Exception e) {
+	        return false;
+	    }
+	}		
+	
+	
 	
 	public void clearEditor() {
 		codeEditor.clear();
@@ -214,77 +217,33 @@ public class DataStructuresPF {
 		return consoleOutput;
 	}
 	
-//	public boolean output() {
-//		return outputText.isDisplayed();
-//     }
-}
-//
+	public String navigateBack() {
+		driver.navigate().back();
+		driver.navigate().refresh();
+		String title=driver.getTitle();
+		return title;
+	}
 	
-//
-//
-//	
-//
-//
-//
+	public void signOut() {
+		signOutLink.click();
+
+	}
+	public String logOutMessage() {
+		return logOutMsg.getText();
+	}
+	public String laningPageValidation() {
+		 
+		String title=driver.getTitle();
+		return title;
+	}
 	
-//
-//	@FindBy(xpath = "//div[contains(@class,'dropdown-menu')]//a")
-//	List <WebElement> options;
-//
-//	
-//	
-//	
-//
-//	
-//
-//	
-//
-//	
+	public boolean runButtonValidation() {
+		if(runBtn.isEnabled()==true) {
+			return true;
+			
+		}
+		return false;
+	}
 	
-//	public void numpyNinjaClick() {
-//		numpylink.click();
-//	}
-//
-//	public void signOut() {
-//		signOutLink.click();
-//
-//	}
-//
-//	
-//
-//	public void dropdown() {
-//		dropDown.click();
-//
-//	}
-//	public void selectFromDropdown(String option) {
-//		Actions actions = new Actions(driver);
-//		actions.moveToElement(dropDown).perform();
-//
-//		for (WebElement item : options) {
-//			if (item.getText().equalsIgnoreCase(option)) {
-//				item.click();
-//				return;
-//			}
-//
-//		}
-//	}
-//
-//
-//	
-//
-//	
-//	
-//
-//	
-//
-//	
-//	public boolean output() {
-//		return outputText.isDisplayed();
-//	}
-//
-//	public String logOutMessage() {
-//		return logOutMsg.getText();
-//	}
-//
-//
-//}
+}	
+	
