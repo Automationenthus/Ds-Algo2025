@@ -1,7 +1,20 @@
-#Feature: This feature file contain scenario for the Graph module
-#
-  #Background: The user sign in to DsAlgo Portal
-#
+Feature: Graph Module Functionality
+
+Background: The user navigates to the app and logs in
+  Given User is in the ds-algo launch page
+  When User click the get started button in dsalgo launch page
+  Then The user gets valid data  "<Username1>" and "<Passowrd1>" for the login page
+#  And The user clicks the Sign In link
+
+Scenario Outline: The user logs in and accesses Graph module
+  When The user gets valid data  "<Username1>" and "<Passowrd1>" for the login page
+  Then The user navigate to home page
+
+Examples:
+  | Username1         | Passowrd1        |
+  | Automation_enthus | Numpy@ninja2025  |
+
+
   #Scenario: Verify that user is able to navigate to Graph page
     #Given The user is in the Home page after logged in
     #When The user clicks the Getting Started button of Graph
