@@ -1,3 +1,6 @@
+
+
+
 Feature: To test DataStructuresIntroduction functionality
 
   Background: 
@@ -57,6 +60,7 @@ Feature: To test DataStructuresIntroduction functionality
       | sheetname  | rownumber | expectedOutput |
       | pythoncode |         0 | hello          |
 
+
   Scenario: Verify that user is able to navigate to "Time Complexity" page  by clicking browser back button
     Given user is on try Editor page
     When user clicks on browser back button
@@ -66,3 +70,18 @@ Feature: To test DataStructuresIntroduction functionality
     Given user is on Time complexity page
     When user clicks on Signout button
     Then user should land on Home page and can view "Logged out successfully" message
+
+
+  Scenario: Verify that user is able to navigate to "Time Complexity" page  by clicking browser back button
+    Given user is on try Editor page
+    When user clicks on browser back button
+    Then user lands on  the "time-complexity" page
+
+
+  Scenario: Verify if user is able to navigate to Home page on clicking "SignOut " link
+    Given user is on Time complexity page
+    When user clicks on Signout button
+    Then user should land on Home page and can view "Logged out successfully" message
+
+
+
