@@ -41,6 +41,7 @@ public class HomeSteps {
 //	    //logger.info("Verified title contains expected text: " + Actual_title);
 //	}
 
+
 //	private static final Logger logger = LogManager.getLogger(HomeSteps.class);
 //
 //	WebDriver driver = DriverFactory.getDriver();
