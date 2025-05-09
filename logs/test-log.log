@@ -6427,3 +6427,1546 @@
 2025-05-02 08:30:04 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-05-02 08:30:04 INFO  DataStructuresSteps:33 - Login
 
+2025-05-07 00:00:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:00:42 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 00:00:45 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:00:47 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 00:00:49 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:00:51 INFO  ArraysStep:107 - Navigated to: Arrays in Python page
+2025-05-07 00:00:55 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:00:57 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:00:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:02 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:01:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:07 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:01:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:11 INFO  ArraysStep:107 - Navigated to: Arrays in Python page
+2025-05-07 00:01:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:15 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:01:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:19 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:01:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:24 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:01:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:28 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:01:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:53 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:01:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:06 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:16 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:23 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 00:02:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:27 INFO  ArraysStep:443 - Navigated to: Arrays using List page
+2025-05-07 00:02:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:33 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:02:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:38 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:02:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:42 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:02:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:46 INFO  ArraysStep:443 - Navigated to: Arrays using List page
+2025-05-07 00:02:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:49 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:02:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:54 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:02:57 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:02:58 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:03:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:03 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:03:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:07 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 00:03:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:10 INFO  ArraysStep:492 - Navigated to: Basic Operations in List page
+2025-05-07 00:03:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:15 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:03:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:20 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:03:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:24 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:03:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:27 INFO  ArraysStep:492 - Navigated to: Basic Operations in List page
+2025-05-07 00:03:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:31 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:03:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:35 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:03:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:40 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:03:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:45 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:03:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:49 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 00:03:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:53 INFO  ArraysStep:522 - Navigated to: Applications of Array page
+2025-05-07 00:03:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:03:58 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:04:00 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:04:02 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:04:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:04:07 INFO  ArraysStep:190 - Navigated to: Arrays tryEditor page
+2025-05-07 00:04:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:04:10 INFO  ArraysStep:522 - Navigated to: Applications of Array page
+2025-05-07 00:04:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:04:14 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:04:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:04:18 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:04:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:04:22 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 00:04:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 00:04:26 INFO  ArraysStep:206 - Navigated to: Arrays Practice Question page
+2025-05-07 02:04:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:04:16 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 02:04:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:04:21 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:04:33 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:04:35 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:04:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:04:49 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:05:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:05:03 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:05:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:05:27 INFO  ArraysStep:112 - Navigated to: Applications of Array page
+2025-05-07 02:05:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:05:40 INFO  ArraysStep:128 - Navigated to: Arrays Practice Question page
+2025-05-07 02:05:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:05:45 INFO  ArraysStep:128 - Navigated to: Arrays Practice Question page
+2025-05-07 02:05:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:05:49 INFO  ArraysStep:128 - Navigated to: Arrays Practice Question page
+2025-05-07 02:05:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:05:53 INFO  ArraysStep:128 - Navigated to: Arrays Practice Question page
+2025-05-07 02:05:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:06:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:06:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:06:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:06:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:07:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:07:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:07:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:07:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:07:57 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:08:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:08:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:08:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:08:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:16 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:28 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:09:47 INFO  ArraysStep:442 - Navigated to: Arrays tryEditor page
+2025-05-07 02:15:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:15:37 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 02:15:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:15:42 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:15:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:15:56 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:16:08 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:16:10 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:16:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:16:24 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:22:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:22:16 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 02:22:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:22:21 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:22:33 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:22:35 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:22:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:22:49 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 02:23:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 02:23:03 INFO  ArraysStep:91 - Navigated to: Arrays page
+2025-05-07 10:09:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:09:19 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 10:09:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:09:25 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 10:09:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:09:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:09:37 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 10:09:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:09:43 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 10:09:49 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:09:51 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 10:09:55 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:09:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:01 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 10:10:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:07 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 10:10:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:13 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 10:10:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:19 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 10:10:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:46 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:10:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:16 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:36 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 10:11:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:50 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 10:11:53 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:11:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:12:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:12:04 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 10:12:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 10:12:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:34:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:34:41 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 12:34:46 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:34:48 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 12:34:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:34:54 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 12:34:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:01 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 12:35:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:07 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 12:35:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:14 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 12:35:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:19 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 12:35:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:24 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 12:35:28 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:30 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 12:35:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:37 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 12:35:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:43 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 12:35:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:53 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:35:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:36:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:28 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 12:37:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:33 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 12:37:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:39 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 12:37:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:44 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 12:37:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:50 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 12:37:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:37:56 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 12:37:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:38:01 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 12:38:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:38:07 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 12:38:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 12:38:13 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 13:49:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:13 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 13:49:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:16 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 13:49:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:20 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 13:49:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:25 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 13:49:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:29 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 13:49:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:34 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 13:49:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:37 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 13:49:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:40 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 13:49:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:44 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 13:49:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:48 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 13:49:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:51 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 13:49:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:49:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:50:57 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 13:51:00 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:51:01 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 13:51:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:51:04 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 13:51:06 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:51:08 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 13:51:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:51:11 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 13:51:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:51:15 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 13:51:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:51:18 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 13:51:20 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:51:21 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 13:51:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 13:51:25 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:01:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:25 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 14:01:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:28 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:01:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:32 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:01:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:37 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:01:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:41 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:01:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:45 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:01:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:48 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:01:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:51 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:01:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:55 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:01:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:01:59 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:02:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:03 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:02:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:28 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:55 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:02:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:08 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:03:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:11 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:03:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:15 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:03:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:18 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:03:20 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:21 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:03:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:25 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:03:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:28 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:03:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:31 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:03:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:03:35 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:07:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:07:38 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 14:07:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:07:42 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:07:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:07:45 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:07:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:07:50 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:07:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:07:54 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:07:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:07:58 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:08:00 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:01 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:08:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:04 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:08:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:08 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:08:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:12 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:08:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:16 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:08:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:46 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:08:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:06 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:23 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:09:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:26 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:09:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:30 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:09:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:33 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:09:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:36 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:09:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:40 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:09:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:43 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:09:45 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:46 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:09:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:09:50 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:27:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:01 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 14:28:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:04 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:28:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:08 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:28:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:13 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:28:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:16 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:28:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:20 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:28:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:24 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:28:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:27 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:28:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:33 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:28:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:38 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:28:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:42 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:28:46 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:28:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:33 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:29:57 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:04 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:30:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:08 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:30:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:12 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:30:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:16 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:30:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:20 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:30:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:25 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:30:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:29 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:30:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:33 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:30:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:30:38 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:36:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:36:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:36:58 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:37:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:03 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:37:06 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:09 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:37:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:13 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:37:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:19 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:37:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:23 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:37:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:27 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:37:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:45 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:37:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:49 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:37:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:37:57 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:16 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:49 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:38:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:08 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:10 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:39:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:14 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:39:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:18 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:39:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:22 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:39:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:26 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:39:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:31 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:39:33 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:34 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:39:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:39 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:39:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:39:43 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:53:53 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:53:54 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 14:53:57 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:53:58 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:54:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:03 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:54:06 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:09 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:54:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:13 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:54:16 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:18 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 14:54:20 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:22 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 14:54:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:25 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:54:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:30 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:54:33 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:34 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:54:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:39 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 14:54:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:54:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:06 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:20 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:57 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:55:59 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:56:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:56:02 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:56:06 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:56:07 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 14:56:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:56:11 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:56:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:56:14 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:56:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:56:19 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 14:56:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:56:23 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 14:56:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:56:27 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 14:56:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 14:56:31 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 15:33:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:33:32 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 15:33:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:33:37 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 15:33:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:33:42 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:33:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:33:46 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:33:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:33:49 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:33:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:33:53 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:33:55 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:33:57 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:34:00 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:34:02 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 15:34:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:34:07 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 15:34:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:34:12 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 15:34:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:34:16 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:50:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:50:28 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 15:50:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:50:32 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 15:50:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:50:37 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:50:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:50:41 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:50:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:50:45 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:50:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:50:49 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:51:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:52:00 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 15:52:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:52:04 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 15:52:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:52:08 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:52:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:52:12 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:52:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:52:16 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:52:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:52:20 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:54:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:54:44 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 15:54:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:54:49 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 15:54:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:54:53 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:54:55 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:54:56 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:54:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:55:00 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:55:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:55:04 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:55:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:56:00 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 15:56:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:56:04 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 15:56:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:56:09 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:56:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:56:13 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:56:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:56:16 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:56:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:56:20 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 15:59:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 15:59:55 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 15:59:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:00:00 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:00:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:00:05 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 16:00:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:00:09 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 16:00:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:00:12 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 16:00:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:00:16 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 16:05:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:05:31 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 16:05:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:05:36 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:05:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:05:40 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:05:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:05:44 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:05:46 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:05:48 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:05:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:05:51 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:13:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:13:15 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 16:13:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:13:20 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:13:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:13:25 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:13:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:13:28 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:13:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:13:32 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:13:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:13:36 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:14:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:14:36 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 16:14:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:14:41 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:14:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:14:44 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:14:46 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:14:48 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:14:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:14:52 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:18:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:18:36 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 16:18:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:18:40 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:18:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:18:44 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:18:46 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:18:48 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:18:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:18:51 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:21:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:21:20 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 16:21:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:21:25 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:21:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:21:28 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:21:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:21:32 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:21:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:21:36 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:22:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:22:53 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 16:22:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:22:57 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:22:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:23:01 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:23:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:23:04 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:23:06 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:23:08 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:29:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:29:13 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 16:29:16 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:29:18 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:29:20 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:29:21 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:29:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:29:25 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:29:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:29:28 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:33:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:33:03 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 16:33:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:33:07 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:33:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:33:10 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:33:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:33:14 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 16:33:16 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 16:33:18 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:39:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:39:11 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 18:39:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:39:17 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:39:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:39:23 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:39:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:39:28 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:39:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:39:33 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:39:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:39:38 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:39:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:39:43 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 18:51:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:51:05 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 18:51:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:51:11 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:51:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:51:16 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:51:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:51:21 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 18:51:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 18:51:26 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:05:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:05:59 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:06:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:06:06 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:06:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:06:12 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:06:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:06:16 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:06:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:06:21 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:06:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:06:26 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:06:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:06:57 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:07:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:07:04 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:13:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:13:06 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:13:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:13:11 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:13:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:13:17 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:23:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:23:08 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:23:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:23:14 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:23:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:23:19 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:24:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:24:52 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:24:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:24:58 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:25:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:25:05 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:25:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:25:12 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:25:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:25:18 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:25:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:25:25 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:27:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:27:27 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:27:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:27:33 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:27:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:27:39 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:27:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:27:46 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:27:49 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:27:51 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:27:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:27:59 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:28:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:28:04 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:37:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:37:28 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:37:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:37:34 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:37:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:37:40 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:37:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:37:47 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:37:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:37:53 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:37:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:38:00 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:38:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:38:06 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:38:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:38:11 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:38:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:38:17 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:38:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:38:23 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:38:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:38:29 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:43:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:43:21 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:43:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:43:27 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:43:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:43:33 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:43:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:43:40 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:43:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:43:46 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:43:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:43:53 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:43:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:43:58 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:44:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:44:04 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:44:08 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:44:10 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:44:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:44:16 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:44:20 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:44:22 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:50:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:03 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 19:50:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:10 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 19:50:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:16 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:50:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:24 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:50:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:30 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:50:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:39 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 19:50:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:45 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 19:50:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:51 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:50:55 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:50:58 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:51:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:51:05 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 19:51:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 19:51:11 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 20:54:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:54:36 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 20:54:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:54:39 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 20:54:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:54:44 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 20:54:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:54:48 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 20:54:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:54:55 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 20:54:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:54:59 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 20:55:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:03 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 20:55:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:06 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 20:55:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:10 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 20:55:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:13 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 20:55:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:18 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 20:55:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:28 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:52 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:55:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:56:00 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:56:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:56:08 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:56:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:56:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 20:56:20 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:20 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:21 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 21:28:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:25 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 21:28:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:28 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 21:28:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:33 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 21:28:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:37 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 21:28:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:41 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 21:28:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:45 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 21:28:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:48 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 21:28:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:51 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 21:28:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:55 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 21:28:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:28:59 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 21:29:02 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:34 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:37 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:45 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:53 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:29:57 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:07 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 21:30:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:10 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 21:30:12 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:13 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 21:30:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:17 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 21:30:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:20 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 21:30:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:24 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 21:30:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:27 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 21:30:29 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:30 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 21:30:33 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:30:34 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 21:44:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:44:29 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-07 21:44:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:44:33 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 21:44:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:44:37 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 21:44:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:44:43 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 21:44:45 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:44:47 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 21:44:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:44:52 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-07 21:44:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:44:56 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-07 21:44:58 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:00 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 21:45:03 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:04 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 21:45:07 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:08 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 21:45:11 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:13 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-07 21:45:16 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:25 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:30 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:55 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:45:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:32 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:34 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 21:46:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:38 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 21:46:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:42 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-07 21:46:44 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:46 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 21:46:48 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:50 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 21:46:53 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:54 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-07 21:46:57 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:46:58 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-07 21:47:00 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:47:02 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-07 21:47:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-07 21:47:06 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-08 09:29:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:18 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-08 09:29:21 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:23 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-08 09:29:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:28 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-08 09:29:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:33 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-08 09:29:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:38 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-08 09:29:41 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:43 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-08 09:29:46 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:47 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-08 09:29:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:52 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-08 09:29:55 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:29:56 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-08 09:30:00 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:01 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-08 09:30:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:05 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-08 09:30:08 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:40 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:45 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:50 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:54 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:30:59 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:04 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:08 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:13 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:17 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:22 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:24 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-08 09:31:26 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:28 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-08 09:31:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:32 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-08 09:31:35 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:36 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-08 09:31:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:40 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-08 09:31:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:45 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-08 09:31:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:49 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-08 09:31:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:53 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-08 09:31:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 09:31:57 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-08 11:17:10 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:11 INFO  ArraysStep:73 - Navigated to: Home page
+2025-05-08 11:17:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:16 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-08 11:17:18 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:20 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-08 11:17:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:26 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-08 11:17:28 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:30 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-08 11:17:33 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:35 INFO  ArraysStep:201 - Navigated to: Arrays tryEditor page
+2025-05-08 11:17:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:39 INFO  ArraysStep:111 - Navigated to: Arrays in Python page
+2025-05-08 11:17:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:44 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-08 11:17:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:48 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-08 11:17:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:53 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-08 11:17:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:17:57 INFO  ArraysStep:217 - Navigated to: Arrays Practice Question page
+2025-05-08 11:18:01 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:14 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:24 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:28 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:33 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:38 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:42 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:47 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:51 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:18:56 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:00 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:05 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:09 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:15 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:16 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-08 11:19:19 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:20 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-08 11:19:23 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:25 INFO  ArraysStep:441 - Navigated to: Arrays using List page
+2025-05-08 11:19:27 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:29 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-08 11:19:31 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:33 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-08 11:19:36 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:37 INFO  ArraysStep:490 - Navigated to: Basic Operations in List page
+2025-05-08 11:19:39 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:41 INFO  ArraysStep:95 - Navigated to: Arrays page
+2025-05-08 11:19:43 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:45 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-08 11:19:49 INFO  ArraysStep:42 - User navigated to Home Page
+2025-05-08 11:19:51 INFO  ArraysStep:520 - Navigated to: Applications of Array page
+2025-05-08 18:33:29 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:33:30 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 18:33:34 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:33:35 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 18:33:47 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:33:48 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 18:34:11 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:34:12 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 18:34:20 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:34:33 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:34:34 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 18:34:38 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:34:39 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 18:34:52 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:34:53 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 18:34:57 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:35:10 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:35:12 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 18:35:34 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:35:35 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 18:35:57 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:36:11 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:36:18 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:36:32 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:36:45 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:36:55 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:41:14 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:41:15 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 18:41:18 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:41:19 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 18:41:31 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:41:32 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 18:41:57 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 18:41:58 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 19:39:26 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:39:27 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 19:39:30 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:39:31 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 19:39:43 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:39:45 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 19:40:07 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:40:08 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 19:40:15 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:40:17 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 19:40:23 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:40:24 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 19:40:27 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:40:29 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 19:40:41 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:40:42 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 19:42:23 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:42:25 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 19:42:28 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:42:29 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 19:47:32 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:47:33 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 19:47:36 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:47:38 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 19:47:50 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:47:51 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 19:48:14 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 19:48:15 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 22:46:32 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:46:33 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 22:46:36 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:46:37 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 22:46:49 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:46:51 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 22:55:59 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:56:00 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 22:56:03 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:56:04 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 22:56:17 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:56:18 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 22:56:40 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:56:42 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 22:56:48 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:59:12 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:59:13 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 22:59:16 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:59:17 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 22:59:30 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 22:59:31 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:00:03 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:00:05 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 23:00:08 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:00:09 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 23:00:21 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:00:23 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:00:45 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:00:46 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:00:59 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:01:00 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:01:22 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:01:23 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:01:26 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:01:27 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:01:40 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:01:41 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:02:03 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:02:04 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:12:19 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:12:20 INFO  ArraysStep:72 - Navigated to: Home page
+2025-05-08 23:12:23 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:12:24 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 23:12:36 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:12:37 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:46:19 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:46:20 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 23:46:23 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:46:26 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:46:30 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:46:31 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:46:44 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:46:45 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:52:17 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:52:19 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 23:52:22 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:52:24 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:52:27 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:52:31 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:52:33 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:52:37 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:52:40 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:52:44 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:52:46 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:52:49 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:52:52 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:52:54 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:52:58 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:53:00 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:53:03 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:53:06 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:53:09 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:53:12 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:53:15 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:53:29 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:53:42 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:53:55 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:54:09 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:54:22 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:54:35 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:54:48 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:55:02 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:55:15 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:55:28 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:55:41 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:55:53 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:03 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:05 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-08 23:59:08 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:10 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:59:13 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:17 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:59:19 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:23 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:59:26 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:29 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-08 23:59:32 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:34 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-08 23:59:37 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:39 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:59:42 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:45 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:59:48 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:51 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-08 23:59:54 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-08 23:59:57 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-09 00:00:00 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:07 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:13 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:19 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:26 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:32 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:37 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:44 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:51 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:00:57 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:04 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:10 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:17 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:23 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:29 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:36 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:42 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:46 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:48 INFO  ArraysStep:462 - Navigated to: Arrays using List page
+2025-05-09 00:01:51 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:53 INFO  ArraysStep:462 - Navigated to: Arrays using List page
+2025-05-09 00:01:55 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:01:59 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:02:01 INFO  ArraysStep:491 - Navigated to: Basic Operations in List page
+2025-05-09 00:02:04 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:02:06 INFO  ArraysStep:491 - Navigated to: Basic Operations in List page
+2025-05-09 00:02:08 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:02:12 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:02:14 INFO  ArraysStep:515 - Navigated to: Applications of Array page
+2025-05-09 00:02:17 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:02:19 INFO  ArraysStep:515 - Navigated to: Applications of Array page
+2025-05-09 00:09:52 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:09:54 INFO  ArraysStep:94 - Navigated to: Arrays page
+2025-05-09 00:09:57 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:09:59 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-09 00:10:02 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:06 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-09 00:10:09 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:12 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-09 00:10:15 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:18 INFO  ArraysStep:134 - Navigated to: Arrays tryEditor page
+2025-05-09 00:10:20 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:22 INFO  ArraysStep:110 - Navigated to: Arrays in Python page
+2025-05-09 00:10:25 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:27 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-09 00:10:30 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:33 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-09 00:10:36 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:39 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-09 00:10:42 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:45 INFO  ArraysStep:223 - Navigated to: Arrays Practice Question page
+2025-05-09 00:10:48 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:10:54 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:00 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:06 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:13 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:19 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:25 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:32 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:38 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:44 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:50 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:11:57 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:04 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:10 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:16 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:22 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:29 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:32 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:34 INFO  ArraysStep:462 - Navigated to: Arrays using List page
+2025-05-09 00:12:37 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:39 INFO  ArraysStep:462 - Navigated to: Arrays using List page
+2025-05-09 00:12:42 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:45 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:47 INFO  ArraysStep:491 - Navigated to: Basic Operations in List page
+2025-05-09 00:12:50 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:52 INFO  ArraysStep:491 - Navigated to: Basic Operations in List page
+2025-05-09 00:12:55 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:12:58 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:13:00 INFO  ArraysStep:515 - Navigated to: Applications of Array page
+2025-05-09 00:13:03 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:13:06 INFO  ArraysStep:515 - Navigated to: Applications of Array page
+2025-05-09 00:17:36 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:17:37 INFO  ArraysStep:89 - Navigated to: Arrays page
+2025-05-09 00:17:40 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:17:43 INFO  ArraysStep:105 - Navigated to: Arrays in Python page
+2025-05-09 00:17:46 INFO  ArraysStep:41 - User navigated to Home Page
+2025-05-09 00:39:36 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:39:38 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:39:38 INFO  StackStep:59 - Navigated to: Home page
+2025-05-09 00:39:39 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-09 00:39:41 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:39:42 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:39:42 INFO  StackStep:77 - User navigated to Stack Page
+2025-05-09 00:39:45 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:39:46 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:39:48 INFO  StackStep:97 - User navigated to Operations in Stack Page
+2025-05-09 00:39:51 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:39:52 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:39:54 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:39:56 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:39:57 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:39:59 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:40:02 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:04 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:06 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:40:08 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:09 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:10 INFO  StackStep:97 - User navigated to Operations in Stack Page
+2025-05-09 00:40:13 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:14 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:15 INFO  StackStep:77 - User navigated to Stack Page
+2025-05-09 00:40:17 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:19 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:19 INFO  StackStep:221 - User navigated to Implementation Page
+2025-05-09 00:40:23 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:24 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:26 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:40:28 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:29 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:31 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:40:33 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:35 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:37 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:40:39 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:40 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:41 INFO  StackStep:221 - User navigated to Implementation Page
+2025-05-09 00:40:44 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:45 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:46 INFO  StackStep:77 - User navigated to Stack Page
+2025-05-09 00:40:48 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:49 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:50 INFO  StackStep:243 - User navigated to Application Page
+2025-05-09 00:40:53 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:40:54 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:40:56 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:40:59 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:41:00 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:41:02 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:41:04 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:41:05 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:41:07 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:41:09 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:41:11 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:41:12 INFO  StackStep:243 - User navigated to Application Page
+2025-05-09 00:58:05 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:07 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:07 INFO  StackStep:59 - Navigated to: Home page
+2025-05-09 00:58:08 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-09 00:58:10 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:11 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:11 INFO  StackStep:77 - User navigated to Stack Page
+2025-05-09 00:58:14 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:15 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:16 INFO  StackStep:97 - User navigated to Operations in Stack Page
+2025-05-09 00:58:20 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:21 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:23 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:58:25 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:26 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:28 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:58:31 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:32 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:34 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:58:36 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:38 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:39 INFO  StackStep:97 - User navigated to Operations in Stack Page
+2025-05-09 00:58:41 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:42 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:43 INFO  StackStep:77 - User navigated to Stack Page
+2025-05-09 00:58:45 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:46 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:47 INFO  StackStep:221 - User navigated to Implementation Page
+2025-05-09 00:58:50 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:52 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:54 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:58:56 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:58:57 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:58:59 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:59:02 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:59:03 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:59:05 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:59:08 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:59:09 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:59:10 INFO  StackStep:221 - User navigated to Implementation Page
+2025-05-09 00:59:12 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:59:14 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:59:14 INFO  StackStep:77 - User navigated to Stack Page
+2025-05-09 00:59:17 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:59:18 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:59:19 INFO  StackStep:243 - User navigated to Application Page
+2025-05-09 00:59:22 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:59:24 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:59:26 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:59:28 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:59:29 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:59:31 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:59:33 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:59:34 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:59:36 INFO  StackStep:115 - User navigated to Stacks tryEditor Page
+2025-05-09 00:59:39 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 00:59:40 INFO  StackStep:53 - User navigated to Home Page
+2025-05-09 00:59:41 INFO  StackStep:243 - User navigated to Application Page

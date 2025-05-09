@@ -15,7 +15,7 @@ Scenario: Scroll down in dropdown and select "Stack"
 
 
 
- #Operations in Stack
+  
 Scenario: Verify that user is able to navigate to "Operations in Stack" page
     Given The user is in the Stack Page
     When The user clicks Operations in stack button
@@ -46,7 +46,7 @@ Scenario: Verify that user is able to navigate to "Operations in Stack" page
     When The user clicks Practice Question button in stack
     Then The user should be redirected to Practice page in stack
 
- #Implementation
+ 
 Scenario: Verify that user is able to navigate to "Implementation" page
     Given The user is in the Stack Page
     When The user clicks Implementation button
@@ -77,7 +77,7 @@ Scenario: Verify that user is able to navigate to "Implementation" page
     When The user clicks Practice Question button in stack
     Then The user should be redirected to Practice page in stack
 
- #Application
+ 
 Scenario: Verify that user is able to navigate to "Application" page
     Given The user is in the Stack Page
     When The user clicks Application button

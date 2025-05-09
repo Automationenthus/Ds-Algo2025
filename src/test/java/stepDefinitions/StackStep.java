@@ -30,227 +30,226 @@ public class StackStep {
 	 private static final Logger logger = LogManager.getLogger(StackStep.class);
 	 ExcelReader reader= new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
 	 
-	 @Given("The User is in the home page")
-	 public void the_user_is_in_the_home_page() {
-	     driver.get(ConfigReader.getProperty("url"));
-	     logger.info("Navigated to: Home page");
-	 }
 
-	 @When("User clicks sign in and enters the valid username and password")
-	 public void user_clicks_sign_in_and_enters_the_valid_username_and_password() {
-	     driver.findElement(By.linkText("Sign in")).click(); // Click the "Sign in" link 
-	     String username = ConfigReader.getProperty("username");// Type the username from config.properties
-	     driver.findElement(By.id("id_username")).sendKeys(username);
-	     String password = ConfigReader.getProperty("password");// Type the password from config.properties
-	     driver.findElement(By.id("id_password")).sendKeys(password);
-	     driver.findElement(By.xpath("//input[@value='Login']")).click();// Click the "Login" button
-	 }
+@Given("The User is in the home page")
+public void the_user_is_in_the_home_page() {
+	driver.get(ConfigReader.getProperty("url"));
+    logger.info("Navigated to: Home page");
+}
 
-	 @Then("The user is navigated to the Home page")
-	 public void the_user_is_navigated_to_the_home_page() {
-	     Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
-	     logger.info("User navigated to Home Page");
-	 }
+@When("User clicks sign in and enters the valid username and password")
+public void user_clicks_sign_in_and_enters_the_valid_username_and_password() {
+	driver.findElement(By.linkText("Sign in")).click(); // Click the "Sign in" link 
+    String username = ConfigReader.getProperty("username");// Type the username from config.properties
+    driver.findElement(By.id("id_username")).sendKeys(username);
+    String password = ConfigReader.getProperty("password");// Type the password from config.properties
+    driver.findElement(By.id("id_password")).sendKeys(password);
+    driver.findElement(By.xpath("//input[@value='Login']")).click();// Click the "Login" button
+}
 
-	 @Given("The user is on the Home page")
-	 public void the_user_is_on_the_home_page() {
-	     driver.get(ConfigReader.getProperty("url"));
-	     logger.info("Navigated to: Home page");
-	 }
+@Then("The user is navigated to the Home page")
+public void the_user_is_navigated_to_the_home_page() {
+	 Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
+     logger.info("User navigated to Home Page");
+ }
 
-	 @When("The user scrolls down to the Data Structures dropdown and selects Stack")
-	 public void the_user_scrolls_down_to_the_data_structures_dropdown_and_selects_stack() {
-	     driver.findElement(By.xpath("//a[text()='Data Structures']")).click();
-	     Actions actions = new Actions(driver); // Scroll to the "Data Structures" dropdown using Actions class
-	     actions.moveToElement(driver.findElement(By.xpath("//a[text()='Data Structures']"))).perform();
-	     stackpage.selectstackFromDropdown();
-	 }
+@Given("The user is on the Home page")
+public void the_user_is_on_the_home_page() {
+	driver.get(ConfigReader.getProperty("url"));
+    logger.info("Navigated to: Home page");
+}
 
-	 @Then("User is navigated to Stack Page")
-	 public void user_is_navigated_to_stack_page() {
-	     Assert.assertTrue(stackpage.isStackPageDisplayed(), "Stack page is not displayed.");
-	     logger.info("User navigated to Stack Page");
-	 }
+@When("The user scrolls down to the Data Structures dropdown and selects Stack")
+public void the_user_scrolls_down_to_the_data_structures_dropdown_and_selects_stack() {
+	stackpage.scrollAndClickDataStructuresDropdown();
+     stackpage.selectstackFromDropdown();
+ }
 
-	 @Given("The user is in the Stack Page")
-	 public void the_user_is_in_the_stack_page() {
-	     stackpage.navigateToStackPage();
-	     logger.info("User navigated to Stack Page");
-	 }
+@Then("User is navigated to Stack Page")
+public void user_is_navigated_to_stack_page() {
+    Assert.assertTrue(stackpage.isStackPageDisplayed(), "Stack page is not displayed.");
+    logger.info("User navigated to Stack Page");
+}
 
-	 @When("The user clicks Operations in stack button")
-	 public void the_user_clicks_operations_in_stack_button() {
-	     stackpage.clickOperationsInStack();
-	 }
+@Given("The user is in the Stack Page")
+public void the_user_is_in_the_stack_page() {
+    stackpage.navigateToStackPage();
+    logger.info("User navigated to Stack Page");
+}
 
-	 @Then("The user should be redirected to Operations in stack page")
-	 public void the_user_should_be_redirected_to_operations_in_stack_page() {
-	     String pageTitle = DriverFactory.getDriver().getTitle();
-	     System.out.println("Actual Page Title: " + pageTitle); 
-	     Assert.assertTrue(
-	         pageTitle.toLowerCase().contains("operations in stack"),
-	         "User is not on Operations in Stack page. Actual title: " + pageTitle
-	     );
-	 }
-	 @Given("The user is on the Operations in Stack page")
-	 public void the_user_is_on_the_operations_in_stack_page() {
-	     stackpage.navigateToOperationsinStackPage();
-	     logger.info("User navigated to Operations in Stack Page");
-	 }
+@When("The user clicks Operations in stack button")
+public void the_user_clicks_operations_in_stack_button() {
+    stackpage.clickOperationsInStack();
+}
 
-	 @When("The user scrolls down and clicks Try Here button in Operations in Stack page")
-	 public void the_user_scrolls_down_and_clicks_try_here_button_in_operations_in_stack_page() {
-	     stackpage.scrollToTryHere();     // Optional but good to ensure visibility
-	     stackpage.clickTryhere();        // Click the link
-	 }
+@Then("The user should be redirected to Operations in stack page")
+public void the_user_should_be_redirected_to_operations_in_stack_page() {
+    String pageTitle = DriverFactory.getDriver().getTitle();
+    System.out.println("Actual Page Title: " + pageTitle); 
+    Assert.assertTrue(
+        pageTitle.toLowerCase().contains("operations in stack"),
+        "User is not on Operations in Stack page. Actual title: " + pageTitle
+    );
+}
+@Given("The user is on the Operations in Stack page")
+public void the_user_is_on_the_operations_in_stack_page() {
+    stackpage.navigateToOperationsinStackPage();
+    logger.info("User navigated to Operations in Stack Page");
+}
 
-	 @Then("The user is redirected to a page having a Stacks try Editor with a Run button to test")
-	 public void the_user_is_redirected_to_a_page_having_a_stacks_try_editor_with_a_run_button_to_test() {
-	     Assert.assertTrue(stackpage.isRunButtonVisible(), "Run button not visible");
-	     driver.navigate().back();
-	 }
+@When("The user scrolls down and clicks Try Here button in Operations in Stack page")
+public void the_user_scrolls_down_and_clicks_try_here_button_in_operations_in_stack_page() {
+    stackpage.scrollToTryHere();     
+    stackpage.clickTryhere();        
+}
 
-	 @Given("The user is in the Stacks tryEditor page")
-	 public void the_user_is_in_the_stacks_try_editor_page() {
-	     stackpage.navigateToStackstryeditorPage();
-	     logger.info("User navigated to Stacks tryEditor Page");
-	 }
+@Then("The user is redirected to a page having a Stacks try Editor with a Run button to test")
+public void the_user_is_redirected_to_a_page_having_a_stacks_try_editor_with_a_run_button_to_test() {
+    Assert.assertTrue(stackpage.isRunButtonVisible(), "Run button not visible");
+    driver.navigate().back();
+}
 
-	 @When("The user clicks Run button without entering the code in the stacks tryEditor")
-	 public void the_user_clicks_run_button_without_entering_the_code_in_the_stacks_try_editor() {
-	     stackpage.clickRunButton();
-	 }
+@Given("The user is in the Stacks tryEditor page")
+public void the_user_is_in_the_stacks_try_editor_page() {
+    stackpage.navigateToStackstryeditorPage();
+    logger.info("User navigated to Stacks tryEditor Page");
+}
 
-	 @Then("The user is able to see an error message in alert window")
-	 public void the_user_is_able_to_see_an_error_message_in_alert_window() {
-	     try {
-	         Alert alert = DriverFactory.getDriver().switchTo().alert();
-	         String alertText = alert.getText();
+@When("The user clicks Run button without entering the code in the stacks tryEditor")
+public void the_user_clicks_run_button_without_entering_the_code_in_the_stacks_try_editor() {
+    stackpage.clickRunButton();
+}
 
-	         Assert.assertTrue(
-	             alertText.toLowerCase().contains("error message"),
-	             "Expected error message in alert, but got: " + alertText
-	         );
+@Then("The user is able to see an error message in alert window")
+public void the_user_is_able_to_see_an_error_message_in_alert_window() {
+    try {
+        Alert alert = DriverFactory.getDriver().switchTo().alert();
+        String alertText = alert.getText();
 
-	         alert.accept();
-	     } catch (NoAlertPresentException e) {
-	         System.out.println("WARN: Bug - No alert shown for empty code. Expected an error message.");
-	         Assert.fail("Bug: No alert displayed when clicking Run without entering code.");
-	     }
-	 }
+        Assert.assertTrue(
+            alertText.toLowerCase().contains("error message"),
+            "Expected error message in alert, but got: " + alertText
+        );
 
-	 @When("The user writes the invalid code from row number in stacks tryEditor and clicks the Run Button")
-	 public void the_user_writes_the_invalid_code_from_row_number_in_stacks_try_editor_and_clicks_the_run_button() {
-	     new WebDriverWait(driver, Duration.ofSeconds(10));
+        alert.accept();
+    } catch (NoAlertPresentException e) {
+        System.out.println("WARN: Bug - No alert shown for empty code. Expected an error message.");
+        Assert.fail("Bug: No alert displayed when clicking Run without entering code.");
+    }
+}
 
-	     int rowNum = 1; // or make it dynamic
-	     String rawCode = reader.readAllRows("Pythoncode").get(rowNum).get("Code");
-	     String code = rawCode.replace("\\n", "\n");
+@When("The user writes the invalid code from row number in stacks tryEditor and clicks the Run Button")
+public void the_user_writes_the_invalid_code_from_row_number_in_stacks_try_editor_and_clicks_the_run_button() {
+    new WebDriverWait(driver, Duration.ofSeconds(10));
 
-	     JavascriptExecutor js = (JavascriptExecutor) driver; // 3. Inject code into CodeMirror editor using JS
-	     js.executeScript("window.editor.setValue(arguments[0]);", code);
-	     stackpage.clickRunButton();
-	 }
+    int rowNum = 1; 
+    String rawCode = reader.readAllRows("Pythoncode").get(rowNum).get("Code");
+    String code = rawCode.replace("\\n", "\n");
 
-	 @Then("The user is able to see an nameerror message in alert window")
-	 public void the_user_is_able_to_see_an_nameerror_message_in_alert_window() {
-	     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	     Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-	     String alertText = alert.getText();
+    JavascriptExecutor js = (JavascriptExecutor) driver; 
+    js.executeScript("window.editor.setValue(arguments[0]);", code);
+    stackpage.clickRunButton();
+}
 
-	     Assert.assertTrue(
-	         alertText.toLowerCase().contains("nameerror"),
-	         "Expected alert to contain 'NameError', but got: " + alertText
-	     );
-	     alert.accept();
-	 }
+@Then("The user is able to see an nameerror message in alert window")
+public void the_user_is_able_to_see_an_nameerror_message_in_alert_window() {
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+    String alertText = alert.getText();
 
-	 @When("The user writes the valid code from row number in stacks tryEditor and clicks the Run Button")
-	 public void the_user_writes_the_valid_code_from_row_number_in_stacks_try_editor_and_clicks_the_run_button() {
-	     int rowNum = 0; 
-	     String rawCode = reader.readAllRows("Pythoncode").get(rowNum).get("Code");
-	     String code = rawCode.replace("\\n", "\n");
+    Assert.assertTrue(
+        alertText.toLowerCase().contains("nameerror"),
+        "Expected alert to contain 'NameError', but got: " + alertText
+    );
+    alert.accept();
+}
 
-	     JavascriptExecutor js = (JavascriptExecutor) driver;
-	     js.executeScript("window.editor.setValue(arguments[0]);", code);
-	     stackpage.clickRunButton();
-	 }
+@When("The user writes the valid code from row number in stacks tryEditor and clicks the Run Button")
+public void the_user_writes_the_valid_code_from_row_number_in_stacks_try_editor_and_clicks_the_run_button() {
+    int rowNum = 0; 
+    String rawCode = reader.readAllRows("Pythoncode").get(rowNum).get("Code");
+    String code = rawCode.replace("\\n", "\n");
 
-	 @Then("The user is able to see output in the console")
-	 public void the_user_is_able_to_see_output_in_the_console() {
-	     try {
-	         String output = stackpage.getEditorOutput();  // get output from the editor
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    js.executeScript("window.editor.setValue(arguments[0]);", code);
+    stackpage.clickRunButton();
+}
 
-	         Assert.assertNotNull(output, "Output is null");  // make sure output is not null
-	         Assert.assertFalse(output.trim().isEmpty(), "Output is empty");  // make sure it's not empty
+@Then("The user is able to see output in the console")
+public void the_user_is_able_to_see_output_in_the_console() {
+    try {
+        String output = stackpage.getEditorOutput();  
 
-	         System.out.println("Output in console: " + output);  // print to console
+        Assert.assertNotNull(output, "Output is null");  
+        Assert.assertFalse(output.trim().isEmpty(), "Output is empty");  
 
-	     } catch (Exception e) {
-	         Assert.fail("Something went wrong while getting the output: " + e.getMessage());
-	     }
-	 }
+        System.out.println("Output in console: " + output);  // print to console
 
-	 @When("The user clicks Practice Question button in stack")
-	 public void the_user_clicks_practice_question_button_in_stack() {
-	     stackpage.clickPracticeQuestions();
-	 }
+    } catch (Exception e) {
+        Assert.fail("Something went wrong while getting the output: " + e.getMessage());
+    }
+}
 
-	 @Then("The user should be redirected to Practice page in stack")
-	 public void the_user_should_be_redirected_to_practice_page_in_stack() {
-	     String pageTitle = DriverFactory.getDriver().getTitle();
-	     System.out.println("Current page title: " + pageTitle);
-	     if (!pageTitle.contains("Practice")) {
-	         Assert.fail("BUG: The user is not on the Stack Practice page. Page title is: " + pageTitle);
-	     }
-	 }
+@When("The user clicks Practice Question button in stack")
+public void the_user_clicks_practice_question_button_in_stack() {
+    stackpage.clickPracticeQuestions();
+}
 
-	 @When("The user clicks Implementation button")
-	 public void the_user_clicks_implementation_button() {
-	     stackpage.clickImplementation();
-	 }
+@Then("The user should be redirected to Practice page in stack")
+public void the_user_should_be_redirected_to_practice_page_in_stack() {
+    String pageTitle = DriverFactory.getDriver().getTitle();
+    System.out.println("Current page title: " + pageTitle);
+    if (!pageTitle.contains("Practice")) {
+        Assert.fail("BUG: The user is not on the Stack Practice page. Page title is: " + pageTitle);
+    }
+}
 
-	 @Then("The user should be redirected to Implementation page")
-	 public void the_user_should_be_redirected_to_implementation_page() {
-	     String pageTitle = DriverFactory.getDriver().getTitle();
-	     Assert.assertTrue(pageTitle.contains("Implementation"), "User is not on Implementation page");
-	 }
+@When("The user clicks Implementation button")
+public void the_user_clicks_implementation_button() {
+    stackpage.clickImplementation();
+}
 
-	 @Given("The user is on the Implementation page")
-	 public void the_user_is_on_the_implementation_page() {
-	     stackpage.navigateToImplementationPage();
-	     logger.info("User navigated to Implementation Page");
-	 }
+@Then("The user should be redirected to Implementation page")
+public void the_user_should_be_redirected_to_implementation_page() {
+    String pageTitle = DriverFactory.getDriver().getTitle();
+    Assert.assertTrue(pageTitle.contains("Implementation"), "User is not on Implementation page");
+}
 
-	 @When("The user clicks Try Here button in Implementation page")
-	 public void the_user_clicks_try_here_button_in_implementation_page() {
-	     stackpage.clickTryhere(); 
-	 }
+@Given("The user is on the Implementation page")
+public void the_user_is_on_the_implementation_page() {
+    stackpage.navigateToImplementationPage();
+    logger.info("User navigated to Implementation Page");
+}
 
-	 @When("The user clicks Application button")
-	 public void the_user_clicks_application_button() {
-	     stackpage.clickApplications();
-	 }
+@When("The user clicks Try Here button in Implementation page")
+public void the_user_clicks_try_here_button_in_implementation_page() {
+    stackpage.clickTryhere(); 
+}
 
-	 @Then("The user should be redirected to Application page")
-	 public void the_user_should_be_redirected_to_application_page() {
-	     String pageTitle = DriverFactory.getDriver().getTitle();
-	     Assert.assertTrue(pageTitle.contains("Applications"), "User is not on Applications page");
-	 }
+@When("The user clicks Application button")
+public void the_user_clicks_application_button() {
+    stackpage.clickApplications();
+}
 
-	 @Given("The user is on the Application page")
-	 public void the_user_is_on_the_application_page() {
-	     stackpage.navigateToApplicationsPage();
-	     logger.info("User navigated to Application Page");
-	 }
+@Then("The user should be redirected to Application page")
+public void the_user_should_be_redirected_to_application_page() {
+    String pageTitle = DriverFactory.getDriver().getTitle();
+    Assert.assertTrue(pageTitle.contains("Applications"), "User is not on Applications page");
+}
 
-	 @When("The user clicks Try Here button in Application page")
-	 public void the_user_clicks_try_here_button_in_application_page() {
-	     stackpage.clickTryhere(); 
-	 }
+@Given("The user is on the Application page")
+public void the_user_is_on_the_application_page() {
+    stackpage.navigateToApplicationsPage();
+    logger.info("User navigated to Application Page");
+}
 
-	 @When("The user clicks Practice Questionb button in stack")
-	 public void the_user_clicks_practice_questionb_button_in_stack() {
-	     stackpage.clickPracticeQuestions();
-	 }
+@When("The user clicks Try Here button in Application page")
+public void the_user_clicks_try_here_button_in_application_page() {
+    stackpage.clickTryhere(); 
+}
+
+@When("The user clicks Practice Questionb button in stack")
+public void the_user_clicks_practice_questionb_button_in_stack() {
+    stackpage.clickPracticeQuestions();
+}
 }
