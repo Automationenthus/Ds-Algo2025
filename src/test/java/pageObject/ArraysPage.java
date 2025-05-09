@@ -199,21 +199,21 @@ public class ArraysPage {
 	    }
 
 	    public void navigateToArraysUsingListPage() {
-	    	// driver.get("https://dsportalapp.herokuapp.com/arrays-using-list/");
+	    	
 	    	 dropdownMenu.click();
 	         arrayOption.click();
 	         arraysUsingListLink.click();
 	     }
 
 	    public void navigateToBasicOperationsInListPage() {
-	    	// driver.get("https://dsportalapp.herokuapp.com/basic-operations-in-list/");
+	    	
 	    	 dropdownMenu.click();
 	         arrayOption.click();
 	         basicOperationsInListLink.click();
 	     }
 
 	    public void navigateToApplicationsOfArrayPage() {
-	    	// driver.get("https://dsportalapp.herokuapp.com/applications-of-array/");
+	    	
 	    	dropdownMenu.click();
 	        arrayOption.click();
 			applicationsOfArrayLink.click();
@@ -221,7 +221,7 @@ public class ArraysPage {
 	    
  
 	    public void navigateToArraysPracticeQuestions() {
-	    	// driver.get("https://dsportalapp.herokuapp.com/arrays-practice-questions/");
+	    	
 	    	dropdownMenu.click();
 	        arrayOption.click();
 	        arraysInPythonLink.click();
@@ -287,8 +287,8 @@ public class ArraysPage {
   
   
   public void navigateToSearchthearray() {
-	  dropdownMenu.click();
-      arrayOption.click();
+	  //dropdownMenu.click();
+      //arrayOption.click();
       arraysInPythonLink.click();
       practiceQuestionsLink.click();
       searchTheArrayLink.click();

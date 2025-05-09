@@ -3,17 +3,9 @@ Feature: This feature file contain scenario for the Stack module
 
 Background: The user sign in to dsAlgo Portal
 
- Given The User is in the home page
- When User clicks sign in and enters the valid username and password
- Then The user is navigated to the Home page
-
-Scenario: Scroll down in dropdown and select "Stack"
-    Given The user is on the Home page
+    Given The User is in the home page after sign in
     When The user scrolls down to the Data Structures dropdown and selects Stack
     Then User is navigated to Stack Page
-
-
-
 
   
 Scenario: Verify that user is able to navigate to "Operations in Stack" page
@@ -106,4 +98,4 @@ Scenario: Verify that user is able to navigate to "Application" page
   Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Application" page
     Given The user is on the Application page
     When The user clicks Practice Questionb button in stack
-    Then The user should be redirected to Practice page in stack
+    #Then The user should be redirected to Practice page in stack

@@ -34,43 +34,24 @@ public class ArraysStep {
 	 private static final Logger logger = LogManager.getLogger(ArraysStep.class);
 	 ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
 	
-	 @Given("The User is in home page")
-	 public void the_user_is_in_home_page() {
-	     driver.get(ConfigReader.getProperty("url"));  // Navigate to base URL
-	     Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Not on home page");  // Example title check
-	     logger.info("User navigated to Home Page");
-	 }
-
-	 @When("User clicks sign in and enters valid username and password")
-	 public void user_clicks_sign_in_and_enters_valid_username_and_password() {
-
-	     driver.findElement(By.linkText("Sign in")).click(); // Click the "Sign in" link
-
-	     // Type the username from config.properties
+	 @Given("The User is in home page after sign in")
+	 public void the_user_is_in_home_page_after_sign_in() {
+	     driver.get(ConfigReader.getProperty("url")); 
+	 
+	     driver.findElement(By.linkText("Sign in")).click(); 
 	     String username = ConfigReader.getProperty("username");
 	     driver.findElement(By.id("id_username")).sendKeys(username);
-
-	     // Type the password from config.properties
 	     String password = ConfigReader.getProperty("password");
 	     driver.findElement(By.id("id_password")).sendKeys(password);
 
-	     // Click the "Login" button
 	     driver.findElement(By.xpath("//input[@value='Login']")).click();
-	 }
+	     
+	     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	     wait.until(ExpectedConditions.titleContains("NumpyNinja"));
 
-	 @Then("The user is navigated to Home page")
-	 public void the_user_is_navigated_to_home_page() {
-		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		    wait.until(ExpectedConditions.titleContains("NumpyNinja"));
 
-		    Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
-		}
-
-	 @Given("The user is on Home page")
-	 public void the_user_is_on_home_page() {
-	     driver.get(ConfigReader.getProperty("url"));
-	     logger.info("Navigated to: Home page");
-	 }
+	  Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
+			}
 
 	 @When("The user scrolls down to the Data Structures dropdown and selects Array")
 	 public void the_user_scrolls_down_to_the_data_structures_dropdown_and_selects_array() {

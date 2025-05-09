@@ -31,33 +31,24 @@ public class StackStep {
 	 ExcelReader reader= new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
 	 
 
-@Given("The User is in the home page")
-public void the_user_is_in_the_home_page() {
+@Given("The User is in the home page after sign in")
+public void the_user_is_in_the_home_page_after_sign_in() {
 	driver.get(ConfigReader.getProperty("url"));
     logger.info("Navigated to: Home page");
-}
-
-@When("User clicks sign in and enters the valid username and password")
-public void user_clicks_sign_in_and_enters_the_valid_username_and_password() {
+    
 	driver.findElement(By.linkText("Sign in")).click(); // Click the "Sign in" link 
     String username = ConfigReader.getProperty("username");// Type the username from config.properties
     driver.findElement(By.id("id_username")).sendKeys(username);
     String password = ConfigReader.getProperty("password");// Type the password from config.properties
     driver.findElement(By.id("id_password")).sendKeys(password);
     driver.findElement(By.xpath("//input[@value='Login']")).click();// Click the "Login" button
-}
 
-@Then("The user is navigated to the Home page")
-public void the_user_is_navigated_to_the_home_page() {
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    wait.until(ExpectedConditions.titleContains("NumpyNinja"));
+    
 	 Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
-     logger.info("User navigated to Home Page");
+    
  }
-
-@Given("The user is on the Home page")
-public void the_user_is_on_the_home_page() {
-	driver.get(ConfigReader.getProperty("url"));
-    logger.info("Navigated to: Home page");
-}
 
 @When("The user scrolls down to the Data Structures dropdown and selects Stack")
 public void the_user_scrolls_down_to_the_data_structures_dropdown_and_selects_stack() {
