@@ -3,6 +3,8 @@ package dsUtilities;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import java.util.List;
+import java.util.Map;
 
 import java.io.FileInputStream;
 import java.util.*;
@@ -52,6 +54,7 @@ public class ExcelReader {
 
         return allRowsData;  // Return the list of all row data
     }
+
         
         public  List<String> getDropdownValues(String sheetName) {
             List<String> dropdownValues = new ArrayList<>();
@@ -75,3 +78,26 @@ public class ExcelReader {
 
 
 	   
+
+}
+//  public static void main(String[] args) {
+////        // Path to your Excel file
+//       String filePath = "src/test/resources/TestData/PythonCode.xlsx"; 
+//        
+//        // Create an instance of ExcelReader
+//        ExcelReader reader = new ExcelReader(filePath);
+////
+////        // Fetch all rows data from the "pythoncode" sheet
+//        List<Map<String, String>> allRowsData = reader.readAllRows("pythoncode");
+////
+////        // Print the data of each row
+//        for (int i = 0; i < allRowsData.size(); i++) {
+//            System.out.println("Row " + (i + 1) + ": " + allRowsData.get(i));
+//        }
+//    }
+
+
+
+
+	
+
