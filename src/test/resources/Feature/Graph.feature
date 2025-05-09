@@ -5,6 +5,15 @@ Feature: Graph feature in DSAlgo
     When user enters valid username and password
     Then user should be logged in successfully with "You are logged in" message
 
+
+Scenario Outline: The user logs in and accesses Graph module
+  When The user gets valid data  "<sheetname>" and "<scenario>" for the login page
+  Then The user navigate to home page
+
+Examples:
+  | sheetname  | scenario        |
+  | Login | valid |
+
   Scenario: Verify that user is able to navigate to "Graph" page
     Given user is on home page to click Graph
     When user clicks on Graph GetStarted button
@@ -24,6 +33,7 @@ Feature: Graph feature in DSAlgo
     Given The user is in the tryEditor page on Graph page
     When user writes Python code from "<sheetname>" and <rownumber> and click the Run button
     Then output should match with expected result from "<sheetname>" and <rownumber>
+
 
    Examples:
       | sheetname   | rownumber |

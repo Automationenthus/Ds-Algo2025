@@ -22,6 +22,10 @@ public class ConfigReader {
 	        if (prop == null) {
 	            initProperties();
 	        }
+	        String systemValue = System.getProperty(key);
+	        if (systemValue != null) {
+	            return systemValue;
+	        }
 	        return prop.getProperty(key);
 	    }
 

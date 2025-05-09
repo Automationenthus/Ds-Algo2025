@@ -54,6 +54,31 @@ public class ExcelReader {
 
         return allRowsData;  // Return the list of all row data
     }
+
+        
+        public  List<String> getDropdownValues(String sheetName) {
+            List<String> dropdownValues = new ArrayList<>();
+            try (FileInputStream fis = new FileInputStream(filePath);
+                 Workbook workbook = new XSSFWorkbook(fis)) {
+
+                Sheet sheet = workbook.getSheet(sheetName);
+
+                for (Row row : sheet) {
+                    Cell cell = row.getCell(0);
+                    dropdownValues.add(cell.getStringCellValue().trim());
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return dropdownValues;
+        }
+    }
+
+
+
+	   
+
 }
 //  public static void main(String[] args) {
 ////        // Path to your Excel file
@@ -75,3 +100,4 @@ public class ExcelReader {
 
 
 	
+

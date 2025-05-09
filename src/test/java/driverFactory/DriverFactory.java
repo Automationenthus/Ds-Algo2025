@@ -14,10 +14,9 @@ import org.openqa.selenium.safari.SafariDriver;
 
 
 public class DriverFactory {
+	
     private static WebDriver driver;
-    
-
-    public static WebDriver initDriver() {
+     public static WebDriver initDriver() {
         String browser = ConfigReader.getProperty("browser");
 
         if (browser.equalsIgnoreCase("chrome")) {
@@ -53,8 +52,6 @@ public class DriverFactory {
     
 
 }
-
 }
-
 
 
