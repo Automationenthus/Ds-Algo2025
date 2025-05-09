@@ -945,3 +945,189 @@
 2025-05-01 17:39:17 INFO  Login:62 - true
 2025-05-01 17:39:19 INFO  HomeSteps:29 - Page title is: Numpy Ninja
 2025-05-01 17:39:22 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-05 17:43:45 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-05 17:43:51 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-05 17:43:55 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-05 17:50:14 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-05 17:50:18 INFO  Login:62 - true
+2025-05-05 17:50:21 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-05 17:50:24 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-05 18:34:01 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-06 19:43:23 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-06 19:43:26 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-06 19:43:33 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-06 19:43:35 INFO  Login:108 - true
+2025-05-06 19:43:36 INFO  Login:121 - true
+2025-05-07 21:31:30 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-07 21:31:31 INFO  Login:49 - Verifying page title: Registration
+2025-05-07 21:31:31 INFO  Login:51 - Page title verified successfully!
+2025-05-07 21:31:34 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-07 21:31:36 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-07 21:31:39 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-07 21:31:43 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-07 21:31:47 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-07 21:31:49 INFO  Login:156 - true
+2025-05-07 21:31:49 INFO  Login:169 - true
+2025-05-08 10:34:49 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 10:34:51 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 10:34:54 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 10:34:57 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 10:34:59 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 10:35:02 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 10:35:06 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 10:35:09 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 10:35:13 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:23 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:27 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:30 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:32 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:34 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:36 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:38 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:40 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:25:42 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:34:12 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:34:14 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:34:16 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:34:18 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:34:20 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 17:34:22 INFO  HomeSteps:29 - Page title is: Numpy Ninja
+2025-05-08 21:47:15 INFO  Login:40 - NumpyNinja
+2025-05-08 21:53:36 INFO  Login:40 - NumpyNinja
+2025-05-08 21:57:57 INFO  Login:40 - NumpyNinja
+2025-05-08 22:18:01 INFO  Login:40 - NumpyNinja
+2025-05-08 22:18:02 INFO  Login:54 - User is on login page
+2025-05-08 22:28:13 INFO  Login:40 - NumpyNinja
+2025-05-08 22:28:14 INFO  Login:54 - User is on login page
+2025-05-08 22:28:17 INFO  Login:40 - NumpyNinja
+2025-05-08 22:28:18 INFO  Login:54 - User is on login page
+2025-05-08 22:49:21 INFO  Login:40 - NumpyNinja
+2025-05-08 22:49:22 INFO  Login:54 - User is on login page
+2025-05-08 22:49:25 INFO  Login:40 - NumpyNinja
+2025-05-08 22:49:25 INFO  Login:54 - User is on login page
+2025-05-08 22:49:26 INFO  Login:76 - Please fill out this field.
+2025-05-08 23:18:23 INFO  Login:40 - NumpyNinja
+2025-05-08 23:18:23 INFO  Login:54 - User is on login page
+2025-05-08 23:18:27 INFO  Login:40 - NumpyNinja
+2025-05-08 23:18:27 INFO  Login:54 - User is on login page
+2025-05-08 23:18:27 INFO  Login:76 - Please fill out this field.
+2025-05-08 23:18:29 INFO  Login:40 - NumpyNinja
+2025-05-09 09:57:42 INFO  Login:40 - NumpyNinja
+2025-05-09 09:57:42 INFO  Login:54 - User is on login page
+2025-05-09 09:57:51 INFO  Login:40 - NumpyNinja
+2025-05-09 09:57:54 INFO  Login:54 - User is on login page
+2025-05-09 09:57:54 INFO  Login:76 - Please fill out this field.
+2025-05-09 09:58:03 INFO  Login:40 - NumpyNinja
+2025-05-09 10:01:30 INFO  Login:40 - NumpyNinja
+2025-05-09 10:01:34 INFO  Login:54 - User is on login page
+2025-05-09 10:01:39 INFO  Login:40 - NumpyNinja
+2025-05-09 10:01:39 INFO  Login:54 - User is on login page
+2025-05-09 10:01:40 INFO  Login:76 - Please fill out this field.
+2025-05-09 10:01:42 INFO  Login:40 - NumpyNinja
+2025-05-09 10:08:33 INFO  Login:40 - NumpyNinja
+2025-05-09 10:08:35 INFO  Login:54 - User is on login page
+2025-05-09 10:08:40 INFO  Login:40 - NumpyNinja
+2025-05-09 10:08:40 INFO  Login:54 - User is on login page
+2025-05-09 10:08:41 INFO  Login:76 - Please fill out this field.
+2025-05-09 10:08:45 INFO  Login:40 - NumpyNinja
+2025-05-09 10:08:45 INFO  Login:54 - User is on login page
+2025-05-09 10:08:45 INFO  Login:91 - Please fill out this field.
+2025-05-09 10:09:54 INFO  Login:40 - NumpyNinja
+2025-05-09 10:09:55 INFO  Login:54 - User is on login page
+2025-05-09 10:09:59 INFO  Login:40 - NumpyNinja
+2025-05-09 10:09:59 INFO  Login:54 - User is on login page
+2025-05-09 10:10:00 INFO  Login:76 - Please fill out this field.
+2025-05-09 10:10:09 INFO  Login:40 - NumpyNinja
+2025-05-09 10:10:09 INFO  Login:54 - User is on login page
+2025-05-09 10:10:09 INFO  Login:91 - Please fill out this field.
+2025-05-09 10:10:12 INFO  Login:40 - NumpyNinja
+2025-05-09 10:10:12 INFO  Login:54 - User is on login page
+2025-05-09 10:34:39 INFO  Login:40 - NumpyNinja
+2025-05-09 10:34:40 INFO  Login:54 - User is on login page
+2025-05-09 10:34:46 INFO  Login:40 - NumpyNinja
+2025-05-09 10:34:46 INFO  Login:54 - User is on login page
+2025-05-09 10:34:46 INFO  Login:76 - Please fill out this field.
+2025-05-09 10:34:51 INFO  Login:40 - NumpyNinja
+2025-05-09 10:34:51 INFO  Login:54 - User is on login page
+2025-05-09 10:34:52 INFO  Login:91 - Please fill out this field.
+2025-05-09 10:34:53 INFO  Login:40 - NumpyNinja
+2025-05-09 10:34:54 INFO  Login:54 - User is on login page
+2025-05-09 10:39:12 INFO  Login:40 - NumpyNinja
+2025-05-09 10:39:13 INFO  Login:54 - User is on login page
+2025-05-09 10:39:21 INFO  Login:40 - NumpyNinja
+2025-05-09 10:39:24 INFO  Login:54 - User is on login page
+2025-05-09 10:39:24 INFO  Login:76 - Please fill out this field.
+2025-05-09 10:39:27 INFO  Login:40 - NumpyNinja
+2025-05-09 10:39:30 INFO  Login:54 - User is on login page
+2025-05-09 10:39:30 INFO  Login:91 - Please fill out this field.
+2025-05-09 10:39:33 INFO  Login:40 - NumpyNinja
+2025-05-09 10:39:33 INFO  Login:54 - User is on login page
+2025-05-09 10:39:39 INFO  Login:40 - NumpyNinja
+2025-05-09 10:39:40 INFO  Login:54 - User is on login page
+2025-05-09 11:14:52 INFO  Login:40 - NumpyNinja
+2025-05-09 11:14:53 INFO  Login:54 - User is on login page
+2025-05-09 11:14:57 INFO  Login:40 - NumpyNinja
+2025-05-09 11:14:58 INFO  Login:54 - User is on login page
+2025-05-09 11:14:59 INFO  Login:76 - Please fill out this field.
+2025-05-09 11:15:02 INFO  Login:40 - NumpyNinja
+2025-05-09 11:15:03 INFO  Login:54 - User is on login page
+2025-05-09 11:15:04 INFO  Login:91 - Please fill out this field.
+2025-05-09 11:15:08 INFO  Login:40 - NumpyNinja
+2025-05-09 11:15:09 INFO  Login:54 - User is on login page
+2025-05-09 11:15:15 INFO  Login:40 - NumpyNinja
+2025-05-09 11:15:15 INFO  Login:54 - User is on login page
+2025-05-09 11:15:21 INFO  Login:40 - NumpyNinja
+2025-05-09 11:29:15 INFO  Login:40 - NumpyNinja
+2025-05-09 11:29:15 INFO  Login:54 - User is on login page
+2025-05-09 11:29:19 INFO  Login:40 - NumpyNinja
+2025-05-09 11:29:19 INFO  Login:54 - User is on login page
+2025-05-09 11:29:20 INFO  Login:76 - Please fill out this field.
+2025-05-09 11:29:23 INFO  Login:40 - NumpyNinja
+2025-05-09 11:29:24 INFO  Login:54 - User is on login page
+2025-05-09 11:29:25 INFO  Login:91 - Please fill out this field.
+2025-05-09 11:29:31 INFO  Login:40 - NumpyNinja
+2025-05-09 11:29:32 INFO  Login:54 - User is on login page
+2025-05-09 11:29:38 INFO  Login:40 - NumpyNinja
+2025-05-09 11:29:39 INFO  Login:54 - User is on login page
+2025-05-09 11:29:43 INFO  Login:40 - NumpyNinja
+2025-05-09 11:29:44 INFO  Login:40 - Login
+2025-05-09 11:34:04 INFO  Login:40 - NumpyNinja
+2025-05-09 11:34:04 INFO  Login:54 - User is on login page
+2025-05-09 11:34:08 INFO  Login:40 - NumpyNinja
+2025-05-09 11:34:09 INFO  Login:54 - User is on login page
+2025-05-09 11:34:10 INFO  Login:76 - Please fill out this field.
+2025-05-09 11:34:12 INFO  Login:40 - NumpyNinja
+2025-05-09 11:34:13 INFO  Login:54 - User is on login page
+2025-05-09 11:34:13 INFO  Login:91 - Please fill out this field.
+2025-05-09 11:34:16 INFO  Login:40 - NumpyNinja
+2025-05-09 11:34:17 INFO  Login:54 - User is on login page
+2025-05-09 11:34:22 INFO  Login:40 - NumpyNinja
+2025-05-09 11:34:23 INFO  Login:54 - User is on login page
+2025-05-09 11:34:27 INFO  Login:40 - NumpyNinja
+2025-05-09 11:34:28 INFO  Login:40 - Login
+2025-05-09 11:38:14 INFO  Login:40 - NumpyNinja
+2025-05-09 11:38:15 INFO  Login:54 - User is on login page
+2025-05-09 11:38:21 INFO  Login:40 - NumpyNinja
+2025-05-09 11:38:21 INFO  Login:54 - User is on login page
+2025-05-09 11:38:22 INFO  Login:76 - Please fill out this field.
+2025-05-09 11:38:25 INFO  Login:40 - NumpyNinja
+2025-05-09 11:38:26 INFO  Login:54 - User is on login page
+2025-05-09 11:38:26 INFO  Login:91 - Please fill out this field.
+2025-05-09 11:38:29 INFO  Login:40 - NumpyNinja
+2025-05-09 11:38:30 INFO  Login:54 - User is on login page
+2025-05-09 11:38:35 INFO  Login:40 - NumpyNinja
+2025-05-09 11:38:36 INFO  Login:54 - User is on login page
+2025-05-09 11:38:41 INFO  Login:40 - NumpyNinja
+2025-05-09 11:38:41 INFO  Login:40 - Login
+2025-05-09 11:43:13 INFO  Login:40 - NumpyNinja
+2025-05-09 11:43:13 INFO  Login:54 - User is on login page
+2025-05-09 11:43:19 INFO  Login:40 - NumpyNinja
+2025-05-09 11:43:19 INFO  Login:54 - User is on login page
+2025-05-09 11:43:20 INFO  Login:76 - Please fill out this field.
+2025-05-09 11:43:24 INFO  Login:40 - NumpyNinja
+2025-05-09 11:43:25 INFO  Login:54 - User is on login page
+2025-05-09 11:43:26 INFO  Login:91 - Please fill out this field.
+2025-05-09 11:43:31 INFO  Login:40 - NumpyNinja
+2025-05-09 11:43:32 INFO  Login:54 - User is on login page
+2025-05-09 11:43:40 INFO  Login:40 - NumpyNinja
+2025-05-09 11:43:40 INFO  Login:54 - User is on login page

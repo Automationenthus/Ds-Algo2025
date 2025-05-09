@@ -52,22 +52,26 @@ public class ExcelReader {
 
         return allRowsData;  // Return the list of all row data
     }
+        
+        public  List<String> getDropdownValues(String sheetName) {
+            List<String> dropdownValues = new ArrayList<>();
+            try (FileInputStream fis = new FileInputStream(filePath);
+                 Workbook workbook = new XSSFWorkbook(fis)) {
 
-//    public static void main(String[] args) {
-//        // Path to your Excel file
-//        String filePath = "src/test/resources/TestData/PythonCode.xlsx"; 
-//        
-//        // Create an instance of ExcelReader
-//        ExcelReader reader = new ExcelReader(filePath);
-//
-//        // Fetch all rows data from the "pythoncode" sheet
-//        List<Map<String, String>> allRowsData = reader.readAllRows("pythoncode");
-//
-//        // Print the data of each row
-//        for (int i = 0; i < allRowsData.size(); i++) {
-//            System.out.println("Row " + (i + 1) + ": " + allRowsData.get(i));
-//        }
-//    }
+                Sheet sheet = workbook.getSheet(sheetName);
 
-	    
-}
+                for (Row row : sheet) {
+                    Cell cell = row.getCell(0);
+                    dropdownValues.add(cell.getStringCellValue().trim());
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return dropdownValues;
+        }
+    }
+
+
+
+	   

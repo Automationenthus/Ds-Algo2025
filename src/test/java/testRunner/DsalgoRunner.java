@@ -9,21 +9,20 @@ import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class) //Junit execution
 
-@CucumberOptions(plugin = { "pretty", "html:target/arc.html" }, // reporting purpose
+@CucumberOptions(plugin = { "pretty"}, // reporting purpose
 		monochrome = false, // console output color
 		// tags from feature file
-		features = { "src/test/resources/Feature" }, // location of feature files
+		features = { "src/test/resources/Feature/Login.feature" }, // location of feature files
 		glue = { "stepDefinitions" , "dsalgoHooks" }) // location of step definition files
 
-//"dsUtilities"
+
 
 public class DsalgoRunner extends AbstractTestNGCucumberTests {
 
 	@Override
-	@DataProvider(parallel = false)
-	public Object[][] scenarios() {
-
-		return super.scenarios();
-	}
+	 @DataProvider(parallel = false)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 }
 

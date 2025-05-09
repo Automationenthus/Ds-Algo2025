@@ -7,12 +7,12 @@ Background: The user navigates to the app and logs in
 #  And The user clicks the Sign In link
 
 Scenario Outline: The user logs in and accesses Graph module
-  When The user gets valid data  "<Username1>" and "<Passowrd1>" for the login page
+  When The user gets valid data  "<sheetname>" and "<scenario>" for the login page
   Then The user navigate to home page
 
 Examples:
-  | Username1         | Passowrd1        |
-  | Automation_enthus | Numpy@ninja2025  |
+  | sheetname  | scenario        |
+  | Login | valid |
 
 
   #Scenario: Verify that user is able to navigate to Graph page
