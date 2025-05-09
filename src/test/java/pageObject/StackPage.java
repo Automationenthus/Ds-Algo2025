@@ -2,9 +2,11 @@ package pageObject;
 
 import java.util.NoSuchElementException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -12,13 +14,10 @@ import dsUtilities.ConfigReader;
 
 public class StackPage {
 	
-	//CheckoutPage checkoutPage = new CheckoutPage(); (to initiate page factory)
-
-	//PageFactory.initElements(driver, checkoutPage ); (to initiate page factory)
-	
  WebDriver driver;
 	
 	//constructor
+ 
  public StackPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -41,9 +40,6 @@ public class StackPage {
  //@FindBy(xpath = "//a[text()='Try here']")
  @FindBy(css = "a[href='/tryEditor']")
  private WebElement tryhereLink;
- 
- 
- 
  
  
 	    @FindBy(linkText = "Operations in Stack")
@@ -72,10 +68,16 @@ public class StackPage {
 	    	gettingStartedStackBtn.click();
 	    }
 	    
+	    public void scrollAndClickDataStructuresDropdown() {
+	        WebElement dataStructuresDropdown = driver.findElement(By.xpath("//a[text()='Data Structures']"));
+	        Actions actions = new Actions(driver);
+	        actions.moveToElement(dataStructuresDropdown).perform();
+	        dataStructuresDropdown.click();
+	    }
+	    
 	    public boolean isStackPageDisplayed() {
 	        return StackPageHeader.isDisplayed(); 
-	        //public boolean isArrayPageDisplayed() {
-		    //return driver.getTitle().contains("Array");
+	        
 	    }
 	    
 	    public void scrollToTryHere() {
@@ -149,30 +151,48 @@ public boolean isRunButtonVisible() {
 //Navigate methods inside ArraysPage
 
 public void navigateToStackPage() {
-    driver.get(ConfigReader.getProperty("Stackurl"));
+	dropdownMenu.click();
+	StackOption.click();
 }
+
 
 public void navigateToOperationsinStackPage() {
-    driver.get(ConfigReader.getProperty("OperationsinStackurl"));
+	dropdownMenu.click();
+	StackOption.click();
+	operationsInStackLink.click();
 }
 
+
 public void navigateToImplementationPage() {
-    driver.get(ConfigReader.getProperty("Implementationurl"));
+	dropdownMenu.click();
+	StackOption.click();
+	implementationLink.click();
 }
 
 public void navigateToApplicationsPage() {
-    driver.get(ConfigReader.getProperty("Applicationsurl"));
+	dropdownMenu.click();
+	StackOption.click();
+	applicationsLink.click();
 }
+
 
 public void navigateToStackstryeditorPage() {
-    driver.get(ConfigReader.getProperty("Stackstryeditorurl"));
+	dropdownMenu.click();
+	StackOption.click();
+	operationsInStackLink.click();
+	scrollToTryHere();   
+    tryhereLink.click();
 }
+
+
 
 public void navigateTostackspracticequestion() {
-	driver.get(ConfigReader.getProperty("stackspracticequestionurl"));
+	dropdownMenu.click();
+	StackOption.click();
+	operationsInStackLink.click();
+	practiceQuestionsLink.click();
 }
-	
+
 
 
 }
-
