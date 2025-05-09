@@ -19,6 +19,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.messages.types.Duration;
 import pageObject.DataStructuresPF;
+import pageObject.LoginPF;
 import dsUtilities.*;
 //
 public class DataStructuresSteps {
@@ -26,59 +27,51 @@ public class DataStructuresSteps {
 	
 	WebDriver driver=DriverFactory.getDriver();
 	DataStructuresPF ds=new DataStructuresPF(driver);
+	LoginPF lp= new LoginPF(driver);
 	private static final Logger logger = LogManager.getLogger(DataStructuresSteps.class);
 	ExcelReader reader=new ExcelReader("src/test/resources/TestData/PythonCode.xlsx");
-
-@Given("user is on home page")
-public void user_is_on_home_page() {
 	
 	
-	logger.info(driver.getTitle());
-}
-//@When("user clicks on sigin button")
-//public void user_clicks_on_sigin_button() {
-//    // Write code here that turns the phrase above into concrete actions
-//    throw new io.cucumber.java.PendingException();
-//}
-@When("user clicks on sigin button and enters valid username and password")
-public void user_clicks_on_sigin_button_and_enters_valid_username_and_password() {
-	ds.signIn();
-	String username=ConfigReader.getProperty("username");
-	String password=ConfigReader.getProperty("password");
-	ds.enterUserName(username);
-	ds.enterPassword(password);
-	ds.clickLogin();
-}
+	@Given("user is sigin to app")
+	public void user_is_sigin_to_app() {
+			
+		ds.signIn();
+		String username=ConfigReader.getProperty("username");
+		String password=ConfigReader.getProperty("password");
+		ds.enterUserName(username);
+		ds.enterPassword(password);
+		ds.clickLogin();
+	}
+
+	@When("user cliks on DtastructureInro GetStarted button")
+	public void user_cliks_on_dtastructure_inro_get_started_button() {
+		ds.getStartbtnclick();
+		logger.info("user is on data structure page:" +ds.pageTitle());
+		
+	}
+
+	@Then("user lands on data-structures-introduction page")
+	public void user_lands_on_data_structures_introduction_page() {
+		String actualTitle=ds.pageTitle();
+		String expectedTitle="Data Structures-Introduction";
+		Assert.assertEquals(actualTitle, expectedTitle);
+	}
 
 
-@Then("user should be logged in successfully with {string} message")
-public void user_should_be_logged_in_successfully_with_message(String expectedMsg) {
-	Assert.assertEquals(ds.getMessage(), expectedMsg);
 	
-	
-}
+	@Given("user is on data-structures-introduction page")
+	public void user_is_on_data_structures_introduction_page() {
+		logger.info(ds.pageTitle());
+	}
 
-@When("user clicks on DtastructureInro GetStarted button")
-public void user_clicks_on_dtastructure_inro_get_started_button() {
-	
-	ds.getStartbtnclick();
-	logger.info(ds.pageTitle());
-}
+	@Then("user  able to see NumpyNinja,Data structures dropdown,username and signout links")
+	public void user_able_to_see_numpy_ninja_data_structures_dropdown_username_and_signout_links() {
+		Assert.assertTrue(ds.isNumpyNinjaVisible());
+	    Assert.assertTrue(ds.isDropdownVisible());
+		Assert.assertTrue(ds.isUsernameVisible());
+		Assert.assertTrue(ds.isSignOutVisible());
+	}
 
-@Then("user lands on data-structures-introduction page and able to see NumpyNinja,Data structures dropdown,username and signout links")
-public void user_lands_on_data_structures_introduction_page_and_able_to_see_numpy_ninja_data_structures_dropdown_username_and_signout_links() {
-	Assert.assertTrue(ds.isNumpyNinjaVisible());
-	Assert.assertTrue(ds.isDropdownVisible());
-	Assert.assertTrue(ds.isUsernameVisible());
-	Assert.assertTrue(ds.isSignOutVisible());
-}
-
-@Given("user is on data-structures-introduction page")
-public void user_is_on_data_structures_introduction_page() {
-	ds.gotoPage();
-	logger.info(ds.pageTitle());
-
-}
 
 @When("user ckicks on Time complexity link")
 public void user_ckicks_on_time_complexity_link() {
@@ -93,11 +86,15 @@ public void user_lands_on_page(String expectedTitle) {
 	
 	
 }
+	
+	
 
 @Given("user is on Time complexity page")
 public void user_is_on_time_complexity_page() {
+	ds.timeComplexity();
+	logger.info(ds.pageTitle());
 	
-	ds.timeComplexityPage();
+	
 }
 
 @When("user clicks on Practice Questions link")
@@ -128,8 +125,8 @@ public void user_should_land_on_page_with_run_button(String expectedText) {
 }
 @Given("user is on try Editor page")
 public void user_is_on_try_editor_page() {
-	
-	ds.tryEditorPage();
+	ds.timeComplexity();
+	ds.clickOnTryHere();
 	logger.info(ds.pageTitle());
 }
 
@@ -237,4 +234,4 @@ public void user_should_land_on_home_page_and_can_view_message(String ExpectedMs
 
 
 }	
-
+//

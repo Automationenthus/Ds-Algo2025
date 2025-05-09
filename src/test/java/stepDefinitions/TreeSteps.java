@@ -27,53 +27,52 @@ public class TreeSteps {
 	ExcelReader reader=new ExcelReader("src/test/resources/TestData/PythonCode.xlsx");
 	 TreePF treePage=new TreePF(driver);
 	 DataStructuresPF ds=new DataStructuresPF(driver);
+	 
+	 @Given("user is signed into dsalgoapp")
+	 public void user_is_signed_into_dsalgoapp() {
+		 
+		 ds.signIn();
+			String username=ConfigReader.getProperty("username");
+			String password=ConfigReader.getProperty("password");
+			ds.enterUserName(username);
+			ds.enterPassword(password);
+			ds.clickLogin();
+	 }
 
-	@Given("user is on the home page")
-	public void user_is_on_the_home_page() {
-		logger.info(driver.getTitle());
-	}
+	 @When("user cliks on TreeGetStarted button")
+	 public void user_cliks_on_tree_get_started_button() {
+		 treePage.clickOnGetStartBtn();
+	 }
+	 @Then("user lands  on the {string} page")
+	 public void user_lands_on_the_page(String ExpectedTitle) {
+		 
+		 String actualTitle=treePage.getPageTitle();
+		 Assert.assertEquals(actualTitle, ExpectedTitle);
+	 }
 
-	@When("user clicks on the sigin button and enters valid username and password")
-	public void user_clicks_on_the_sigin_button_and_enters_valid_username_and_password() {
-		
-		ds.signIn();
-		String username=ConfigReader.getProperty("username");
-		String password=ConfigReader.getProperty("password");
-		ds.enterUserName(username);
-		ds.enterPassword(password);
-		ds.clickLogin();
-	}
 
-	@Then("user should land on page with title {string}")
-	public void user_should_land_on_page_with_title(String expectedurl) {
-//		String actutalTitle =treePage.getPageTitle();
-//		Assert.assertEquals(actutalTitle, expectedTitle);
-		Assert.assertTrue(treePage.get_Current_Url(expectedurl));
-		logger.info(driver.getCurrentUrl() );
-	}
+	 @Given("user is on Tree page")
+	 public void user_is_on_tree_page() {
+		 logger.info(treePage.getPageTitle());
+	 }
 
-//	@Given("user is on Home page")
-//	public void user_is_on_home_page() {
-//		logger.info(driver.getTitle());
+	 @Then("user  able to see NumpyNinja,Data structures dropdown,username and signout links on page")
+	 public void user_able_to_see_numpy_ninja_data_structures_dropdown_username_and_signout_links_on_page() {
+		 Assert.assertTrue(ds.isNumpyNinjaVisible());
+		    Assert.assertTrue(ds.isDropdownVisible());
+			Assert.assertTrue(ds.isUsernameVisible());
+			Assert.assertTrue(ds.isSignOutVisible());
+		 
+	 }
+
+
+//
+//
+//	@Given("user is on the Tree page")
+//	public void user_is_on_the_tree_page() {
+//		
+//		treePage.gotoPage();
 //	}
-
-	@When("user clicks the Getting Started button of Tree")
-	public void user_clicks_the_getting_started_button_of_tree() {
-		treePage.clickOnGetStartBtn();
-	}
-	
-	@Then("user lands on the {string} page")
-	public void user_lands_on_the_page(String expectedtext) {
-		Assert.assertTrue(treePage.get_Current_Url(expectedtext));
-	}
-
-
-
-	@Given("user is on the Tree page")
-	public void user_is_on_the_tree_page() {
-		
-		treePage.gotoPage();
-	}
 
 	@When("user clicks on {string} link")
 	public void user_clicks_on_link(String topic) {
@@ -86,11 +85,11 @@ public class TreeSteps {
 		Assert.assertEquals(actualtitle, expectedtitle);
 		
 	}
-	
+//	
 	@Given("user is on the overview of tree page")
 	public void user_is_on_the_overview_of_tree_page() {
 		
-		treePage.gotooverviewTree();
+		treePage.clickOnOverviewOfTree();
 	}
 
 	@When("user clicks on {string} and Try Here button")
@@ -120,7 +119,8 @@ public class TreeSteps {
 	}
 	@Given("user is on the try Editor page")
 	public void user_is_on_the_try_editor_page() {
-		ds.tryEditorPage();
+		treePage.clickOnOverviewOfTree();
+		ds.clickOnTryHere();
 		logger.info(ds.pageTitle());
 	}
 

@@ -113,18 +113,11 @@ public class DataStructuresPF {
 		String title=driver.getTitle();
 		return title;
 	}
-	public void loginPage() {
-		driver.get(ConfigReader.getProperty("loginUrl"));
-	}
-	
-	public void timeComplexityPage() {
-		driver.get(ConfigReader.getProperty("timeComplexityUrl"));
-		
-	}
-	public void tryEditorPage() {
-		driver.get(ConfigReader.getProperty("tryEditorUrl"));
-		
-	}
+
+//	public void tryEditorPage() {
+//		driver.get(ConfigReader.getProperty("tryEditorUrl"));
+//		
+//	}
 	
 	public void getStartbtnclick() {
 		getStartedBtn.click();
@@ -157,7 +150,7 @@ public class DataStructuresPF {
 	public String getPageURL() {
         return driver.getCurrentUrl();
     }
-	
+
 	public void clickOnTryHere() {
 		tryHereLink.click();
 
@@ -198,14 +191,9 @@ public class DataStructuresPF {
 		codeEditor.clear();
 	}
 	public void editor(String code1) {
-		
-		
-		//clearEditor();
+						
 		if (code1!= null && !code1.trim().isEmpty()) {
-		    // If using sendKeys
-		    
-//			wait.until(ExpectedConditions.visibilityOf(codeEditor));
-//			codeEditor.sendKeys(code1);
+		   
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 		    js.executeScript("document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);", code1);
 					

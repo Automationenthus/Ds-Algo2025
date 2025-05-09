@@ -1,36 +1,54 @@
-#Feature: Register Functionality
-#
-#Scenario: Try to create account with invalid username and passowrd
- #Given User is on dsportal register page
- #When User enters invalid username and invalid passowrd 
- #Then User should get proper warning message
- #
- #Scenario: Try to click register with empty fields
- #Given User is on dsportal register page
- #When User clicks register button with empty fields
- #Then User should get proper warning message
- #
-#Scenario: Verify password confirmation field data is same with password field data
- #Given User is on dsportal register page
- #When User user enters different password in password confirmation field
- #Then User should get proper warning message
- #
- #Scenario: Verify user able to click sign in or login buttons
- #Given User is on dsportal register page
- #When User clicks sign in or login button
- #Then User should navigate to logn page
- #
- #Scenario: Verify user able to land on home page after complete registration
- #Given User is on dsportal register page
- #When User clicks register button
- #Then User should navigate to home page
- #
- #Scenario: Verify user is able to see username in the home page after successful login
- #Given user is on the login page
- #When User clicks login button with valid credentials
- #Then User should see the username on the right side top of the home page
- #
- #
- #
- #
- 
+Feature: Register Functionality
+
+Background:
+Given user is on the homepage
+When user clicks on register link
+Then user should land on the register page
+
+Scenario: Verify user can see header section elements
+Given user is on rgister page
+Then user can see NumpyNinja logo,datastructures dropdown,siginin and register links
+
+Scenario: Verify register button without entering data into username and password fields
+Given user is on rgister page
+When user did not enter data to username and password and confirmPwd fields and click on register button
+Then user should see error message in alert window "Please fill out this field."
+
+Scenario Outline: Verify register functionality by entering valid username and password with invalid confirm password
+Given user is on rgister page
+When user gets data from "<sheetname>" and scenario type <rownumber> and clicks on register
+Then user should see eroor "password_mismatch:The two password fields didn’t match." message
+Examples:
+|sheetname|rownumber|
+|registerData|0|
+
+Scenario Outline: Verify negetive testing for register functionality 
+Given user is on rgister page
+When user gets data from "<sheetname>" and scenario type "<scenarioType>" and clicks on register
+Then user should see error message in alert window "Please fill out this field."
+Examples:
+|sheetname|scenarioType|
+|registerData|pwdBlank|
+|registerData|usernameBlank|
+|registerData|confirmPwdBlank|
+
+
+Scenario Outline: Verify register functionality by entering all valid inputs
+Given user is on rgister page
+When user gets data from "<sheetname>" and scenario type "<scenarioType>" and clicks on register
+Then user should land on home page with title "NumpyNinja" and see the message "New Account Created. You are logged in as "
+Examples:
+|sheetname|scenarioType|
+|registerData|valid|
+
+
+Scenario: Verify by clicking login link user should navigate to login page
+Given user is on rgister page
+When user clicks on login link
+Then user should land on the "Login" page
+
+
+
+
+
+

@@ -19,7 +19,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(plugin = { "pretty", "html:target/arc.html" }, // reporting purpose
 		monochrome = false, // console output color
 		// tags from feature file
-		features = { "src/test/resources/Feature/Tree.feature" }, // location of feature files
+		features = { "src/test/resources/Feature/Login.feature" }, // location of feature files
 		glue = { "stepDefinitions" , "dsalgoHooks" }) // location of step definition files
 
 //"dsUtilities"
