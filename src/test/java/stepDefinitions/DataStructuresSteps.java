@@ -234,5 +234,3 @@ public void user_should_land_on_home_page_and_can_view_message(String ExpectedMs
 
 }	
 
-
-
