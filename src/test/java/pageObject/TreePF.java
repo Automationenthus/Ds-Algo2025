@@ -28,7 +28,7 @@ public class TreePF {
 		
 	}
 	
-//	
+	
 	@FindBy(xpath = "//h5[text()='Tree']/../a[text()='Get Started']")
 	WebElement treeGetStart;
 	@FindBy(linkText = "Try here>>>")
@@ -37,22 +37,22 @@ public class TreePF {
 	WebElement practiceQuestionsLink;
 	@FindBy(xpath = "//form[@id='answer_form']/button")
 	WebElement runBtn;
-
+    @FindBy(linkText = "Overview of Trees")
+    WebElement overViewOfTree;
 	
 
 	
 	public void clickOnGetStartBtn() {
 		treeGetStart.click();
 	}
-	public void gotoPage() {
-		driver.get(ConfigReader.getProperty("treeUrl"));;
-	}
-	public void gotooverviewTree() {
-		driver.get(ConfigReader.getProperty("overviewofTreeUrl"));
-	}
+
 	
 	public boolean get_Current_Url(String text) {
 		return driver.getCurrentUrl().contains(text);
+	}
+	
+	public void clickOnOverviewOfTree() {
+		overViewOfTree.click();
 	}
 	
 	public void clickTopic(String topicName) {
