@@ -1,6 +1,7 @@
 package pageObject;
 
 import java.util.NoSuchElementException;
+import java.util.concurrent.TimeoutException;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -8,19 +9,24 @@ import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.Duration;
 
 import driverFactory.DriverFactory;
 import dsUtilities.ConfigReader;
+import stepDefinitions.ArraysStep;
 
 public class ArraysPage {
 
 	    WebDriver driver;
+	    private static final Logger logger = LogManager.getLogger(ArraysStep.class);
 
 	    // Constructor 
 	    
@@ -43,7 +49,7 @@ public class ArraysPage {
 	    @FindBy(xpath = "//h4[contains(text(),'Array')]")
 	    private WebElement arrayPageHeader;
 	    
-	    @FindBy(linkText = "Arrays in Python")
+	    @FindBy(xpath = "//a[@href='arrays-in-python' and text()='Arrays in Python']")
 	    private WebElement arraysInPythonLink;
 
 	    @FindBy(xpath = "//p[contains(text(),'Arrays in Python')]") 
@@ -70,12 +76,6 @@ public class ArraysPage {
 	    
 	    @FindBy(xpath = "//form[@id='answer_form']/div/div/div/textarea")
 	    private WebElement codeEditor;
-	    
-	    public WebElement getCodeEditor() {
-	        return codeEditor;
-	    }
-
-	  
 
 	    @FindBy(xpath = "//button[text()='Run']")
 	    private WebElement runButton;
@@ -119,9 +119,6 @@ public class ArraysPage {
 	    private WebElement outputConsole;
 
 	    
-	    
-	    
-	    
 	 //Actions
 	    
 	    public void clickDropdown() {
@@ -131,16 +128,22 @@ public class ArraysPage {
 	    public void selectArrayFromDropdown() {
 	        arrayOption.click();
 	    }
+	    
 	    public void clickGettingStarted() {
 	        gettingStartedArrayBtn.click();
+	    }
+	    
+	    public void scrollAndClickDataStructuresDropdown() {
+	        WebElement dataStructuresDropdown = driver.findElement(By.xpath("//a[text()='Data Structures']"));
+	        Actions actions = new Actions(driver);
+	        actions.moveToElement(dataStructuresDropdown).perform();
+	        dataStructuresDropdown.click();
 	    }
 	    
 	    public boolean isArrayPageDisplayed() {
 	        return arrayPageHeader.isDisplayed(); // Or driver.getTitle().contains("Array")
 	    }
-	    //public boolean isArrayPageDisplayed() {
-	    //return driver.getTitle().contains("Array"); // Adjust the string to match the actual page title
-	
+	    
 	    
 	    public boolean isArrayinPythonPageDisplayed() {
 	        return arraysInPythonText.isDisplayed(); // Or driver.getTitle().contains("Array")
@@ -165,6 +168,11 @@ public class ArraysPage {
 	    public void clickPracticeQuestions() {
 	        practiceQuestionsLink.click();
 	    }
+	   
+
+	    public void clickTryHereButton() {
+	        tryhereLink.click();
+	    }
 	    
 	    public void scrollToTryHere() {
 	        try {
@@ -174,43 +182,70 @@ public class ArraysPage {
 	            System.out.println("Failed to scroll to Try Here link: " + e.getMessage());
 	        }
 	    }
-	    public void clickTryhere() {
-	    	tryhereLink.click();
-	    }
+	   
 	    
 	 // Navigate methods inside ArraysPage
 	    
 	    public void navigateToArraysPage() {
-	        driver.get(ConfigReader.getProperty("arraypageurl"));
+	    	dropdownMenu.click();
+	        arrayOption.click();
 	    }
 
+
 	    public void navigateToArraysInPythonPage() {
-	        driver.get(ConfigReader.getProperty("arraysinppython"));
+	    	dropdownMenu.click();
+	        arrayOption.click();
+	        arraysInPythonLink.click();
 	    }
 
 	    public void navigateToArraysUsingListPage() {
-	        driver.get(ConfigReader.getProperty("arraysusinglist"));
-	    }
+	    	
+	    	 dropdownMenu.click();
+	         arrayOption.click();
+	         arraysUsingListLink.click();
+	     }
 
 	    public void navigateToBasicOperationsInListPage() {
-	        driver.get(ConfigReader.getProperty("basicoperationsinlists"));
-	    }
+	    	
+	    	 dropdownMenu.click();
+	         arrayOption.click();
+	         basicOperationsInListLink.click();
+	     }
 
 	    public void navigateToApplicationsOfArrayPage() {
-	        driver.get(ConfigReader.getProperty("applicationsofarrays"));
+	    	
+	    	dropdownMenu.click();
+	        arrayOption.click();
+			applicationsOfArrayLink.click();
 	    }
+	    
  
 	    public void navigateToArraysPracticeQuestions() {
-	    	driver.get(ConfigReader.getProperty("arrayspracticequestion"));
+	    	
+	    	dropdownMenu.click();
+	        arrayOption.click();
+	        arraysInPythonLink.click();
+	        practiceQuestionsLink.click();
 	    }
 	    	
-	   
+	    
+	    public void navigateToTryEditorPage() {
+	    	dropdownMenu.click();
+	        arrayOption.click();
+	        arraysInPythonLink.click();
+	         scrollToTryHere();   
+	         tryhereLink.click();
+	    }
+	    
 	    
  // Try Editor Actions 
 	    
 	    
-
+	    public WebElement getCodeEditor() {
+	        return codeEditor;
+	    }
 	    
+	   
 	    public void enterCode(String code) {
 	        try {
 	            codeEditor.clear();
@@ -239,7 +274,6 @@ public class ArraysPage {
 	    
 //PRACTICE QUESTIONS PAGE
 
-// Navigate methods inside PracticeQuestionPage
   
   public void navigateToQuestionEditor(String questionName) {
       try {
@@ -251,21 +285,40 @@ public class ArraysPage {
       }
   }
   
+  
   public void navigateToSearchthearray() {
-  	driver.get(ConfigReader.getProperty("Searchthearray"));
+	  //dropdownMenu.click();
+      //arrayOption.click();
+      arraysInPythonLink.click();
+      practiceQuestionsLink.click();
+      searchTheArrayLink.click();
   }
   
   public void navigateToMaxConsecutiveOnes() {
-  	driver.get(ConfigReader.getProperty("MaxConsecutiveOnes"));
+	  dropdownMenu.click();
+      arrayOption.click();
+      arraysInPythonLink.click();
+      practiceQuestionsLink.click();
+      maxConsecutiveOnesLink.click();
   }
+
   
   public void navigateToFindnumberswithevennumberofdigits() {
-  	driver.get(ConfigReader.getProperty("Findnumberswithevennumberofdigit"));
+	  dropdownMenu.click();
+      arrayOption.click();
+      arraysInPythonLink.click();
+      practiceQuestionsLink.click();
+      evenNumberDigitsLink.click();
   }
   
   public void navigateToSquaresofasortedArray() {
-  	driver.get(ConfigReader.getProperty("SquaresofasortedArray"));
+	  dropdownMenu.click();
+      arrayOption.click();
+      arraysInPythonLink.click();
+      practiceQuestionsLink.click();
+      squaresOfSortedArrayLink.click();
   }
+
 
 
 //Actions 
@@ -288,9 +341,6 @@ public void clickSquaresOfSortedArray() {
 }
 
 
-
-
-
 //visiblity methods
 
 public void clickPracticeQuestion(String linkText) {
@@ -306,11 +356,14 @@ public void clickPracticeQuestion(String linkText) {
 }
 
 public boolean isSearchTheArrayLinkVisible() {
-  try {
-      return searchTheArrayLink.isDisplayed();
-  } catch (NoSuchElementException e) {
-      return false;
-  }
+	try {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement link = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Search the array")));
+        return link.isDisplayed();
+    } catch (NoSuchElementException e) {
+        System.out.println("Search the array link not found: " + e.getMessage());
+        return false;
+    }
 }
 
 public boolean isQuestionDisplayed() {
@@ -320,7 +373,6 @@ public boolean isQuestionDisplayed() {
         return false;
     }
 }
-
 
 public boolean isRunButton1Visible() {
   try {
@@ -339,8 +391,6 @@ public boolean isSubmitButtonVisible() {
 }
 
 //======= Actions =======
-
-
 
 public void clearEditor1() {
     codeEditor1.clear();
@@ -388,7 +438,6 @@ public void acceptAlert() {
   }
 }
 
-
 //==== Handle alert pop-up ====
 public String getAlertTextAndAccept() {
 try {
@@ -424,33 +473,3 @@ public String getConsoleOutput() {
 
 
 
-
-//public String getOutput() {
-//try {
-//return outputConsole.getText().trim();
-//} catch (NoSuchElementException e) {
-//return "No output displayed";
-//}
-//}
-
-
-
-
-//public String getSubmissionMessage() {
-//  try {
-//      WebElement successMessage = driver.findElement(By.xpath("//div[contains(text(),'Submission successful')]"));
-//      return successMessage.getText();
-//  } catch (NoSuchElementException e) {
-//      try {
-//          WebElement errorMessage = driver.findElement(By.xpath("//div[contains(text(),'Error occurred during submission')]"));
-//          return errorMessage.getText();
-//      } catch (NoSuchElementException ex) {
-//          return "No message displayed";
-//      }
-//  }
-//}
-
-	    
-	    
-	    
-	  

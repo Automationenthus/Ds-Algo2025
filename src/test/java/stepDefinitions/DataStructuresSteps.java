@@ -32,6 +32,7 @@ public class DataStructuresSteps {
 	ExcelReader reader=new ExcelReader("src/test/resources/TestData/PythonCode.xlsx");
 	
 	
+
 	@Given("user is sigin to app")
 	public void user_is_sigin_to_app() {
 			
@@ -58,7 +59,6 @@ public class DataStructuresSteps {
 	}
 
 
-	
 	@Given("user is on data-structures-introduction page")
 	public void user_is_on_data_structures_introduction_page() {
 		logger.info(ds.pageTitle());
@@ -234,4 +234,3 @@ public void user_should_land_on_home_page_and_can_view_message(String ExpectedMs
 
 
 }	
-//

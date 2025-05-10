@@ -1,3 +1,4 @@
+
 package stepDefinitions;
 
 import java.util.List;
@@ -66,14 +67,6 @@ public class TreeSteps {
 	 }
 
 
-//
-//
-//	@Given("user is on the Tree page")
-//	public void user_is_on_the_tree_page() {
-//		
-//		treePage.gotoPage();
-//	}
-
 	@When("user clicks on {string} link")
 	public void user_clicks_on_link(String topic) {
 		treePage.clickTopic(topic);
@@ -85,7 +78,7 @@ public class TreeSteps {
 		Assert.assertEquals(actualtitle, expectedtitle);
 		
 	}
-//	
+	
 	@Given("user is on the overview of tree page")
 	public void user_is_on_the_overview_of_tree_page() {
 		
@@ -195,7 +188,7 @@ public class TreeSteps {
 
 
 
-
-
-
 }
+
+
+

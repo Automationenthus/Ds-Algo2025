@@ -115,9 +115,6 @@ public class RegisterPF {
 
  
 
-
- 
-
  public void sendUserDetails(String username,String password,String confirmpwd) {
 	 userNameField.sendKeys(username);
 	 pwd.sendKeys(password);
@@ -133,8 +130,7 @@ public class RegisterPF {
  }
  
  
- 
- 
+  
  
  
 }
