@@ -1,12 +1,23 @@
+
+
 Feature: To test Tree functionality
 
   Background: 
-    Given user is on the home page
-    When user clicks on the sigin button and enters valid username and password
-    Then user should land on page with title "home"
+  Given user is signed into dsalgoapp
+    When user cliks on TreeGetStarted button
+    Then user lands  on the "Tree" page
+    
+  
+     Scenario: Verify that user is able to navigate to "Data Structures - Introduction" page and see header secetion elements
+    Given user is on Tree page
+    Then user  able to see NumpyNinja,Data structures dropdown,username and signout links on page
+    
+  
+    
+  Scenario Outline: Verify that user is able to navigate to all the links in tree page
+    Given user is on Tree page
 
-  #Feature: Tree Functionality
-  #Background: The user sign in to dsAlgo Portal
+
   
   Scenario: Verify that user is able to navigate to Tree page
     Given user is on the home page
@@ -16,6 +27,7 @@ Feature: To test Tree functionality
   
   Scenario Outline: Verify that user is able to navigate to all the links in tree page
     Given user is on the Tree page
+
     When user clicks on "<Topic>" link
     Then user should be navigated to "<ExpectedTitle>" page
 
@@ -91,7 +103,10 @@ Scenario: Verify that user is able to navigate to Overview of Trees page  by cli
     Then user should lands on "Overview of Trees" page
 
 Scenario: Verify if user is able to navigate to Home page on clicking "SignOut " link
-Given user is on the Tree page
+
+Given user is on Tree page
 When  user clicks on the Signout button
 Then  user should land on Home page and can see "Logged out successfully" message         
        
+
+

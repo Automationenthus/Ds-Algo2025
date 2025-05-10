@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-09T13:47:39 PDT" name="Default suite" finished-at="2025-05-09T13:48:13 PDT" duration-ms="34614">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-05-09T13:47:39 PDT" name="Default test" finished-at="2025-05-09T13:48:13 PDT" duration-ms="34614">
+      <class name="testRunner.DsalgoRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-05-09T13:47:39 PDT" name="setUpClass" finished-at="2025-05-09T13:47:39 PDT" duration-ms="837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f849027]]>
+=======
 <testng-results ignored="0" total="16" passed="11" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -15,37 +33,86 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@78ded8c9]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-05-09T13:47:39 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T13:47:48 PDT" duration-ms="8703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to land on Login Page"]]>
+=======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@2525ff7e]" started-at="2025-05-09T17:29:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T17:29:21 CDT" duration-ms="13587" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user receives error for invalid python code on running "Search the array" question"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
+                <![CDATA["Login Functionality"]]>
+=======
                 <![CDATA["Arrays PracticeQuestion"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-05-09T13:47:48 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T13:47:55 PDT" duration-ms="6994" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submit login form without entering username"]]>
+=======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@2525ff7e]" started-at="2025-05-09T17:29:21 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T17:29:30 CDT" duration-ms="8400" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user is able to run valid python code for "Search the array" question"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="submit" value="Login"> is not clickable at point (1153, 127). Other element would receive the click: <iframe scrolling="no" frameborder="0" src="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/kpm/kpm_promo_balloon.html?cssSrc=https%3A%2F%2Fgc.kis.v2.scr.kaspersky-labs.com%2FE3E8934C-235A-4B0E-825A-35A08381A191%2Fkpm%2Ftooltip.css" style="border: 0px; height: 50px; width: 48px; left: 1121px; top: 102px; z-index: 2147483647; position: absolute;"></iframe>
+  (Session info: chrome=136.0.7103.93)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06a9acb442013ee3f6f899f3e8ed2a85, clickElement {id=f.8E31CB110472166E62ED75A6E5E2E1F0.d.ED494A5256C4A6B58924513C97583E89.e.13}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Kruthi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61947/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (06a9acb442013ee3f6f899f3e8ed2a85)] -> xpath: //input[@value='Login']]
+Session ID: 06a9acb442013ee3f6f899f3e8ed2a85]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login"> is not clickable at point (1153, 127). Other element would receive the click: <iframe scrolling="no" frameborder="0" src="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/kpm/kpm_promo_balloon.html?cssSrc=https%3A%2F%2Fgc.kis.v2.scr.kaspersky-labs.com%2FE3E8934C-235A-4B0E-825A-35A08381A191%2Fkpm%2Ftooltip.css" style="border: 0px; height: 50px; width: 48px; left: 1121px; top: 102px; z-index: 2147483647; position: absolute;"></iframe>
+  (Session info: chrome=136.0.7103.93)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06a9acb442013ee3f6f899f3e8ed2a85, clickElement {id=f.8E31CB110472166E62ED75A6E5E2E1F0.d.ED494A5256C4A6B58924513C97583E89.e.13}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Kruthi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61947/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (06a9acb442013ee3f6f899f3e8ed2a85)] -> xpath: //input[@value='Login']]
+Session ID: 06a9acb442013ee3f6f899f3e8ed2a85
+=======
                 <![CDATA["Arrays PracticeQuestion"]]>
               </value>
             </param>
@@ -166,6 +233,7 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [617c117718df0344fcf3885cce333aa4, findElement {value=//input[@value='Login'], using=xpath}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\chand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50836/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 617c117718df0344fcf3885cce333aa4
+>>>>>>> main
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -176,6 +244,29 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+<<<<<<< HEAD
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy39.click(Unknown Source)
+at pageObject.LoginPF.login_button(LoginPF.java:97)
+at pageObject.LoginPF.clickLoginwithoutusername(LoginPF.java:120)
+at stepDefinitions.LoginSteps.the_user_leave_the_username_field_empty_and_click_login(LoginSteps.java:72)
+at ✽.The user leave the username field empty and click login(file:///C:/Users/Kruthi/dsAlgo2025/Ds-Algo2025/src/test/resources/Feature/Login.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-05-09T13:47:55 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T13:48:00 PDT" duration-ms="5303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submit login form without entering password"]]>
+=======
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
@@ -193,49 +284,81 @@ at ✽.The User is in home page after sign in(file:///C:/Workspace/Ds-Algo2025/s
             <param index="0">
               <value>
                 <![CDATA["Verify that user receives Success message on submitting valid python code for "Max Consecutive Ones" question"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
+                <![CDATA["Login Functionality"]]>
+=======
                 <![CDATA["Arrays PracticeQuestion"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-05-09T13:48:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T13:48:07 PDT" duration-ms="7036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user gets error message when giving invalid username and password"]]>
+=======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@2525ff7e]" started-at="2025-05-09T17:30:21 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T17:30:30 CDT" duration-ms="9326" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user receives error for invalid python code on running Find Numbers with Even Number of Digits question"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
+                <![CDATA["Login Functionality"]]>
+=======
                 <![CDATA["Arrays PracticeQuestion"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-05-09T13:48:07 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T13:48:13 PDT" duration-ms="5634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user enters valid username and password"]]>
+=======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@2525ff7e]" started-at="2025-05-09T17:30:30 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T17:30:39 CDT" duration-ms="8834" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Verify that user is able to run valid python code for Find Numbers with Even Number of Digits question"]]>
+>>>>>>> main
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
+                <![CDATA["Login Functionality"]]>
+=======
                 <![CDATA["Arrays PracticeQuestion"]]>
+>>>>>>> main
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.DsalgoRunner@7c83dc97]" started-at="2025-05-09T13:48:13 PDT" name="tearDownClass" finished-at="2025-05-09T13:48:13 PDT" duration-ms="18" status="PASS">
+=======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.DsalgoRunner@2525ff7e]" started-at="2025-05-09T17:30:39 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T17:30:49 CDT" duration-ms="9958" status="PASS">
           <params>
             <param index="0">
@@ -375,6 +498,7 @@ at ✽.The user gets success message Submission successful in the console(file:/
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.DsalgoRunner@2525ff7e]" started-at="2025-05-09T17:31:35 CDT" name="tearDownClass" finished-at="2025-05-09T17:31:40 CDT" duration-ms="5506" status="PASS">
+>>>>>>> main
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
