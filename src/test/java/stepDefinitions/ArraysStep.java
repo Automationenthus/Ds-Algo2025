@@ -34,53 +34,28 @@ public class ArraysStep {
 	 private static final Logger logger = LogManager.getLogger(ArraysStep.class);
 	 ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
 	
+	 @Given("The User is in home page after sign in")
+	 public void the_user_is_in_home_page_after_sign_in() {
+	     driver.get(ConfigReader.getProperty("url")); 
 	 
-	 @Given("The User is in home page")
-	 public void the_user_is_in_home_page() {
-	     driver.get(ConfigReader.getProperty("url"));  // Navigate to base URL
-	     Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Not on home page");  // Example title check
-	     logger.info("User navigated to Home Page");
-	 }
-
-	 @When("User clicks sign in and enters valid username and password")
-	 public void user_clicks_sign_in_and_enters_valid_username_and_password() {
-
-	     driver.findElement(By.linkText("Sign in")).click(); // Click the "Sign in" link
-
-	     // Type the username from config.properties
+	     driver.findElement(By.linkText("Sign in")).click(); 
 	     String username = ConfigReader.getProperty("username");
 	     driver.findElement(By.id("id_username")).sendKeys(username);
-
-	     // Type the password from config.properties
 	     String password = ConfigReader.getProperty("password");
 	     driver.findElement(By.id("id_password")).sendKeys(password);
 
-	     // Click the "Login" button
 	     driver.findElement(By.xpath("//input[@value='Login']")).click();
-	 }
+	     
+	     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	     wait.until(ExpectedConditions.titleContains("NumpyNinja"));
 
-	 @Then("The user is navigated to Home page")
-	 public void the_user_is_navigated_to_home_page() {
-		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		    wait.until(ExpectedConditions.titleContains("NumpyNinja"));
 
-		    Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
-		}
-
-	 @Given("The user is on Home page")
-	 public void the_user_is_on_home_page() {
-	     driver.get(ConfigReader.getProperty("url"));
-	     logger.info("Navigated to: Home page");
-	 }
+	  Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
+			}
 
 	 @When("The user scrolls down to the Data Structures dropdown and selects Array")
 	 public void the_user_scrolls_down_to_the_data_structures_dropdown_and_selects_array() {
-
-	     driver.findElement(By.xpath("//a[text()='Data Structures']")).click();
-
-	     Actions actions = new Actions(driver); // Scroll to the "Data Structures" dropdown using Actions class
-	     actions.moveToElement(driver.findElement(By.xpath("//a[text()='Data Structures']"))).perform();
-
+		 arraysPage.scrollAndClickDataStructuresDropdown();
 	     arraysPage.selectArrayFromDropdown();
 	 }
 
@@ -89,8 +64,8 @@ public class ArraysStep {
 	     Assert.assertTrue(arraysPage.isArrayPageDisplayed(), "Array page is not displayed");
 	 }
 
-	 @Given("The user is in the Array page after Sign in")
-	 public void the_user_is_in_the_array_page_after_sign_in() {
+	 @Given("The user is in the Array page")
+	 public void the_user_is_in_the_array_page() {
 	     arraysPage.navigateToArraysPage();
 	     logger.info("Navigated to: Arrays page");
 	 }
@@ -113,14 +88,20 @@ public class ArraysStep {
 
 	 @When("The user scrolls down and clicks Try Here button in Arrays in Python page")
 	 public void the_user_scrolls_down_and_clicks_try_here_button_in_arrays_in_python_page() {
-	     arraysPage.scrollToTryHere();     // Optional but good to ensure visibility
-	     arraysPage.clickTryhere();        // Click the link
+	     arraysPage.scrollToTryHere();     
+	     arraysPage.clickTryHereButton();       
 	 }
 
 	 @Then("The user IS redirected to a page having an try Editor with a Run button to test")
 	 public void the_user_is_redirected_to_a_page_having_an_try_editor_with_a_run_button_to_test() {
 	     Assert.assertTrue(arraysPage.isRunButtonVisible(), "Run button not visible");
 	     driver.navigate().back();
+	 }
+	 
+	 @Given("The user is on the Arrays tryEditor page")
+	 public void the_user_is_on_the_arrays_try_editor_page() {
+	     arraysPage.navigateToTryEditorPage();
+	     logger.info("Navigated to: Arrays tryEditor page");
 	 }
 
 	 @When("The user clicks on the Run button without entering the code in the Editor")
@@ -148,7 +129,7 @@ public class ArraysStep {
 	 public void the_user_gives_the_invalid_code_from_row_number_in_editor_and_click_the_run_button() {
 		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		    wait.until(ExpectedConditions.elementToBeClickable(arraysPage.getRunButton()));
-	     int rowNum = 1; // or make it dynamic
+	     int rowNum = 1; 
 	     String rawCode = excelreader.readAllRows("Pythoncode").get(rowNum).get("Code");
 	     String code = rawCode.replace("\\n", "\n");
 
@@ -163,7 +144,6 @@ public class ArraysStep {
 	     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	     Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 	     String alertText = alert.getText();
-
 	     Assert.assertTrue(alertText.toLowerCase().contains("nameerror"),
 	             "Expected alert to contain 'NameError', but got: " + alertText);
 
@@ -172,7 +152,7 @@ public class ArraysStep {
 
 	 @When("The user gives the valid code from row number in Editor and click the Run Button")
 	 public void the_user_gives_the_valid_code_from_row_number_in_editor_and_click_the_run_button() {
-	     int rowNum = 0; // or make it dynamic
+	     int rowNum = 0; 
 	     String rawCode = excelreader.readAllRows("Pythoncode").get(rowNum).get("Code");
 	     String code = rawCode.replace("\\n", "\n");
 
@@ -194,12 +174,7 @@ public class ArraysStep {
 	         Assert.fail("Something went wrong while getting the output: " + e.getMessage());
 	     }
 	 }
-	 @Given("The user is on the Arrays tryEditor page")
-	 public void the_user_is_on_the_arrays_try_editor_page() {
-	     driver.get(ConfigReader.getProperty("arraystryeditor"));
-	     Assert.assertTrue(arraysPage.isRunButtonVisible(), "Run button is not visible in Arrays tryEditor page");
-	     logger.info("Navigated to: Arrays tryEditor page");
-	 }
+
 
 	 @When("The user clicks Practice Questions button")
 	 public void the_user_clicks_practice_questions_button() {
@@ -216,6 +191,7 @@ public class ArraysStep {
 	     arraysPage.navigateToArraysPracticeQuestions();
 	     logger.info("Navigated to: Arrays Practice Question page");
 	 }
+
 
 	 @When("The user clicks {string} link in the arrays question page")
 	 public void the_user_clicks_link_in_the_arrays_question_page(String questionLink) {
@@ -361,7 +337,7 @@ public class ArraysStep {
 	     arraysPage.clickSubmit();
 	 }
 
-	 // Find Numbers
+	 
 	 @When("The user writes invalid code from row number and clicks the Run Button Find Numbers")
 	 public void the_user_writes_invalid_code_from_row_number_and_clicks_the_run_button_find_numbers() {
 	     ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
@@ -398,7 +374,7 @@ public class ArraysStep {
 	     arraysPage.clickSubmit();
 	 }
 
-	 // Sorted Array
+	
 	 @When("The user writes invalid code from row number and clicks the Run Button Sorted Array")
 	 public void the_user_writes_invalid_code_from_row_number_and_clicks_the_run_button_sorted_array() {
 	     ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
@@ -434,14 +410,9 @@ public class ArraysStep {
 	     arraysPage.enterpythonCode(code);
 	     arraysPage.clickSubmit();
 	 }
-
-	 @Given("The user is on the Arrays using List page")
-	 public void the_user_is_on_the_arrays_using_list_page() {
-	     arraysPage.navigateToArraysUsingListPage();
-	     logger.info("Navigated to: Arrays using List page");
-	 }
-
 	 
+	 
+
 	 @When("The user clicks Arrays using List button")
 	 public void the_user_clicks_arrays_using_list_button() {
 	     arraysPage.clickArraysUsingList();
@@ -449,29 +420,27 @@ public class ArraysStep {
 	 
 	 @Then("The user should be redirected to Arrays using List page")
 	 public void the_user_should_be_redirected_to_arrays_using_list_page() {
-		
 			 String pageTitle = DriverFactory.getDriver().getTitle();
 		     Assert.assertTrue(pageTitle.contains("Arrays Using List"));
-		 
+	 }
+	 
+	 @Given("The user is on the Arrays using List page")
+	 public void the_user_is_on_the_arrays_using_list_page() {
+	     arraysPage.navigateToArraysUsingListPage();
+	     logger.info("Navigated to: Arrays using List page");
 	 }
 	 
 	 @When("The user scrolls down and clicks Try Here button in Arrays Using List page")
 	 public void the_user_scrolls_down_and_clicks_try_here_button_in_arrays_using_list_page() {
 	     try {
-	         arraysPage.scrollToTryHere();  // Optional but good to ensure visibility
-	         arraysPage.clickTryhere();     // Click the link
+	         arraysPage.scrollToTryHere(); 
+	         arraysPage.clickTryHereButton();   
 	     } catch (Exception e) {
 	         System.out.println("Error while trying to scroll and click Try Here: " + e.getMessage());
-	         e.printStackTrace();  // Optional: prints full error trace
+	         e.printStackTrace();  
 	     }
 	 }
 
-	 @Then("The user navigates back to the Arrays Using List page")
-	 public void the_user_navigates_back_to_the_arrays_using_list_page() {
-	     driver.navigate().back();
-	     String pageTitle = DriverFactory.getDriver().getTitle();
-	     Assert.assertTrue(pageTitle.contains("Arrays using List"), "User is not on Arrays using List page");
-	 }
 
 	 @When("The user clicks Basic Operations in List button")
 	 public void the_user_clicks_basic_operations_in_list_button() {
@@ -492,17 +461,11 @@ public class ArraysStep {
 
 	 @When("The user scrolls down and clicks Try Here button in Basic Operations in List page")
 	 public void the_user_scrolls_down_and_clicks_try_here_button_in_basic_operations_in_list_page() {
-	     arraysPage.scrollToTryHere();     // Optional but good to ensure visibility
-	     arraysPage.clickTryhere();        // Click the link
+	     arraysPage.scrollToTryHere();     
+	     arraysPage.clickTryHereButton();       
 	 }
 
-	 @Then("The user navigates back to the Basic Operations in List page")
-	 public void the_user_navigates_back_to_the_basic_operations_in_list_page() {
-	     driver.navigate().back();
-	     String pageTitle = DriverFactory.getDriver().getTitle();
-	     Assert.assertTrue(pageTitle.contains("Basic Operations in List"), "User is not on Basic Operations in List page");
-	 }
-
+	 
 	 @When("The user clicks Applications of Array button")
 	 public void the_user_clicks_applications_of_array_button() {
 	     arraysPage.clickApplicationsOfArray();
@@ -522,13 +485,11 @@ public class ArraysStep {
 
 	 @When("The user clicks Try Here button in Applications of Array page")
 	 public void the_user_clicks_try_here_button_in_applications_of_array_page() {
-	     arraysPage.clickTryhere();        // Click the link
+	     arraysPage.clickTryHereButton();        // Click the link
 	 }
 
-	 @Then("The user navigates back to the Applications of Array page")
-	 public void the_user_navigates_back_to_the_applications_of_array_page() {
-	     driver.navigate().back();
-	     String pageTitle = DriverFactory.getDriver().getTitle();
-	     Assert.assertTrue(pageTitle.contains("Applications of Array"), "User is not on Applications of Array page");
+	 
+	 
 	 }
-}
+
+	 

@@ -1,22 +1,19 @@
 
-
-
 Feature: To test DataStructuresIntroduction functionality
 
   Background: 
-    Given user is on home page
-    When user clicks on sigin button and enters valid username and password
-    Then user should be logged in successfully with "You are logged in" message
+    Given user is sigin to app
+    When user cliks on DtastructureInro GetStarted button
+    Then user lands on data-structures-introduction page
 
-  Scenario: Verify that user is able to navigate to "Data Structures - Introduction" page
-    Given user is on home page
-    When user clicks on DtastructureInro GetStarted button
-    Then user lands on data-structures-introduction page and able to see NumpyNinja,Data structures dropdown,username and signout links
+  Scenario: Verify that user is able to navigate to "Data Structures - Introduction" page and see header secetion elements
+    Given user is on data-structures-introduction page
+    Then user  able to see NumpyNinja,Data structures dropdown,username and signout links
 
   Scenario: Verify that user is able to navigate to "Time Complexity" page
     Given user is on data-structures-introduction page
     When user ckicks on Time complexity link
-    Then user lands on "Time Complexity" page
+    Then user lands on  the "Time Complexity" page
 
   Scenario: Verify that user is able to navigate to "Practice" page
     Given user is on Time complexity page
@@ -63,12 +60,9 @@ Feature: To test DataStructuresIntroduction functionality
   Scenario: Verify that user is able to navigate to "Time Complexity" page  by clicking browser back button
     Given user is on try Editor page
     When user clicks on browser back button
-    Then user lands on  the "time-complexity" page
-
+    Then user lands on  the "Time Complexity" page
 
   Scenario: Verify if user is able to navigate to Home page on clicking "SignOut " link
     Given user is on Time complexity page
     When user clicks on Signout button
     Then user should land on Home page and can view "Logged out successfully" message
-
-
