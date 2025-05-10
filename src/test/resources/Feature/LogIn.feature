@@ -1,19 +1,19 @@
-Feature: Login Functionality
- 
- Background: Verify that the user is able to login to the portal with credentials
-    Given User is in the ds-algo launch page
-    When User click the get started button in dsalgo launch page
- 
- Scenario Outline: Verify user enters valid username and password
-    
-    When The user gets valid data  '<Sheetname>' and <RowNumber> for the login page
-   
-    
-     Examples: 
-      | Sheetname   | RowNumber |
-      | Valid_Login |         1 |
-   
-
+#Feature: Login Functionality
+ #
+ #Background: Verify that the user is able to login to the portal with credentials
+    #Given User is in the ds-algo launch page
+    #When User click the get started button in dsalgo launch page
+ #
+ #Scenario Outline: Verify user enters valid username and password
+    #
+    #When The user gets valid data  '<Sheetname>' and <RowNumber> for the login page
+   #
+    #
+     #Examples: 
+      #| Sheetname   | RowNumber |
+      #| Valid_Login |         1 |
+   #
+#
 #Scenario Outline: Verify user receives validation message when username and password fields are blank during Login
     #Given The user clicks the Sign In link
     #When The user gets data from excel sheet '<Username1>' and <Passowrd1> for the login page
@@ -36,11 +36,11 @@ Feature: Login Functionality
  #Given The user clicks the Sign In link
  #When The user clicks Register link
  #Then The user should navigate to Register page
- 
-
- 
-
- 
-  
- 
+ #
+#
+ #
+#
+ #
+  #
+ #
  

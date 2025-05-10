@@ -35,11 +35,7 @@ public void user_is_on_home_page() {
 	
 	logger.info(driver.getTitle());
 }
-//@When("user clicks on sigin button")
-//public void user_clicks_on_sigin_button() {
-//    // Write code here that turns the phrase above into concrete actions
-//    throw new io.cucumber.java.PendingException();
-//}
+
 @When("user clicks on sigin button and enters valid username and password")
 public void user_clicks_on_sigin_button_and_enters_valid_username_and_password() {
 	ds.signIn();
@@ -237,4 +233,6 @@ public void user_should_land_on_home_page_and_can_view_message(String ExpectedMs
 
 
 }	
+
+
 
