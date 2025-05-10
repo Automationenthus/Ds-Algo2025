@@ -28,6 +28,7 @@ public class TreeSteps {
 	ExcelReader reader=new ExcelReader("src/test/resources/TestData/PythonCode.xlsx");
 	 TreePF treePage=new TreePF(driver);
 	 DataStructuresPF ds=new DataStructuresPF(driver);
+
 	 
 	 @Given("user is signed into dsalgoapp")
 	 public void user_is_signed_into_dsalgoapp() {
@@ -81,8 +82,9 @@ public class TreeSteps {
 	
 	@Given("user is on the overview of tree page")
 	public void user_is_on_the_overview_of_tree_page() {
-		
+	
 		treePage.clickOnOverviewOfTree();
+
 	}
 
 	@When("user clicks on {string} and Try Here button")
@@ -112,8 +114,10 @@ public class TreeSteps {
 	}
 	@Given("user is on the try Editor page")
 	public void user_is_on_the_try_editor_page() {
+
 		treePage.clickOnOverviewOfTree();
 		ds.clickOnTryHere();
+
 		logger.info(ds.pageTitle());
 	}
 
@@ -188,7 +192,14 @@ public class TreeSteps {
 
 
 
+
 }
+
+
+
+
+
+
 
 
 

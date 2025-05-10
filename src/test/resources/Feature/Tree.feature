@@ -1,4 +1,5 @@
 
+
 Feature: To test Tree functionality
 
   Background: 
@@ -15,6 +16,18 @@ Feature: To test Tree functionality
     
   Scenario Outline: Verify that user is able to navigate to all the links in tree page
     Given user is on Tree page
+
+
+  
+  Scenario: Verify that user is able to navigate to Tree page
+    Given user is on the home page
+    When user clicks the Getting Started button of Tree
+    Then user lands on the "tree" page
+
+  
+  Scenario Outline: Verify that user is able to navigate to all the links in tree page
+    Given user is on the Tree page
+
     When user clicks on "<Topic>" link
     Then user should be navigated to "<ExpectedTitle>" page
 
@@ -33,7 +46,7 @@ Feature: To test Tree functionality
       | Applications of Binary trees   | Applications of Binary trees   |
       | Binary Search Trees            | Binary Search Trees            |
       | Implementation Of BST          | Implementation Of BST          |
-#
+
 Scenario: Verify that user is able to navigate to Practice page
 Given user is on the overview of tree page
 When user clicks on the Practice Questions link
@@ -90,8 +103,10 @@ Scenario: Verify that user is able to navigate to Overview of Trees page  by cli
     Then user should lands on "Overview of Trees" page
 
 Scenario: Verify if user is able to navigate to Home page on clicking "SignOut " link
+
 Given user is on Tree page
 When  user clicks on the Signout button
 Then  user should land on Home page and can see "Logged out successfully" message         
        
+
 
