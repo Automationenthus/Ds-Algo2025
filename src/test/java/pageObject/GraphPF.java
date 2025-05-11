@@ -8,8 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import dsUtilities.ConfigReader;
-import driverFactory.DriverFactory;
-import dsUtilities.ExcelUtilityHelper1;
 
 public class GraphPF {
 
@@ -21,12 +19,18 @@ WebDriver driver;
 	this.driver=driver;
     PageFactory.initElements(driver, this);
   }
+   @FindBy(linkText = "Sign in")
+	WebElement signIn;
   
   @FindBy(xpath = "//a[@href='graph']") 
-  private WebElement getStartGraph;
+   WebElement getStartGraph;
   
   @FindBy(linkText = "NumpyNinja")
 	WebElement numpylink;
+  
+  @FindBy(xpath = "//div[contains(@class,'alert-primary')]")
+  WebElement sucessMessage;
+
   
   @FindBy(xpath = "//a[@class='nav-link dropdown-toggle']")
 	WebElement dropDown;
@@ -82,8 +86,12 @@ WebDriver driver;
 			return signOutLink.isDisplayed();
 		}
 		
-		 public void loginPage() {
-				driver.get(ConfigReader.getProperty("loginUrl"));
+//		 public void loginPage() {
+//				driver.get(ConfigReader.getProperty("loginUrl"));
+//			}
+//		 
+		 public void clickSignIn() {
+			 signIn.click();
 			}
 			
 			public void graphPage() {
@@ -151,5 +159,8 @@ WebDriver driver;
 			codeEditor.clear();
 		}
 	   
-	
+	    public String getMessage() {
+			String loginMessage=sucessMessage.getText();
+			return loginMessage;
+		}
 }
