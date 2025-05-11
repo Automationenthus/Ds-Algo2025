@@ -21,33 +21,26 @@ import io.cucumber.messages.types.Duration;
 import pageObject.DataStructuresPF;
 import pageObject.LoginPF;
 import dsUtilities.*;
-//
+
 public class DataStructuresSteps {
 
 	
 	WebDriver driver=DriverFactory.getDriver();
 	DataStructuresPF ds=new DataStructuresPF(driver);
 	LoginPF lp= new LoginPF(driver);
-	private static final Logger logger = LogManager.getLogger(DataStructuresSteps.class);
-	ExcelReader reader=new ExcelReader("src/test/resources/TestData/PythonCode.xlsx");
-	
-	
-
+	ExcelUtilityHelper1 e=new ExcelUtilityHelper1();
+	//private static final Logger logger = LogManager.getLogger(DataStructuresSteps.class);
 	@Given("user is sigin to app")
 	public void user_is_sigin_to_app() {
-			
-		ds.signIn();
-		String username=ConfigReader.getProperty("username");
-		String password=ConfigReader.getProperty("password");
-		ds.enterUserName(username);
-		ds.enterPassword(password);
-		ds.clickLogin();
+		
+		lp.loginBackgroundForPages();
+		
 	}
 
 	@When("user cliks on DtastructureInro GetStarted button")
 	public void user_cliks_on_dtastructure_inro_get_started_button() {
 		ds.getStartbtnclick();
-		logger.info("user is on data structure page:" +ds.pageTitle());
+		 LogHandler.info("user is on data structure page:" +ds.pageTitle());
 		
 	}
 
@@ -61,7 +54,7 @@ public class DataStructuresSteps {
 
 	@Given("user is on data-structures-introduction page")
 	public void user_is_on_data_structures_introduction_page() {
-		logger.info(ds.pageTitle());
+		 LogHandler.info(ds.pageTitle());
 	}
 
 	@Then("user  able to see NumpyNinja,Data structures dropdown,username and signout links")
@@ -82,17 +75,16 @@ public void user_ckicks_on_time_complexity_link() {
 @Then("user lands on {string} page")
 public void user_lands_on_page(String expectedTitle) {
 	Assert.assertEquals(ds.pageTitle(), expectedTitle);
-	logger.info(ds.pageTitle());
+	 LogHandler.info(ds.pageTitle());
 	
 	
 }
 	
 	
-
 @Given("user is on Time complexity page")
 public void user_is_on_time_complexity_page() {
 	ds.timeComplexity();
-	logger.info(ds.pageTitle());
+	 LogHandler.info(ds.pageTitle());
 	
 	
 }
@@ -107,7 +99,7 @@ public void user_clicks_on_practice_questions_link() {
 public void user_should_land_on_page(String expectedText) {
 	
 	Assert.assertTrue(ds.getPageURL().contains(expectedText));
-	logger.info(ds.pageTitle());
+	 LogHandler.info(ds.pageTitle());
 }
 
 @When("user clicks on try here link")
@@ -119,7 +111,7 @@ public void user_clicks_on_try_here_link() {
 @Then("user should land on {string} page with  Run button")
 public void user_should_land_on_page_with_run_button(String expectedText) {
 	Assert.assertTrue(ds.getPageURL().contains(expectedText));
-	logger.info(ds.pageTitle());
+	 LogHandler.info(ds.pageTitle());
 	Assert.assertTrue(ds.runButtonDisplayed());
 	
 }
@@ -127,12 +119,12 @@ public void user_should_land_on_page_with_run_button(String expectedText) {
 public void user_is_on_try_editor_page() {
 	ds.timeComplexity();
 	ds.clickOnTryHere();
-	logger.info(ds.pageTitle());
+	 LogHandler.info(ds.pageTitle());
 }
 
 @When("user clicks on run button without code")
 public void user_clicks_on_run_button_without_code() {
-	//ds.clearEditor();
+	
 	ds.clickOnRunBtn();
 }
 
@@ -142,11 +134,11 @@ public void user_should_see_the_error_message_in_alert_window() {
 	Assert.assertTrue(ds.isAlertIsPresent());
 }
 @When("user clicks on run button with incorrect code from {string} and {int}")
-public void user_clicks_on_run_button_with_incorrect_code_from_and(String sheetname, Integer rownumber)throws InterruptedException {
-	List<Map<String, String>> allRowsData1= reader.readAllRows(sheetname);
-	String codeToEnter=allRowsData1.get(rownumber).get("Pcode");
+public void user_clicks_on_run_button_with_incorrect_code_from_and(String sheetname, Integer rownumber)throws InterruptedException, Throwable, IOException {
+	
+	String codeToEnter=e.getPythonCodeFromExcel(sheetname, rownumber);
 	ds.editor(codeToEnter);
-	  ds.clickOnRunBtn();
+    ds.clickOnRunBtn();
 
 }
 @Then("user should see the error message in alert window and get the alert text")
@@ -154,13 +146,12 @@ public void user_should_see_the_error_message_in_alert_window_and_get_the_alert_
 	
 	Alert alert = driver.switchTo().alert();
 	String text = alert.getText();
-	logger.info(text);
+	 LogHandler.info(text);
 	alert.accept();
 }
 @When("user types incorrect code from {string} and {int}")
-public void user_types_incorrect_code_from_and(String sheetname, Integer rownumber) {
-	List<Map<String, String>> allRowsData1= reader.readAllRows(sheetname);
-	String codeToEnter=allRowsData1.get(rownumber).get("Pcode");
+public void user_types_incorrect_code_from_and(String sheetname, Integer rownumber) throws Throwable, IOException {
+	String codeToEnter=e.getPythonCodeFromExcel(sheetname, rownumber);
 	ds.editor(codeToEnter);
 	ds.clickOnRunBtn();
 	  
@@ -180,16 +171,14 @@ public void user_should_see_alert_window_and_can_not_click_on_run_button() {
 		Assert.fail("alert not present");
 		
 	}
-	//Assert.assertFalse(ds.runButtonValidation());
+	
 }
 
 
 @When("user writes Python code from {string} and {int}")
-public void user_writes_python_code_from_and(String sheetname, Integer rownumber) throws InterruptedException {
+public void user_writes_python_code_from_and(String sheetname, Integer rownumber) throws InterruptedException, Throwable, IOException {
 	
-	
-	 List<Map<String, String>> allRowsData = reader.readAllRows(sheetname);
-	 String codeToEnter=allRowsData.get(rownumber).get("Pcode");
+	String codeToEnter=e.getPythonCodeFromExcel(sheetname, rownumber);
 	 ds.editor(codeToEnter);
 	  ds.clickOnRunBtn();
 
@@ -199,7 +188,7 @@ public void user_writes_python_code_from_and(String sheetname, Integer rownumber
 public void output_should_match_with_expected_result(String expectedResult) {
 	String actualResult=ds.getOutputData();
 	Assert.assertEquals(actualResult, expectedResult);
-	logger.info("console result:" +actualResult);
+	 LogHandler.info("console result:" +actualResult);
 	
 	
 }
@@ -207,7 +196,7 @@ public void output_should_match_with_expected_result(String expectedResult) {
 @When("user clicks on browser back button")
 public void user_clicks_on_browser_back_button() {
 	String title=ds.navigateBack();
-	logger.info(title);
+	 LogHandler.info(title);
 }
 
 @Then("user lands on  the {string} page")

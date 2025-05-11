@@ -1,11 +1,13 @@
 
 package stepDefinitions;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,30 +17,28 @@ import org.testng.Assert;
 import driverFactory.DriverFactory;
 import dsUtilities.ConfigReader;
 import dsUtilities.ExcelReader;
+import dsUtilities.ExcelUtilityHelper1;
+import dsUtilities.LogHandler;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.DataStructuresPF;
+import pageObject.LoginPF;
 import pageObject.TreePF;
 
 public class TreeSteps {
 	
 	WebDriver driver=DriverFactory.getDriver();
-	private static final Logger logger = LogManager.getLogger(DataStructuresSteps.class);
-	ExcelReader reader=new ExcelReader("src/test/resources/TestData/PythonCode.xlsx");
+	LoginPF lp= new LoginPF(driver);
+	//private static LogHandler logger;
+	//private static final Logger logger = LogManager.getLogger(TreeSteps.class);
+	ExcelUtilityHelper1 e=new ExcelUtilityHelper1();
 	 TreePF treePage=new TreePF(driver);
 	 DataStructuresPF ds=new DataStructuresPF(driver);
-
-	 
+ 
 	 @Given("user is signed into dsalgoapp")
 	 public void user_is_signed_into_dsalgoapp() {
-		 
-		 ds.signIn();
-			String username=ConfigReader.getProperty("username");
-			String password=ConfigReader.getProperty("password");
-			ds.enterUserName(username);
-			ds.enterPassword(password);
-			ds.clickLogin();
+		 lp.loginBackgroundForPages();
 	 }
 
 	 @When("user cliks on TreeGetStarted button")
@@ -55,7 +55,7 @@ public class TreeSteps {
 
 	 @Given("user is on Tree page")
 	 public void user_is_on_tree_page() {
-		 logger.info(treePage.getPageTitle());
+		 LogHandler.info(treePage.getPageTitle());
 	 }
 
 	 @Then("user  able to see NumpyNinja,Data structures dropdown,username and signout links on page")
@@ -110,7 +110,7 @@ public class TreeSteps {
 	public void user_should_land_on(String expectedTitle) {
 		String actualTitle=treePage.getPageTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);
-		logger.info("test passed:" +actualTitle + "matches with" +expectedTitle);
+		 LogHandler.info("test passed:" +actualTitle + "matches with" +expectedTitle);
 	}
 	@Given("user is on the try Editor page")
 	public void user_is_on_the_try_editor_page() {
@@ -118,7 +118,7 @@ public class TreeSteps {
 		treePage.clickOnOverviewOfTree();
 		ds.clickOnTryHere();
 
-		logger.info(ds.pageTitle());
+		 LogHandler.info(ds.pageTitle());
 	}
 
 	@When("user clicks on the run button without code")
@@ -132,9 +132,8 @@ public class TreeSteps {
 		Assert.assertTrue(ds.isAlertIsPresent());
 	}
 	@When("user clicks on the run button with incorrect code from {string} and {int}")
-	public void user_clicks_on_the_run_button_with_incorrect_code_from_and(String sheetname, Integer rownumber) {
-		List<Map<String, String>> allRowsData1= reader.readAllRows(sheetname);
-		String codeToEnter=allRowsData1.get(rownumber).get("Pcode");
+	public void user_clicks_on_the_run_button_with_incorrect_code_from_and(String sheetname, Integer rownumber) throws Throwable, IOException {
+		String codeToEnter=e.getPythonCodeFromExcel(sheetname, rownumber);
 		ds.editor(codeToEnter);
 		  ds.clickOnRunBtn();
 	}
@@ -143,18 +142,16 @@ public class TreeSteps {
 	public void user_should_see_error_message_in_alert_window_and_get_the_alert_text() {
 		Alert alert = driver.switchTo().alert();
 		String text = alert.getText();
-		logger.info("Alert message:" +text);
+		 LogHandler.info("Alert message:" +text);
 		alert.accept();
 		
 	}
 
 	@When("user writes correct Python code from {string} and {int}")
-	public void user_writes_correct_python_code_from_and(String sheetname, Integer rownumber) {
-		
-		 List<Map<String, String>> allRowsData = reader.readAllRows(sheetname);
-		 String codeToEnter=allRowsData.get(rownumber).get("Pcode");
+	public void user_writes_correct_python_code_from_and(String sheetname, Integer rownumber) throws Throwable, IOException {
+		String codeToEnter=e.getPythonCodeFromExcel(sheetname, rownumber);
 		 ds.editor(codeToEnter);
-		  ds.clickOnRunBtn();
+	     ds.clickOnRunBtn();
 
 	}
 
@@ -163,14 +160,14 @@ public class TreeSteps {
 		
 		String actualResult=ds.getOutputData();
 		Assert.assertEquals(actualResult, expectedResult);
-		logger.info("console result:" +actualResult);
+		 LogHandler.info("console result:" +actualResult);
 	}
 	
 	@When("user clicks on the browser back button")
 	public void user_clicks_on_the_browser_back_button() {
 		
 		String title=ds.navigateBack();
-		logger.info(title);
+		 LogHandler.info(title);
 	}
 
 	@Then("user should lands on {string} page")

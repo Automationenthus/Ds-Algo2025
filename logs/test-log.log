@@ -9897,3 +9897,302 @@
 2025-05-09 17:26:07 INFO  StackStep:62 - User navigated to Stack Page
 2025-05-09 17:26:08 INFO  StackStep:234 - User navigated to Application Page
 >>>>>>> main
+2025-05-10 10:55:57 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:55:57 INFO  DataStructuresSteps:64 - Data Structures-Introduction
+2025-05-10 10:56:02 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:02 INFO  DataStructuresSteps:64 - Data Structures-Introduction
+2025-05-10 10:56:07 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:07 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 10:56:08 INFO  DataStructuresSteps:110 - Practice Questions
+2025-05-10 10:56:12 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:12 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 10:56:13 INFO  DataStructuresSteps:122 - Assessment
+2025-05-10 10:56:19 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:21 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:26 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:29 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:30 INFO  DataStructuresSteps:157 - NameError: name 'hello' is not defined on line 1
+2025-05-10 10:56:34 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:35 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:40 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:43 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:43 INFO  DataStructuresSteps:202 - console result:hello
+2025-05-10 10:56:47 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:49 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:49 INFO  DataStructuresSteps:210 - Time Complexity
+2025-05-10 10:56:54 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:54 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 11:08:39 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:08:43 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:08:48 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:08:54 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:08:59 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:04 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:10 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:15 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:20 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:25 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:30 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:36 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:42 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:48 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:58 INFO  DataStructuresSteps:113 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-10 11:11:57 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 11:12:04 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 11:12:05 INFO  DataStructuresSteps:146 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-10 11:12:14 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 11:12:14 INFO  DataStructuresSteps:166 - console result:hello
+2025-05-10 11:12:21 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 11:12:22 INFO  DataStructuresSteps:173 - Overview of Trees
+2025-05-10 11:12:27 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:15:06 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:06 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:06 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:09 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:09 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:09 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:12 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:12 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:12 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:16 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:16 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:16 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:20 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:20 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:20 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:23 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:23 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:23 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:27 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:27 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:27 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:30 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:31 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:31 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:31 INFO  DataStructuresSteps:127 - user is on : Login
+2025-05-10 11:41:04 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:04 INFO  DataStructuresSteps:66 - Data Structures-Introduction
+2025-05-10 11:41:09 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:09 INFO  DataStructuresSteps:66 - Data Structures-Introduction
+2025-05-10 11:41:14 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:14 INFO  DataStructuresSteps:97 - Time Complexity
+2025-05-10 11:41:15 INFO  DataStructuresSteps:112 - Practice Questions
+2025-05-10 11:41:19 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:20 INFO  DataStructuresSteps:97 - Time Complexity
+2025-05-10 11:41:22 INFO  DataStructuresSteps:124 - Assessment
+2025-05-10 11:41:27 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:30 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:41:38 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:40 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:41:42 INFO  DataStructuresSteps:159 - NameError: name 'hello' is not defined on line 1
+2025-05-10 11:41:47 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:48 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:41:53 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:56 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:41:56 INFO  DataStructuresSteps:204 - console result:hello
+2025-05-10 11:42:01 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:42:04 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:42:05 INFO  DataStructuresSteps:212 - Time Complexity
+2025-05-10 11:42:09 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:42:09 INFO  DataStructuresSteps:97 - Time Complexity
+2025-05-10 11:46:38 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:46:38 INFO  DataStructuresSteps:60 - Data Structures-Introduction
+2025-05-10 11:46:43 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:46:43 INFO  DataStructuresSteps:60 - Data Structures-Introduction
+2025-05-10 11:46:48 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:46:49 INFO  DataStructuresSteps:91 - Time Complexity
+2025-05-10 11:46:49 INFO  DataStructuresSteps:106 - Practice Questions
+2025-05-10 11:46:54 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:46:54 INFO  DataStructuresSteps:91 - Time Complexity
+2025-05-10 11:46:55 INFO  DataStructuresSteps:118 - Assessment
+2025-05-10 11:47:00 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:02 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:07 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:09 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:09 INFO  DataStructuresSteps:153 - NameError: name 'hello' is not defined on line 1
+2025-05-10 11:47:14 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:18 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:23 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:26 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:26 INFO  DataStructuresSteps:198 - console result:hello
+2025-05-10 11:47:31 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:34 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:34 INFO  DataStructuresSteps:206 - Time Complexity
+2025-05-10 11:47:39 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:39 INFO  DataStructuresSteps:91 - Time Complexity
+2025-05-10 12:09:32 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:09:32 INFO  DataStructuresSteps:62 - Data Structures-Introduction
+2025-05-10 12:09:38 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:09:38 INFO  DataStructuresSteps:62 - Data Structures-Introduction
+2025-05-10 12:09:43 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:09:44 INFO  DataStructuresSteps:92 - Time Complexity
+2025-05-10 12:09:44 INFO  DataStructuresSteps:107 - Practice Questions
+2025-05-10 12:09:49 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:09:50 INFO  DataStructuresSteps:92 - Time Complexity
+2025-05-10 12:09:51 INFO  DataStructuresSteps:119 - Assessment
+2025-05-10 12:09:55 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:00 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:05 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:09 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:10 INFO  DataStructuresSteps:156 - NameError: name 'hello' is not defined on line 1
+2025-05-10 12:10:15 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:18 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:23 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:26 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:26 INFO  DataStructuresSteps:202 - console result:hello
+2025-05-10 12:10:30 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:33 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:34 INFO  DataStructuresSteps:210 - Time Complexity
+2025-05-10 12:10:38 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:38 INFO  DataStructuresSteps:92 - Time Complexity
+2025-05-10 12:13:57 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:02 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:07 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:12 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:18 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:24 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:29 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:34 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:40 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:45 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:51 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:58 INFO  TreeSteps:58 - Tree
+2025-05-10 12:15:03 INFO  TreeSteps:58 - Tree
+2025-05-10 12:15:09 INFO  TreeSteps:58 - Tree
+2025-05-10 12:15:15 INFO  TreeSteps:113 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-10 12:17:05 INFO  TreeSteps:121 - Assessment
+2025-05-10 12:17:12 INFO  TreeSteps:121 - Assessment
+2025-05-10 12:17:13 INFO  TreeSteps:147 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-10 12:17:19 INFO  TreeSteps:121 - Assessment
+2025-05-10 12:17:19 INFO  TreeSteps:168 - console result:hello
+2025-05-10 12:17:27 INFO  TreeSteps:121 - Assessment
+2025-05-10 12:17:27 INFO  TreeSteps:175 - Overview of Trees
+2025-05-10 12:17:32 INFO  TreeSteps:58 - Tree
+2025-05-10 13:16:36 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-10 13:16:43 INFO  ArraysStep:89 - Navigated to: Arrays in Python page
+2025-05-10 13:16:53 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-10 13:17:02 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-10 13:17:14 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-10 13:17:21 INFO  ArraysStep:89 - Navigated to: Arrays in Python page
+2025-05-10 13:17:29 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-10 13:17:39 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-10 13:17:50 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-10 13:17:59 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-10 13:20:36 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-10 13:20:43 INFO  ArraysStep:433 - Navigated to: Arrays using List page
+2025-05-10 13:20:51 INFO  ArraysStep:433 - Navigated to: Arrays using List page
+2025-05-10 13:20:57 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-10 13:21:04 INFO  ArraysStep:462 - Navigated to: Basic Operations in List page
+2025-05-10 13:21:12 INFO  ArraysStep:462 - Navigated to: Basic Operations in List page
+2025-05-10 13:21:18 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-10 13:21:24 INFO  ArraysStep:486 - Navigated to: Applications of Array page
+2025-05-10 13:21:30 INFO  ArraysStep:486 - Navigated to: Applications of Array page
+2025-05-10 13:21:35 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:35 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-10 13:21:39 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:39 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-10 13:21:44 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:45 INFO  LogHandler:12 - Time Complexity
+2025-05-10 13:21:45 INFO  LogHandler:12 - Practice Questions
+2025-05-10 13:21:49 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:50 INFO  LogHandler:12 - Time Complexity
+2025-05-10 13:21:51 INFO  LogHandler:12 - Assessment
+2025-05-10 13:21:55 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:57 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:02 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:06 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:06 INFO  LogHandler:12 - NameError: name 'hello' is not defined on line 1
+2025-05-10 13:22:10 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:12 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:17 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:20 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:20 INFO  LogHandler:12 - console result:hello
+2025-05-10 13:22:25 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:27 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:28 INFO  LogHandler:12 - Time Complexity
+2025-05-10 13:22:32 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:33 INFO  LogHandler:12 - Time Complexity
+2025-05-10 13:22:36 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:36 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:36 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:39 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:39 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:39 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:42 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:42 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:42 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:46 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:46 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:46 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:49 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:50 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:50 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:53 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:54 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:54 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:57 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:58 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:58 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:23:01 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:23:01 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:23:01 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:23:02 INFO  LogHandler:12 - user is on : Login
+2025-05-10 13:23:06 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:07 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-10 13:23:12 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:13 INFO  StackStep:91 - User navigated to Operations in Stack Page
+2025-05-10 13:23:19 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:23 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:23:28 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:31 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:23:36 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:40 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:23:44 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:45 INFO  StackStep:91 - User navigated to Operations in Stack Page
+2025-05-10 13:23:51 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:51 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-10 13:23:56 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:57 INFO  StackStep:215 - User navigated to Implementation Page
+2025-05-10 13:24:03 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:07 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:24:12 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:16 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:24:21 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:25 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:24:29 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:30 INFO  StackStep:215 - User navigated to Implementation Page
+2025-05-10 13:24:35 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:36 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-10 13:24:41 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:42 INFO  StackStep:237 - User navigated to Application Page
+2025-05-10 13:24:51 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:55 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:25:00 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:25:04 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:25:09 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:25:13 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:25:18 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:25:19 INFO  StackStep:237 - User navigated to Application Page
+2025-05-10 13:25:25 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:29 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:34 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:40 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:45 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:50 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:55 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:01 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:06 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:11 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:16 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:21 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:26 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:32 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:39 INFO  LogHandler:12 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-10 13:28:42 INFO  LogHandler:12 - Assessment
+2025-05-10 13:28:52 INFO  LogHandler:12 - Assessment
+2025-05-10 13:28:52 INFO  LogHandler:12 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-10 13:29:01 INFO  LogHandler:12 - Assessment
+2025-05-10 13:29:02 INFO  LogHandler:12 - console result:hello
+2025-05-10 13:29:11 INFO  LogHandler:12 - Assessment
+2025-05-10 13:29:12 INFO  LogHandler:12 - Overview of Trees
+2025-05-10 13:29:16 INFO  LogHandler:12 - Tree
