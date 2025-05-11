@@ -36,21 +36,7 @@ public class StackStep {
 @Given("The User is in the home page after sign in")
 public void the_user_is_in_the_home_page_after_sign_in() {
 	lp.loginBackgroundForPages();
-//	driver.get(ConfigReader.getProperty("url"));
-//    logger.info("Navigated to: Home page");
-//    
-//	driver.findElement(By.linkText("Sign in")).click(); // Click the "Sign in" link 
-//    String username = ConfigReader.getProperty("username");// Type the username from config.properties
-//    driver.findElement(By.id("id_username")).sendKeys(username);
-//    String password = ConfigReader.getProperty("password");// Type the password from config.properties
-//    driver.findElement(By.id("id_password")).sendKeys(password);
-//    driver.findElement(By.xpath("//input[@value='Login']")).click();// Click the "Login" button
-//
-//    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//    wait.until(ExpectedConditions.titleContains("NumpyNinja"));
-//    
-//	 Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
-//    
+
  }
 
 @When("The user scrolls down to the Data Structures dropdown and selects Stack")

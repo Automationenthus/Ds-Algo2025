@@ -2,21 +2,11 @@
 package stepDefinitions;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 import driverFactory.DriverFactory;
-import dsUtilities.ConfigReader;
-import dsUtilities.ExcelReader;
 import dsUtilities.ExcelUtilityHelper;
 
 import dsUtilities.LogHandler;
@@ -31,11 +21,9 @@ public class TreeSteps {
 	
 	WebDriver driver=DriverFactory.getDriver();
 	LoginPF lp= new LoginPF(driver);
-	//private static LogHandler logger;
-	//private static final Logger logger = LogManager.getLogger(TreeSteps.class);
 	ExcelUtilityHelper e=new ExcelUtilityHelper();
-	 TreePF treePage=new TreePF(driver);
-	 DataStructuresPF ds=new DataStructuresPF(driver);
+	TreePF treePage=new TreePF(driver);
+	DataStructuresPF ds=new DataStructuresPF(driver);
  
 	 @Given("user is signed into dsalgoapp")
 	 public void user_is_signed_into_dsalgoapp() {

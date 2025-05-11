@@ -1,12 +1,6 @@
 package stepDefinitions;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,7 +11,6 @@ import driverFactory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.messages.types.Duration;
 import pageObject.DataStructuresPF;
 import pageObject.LoginPF;
 import dsUtilities.*;
@@ -29,7 +22,7 @@ public class DataStructuresSteps {
 	DataStructuresPF ds=new DataStructuresPF(driver);
 	LoginPF lp= new LoginPF(driver);
 	ExcelUtilityHelper e=new ExcelUtilityHelper();
-	//private static final Logger logger = LogManager.getLogger(DataStructuresSteps.class);
+	
 	@Given("user is sigin to app")
 	public void user_is_sigin_to_app() {
 		

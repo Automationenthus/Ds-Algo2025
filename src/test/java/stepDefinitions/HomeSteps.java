@@ -7,6 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.HomePF;
 import pageObject.LinkedListPF;
+import pageObject.LoginPF;
 import driverFactory.DriverFactory;
 import dsUtilities.LogHandler;
 
@@ -14,7 +15,7 @@ public class HomeSteps {
 
     WebDriver driver = DriverFactory.getDriver();
     HomePF homePage = new HomePF(driver);
-    LinkedListPF ll = new LinkedListPF(driver);
+     LoginPF lp= new LoginPF(driver);
    
 
     @Given("The user opens DS Algo portal link")
@@ -54,7 +55,8 @@ public class HomeSteps {
     
     @Given("The user is logged in and on the Home page")
     public void the_user_is_logged_in_and_on_the_home_page() {
-    	homePage.ensureLoggedIn();        
+    	
+      	lp.loginBackgroundForPages();
     }
 
     @When("The user clicks on dropdown {string}")

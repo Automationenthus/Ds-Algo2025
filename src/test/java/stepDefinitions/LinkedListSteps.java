@@ -14,6 +14,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.LinkedListPF;
+import pageObject.LoginPF;
 import dsUtilities.ConfigReader;
 import driverFactory.DriverFactory;
 import dsUtilities.ExcelUtilityHelper;
@@ -24,17 +25,13 @@ public class LinkedListSteps {
 	
 	WebDriver driver = DriverFactory.getDriver();
     LinkedListPF llPage = new LinkedListPF(driver);
+    LoginPF lp= new LoginPF(driver);
     ExcelUtilityHelper excelUtil =new ExcelUtilityHelper();
     
 
     @Given("user is on sign to app to click Linked List")
 	public void user_is_on_sign_to_app_to_click_linked_list() {
-		llPage.clickSignIn();
-		String username = ConfigReader.getProperty("username");
-        String password = ConfigReader.getProperty("password");
-        llPage.enterUserName(username);
-        llPage.enterPassword(password);
-        llPage.clickLogin();
+    	lp.loginBackgroundForPages();
 	}
 
 	@When("user cliks on Linked List GetStarted button")
