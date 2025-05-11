@@ -34,18 +34,7 @@ public class LinkedListPF {
 	@FindBy(xpath = "//div[contains(@class,'alert-primary')]")
     WebElement sucessMessage;
 
-	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
-	public void enterUserName(String username) {
-		inputUserName.clear();
-		//wait.until(ExpectedConditions.visibilityOf(inputUserName));
-		inputUserName.sendKeys(username);
-	
-	}
-	public void enterPassword(String password) {
-		//wait.until(ExpectedConditions.visibilityOf(inputPassword));
-		inputPassword.sendKeys(password);
-	}
-	
+		
 	public void clickLogin() {
 		
 		loginBtn.click();

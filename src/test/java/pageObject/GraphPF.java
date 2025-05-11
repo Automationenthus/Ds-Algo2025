@@ -86,10 +86,7 @@ WebDriver driver;
 			return signOutLink.isDisplayed();
 		}
 		
-//		 public void loginPage() {
-//				driver.get(ConfigReader.getProperty("loginUrl"));
-//			}
-//		 
+
 		 public void clickSignIn() {
 			 signIn.click();
 			}

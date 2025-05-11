@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import io.cucumber.java.en.*;
 import pageObject.LinkedListPF;
+import pageObject.LoginPF;
 import pageObject.QueuePF;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -21,18 +22,15 @@ import dsUtilities.LogHandler;
 public class QueueSteps {
 
     WebDriver driver = DriverFactory.getDriver();
-    LinkedListPF ll = new LinkedListPF(driver);
+   // LinkedListPF ll = new LinkedListPF(driver);
     QueuePF queuePage = new QueuePF(driver);
+    LoginPF lp= new LoginPF(driver);
     ExcelUtilityHelper excelUtil =new ExcelUtilityHelper();
     
     @Given("user is on sign to app to click Queue")
     public void user_is_on_sign_to_app_to_click_queue() {
-    	queuePage.clickSignIn();
-		String username = ConfigReader.getProperty("username");
-        String password = ConfigReader.getProperty("password");
-        ll.enterUserName(username);
-        ll.enterPassword(password);
-        ll.clickLogin();
+    	lp.loginBackgroundForPages();
+
     }
 
     @When("user cliks on Queue GetStarted button")

@@ -143,6 +143,18 @@ public void login_user(String Username1) {
 		return Invalid_Crendentials.getText();
 		
 	}
+	
+	public void loginBackgroundForPages() {
+		signIn.click();
+		String uname=ConfigReader.getProperty("username");
+		String pwd=ConfigReader.getProperty("password");
+		Login_Username.sendKeys(uname);
+		Login_Password.sendKeys(pwd);
+		Login_Button.click();
+		
+			
+		
+	}
 }
 
 

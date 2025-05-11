@@ -29,17 +29,6 @@ public class DataStructuresPF {
 	@FindBy(xpath = "//h5[text()='Data Structures-Introduction']/../a[text()='Get Started']")
 	WebElement getStartedBtn; //getstaredbutton
 	
-	@FindBy(linkText = "Sign in")
-	WebElement signInLink;
-	@FindBy(id = "id_username")
-	WebElement inputUserName;
-	
-	@FindBy(id = "id_password")
-	WebElement inputPassword;
-	
-	@FindBy(xpath = "//input[@type='submit']")
-	WebElement loginBtn;
-	
 	@FindBy(xpath = "//div[contains(@class,'alert-primary')]")
     WebElement sucessMessage;
 	
@@ -76,49 +65,18 @@ public class DataStructuresPF {
 	@FindBy(id = "output")
 	WebElement outputText;
 
-
 	
-	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
-	public void enterUserName(String username) {
-		inputUserName.clear();
-		//wait.until(ExpectedConditions.visibilityOf(inputUserName));
-		inputUserName.sendKeys(username);
-	
-	}
-	public void enterPassword(String password) {
-		//wait.until(ExpectedConditions.visibilityOf(inputPassword));
-		inputPassword.sendKeys(password);
-	}
-	
-	public void clickLogin() {
-		
-		loginBtn.click();
-	}
 	public String getMessage() {
 		String loginMessage=sucessMessage.getText();
 		return loginMessage;
 	}
 	
-	public void gotoPage() {
-		driver.get(ConfigReader.getProperty("dataStructuresIntroUrl"));;
-	}
-	
-
-	public void signIn() {
-		signInLink.click();
-	
-	}
-	
+		
 	public String pageTitle() {
 		String title=driver.getTitle();
 		return title;
 	}
 
-//	public void tryEditorPage() {
-//		driver.get(ConfigReader.getProperty("tryEditorUrl"));
-//		
-//	}
-	
 	public void getStartbtnclick() {
 		getStartedBtn.click();
 	}

@@ -147,15 +147,7 @@ public class HomePF {
         WebElement warning = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='alert alert-primary']")));
         return warning.getText().trim();
     }
-  
-    public void ensureLoggedIn() {  
-    	clickSignIn();	
-    	 String username = ConfigReader.getProperty("username");
-	        String password = ConfigReader.getProperty("password");
-	        ll.enterUserName(username);
-	        ll.enterPassword(password);
-	        ll.clickLogin();	
-    }
+
     
     public boolean isOnCorrectModulePage(String option) {
         // Map option names to actual page titles

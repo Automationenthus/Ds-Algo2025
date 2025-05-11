@@ -15,6 +15,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.GraphPF;
 import pageObject.LinkedListPF;
+import pageObject.LoginPF;
 import dsUtilities.ConfigReader;
 import driverFactory.DriverFactory;
 import dsUtilities.ExcelUtilityHelper;
@@ -24,18 +25,14 @@ public class GraphSteps {
 	
 	    WebDriver driver = DriverFactory.getDriver();
 	    GraphPF graphPage = new GraphPF(driver);
+	    LoginPF lp= new LoginPF(driver);
 	    ExcelUtilityHelper excelUtil =new ExcelUtilityHelper();
-	    LinkedListPF ll = new LinkedListPF(driver);
-	
+	   
 
 	    @Given("user is on sign to app to click graph")
 		public void user_is_on_sign_to_app_to_click_graph() {
-			graphPage.clickSignIn();
-			String username = ConfigReader.getProperty("username");
-	        String password = ConfigReader.getProperty("password");
-	        ll.enterUserName(username);
-	        ll.enterPassword(password);
-	        ll.clickLogin();
+	    	lp.loginBackgroundForPages();
+	    	
 		}
 
 		@When("user cliks on Graph GetStarted button")

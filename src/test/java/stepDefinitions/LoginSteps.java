@@ -34,11 +34,10 @@ public class LoginSteps {
 	String username = null;
 	String password = null;
 	List<Map<String, String>> allRowsData;
-	private static final Logger logger = LogManager.getLogger(LoginSteps.class);
-	
+		
 	@Given("User is on home page")
 	public void user_is_on_home_page() {
-	    logger.info(driver.getTitle());
+	     LogHandler.info(driver.getTitle());
 	}
 
 	@When("User clicks on sign in button")
@@ -52,7 +51,7 @@ public class LoginSteps {
 	}
 	@Given("The user is on the login Page")
 	public void the_user_is_on_the_login_page() {
-	   logger.info("User is on login page");
+	    LogHandler.info("User is on login page");
 	   }
 
 	@Then("The user should see all header elements")
@@ -75,7 +74,7 @@ public class LoginSteps {
 		//Assert.assertTrue("Expected the username field to be empty", invalid);
 		String actual_message=loginobj.isUsernameFieldEmpty();
 		Assert.assertEquals(actual_message, expected_message);
-		logger.info(actual_message);
+		 LogHandler.info(actual_message);
 		
 	}
 	@When("The user leave the password field empty and click login")
@@ -90,7 +89,7 @@ public class LoginSteps {
 		String actual_message1=loginobj.isPasswordFieldEmpty();
 		
 		Assert.assertEquals(actual_message1, expected_message1);
-		logger.info(actual_message1);
+		 LogHandler.info(actual_message1);
 	}
 	@When("The user gets invalid data from excel sheet {string} and {string} for the login page")
 	public void the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(String sheetname, String Usecase) {
