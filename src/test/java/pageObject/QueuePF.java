@@ -3,9 +3,6 @@ package pageObject;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
 import org.testng.Assert;
-
-import dsUtilities.ConfigReader;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,8 +15,12 @@ public class QueuePF {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+    
+    @FindBy(linkText = "Sign in")
+   	WebElement signIn;
+    
     @FindBy(xpath = "//a[@href='queue']")
-    private WebElement getStartQueue;
+    WebElement getStartQueue;
     
     @FindBy(linkText = "NumpyNinja")
 	WebElement numpylink;
@@ -83,6 +84,10 @@ public class QueuePF {
 //  public void getStartbtnclick() {
 //	getStartQueue.click();
 //}
+	
+	public void clickSignIn() {
+		 signIn.click();
+		}
     
     public void clickQueueTopic(String topic) {
         Map<String, WebElement> topicMap = new HashMap<>();
@@ -98,6 +103,8 @@ public class QueuePF {
 
         element.click();
     }
+    
+    /*
 
     public void verifyPageNavigation(String topic) {
         String expectedPath = getUrlPathFromTopic(topic);
@@ -106,7 +113,7 @@ public class QueuePF {
             "Expected to contain: " + expectedPath + " but got: " + currentUrl);
     }
 
-    public void openQueueSubPage(String topic) {
+      public void openQueueSubPage(String topic) {
         //String subPageUrl = "https://dsportalapp.herokuapp.com/queue/" + getUrlPathFromTopic(topic) + "/";
         String url = ConfigReader.getProperty("queueUrl")+ getUrlPathFromTopic(topic) + "/";
        // driver.get(subPageUrl);
@@ -137,6 +144,30 @@ public class QueuePF {
                 throw new IllegalArgumentException("Unknown topic for URL mapping: " + topic);
         }
     }
+*/
+    
+    private String getTitleFromTopic(String topic) {
+        switch (topic.toLowerCase()) {
+            case "implementation of queue in python":
+                return "Implementation of Queue in Python";
+            case "implementation using collections.deque":
+                return "Implementation using collections.deque";
+            case "implementation using array":
+                return "Implementation using array";
+            case "queue operations":
+                return "Queue Operations";
+            default:
+                throw new IllegalArgumentException("Unknown topic for title mapping: " + topic);
+        }
+    }
+
+    
+    public void verifyPageNavigation(String topic) {
+        String expectedTitle = getTitleFromTopic(topic);
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle, expectedTitle, 
+            "Expected title: \"" + expectedTitle + "\" but got: \"" + actualTitle + "\"");
+    }
 
     
     public void clickRunButton() {
@@ -150,11 +181,15 @@ public class QueuePF {
         practiceQuestionsLink.click();
     }
 
-    public void verifyPracticeQuestionsPage() {
-        String url = driver.getCurrentUrl().toLowerCase();
-        Assert.assertTrue(url.contains("practice"), "Not navigated to the Practice Questions page. URL: " + url);
-    }
+//    public void verifyPracticeQuestionsPage() {
+//        String url = driver.getCurrentUrl().toLowerCase();
+//        Assert.assertTrue(url.contains("practice"), "Not navigated to the Practice Questions page. URL: " + url);
+//    }
     
+    public void clickImplementationOfQueueInPython() {
+		implementationOfQueueInPython.click();
+		}
+//    
     public void navigateToQueuePage() {
     	getStartQueue.click();
     }

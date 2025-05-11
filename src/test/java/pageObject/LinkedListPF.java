@@ -3,15 +3,11 @@ package pageObject;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-
-import dsUtilities.ConfigReader;
-import driverFactory.DriverFactory;
 
 public class LinkedListPF {
 
@@ -38,10 +34,6 @@ public class LinkedListPF {
 	@FindBy(xpath = "//div[contains(@class,'alert-primary')]")
     WebElement sucessMessage;
 
-	public void loginPage() {
-		driver.get(ConfigReader.getProperty("loginUrl"));
-	}
-	
 	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 	public void enterUserName(String username) {
 		inputUserName.clear();
@@ -58,11 +50,15 @@ public class LinkedListPF {
 		
 		loginBtn.click();
 	}
+	
+	public void clickSignIn() {
+		 signInLink.click();
+		}
+	
 	public String getMessage() {
 		String loginMessage=sucessMessage.getText();
 		return loginMessage;
 	}
-	
 	
 	   @FindBy(xpath = "//a[@href='linked-list']") 
         private WebElement getStartlinkedListLink;
@@ -137,12 +133,11 @@ public class LinkedListPF {
 	public boolean isSignOutVisible() {
 		return signOutLink.isDisplayed();
 	}
-   
-//    public void clickLinkedList() {
-//		getStartlinkedListLink.click();
-//    }
+  
+	public void clickIntroductionLink() {
+		introductionLink.click();
+  }
 
-   
     
     public void clickLinkedlistTopic(String topic) {
         Map<String, WebElement> topicMap = new HashMap<>();
@@ -162,56 +157,43 @@ public class LinkedListPF {
         element.click();
     }
 
-    public void verifyPageNavigation(String topic) {
-        String expectedPath = getUrlPathFromTopic(topic);
-        String currentUrl = driver.getCurrentUrl().replaceAll("/$", "");
-        Assert.assertTrue(currentUrl.toLowerCase().contains(expectedPath.toLowerCase()),
-            "Expected to contain: " + expectedPath + " but got: " + currentUrl);
-    }
-
-    public void openLinkedListSubPage(String topic) { 
-        String url = ConfigReader.getProperty("linkedlisturl")+ getUrlPathFromTopic(topic) + "/";
-        driver.get(url);
-    }
-    
-    public void tryEditorPage() {
-		driver.get(ConfigReader.getProperty("tryEditorUrl"));	
-	}
-
-    
-    public void verifyTryEditorPage() {
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("/tryEditor"), "Did not navigate to Try Editor. URL: " + currentUrl);
-        Assert.assertTrue(runButton.isDisplayed(), "Run button is not displayed on Try Editor page.");
-    }
-    
-    private String getUrlPathFromTopic(String topic) {
+ 
+    private String getTitleFromTopic(String topic) {
         switch (topic.trim().toLowerCase()) {
             case "introduction":
-                return "introduction";
+                return "Introduction";
             case "creating linked list":
-                return "creating-linked-list";
+                return "Creating Linked LIst"; // Check exact title case
             case "types of linked list":
-                return "types-of-linked-list";
+                return "Types of Linked List";
             case "implement linked list in python":
-                return "implement-linked-list-in-python";
+                return "Implement Linked List in Python";
             case "traversal":
-                return "traversal";
+                return "Traversal";
             case "insertion":
-                return "insertion-in-linked-list";
+                return "Insertion";
             case "deletion":
-                return "deletion-in-linked-list";
+                return "Deletion";
             default:
-                throw new IllegalArgumentException("Unknown topic for URL mapping: " + topic);
+                throw new IllegalArgumentException("Unknown topic for title mapping: " + topic);
         }
     }
 
+    public void verifyPageNavigation(String topic) {
+        String expectedTitle = getTitleFromTopic(topic);
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle, expectedTitle, 
+            "Page title mismatch");
+    }
+
+    
     public void clickRunButton() {
         runButton.click();
     }
+    
     public String getOutputData() { 
 		  return outputArea.getText();
-		  }
+    }
     
     public void clickPracticeQuestionsLink() {
         practiceQuestionsLink.click();
