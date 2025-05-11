@@ -28,7 +28,7 @@ public class DataStructuresSteps {
 	WebDriver driver=DriverFactory.getDriver();
 	DataStructuresPF ds=new DataStructuresPF(driver);
 	LoginPF lp= new LoginPF(driver);
-	ExcelUtilityHelper1 e=new ExcelUtilityHelper1();
+	ExcelUtilityHelper e=new ExcelUtilityHelper();
 	//private static final Logger logger = LogManager.getLogger(DataStructuresSteps.class);
 	@Given("user is sigin to app")
 	public void user_is_sigin_to_app() {

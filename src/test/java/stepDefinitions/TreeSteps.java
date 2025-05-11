@@ -17,7 +17,8 @@ import org.testng.Assert;
 import driverFactory.DriverFactory;
 import dsUtilities.ConfigReader;
 import dsUtilities.ExcelReader;
-import dsUtilities.ExcelUtilityHelper1;
+import dsUtilities.ExcelUtilityHelper;
+
 import dsUtilities.LogHandler;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -32,7 +33,7 @@ public class TreeSteps {
 	LoginPF lp= new LoginPF(driver);
 	//private static LogHandler logger;
 	//private static final Logger logger = LogManager.getLogger(TreeSteps.class);
-	ExcelUtilityHelper1 e=new ExcelUtilityHelper1();
+	ExcelUtilityHelper e=new ExcelUtilityHelper();
 	 TreePF treePage=new TreePF(driver);
 	 DataStructuresPF ds=new DataStructuresPF(driver);
  

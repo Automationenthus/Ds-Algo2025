@@ -19,7 +19,7 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 
-public class ExcelUtilityHelper1 {
+public class ExcelUtilityHelper {
 
   
     WebDriver driver = DriverFactory.getDriver();
@@ -88,7 +88,8 @@ public class ExcelUtilityHelper1 {
             }
         }
     }
-    public static void handleAlert(WebDriver driver, LogHandler logger) {
+    
+    public static void handleAlert(WebDriver driver ) {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             wait.until(ExpectedConditions.alertIsPresent());
@@ -98,12 +99,12 @@ public class ExcelUtilityHelper1 {
             LogHandler.info("Alert found: " + alertText);
             // alert.accept(); // Optional
         } catch (TimeoutException e) {
-            logger.info("No alert present.");
+        	LogHandler.info("No alert present.");
         } catch (Exception e) {
-            logger.error("Unexpected error while handling alert:", e);
+        	LogHandler.error("Unexpected error while handling alert:", e);
         }
     }
-//
+
 public String getErrorText() {
 	String errorMsg = driver.switchTo().alert().getText();
 	driver.switchTo().alert().accept();
@@ -120,6 +121,5 @@ public boolean isAlertIsPresent()
         return false;
     }
 }		
-  
 
 }
