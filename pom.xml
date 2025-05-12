@@ -98,15 +98,16 @@
 </dependencies>
 
 	<build>
-		<plugins>
-			 <plugin>
+  <plugins>
+    <plugin>
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-maven</artifactId>
-      <version>2.11.2</version> <!-- Stable version compatible with Allure 2.x -->
+      <version>2.11.2</version>
+      <configuration>
+        <resultsDirectory>C:/Workspace/Ds-Algo2025/allure-results</resultsDirectory>
+      </configuration>
     </plugin>
-		</plugins>
-
-
-	</build>
+  </plugins>
+</build>
 
 </project>

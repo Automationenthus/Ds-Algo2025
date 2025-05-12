@@ -13,6 +13,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -355,13 +356,15 @@ public void clickPracticeQuestion(String linkText) {
   }
 }
 
+
 public boolean isSearchTheArrayLinkVisible() {
-	try {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement link = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Search the array")));
-        return link.isDisplayed();
-    } catch (NoSuchElementException e) {
-        System.out.println("Search the array link not found: " + e.getMessage());
+    return isElementVisible(searchTheArrayLink);
+}
+
+public boolean isElementVisible(WebElement element) {
+    try {
+        return element.isDisplayed();
+    } catch (NoSuchElementException | StaleElementReferenceException e) {
         return false;
     }
 }
