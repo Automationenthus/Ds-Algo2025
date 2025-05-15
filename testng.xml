@@ -16,14 +16,6 @@
             <class name="testRunner.DsalgoRunner"/>
         </classes>
         </test>
-        
-      <test name="EdgeTest">
-        <parameter name="browser" value="edge"/>
-        <classes>
-            <class name="testRunner.DsalgoRunner"/>
-        </classes>
+       
       
-        
-    </test>
-
 </suite>

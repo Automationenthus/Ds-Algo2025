@@ -30,7 +30,8 @@ public class StackStep {
 	 StackPage stackpage = new StackPage(driver);
 	 LoginPF lp= new LoginPF(driver);
 	 private static final Logger logger = LogManager.getLogger(StackStep.class);
-	 ExcelReader reader= new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	 String path=ConfigReader.getProperty("practice_questions_excelPath");
+	 ExcelReader reader= new ExcelReader(path);
 	 
 
 @Given("The User is in the home page after sign in")
