@@ -18,7 +18,7 @@ public class Hooks {
 	@Before
 
 	public void setUp() {
-		ConfigReader.initProperties();
+		
 		driver = DriverFactory.initDriver();
 		String url = ConfigReader.getProperty("url");
 		if (url == null || url.isEmpty()) {

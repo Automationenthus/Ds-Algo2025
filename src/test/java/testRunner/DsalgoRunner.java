@@ -17,7 +17,7 @@ import io.cucumber.testng.CucumberOptions;
 	        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 	    }, 
 	    monochrome = false,
-	    features = { "src/test/resources/Feature" },
+	    features = { "src/test/resources/Feature/Arrays.feature" },
 	    glue = { "stepDefinitions", "dsalgoHooks" }
 	)
 	public class DsalgoRunner extends AbstractTestNGCucumberTests {

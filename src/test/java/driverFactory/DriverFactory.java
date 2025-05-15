@@ -36,7 +36,7 @@ public class DriverFactory {
             throw new RuntimeException("Unsupported browser: " + browser);
         }
 
-        // Corrected usage
+       
         getDriver().manage().window().maximize();
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return getDriver();
@@ -49,7 +49,7 @@ public class DriverFactory {
     public static void quitDriver() {
         if (getDriver() != null) {
             getDriver().quit();
-            driver.remove(); // properly cleans up the ThreadLocal
+            driver.remove(); 
         }
     }
 }
