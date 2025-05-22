@@ -34,7 +34,8 @@ public class ArraysStep {
 	 ArraysPage arraysPage = new ArraysPage(driver);
 	 LoginPF lp= new LoginPF(driver);
 	 private static final Logger logger = LogManager.getLogger(ArraysStep.class);
-	 ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	 String path=ConfigReader.getProperty("practice_questions_excelPath");
+	 ExcelReader excelreader = new ExcelReader(path);
 	
 	 @Given("The User is in home page after sign in")
 	 public void the_user_is_in_home_page_after_sign_in() {

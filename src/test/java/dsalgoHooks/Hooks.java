@@ -18,9 +18,10 @@ public class Hooks {
 	@Before
 
 	public void setUp() {
-		ConfigReader.initProperties();
-		driver = DriverFactory.initDriver(); //Starts the WebDriver (e.g., ChromeDriver) and stores it in a static variable.
-		String url = ConfigReader.getProperty("url"); //Navigates the browser to the base URL specified in config.properties, e.g.
+		
+		driver = DriverFactory.initDriver();
+		String url = ConfigReader.getProperty("url");
+
 		if (url == null || url.isEmpty()) {
 			throw new RuntimeException("URL not specified in config.properties");
 		}
