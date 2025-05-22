@@ -3859,7 +3859,6 @@
 2025-05-03 16:24:52 INFO  StackStep:36 - Navigated to: Home page
 2025-05-03 16:24:54 INFO  StackStep:52 - User navigated to Home Page
 2025-05-03 16:24:54 INFO  StackStep:244 - User navigated to Application Page
-=======
 2025-04-28 08:24:37 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-04-28 08:24:39 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-04-28 08:24:39 INFO  DataStructuresSteps:57 - Data Structures-Introduction
@@ -6426,8 +6425,6 @@
 2025-05-02 08:29:51 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-05-02 08:30:04 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-05-02 08:30:04 INFO  DataStructuresSteps:33 - Login
-
-<<<<<<< HEAD
 2025-05-05 17:21:16 INFO  ArraysStep:42 - User navigated to Home Page
 2025-05-05 17:21:17 INFO  ArraysStep:73 - Navigated to: Home page
 2025-05-05 17:21:21 INFO  ArraysStep:42 - User navigated to Home Page
@@ -8036,7 +8033,6 @@
 2025-05-09 13:48:05 INFO  LoginSteps:59 - User is on login page
 2025-05-09 13:48:10 INFO  LoginSteps:45 - NumpyNinja
 2025-05-09 13:48:11 INFO  LoginSteps:59 - User is on login page
-=======
 2025-05-07 00:00:41 INFO  ArraysStep:42 - User navigated to Home Page
 2025-05-07 00:00:42 INFO  ArraysStep:73 - Navigated to: Home page
 2025-05-07 00:00:45 INFO  ArraysStep:42 - User navigated to Home Page
@@ -9896,7 +9892,6 @@
 2025-05-09 17:26:04 INFO  StackStep:37 - Navigated to: Home page
 2025-05-09 17:26:07 INFO  StackStep:62 - User navigated to Stack Page
 2025-05-09 17:26:08 INFO  StackStep:234 - User navigated to Application Page
->>>>>>> main
 2025-05-09 22:20:18 INFO  ArraysStep:70 - Navigated to: Arrays page
 2025-05-09 22:20:24 INFO  ArraysStep:86 - Navigated to: Arrays in Python page
 2025-05-09 22:20:32 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
@@ -9955,3 +9950,2029 @@
 2025-05-09 22:25:50 INFO  StackStep:37 - Navigated to: Home page
 2025-05-09 22:25:52 INFO  StackStep:62 - User navigated to Stack Page
 2025-05-09 22:25:53 INFO  StackStep:234 - User navigated to Application Page
+2025-05-10 10:55:57 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:55:57 INFO  DataStructuresSteps:64 - Data Structures-Introduction
+2025-05-10 10:56:02 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:02 INFO  DataStructuresSteps:64 - Data Structures-Introduction
+2025-05-10 10:56:07 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:07 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 10:56:08 INFO  DataStructuresSteps:110 - Practice Questions
+2025-05-10 10:56:12 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:12 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 10:56:13 INFO  DataStructuresSteps:122 - Assessment
+2025-05-10 10:56:19 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:21 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:26 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:29 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:30 INFO  DataStructuresSteps:157 - NameError: name 'hello' is not defined on line 1
+2025-05-10 10:56:34 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:35 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:40 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:43 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:43 INFO  DataStructuresSteps:202 - console result:hello
+2025-05-10 10:56:47 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:49 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 10:56:49 INFO  DataStructuresSteps:210 - Time Complexity
+2025-05-10 10:56:54 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 10:56:54 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 11:08:39 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:08:43 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:08:48 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:08:54 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:08:59 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:04 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:10 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:15 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:20 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:25 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:30 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:36 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:42 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:48 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:09:58 INFO  DataStructuresSteps:113 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-10 11:11:57 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 11:12:04 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 11:12:05 INFO  DataStructuresSteps:146 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-10 11:12:14 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 11:12:14 INFO  DataStructuresSteps:166 - console result:hello
+2025-05-10 11:12:21 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 11:12:22 INFO  DataStructuresSteps:173 - Overview of Trees
+2025-05-10 11:12:27 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 11:15:06 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:06 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:06 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:09 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:09 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:09 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:12 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:12 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:12 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:16 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:16 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:16 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:20 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:20 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:20 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:23 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:23 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:23 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:27 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:27 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:27 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:30 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 11:15:31 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 11:15:31 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 11:15:31 INFO  DataStructuresSteps:127 - user is on : Login
+2025-05-10 11:41:04 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:04 INFO  DataStructuresSteps:66 - Data Structures-Introduction
+2025-05-10 11:41:09 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:09 INFO  DataStructuresSteps:66 - Data Structures-Introduction
+2025-05-10 11:41:14 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:14 INFO  DataStructuresSteps:97 - Time Complexity
+2025-05-10 11:41:15 INFO  DataStructuresSteps:112 - Practice Questions
+2025-05-10 11:41:19 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:20 INFO  DataStructuresSteps:97 - Time Complexity
+2025-05-10 11:41:22 INFO  DataStructuresSteps:124 - Assessment
+2025-05-10 11:41:27 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:30 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:41:38 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:40 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:41:42 INFO  DataStructuresSteps:159 - NameError: name 'hello' is not defined on line 1
+2025-05-10 11:41:47 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:48 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:41:53 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:41:56 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:41:56 INFO  DataStructuresSteps:204 - console result:hello
+2025-05-10 11:42:01 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:42:04 INFO  DataStructuresSteps:132 - Assessment
+2025-05-10 11:42:05 INFO  DataStructuresSteps:212 - Time Complexity
+2025-05-10 11:42:09 INFO  DataStructuresSteps:52 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:42:09 INFO  DataStructuresSteps:97 - Time Complexity
+2025-05-10 11:46:38 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:46:38 INFO  DataStructuresSteps:60 - Data Structures-Introduction
+2025-05-10 11:46:43 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:46:43 INFO  DataStructuresSteps:60 - Data Structures-Introduction
+2025-05-10 11:46:48 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:46:49 INFO  DataStructuresSteps:91 - Time Complexity
+2025-05-10 11:46:49 INFO  DataStructuresSteps:106 - Practice Questions
+2025-05-10 11:46:54 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:46:54 INFO  DataStructuresSteps:91 - Time Complexity
+2025-05-10 11:46:55 INFO  DataStructuresSteps:118 - Assessment
+2025-05-10 11:47:00 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:02 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:07 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:09 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:09 INFO  DataStructuresSteps:153 - NameError: name 'hello' is not defined on line 1
+2025-05-10 11:47:14 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:18 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:23 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:26 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:26 INFO  DataStructuresSteps:198 - console result:hello
+2025-05-10 11:47:31 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:34 INFO  DataStructuresSteps:126 - Assessment
+2025-05-10 11:47:34 INFO  DataStructuresSteps:206 - Time Complexity
+2025-05-10 11:47:39 INFO  DataStructuresSteps:46 - user is on data structure page:Data Structures-Introduction
+2025-05-10 11:47:39 INFO  DataStructuresSteps:91 - Time Complexity
+2025-05-10 12:09:32 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:09:32 INFO  DataStructuresSteps:62 - Data Structures-Introduction
+2025-05-10 12:09:38 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:09:38 INFO  DataStructuresSteps:62 - Data Structures-Introduction
+2025-05-10 12:09:43 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:09:44 INFO  DataStructuresSteps:92 - Time Complexity
+2025-05-10 12:09:44 INFO  DataStructuresSteps:107 - Practice Questions
+2025-05-10 12:09:49 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:09:50 INFO  DataStructuresSteps:92 - Time Complexity
+2025-05-10 12:09:51 INFO  DataStructuresSteps:119 - Assessment
+2025-05-10 12:09:55 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:00 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:05 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:09 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:10 INFO  DataStructuresSteps:156 - NameError: name 'hello' is not defined on line 1
+2025-05-10 12:10:15 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:18 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:23 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:26 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:26 INFO  DataStructuresSteps:202 - console result:hello
+2025-05-10 12:10:30 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:33 INFO  DataStructuresSteps:127 - Assessment
+2025-05-10 12:10:34 INFO  DataStructuresSteps:210 - Time Complexity
+2025-05-10 12:10:38 INFO  DataStructuresSteps:48 - user is on data structure page:Data Structures-Introduction
+2025-05-10 12:10:38 INFO  DataStructuresSteps:92 - Time Complexity
+2025-05-10 12:13:57 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:02 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:07 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:12 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:18 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:24 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:29 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:34 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:40 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:45 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:51 INFO  TreeSteps:58 - Tree
+2025-05-10 12:14:58 INFO  TreeSteps:58 - Tree
+2025-05-10 12:15:03 INFO  TreeSteps:58 - Tree
+2025-05-10 12:15:09 INFO  TreeSteps:58 - Tree
+2025-05-10 12:15:15 INFO  TreeSteps:113 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-10 12:17:05 INFO  TreeSteps:121 - Assessment
+2025-05-10 12:17:12 INFO  TreeSteps:121 - Assessment
+2025-05-10 12:17:13 INFO  TreeSteps:147 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-10 12:17:19 INFO  TreeSteps:121 - Assessment
+2025-05-10 12:17:19 INFO  TreeSteps:168 - console result:hello
+2025-05-10 12:17:27 INFO  TreeSteps:121 - Assessment
+2025-05-10 12:17:27 INFO  TreeSteps:175 - Overview of Trees
+2025-05-10 12:17:32 INFO  TreeSteps:58 - Tree
+2025-05-10 13:16:36 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-10 13:16:43 INFO  ArraysStep:89 - Navigated to: Arrays in Python page
+2025-05-10 13:16:53 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-10 13:17:02 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-10 13:17:14 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-10 13:17:21 INFO  ArraysStep:89 - Navigated to: Arrays in Python page
+2025-05-10 13:17:29 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-10 13:17:39 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-10 13:17:50 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-10 13:17:59 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-10 13:20:36 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-10 13:20:43 INFO  ArraysStep:433 - Navigated to: Arrays using List page
+2025-05-10 13:20:51 INFO  ArraysStep:433 - Navigated to: Arrays using List page
+2025-05-10 13:20:57 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-10 13:21:04 INFO  ArraysStep:462 - Navigated to: Basic Operations in List page
+2025-05-10 13:21:12 INFO  ArraysStep:462 - Navigated to: Basic Operations in List page
+2025-05-10 13:21:18 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-10 13:21:24 INFO  ArraysStep:486 - Navigated to: Applications of Array page
+2025-05-10 13:21:30 INFO  ArraysStep:486 - Navigated to: Applications of Array page
+2025-05-10 13:21:35 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:35 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-10 13:21:39 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:39 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-10 13:21:44 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:45 INFO  LogHandler:12 - Time Complexity
+2025-05-10 13:21:45 INFO  LogHandler:12 - Practice Questions
+2025-05-10 13:21:49 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:50 INFO  LogHandler:12 - Time Complexity
+2025-05-10 13:21:51 INFO  LogHandler:12 - Assessment
+2025-05-10 13:21:55 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:21:57 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:02 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:06 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:06 INFO  LogHandler:12 - NameError: name 'hello' is not defined on line 1
+2025-05-10 13:22:10 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:12 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:17 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:20 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:20 INFO  LogHandler:12 - console result:hello
+2025-05-10 13:22:25 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:27 INFO  LogHandler:12 - Assessment
+2025-05-10 13:22:28 INFO  LogHandler:12 - Time Complexity
+2025-05-10 13:22:32 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-10 13:22:33 INFO  LogHandler:12 - Time Complexity
+2025-05-10 13:22:36 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:36 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:36 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:39 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:39 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:39 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:42 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:42 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:42 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:46 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:46 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:46 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:49 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:50 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:50 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:53 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:54 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:54 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:22:57 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:22:58 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:22:58 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:23:01 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-10 13:23:01 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-10 13:23:01 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-10 13:23:02 INFO  LogHandler:12 - user is on : Login
+2025-05-10 13:23:06 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:07 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-10 13:23:12 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:13 INFO  StackStep:91 - User navigated to Operations in Stack Page
+2025-05-10 13:23:19 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:23 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:23:28 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:31 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:23:36 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:40 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:23:44 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:45 INFO  StackStep:91 - User navigated to Operations in Stack Page
+2025-05-10 13:23:51 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:51 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-10 13:23:56 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:23:57 INFO  StackStep:215 - User navigated to Implementation Page
+2025-05-10 13:24:03 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:07 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:24:12 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:16 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:24:21 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:25 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:24:29 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:30 INFO  StackStep:215 - User navigated to Implementation Page
+2025-05-10 13:24:35 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:36 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-10 13:24:41 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:42 INFO  StackStep:237 - User navigated to Application Page
+2025-05-10 13:24:51 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:24:55 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:25:00 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:25:04 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:25:09 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:25:13 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-10 13:25:18 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-10 13:25:19 INFO  StackStep:237 - User navigated to Application Page
+2025-05-10 13:25:25 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:29 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:34 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:40 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:45 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:50 INFO  LogHandler:12 - Tree
+2025-05-10 13:25:55 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:01 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:06 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:11 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:16 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:21 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:26 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:32 INFO  LogHandler:12 - Tree
+2025-05-10 13:26:39 INFO  LogHandler:12 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-10 13:28:42 INFO  LogHandler:12 - Assessment
+2025-05-10 13:28:52 INFO  LogHandler:12 - Assessment
+2025-05-10 13:28:52 INFO  LogHandler:12 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-10 13:29:01 INFO  LogHandler:12 - Assessment
+2025-05-10 13:29:02 INFO  LogHandler:12 - console result:hello
+2025-05-10 13:29:11 INFO  LogHandler:12 - Assessment
+2025-05-10 13:29:12 INFO  LogHandler:12 - Overview of Trees
+2025-05-10 13:29:16 INFO  LogHandler:12 - Tree
+2025-05-10 14:54:38 INFO  LogHandler:12 - Graph
+2025-05-10 14:54:38 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 14:54:43 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 14:54:52 INFO  LogHandler:12 - No alert present.
+2025-05-10 14:54:52 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 14:54:52 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 14:55:03 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 14:55:03 INFO  LogHandler:12 - Assessment
+2025-05-10 14:55:07 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 14:55:11 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 14:55:15 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 14:55:25 INFO  LogHandler:12 - No alert present.
+2025-05-10 14:55:25 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 14:55:25 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 14:55:35 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 14:55:39 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 14:55:43 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 14:55:47 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 18:14:41 INFO  LogHandler:12 - Linked List
+2025-05-10 18:14:47 INFO  LogHandler:12 - Linked List
+2025-05-10 18:14:48 INFO  LogHandler:12 - Introduction
+2025-05-10 18:14:52 INFO  LogHandler:12 - Linked List
+2025-05-10 18:14:52 INFO  LogHandler:12 - Creating Linked LIst
+2025-05-10 18:15:21 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:26 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:27 INFO  LogHandler:12 - Introduction
+2025-05-10 18:15:31 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:31 INFO  LogHandler:12 - Creating Linked LIst
+2025-05-10 18:15:35 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:36 INFO  LogHandler:12 - Types of Linked List
+2025-05-10 18:15:40 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:40 INFO  LogHandler:12 - Implement Linked List in Python
+2025-05-10 18:15:44 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:45 INFO  LogHandler:12 - Traversal
+2025-05-10 18:15:49 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:50 INFO  LogHandler:12 - Insertion
+2025-05-10 18:15:53 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:54 INFO  LogHandler:12 - Deletion
+2025-05-10 18:15:58 INFO  LogHandler:12 - Linked List
+2025-05-10 18:15:59 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:03 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:05 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:08 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:10 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:14 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:15 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:19 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:20 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:24 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:26 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:30 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:31 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:35 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:35 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-10 18:16:38 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:40 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:46 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:47 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:47 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 18:16:51 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:53 INFO  LogHandler:12 - Assessment
+2025-05-10 18:16:53 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 18:16:56 INFO  LogHandler:12 - Linked List
+2025-05-10 18:16:57 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 18:17:01 INFO  LogHandler:12 - Linked List
+2025-05-10 18:17:02 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 18:43:58 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:01 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:05 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:08 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:12 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:16 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:19 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:23 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:26 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:30 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:34 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:37 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:41 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:44 INFO  LogHandler:12 - Queue
+2025-05-10 18:44:48 INFO  LogHandler:12 - Queue
+2025-05-10 18:47:00 INFO  LogHandler:12 - Queue
+2025-05-10 18:47:04 INFO  LogHandler:12 - Queue
+2025-05-10 18:47:05 INFO  LogHandler:12 - Implementation of Queue in Python
+2025-05-10 18:47:55 INFO  LogHandler:12 - Queue
+2025-05-10 18:47:59 INFO  LogHandler:12 - Queue
+2025-05-10 18:48:00 INFO  LogHandler:12 - Implementation of Queue in Python
+2025-05-10 18:48:26 INFO  LogHandler:12 - Queue
+2025-05-10 18:48:31 INFO  LogHandler:12 - Queue
+2025-05-10 18:48:31 INFO  LogHandler:12 - Implementation of Queue in Python
+2025-05-10 18:48:35 INFO  LogHandler:12 - Queue
+2025-05-10 18:48:35 INFO  LogHandler:12 - Implementation using collections.deque
+2025-05-10 18:48:39 INFO  LogHandler:12 - Queue
+2025-05-10 18:48:40 INFO  LogHandler:12 - Implementation using array
+2025-05-10 18:48:43 INFO  LogHandler:12 - Queue
+2025-05-10 18:48:44 INFO  LogHandler:12 - Queue Operations
+2025-05-10 18:51:09 INFO  LogHandler:12 - Queue
+2025-05-10 18:51:13 INFO  LogHandler:12 - Queue
+2025-05-10 18:51:14 INFO  LogHandler:12 - Implementation of Queue in Python
+2025-05-10 18:51:17 INFO  LogHandler:12 - Queue
+2025-05-10 18:51:18 INFO  LogHandler:12 - Implementation using collections.deque
+2025-05-10 18:51:22 INFO  LogHandler:12 - Queue
+2025-05-10 18:51:22 INFO  LogHandler:12 - Implementation using array
+2025-05-10 18:51:26 INFO  LogHandler:12 - Queue
+2025-05-10 18:51:27 INFO  LogHandler:12 - Queue Operations
+2025-05-10 18:52:07 INFO  LogHandler:12 - Queue
+2025-05-10 18:52:11 INFO  LogHandler:12 - Queue
+2025-05-10 18:52:13 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 18:52:17 INFO  LogHandler:12 - Queue
+2025-05-10 18:52:18 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 18:52:22 INFO  LogHandler:12 - Queue
+2025-05-10 18:52:23 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 18:52:27 INFO  LogHandler:12 - Queue
+2025-05-10 18:52:29 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 18:53:06 INFO  LogHandler:12 - Queue
+2025-05-10 18:53:10 INFO  LogHandler:12 - Queue
+2025-05-10 18:53:12 INFO  LogHandler:12 - Assessment
+2025-05-10 18:53:17 INFO  LogHandler:12 - No alert present.
+2025-05-10 18:53:17 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 18:53:17 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 18:53:21 INFO  LogHandler:12 - Queue
+2025-05-10 18:53:22 INFO  LogHandler:12 - Assessment
+2025-05-10 18:53:28 INFO  LogHandler:12 - Queue
+2025-05-10 18:53:29 INFO  LogHandler:12 - Assessment
+2025-05-10 18:53:29 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 18:53:29 INFO  LogHandler:12 - Assessment
+2025-05-10 18:54:06 INFO  LogHandler:12 - Queue
+2025-05-10 18:54:10 INFO  LogHandler:12 - Queue
+2025-05-10 18:54:11 INFO  LogHandler:12 - Assessment
+2025-05-10 18:54:12 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 18:54:15 INFO  LogHandler:12 - Queue
+2025-05-10 18:54:16 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 18:54:20 INFO  LogHandler:12 - Queue
+2025-05-10 18:54:21 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 19:12:46 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:12:46 INFO  LogHandler:12 - Graph
+2025-05-10 19:13:14 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:13:15 INFO  LogHandler:12 - Graph
+2025-05-10 19:13:19 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:13:19 INFO  LogHandler:12 - Graph
+2025-05-10 19:13:19 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 19:13:23 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:13:24 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 19:14:06 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:14:07 INFO  LogHandler:12 - Graph
+2025-05-10 19:14:10 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:14:12 INFO  LogHandler:12 - Assessment
+2025-05-10 19:14:17 INFO  LogHandler:12 - No alert present.
+2025-05-10 19:14:18 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 19:14:18 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 19:14:51 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:14:52 INFO  LogHandler:12 - Graph
+2025-05-10 19:14:55 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:14:57 INFO  LogHandler:12 - Assessment
+2025-05-10 19:15:02 INFO  LogHandler:12 - No alert present.
+2025-05-10 19:15:02 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 19:15:02 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 19:15:06 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:15:08 INFO  LogHandler:12 - Assessment
+2025-05-10 19:15:14 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:15:15 INFO  LogHandler:12 - Assessment
+2025-05-10 19:15:15 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:15:15 INFO  LogHandler:12 - Assessment
+2025-05-10 19:15:19 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:15:20 INFO  LogHandler:12 - Assessment
+2025-05-10 19:15:20 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:15:57 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:15:58 INFO  LogHandler:12 - Graph
+2025-05-10 19:16:02 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:03 INFO  LogHandler:12 - Assessment
+2025-05-10 19:16:04 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:16:07 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:08 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 19:16:12 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:13 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 19:16:17 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:24 INFO  LogHandler:12 - No alert present.
+2025-05-10 19:16:24 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 19:16:24 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 19:16:27 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:35 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:36 INFO  LogHandler:12 - Assessment
+2025-05-10 19:16:36 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:16:40 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:41 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:16:45 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:46 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 19:16:50 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:16:51 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 19:17:18 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:17:19 INFO  LogHandler:12 - Graph
+2025-05-10 19:17:23 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:17:24 INFO  LogHandler:12 - Graph
+2025-05-10 19:17:24 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 19:17:28 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:17:29 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 19:17:32 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:17:34 INFO  LogHandler:12 - Assessment
+2025-05-10 19:17:39 INFO  LogHandler:12 - No alert present.
+2025-05-10 19:17:39 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 19:17:39 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 19:17:43 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:17:45 INFO  LogHandler:12 - Assessment
+2025-05-10 19:17:50 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:17:52 INFO  LogHandler:12 - Assessment
+2025-05-10 19:17:52 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:17:52 INFO  LogHandler:12 - Assessment
+2025-05-10 19:17:56 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:17:57 INFO  LogHandler:12 - Assessment
+2025-05-10 19:17:57 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:18:01 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:18:01 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 19:18:05 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:18:07 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 19:18:10 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:18:17 INFO  LogHandler:12 - No alert present.
+2025-05-10 19:18:17 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 19:18:17 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 19:18:21 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:18:28 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:18:29 INFO  LogHandler:12 - Assessment
+2025-05-10 19:18:29 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:18:33 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:18:35 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:18:38 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:18:39 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 19:18:42 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:18:43 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 19:27:45 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-10 19:27:52 INFO  ArraysStep:86 - Navigated to: Arrays in Python page
+2025-05-10 19:27:59 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-10 19:28:04 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-10 19:28:11 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-10 19:28:16 INFO  ArraysStep:86 - Navigated to: Arrays in Python page
+2025-05-10 19:28:21 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-10 19:28:27 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-10 19:28:34 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-10 19:28:40 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-10 19:30:26 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-10 19:30:31 INFO  ArraysStep:430 - Navigated to: Arrays using List page
+2025-05-10 19:30:37 INFO  ArraysStep:430 - Navigated to: Arrays using List page
+2025-05-10 19:30:42 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-10 19:30:47 INFO  ArraysStep:459 - Navigated to: Basic Operations in List page
+2025-05-10 19:30:52 INFO  ArraysStep:459 - Navigated to: Basic Operations in List page
+2025-05-10 19:30:57 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-10 19:31:02 INFO  ArraysStep:483 - Navigated to: Applications of Array page
+2025-05-10 19:31:07 INFO  ArraysStep:483 - Navigated to: Applications of Array page
+2025-05-10 19:31:11 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:11 INFO  DataStructuresSteps:64 - Data Structures-Introduction
+2025-05-10 19:31:15 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:15 INFO  DataStructuresSteps:64 - Data Structures-Introduction
+2025-05-10 19:31:19 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:20 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 19:31:20 INFO  DataStructuresSteps:110 - Practice Questions
+2025-05-10 19:31:24 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:24 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 19:31:25 INFO  DataStructuresSteps:122 - Assessment
+2025-05-10 19:31:29 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:30 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 19:31:33 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:35 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 19:31:35 INFO  DataStructuresSteps:157 - NameError: name 'hello' is not defined on line 1
+2025-05-10 19:31:38 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:40 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 19:31:43 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:45 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 19:31:45 INFO  DataStructuresSteps:202 - console result:hello
+2025-05-10 19:31:48 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:50 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 19:31:50 INFO  DataStructuresSteps:210 - Time Complexity
+2025-05-10 19:31:53 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 19:31:54 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 19:31:58 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:31:59 INFO  LogHandler:12 - Graph
+2025-05-10 19:32:02 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:03 INFO  LogHandler:12 - Graph
+2025-05-10 19:32:03 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 19:32:06 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:08 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 19:32:11 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:12 INFO  LogHandler:12 - Assessment
+2025-05-10 19:32:18 INFO  LogHandler:12 - No alert present.
+2025-05-10 19:32:18 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 19:32:18 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 19:32:21 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:23 INFO  LogHandler:12 - Assessment
+2025-05-10 19:32:29 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:30 INFO  LogHandler:12 - Assessment
+2025-05-10 19:32:30 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:32:30 INFO  LogHandler:12 - Assessment
+2025-05-10 19:32:34 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:35 INFO  LogHandler:12 - Assessment
+2025-05-10 19:32:35 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:32:39 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:40 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 19:32:43 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:45 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 19:32:49 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:32:55 INFO  LogHandler:12 - No alert present.
+2025-05-10 19:32:55 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 19:32:55 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 19:32:59 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:33:07 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:33:08 INFO  LogHandler:12 - Assessment
+2025-05-10 19:33:08 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:33:12 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:33:14 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:33:18 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:33:18 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 19:33:22 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 19:33:24 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 19:33:28 INFO  LogHandler:12 - Linked List
+2025-05-10 19:33:32 INFO  LogHandler:12 - Linked List
+2025-05-10 19:33:33 INFO  LogHandler:12 - Introduction
+2025-05-10 19:33:37 INFO  LogHandler:12 - Linked List
+2025-05-10 19:33:38 INFO  LogHandler:12 - Creating Linked LIst
+2025-05-10 19:33:42 INFO  LogHandler:12 - Linked List
+2025-05-10 19:33:43 INFO  LogHandler:12 - Types of Linked List
+2025-05-10 19:33:47 INFO  LogHandler:12 - Linked List
+2025-05-10 19:33:47 INFO  LogHandler:12 - Implement Linked List in Python
+2025-05-10 19:33:51 INFO  LogHandler:12 - Linked List
+2025-05-10 19:33:52 INFO  LogHandler:12 - Traversal
+2025-05-10 19:33:56 INFO  LogHandler:12 - Linked List
+2025-05-10 19:33:57 INFO  LogHandler:12 - Insertion
+2025-05-10 19:34:01 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:01 INFO  LogHandler:12 - Deletion
+2025-05-10 19:34:05 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:07 INFO  LogHandler:12 - Assessment
+2025-05-10 19:34:11 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:13 INFO  LogHandler:12 - Assessment
+2025-05-10 19:34:17 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:18 INFO  LogHandler:12 - Assessment
+2025-05-10 19:34:22 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:24 INFO  LogHandler:12 - Assessment
+2025-05-10 19:34:28 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:30 INFO  LogHandler:12 - Assessment
+2025-05-10 19:34:34 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:36 INFO  LogHandler:12 - Assessment
+2025-05-10 19:34:40 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:41 INFO  LogHandler:12 - Assessment
+2025-05-10 19:34:45 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:46 INFO  LogHandler:12 - Assessment
+2025-05-10 19:34:52 INFO  LogHandler:12 - No alert present.
+2025-05-10 19:34:52 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 19:34:52 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 19:34:56 INFO  LogHandler:12 - Linked List
+2025-05-10 19:34:57 INFO  LogHandler:12 - Assessment
+2025-05-10 19:35:03 INFO  LogHandler:12 - Linked List
+2025-05-10 19:35:04 INFO  LogHandler:12 - Assessment
+2025-05-10 19:35:04 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:35:08 INFO  LogHandler:12 - Linked List
+2025-05-10 19:35:09 INFO  LogHandler:12 - Assessment
+2025-05-10 19:35:10 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:35:13 INFO  LogHandler:12 - Linked List
+2025-05-10 19:35:14 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 19:35:18 INFO  LogHandler:12 - Linked List
+2025-05-10 19:35:19 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 19:35:23 INFO  LogHandler:12 - Queue
+2025-05-10 19:35:27 INFO  LogHandler:12 - Queue
+2025-05-10 19:35:28 INFO  LogHandler:12 - Assessment
+2025-05-10 19:35:29 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 19:35:32 INFO  LogHandler:12 - Queue
+2025-05-10 19:35:33 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 19:35:36 INFO  LogHandler:12 - Queue
+2025-05-10 19:35:37 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 19:35:40 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 19:35:40 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 19:35:40 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 19:35:42 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 19:35:43 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 19:35:43 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 19:35:45 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 19:35:45 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 19:35:45 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 19:35:48 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 19:35:48 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 19:35:48 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 19:35:51 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 19:35:51 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 19:35:51 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 19:35:54 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 19:35:54 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 19:35:54 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 19:35:57 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 19:35:57 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 19:35:57 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 19:35:59 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 19:36:00 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 19:36:00 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 19:36:00 INFO  DataStructuresSteps:127 - user is on : Login
+2025-05-10 19:36:02 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:04 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:04 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-10 19:36:07 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:08 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:09 INFO  StackStep:88 - User navigated to Operations in Stack Page
+2025-05-10 19:36:12 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:14 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:16 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:36:18 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:20 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:21 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:36:24 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:25 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:27 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:36:29 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:31 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:31 INFO  StackStep:88 - User navigated to Operations in Stack Page
+2025-05-10 19:36:34 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:36 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:36 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-10 19:36:38 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:40 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:41 INFO  StackStep:212 - User navigated to Implementation Page
+2025-05-10 19:36:44 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:46 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:47 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:36:50 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:51 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:53 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:36:55 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:36:57 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:36:58 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:37:01 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:37:02 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:37:03 INFO  StackStep:212 - User navigated to Implementation Page
+2025-05-10 19:37:06 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:37:07 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:37:07 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-10 19:37:10 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:37:12 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:37:12 INFO  StackStep:234 - User navigated to Application Page
+2025-05-10 19:37:15 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:37:17 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:37:19 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:37:21 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:37:23 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:37:24 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:37:27 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:37:28 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:37:30 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 19:37:32 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 19:37:34 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 19:37:35 INFO  StackStep:234 - User navigated to Application Page
+2025-05-10 19:37:39 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 19:37:43 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 19:38:38 INFO  DataStructuresSteps:113 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-10 19:39:52 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 19:39:57 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 19:39:57 INFO  DataStructuresSteps:146 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-10 19:40:02 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 19:40:02 INFO  DataStructuresSteps:166 - console result:hello
+2025-05-10 19:40:07 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 19:40:07 INFO  DataStructuresSteps:173 - Overview of Trees
+2025-05-10 19:40:11 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 19:51:55 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:51:55 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:51:57 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:51:58 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:52:38 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:52:38 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:52:40 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:52:41 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:00 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:03 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:03 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:05 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:06 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:34 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:37 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:37 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:39 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:40 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:42 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:42 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:44 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:45 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:47 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:47 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:49 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:50 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:52 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:52 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:55 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:57:57 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:58:30 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:58:51 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:58:54 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:58:56 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:59:27 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:59:27 INFO  LogHandler:12 - Title of the current page is : Login
+2025-05-10 19:59:29 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 19:59:29 INFO  LogHandler:12 - Title of the current page is : Registration
+2025-05-10 20:01:54 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:43 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:45 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:46 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:48 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:48 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:51 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:51 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:54 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:54 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:57 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:57 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:14:59 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:00 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:02 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:02 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:05 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:08 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:11 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:14 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:16 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:15:19 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:19:24 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:19:36 INFO  LogHandler:12 - Linked List
+2025-05-10 20:20:57 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:21:09 INFO  LogHandler:12 - Linked List
+2025-05-10 20:22:15 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:22:26 INFO  LogHandler:12 - Linked List
+2025-05-10 20:25:27 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:25:31 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 20:25:36 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 20:25:43 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-10 20:25:47 INFO  LogHandler:12 - Linked List
+2025-05-10 20:26:35 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:27:19 INFO  LogHandler:12 - Linked List
+2025-05-10 20:33:35 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 20:34:19 INFO  LogHandler:12 - Linked List
+2025-05-10 21:00:35 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:01:20 INFO  LogHandler:12 - Linked List
+2025-05-10 21:01:59 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:22:04 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:27:14 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:28:32 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:30:31 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:30:35 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 21:30:39 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 21:31:23 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:31:27 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 21:31:31 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 21:32:53 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:32:57 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 21:33:00 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 21:33:04 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-10 21:33:08 INFO  LogHandler:12 - Title of the current page is : Stack
+2025-05-10 21:33:12 INFO  LogHandler:12 - Title of the current page is : Queue
+2025-05-10 21:33:15 INFO  LogHandler:12 - Title of the current page is : Tree
+2025-05-10 21:33:19 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 21:34:31 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:34:35 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 21:34:39 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 21:34:43 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-10 21:34:47 INFO  LogHandler:12 - Title of the current page is : Stack
+2025-05-10 21:34:51 INFO  LogHandler:12 - Title of the current page is : Queue
+2025-05-10 21:34:55 INFO  LogHandler:12 - Title of the current page is : Tree
+2025-05-10 21:34:58 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 21:41:40 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:42 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:43 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:45 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:45 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:48 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:48 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:50 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:51 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:53 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:53 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:55 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:56 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:58 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:41:58 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:42:01 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:42:03 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:42:06 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:42:09 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:42:12 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:42:14 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:42:19 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 21:42:23 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 21:42:27 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-10 21:42:30 INFO  LogHandler:12 - Title of the current page is : Stack
+2025-05-10 21:42:34 INFO  LogHandler:12 - Title of the current page is : Queue
+2025-05-10 21:42:38 INFO  LogHandler:12 - Title of the current page is : Tree
+2025-05-10 21:42:42 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 21:43:08 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:43:08 INFO  LogHandler:12 - Title of the current page is : Login
+2025-05-10 21:43:10 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:43:10 INFO  LogHandler:12 - Title of the current page is : Registration
+2025-05-10 21:52:16 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:18 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:19 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:21 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:21 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:24 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:24 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:26 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:27 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:29 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:29 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:31 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:32 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:34 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:34 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:37 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:39 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:42 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:45 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:48 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:51 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:52:55 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 21:52:58 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 21:53:02 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-10 21:53:05 INFO  LogHandler:12 - Title of the current page is : Stack
+2025-05-10 21:53:09 INFO  LogHandler:12 - Title of the current page is : Queue
+2025-05-10 21:53:13 INFO  LogHandler:12 - Title of the current page is : Tree
+2025-05-10 21:53:16 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 21:53:41 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:53:41 INFO  LogHandler:12 - Title of the current page is : Login
+2025-05-10 21:53:43 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 21:53:43 INFO  LogHandler:12 - Title of the current page is : Registration
+2025-05-10 22:08:16 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:08:16 INFO  LogHandler:12 - Graph
+2025-05-10 22:08:20 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:08:21 INFO  LogHandler:12 - Graph
+2025-05-10 22:08:21 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 22:08:25 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:08:29 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:08:30 INFO  LogHandler:12 - Assessment
+2025-05-10 22:08:36 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:08:36 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:08:36 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:08:40 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:08:41 INFO  LogHandler:12 - Assessment
+2025-05-10 22:08:47 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:08:49 INFO  LogHandler:12 - Assessment
+2025-05-10 22:08:49 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:08:49 INFO  LogHandler:12 - Assessment
+2025-05-10 22:08:53 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:08:54 INFO  LogHandler:12 - Assessment
+2025-05-10 22:08:54 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:08:58 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:09:01 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:09:03 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:09:07 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:09:13 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:09:13 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:09:13 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:09:17 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:09:25 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:09:26 INFO  LogHandler:12 - Assessment
+2025-05-10 22:09:26 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:09:30 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:09:31 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:09:35 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:09:36 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:09:40 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:09:41 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 22:09:44 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:46 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:47 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:49 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:49 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:52 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:52 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:55 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:55 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:57 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:09:58 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:00 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:00 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:03 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:03 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:06 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:09 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:12 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:15 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:19 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:22 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:10:26 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 22:10:30 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 22:10:34 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-10 22:10:38 INFO  LogHandler:12 - Title of the current page is : Stack
+2025-05-10 22:10:42 INFO  LogHandler:12 - Title of the current page is : Queue
+2025-05-10 22:10:45 INFO  LogHandler:12 - Title of the current page is : Tree
+2025-05-10 22:10:49 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 22:11:15 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:11:16 INFO  LogHandler:12 - Title of the current page is : Login
+2025-05-10 22:11:18 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:11:18 INFO  LogHandler:12 - Title of the current page is : Registration
+2025-05-10 22:11:26 INFO  LogHandler:12 - Linked List
+2025-05-10 22:11:31 INFO  LogHandler:12 - Linked List
+2025-05-10 22:11:31 INFO  LogHandler:12 - Introduction
+2025-05-10 22:11:35 INFO  LogHandler:12 - Linked List
+2025-05-10 22:11:36 INFO  LogHandler:12 - Creating Linked LIst
+2025-05-10 22:11:40 INFO  LogHandler:12 - Linked List
+2025-05-10 22:11:41 INFO  LogHandler:12 - Types of Linked List
+2025-05-10 22:11:45 INFO  LogHandler:12 - Linked List
+2025-05-10 22:11:45 INFO  LogHandler:12 - Implement Linked List in Python
+2025-05-10 22:11:49 INFO  LogHandler:12 - Linked List
+2025-05-10 22:11:50 INFO  LogHandler:12 - Traversal
+2025-05-10 22:11:54 INFO  LogHandler:12 - Linked List
+2025-05-10 22:11:54 INFO  LogHandler:12 - Insertion
+2025-05-10 22:11:58 INFO  LogHandler:12 - Linked List
+2025-05-10 22:11:59 INFO  LogHandler:12 - Deletion
+2025-05-10 22:12:03 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:05 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:08 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:10 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:14 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:16 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:19 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:21 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:25 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:26 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:30 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:32 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:35 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:37 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:41 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:42 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:47 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:12:47 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:12:47 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:12:51 INFO  LogHandler:12 - Linked List
+2025-05-10 22:12:52 INFO  LogHandler:12 - Assessment
+2025-05-10 22:12:58 INFO  LogHandler:12 - Linked List
+2025-05-10 22:13:00 INFO  LogHandler:12 - Assessment
+2025-05-10 22:13:00 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:13:03 INFO  LogHandler:12 - Linked List
+2025-05-10 22:13:05 INFO  LogHandler:12 - Assessment
+2025-05-10 22:13:05 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:13:09 INFO  LogHandler:12 - Linked List
+2025-05-10 22:13:09 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:13:13 INFO  LogHandler:12 - Linked List
+2025-05-10 22:13:14 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 22:13:17 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:21 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:22 INFO  LogHandler:12 - Implementation of Queue in Python
+2025-05-10 22:13:26 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:26 INFO  LogHandler:12 - Implementation using collections.deque
+2025-05-10 22:13:30 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:30 INFO  LogHandler:12 - Implementation using array
+2025-05-10 22:13:34 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:34 INFO  LogHandler:12 - Queue Operations
+2025-05-10 22:13:38 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:39 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:13:43 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:45 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:13:48 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:50 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:13:53 INFO  LogHandler:12 - Queue
+2025-05-10 22:13:55 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:13:58 INFO  LogHandler:12 - Queue
+2025-05-10 22:14:00 INFO  LogHandler:12 - Assessment
+2025-05-10 22:14:05 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:14:05 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:14:05 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:14:08 INFO  LogHandler:12 - Queue
+2025-05-10 22:14:10 INFO  LogHandler:12 - Assessment
+2025-05-10 22:14:15 INFO  LogHandler:12 - Queue
+2025-05-10 22:14:17 INFO  LogHandler:12 - Assessment
+2025-05-10 22:14:17 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:14:17 INFO  LogHandler:12 - Assessment
+2025-05-10 22:14:21 INFO  LogHandler:12 - Queue
+2025-05-10 22:14:22 INFO  LogHandler:12 - Assessment
+2025-05-10 22:14:22 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:14:25 INFO  LogHandler:12 - Queue
+2025-05-10 22:14:26 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:14:30 INFO  LogHandler:12 - Queue
+2025-05-10 22:14:30 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 22:16:17 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:16:18 INFO  LogHandler:12 - Graph
+2025-05-10 22:16:22 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:16:23 INFO  LogHandler:12 - Graph
+2025-05-10 22:16:23 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 22:16:26 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:16:28 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:16:31 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:16:33 INFO  LogHandler:12 - Assessment
+2025-05-10 22:16:38 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:16:39 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:16:39 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:16:43 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:16:45 INFO  LogHandler:12 - Assessment
+2025-05-10 22:16:50 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:16:52 INFO  LogHandler:12 - Assessment
+2025-05-10 22:16:52 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:16:52 INFO  LogHandler:12 - Assessment
+2025-05-10 22:16:56 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:16:57 INFO  LogHandler:12 - Assessment
+2025-05-10 22:16:57 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:17:01 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:17:02 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:17:05 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:17:07 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:17:10 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:17:17 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:17:17 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:17:17 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:17:21 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:17:29 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:17:30 INFO  LogHandler:12 - Assessment
+2025-05-10 22:17:30 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:17:34 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:17:36 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:17:39 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:17:40 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:17:44 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:17:45 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 22:18:21 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-10 22:18:27 INFO  ArraysStep:86 - Navigated to: Arrays in Python page
+2025-05-10 22:18:35 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-10 22:18:41 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-10 22:18:47 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-10 22:18:52 INFO  ArraysStep:86 - Navigated to: Arrays in Python page
+2025-05-10 22:18:57 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-10 22:19:04 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-10 22:19:10 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-10 22:19:16 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-10 22:21:05 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-10 22:21:10 INFO  ArraysStep:430 - Navigated to: Arrays using List page
+2025-05-10 22:21:16 INFO  ArraysStep:430 - Navigated to: Arrays using List page
+2025-05-10 22:21:20 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-10 22:21:25 INFO  ArraysStep:459 - Navigated to: Basic Operations in List page
+2025-05-10 22:21:31 INFO  ArraysStep:459 - Navigated to: Basic Operations in List page
+2025-05-10 22:21:35 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-10 22:21:40 INFO  ArraysStep:483 - Navigated to: Applications of Array page
+2025-05-10 22:21:46 INFO  ArraysStep:483 - Navigated to: Applications of Array page
+2025-05-10 22:21:50 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:21:50 INFO  DataStructuresSteps:64 - Data Structures-Introduction
+2025-05-10 22:21:54 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:21:54 INFO  DataStructuresSteps:64 - Data Structures-Introduction
+2025-05-10 22:21:58 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:21:58 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 22:21:59 INFO  DataStructuresSteps:110 - Practice Questions
+2025-05-10 22:22:02 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:22:03 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 22:22:04 INFO  DataStructuresSteps:122 - Assessment
+2025-05-10 22:22:08 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:22:09 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 22:22:13 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:22:14 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 22:22:14 INFO  DataStructuresSteps:157 - NameError: name 'hello' is not defined on line 1
+2025-05-10 22:22:18 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:22:19 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 22:22:23 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:22:25 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 22:22:25 INFO  DataStructuresSteps:202 - console result:hello
+2025-05-10 22:22:29 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:22:30 INFO  DataStructuresSteps:130 - Assessment
+2025-05-10 22:22:30 INFO  DataStructuresSteps:210 - Time Complexity
+2025-05-10 22:22:34 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
+2025-05-10 22:22:34 INFO  DataStructuresSteps:95 - Time Complexity
+2025-05-10 22:22:38 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:22:39 INFO  LogHandler:12 - Graph
+2025-05-10 22:22:43 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:22:44 INFO  LogHandler:12 - Graph
+2025-05-10 22:22:44 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 22:22:47 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:22:49 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:22:52 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:22:54 INFO  LogHandler:12 - Assessment
+2025-05-10 22:22:59 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:22:59 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:22:59 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:23:03 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:04 INFO  LogHandler:12 - Assessment
+2025-05-10 22:23:10 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:11 INFO  LogHandler:12 - Assessment
+2025-05-10 22:23:11 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:23:12 INFO  LogHandler:12 - Assessment
+2025-05-10 22:23:15 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:17 INFO  LogHandler:12 - Assessment
+2025-05-10 22:23:17 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:23:20 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:21 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:23:25 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:26 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:23:30 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:37 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:23:37 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:23:37 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:23:40 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:47 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:49 INFO  LogHandler:12 - Assessment
+2025-05-10 22:23:49 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:23:52 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:54 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:23:57 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:23:58 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:24:01 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-10 22:24:02 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 22:24:05 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:07 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:07 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:09 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:10 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:12 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:12 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:14 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:14 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:17 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:17 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:19 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:19 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:21 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:22 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:24 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:26 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:29 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:32 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:34 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:37 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:24:41 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-10 22:24:44 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-10 22:24:48 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-10 22:24:52 INFO  LogHandler:12 - Title of the current page is : Stack
+2025-05-10 22:24:55 INFO  LogHandler:12 - Title of the current page is : Queue
+2025-05-10 22:24:59 INFO  LogHandler:12 - Title of the current page is : Tree
+2025-05-10 22:25:03 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-10 22:25:28 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:25:28 INFO  LogHandler:12 - Title of the current page is : Login
+2025-05-10 22:25:31 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-10 22:25:31 INFO  LogHandler:12 - Title of the current page is : Registration
+2025-05-10 22:25:38 INFO  LogHandler:12 - Linked List
+2025-05-10 22:25:43 INFO  LogHandler:12 - Linked List
+2025-05-10 22:25:43 INFO  LogHandler:12 - Introduction
+2025-05-10 22:25:47 INFO  LogHandler:12 - Linked List
+2025-05-10 22:25:48 INFO  LogHandler:12 - Creating Linked LIst
+2025-05-10 22:25:51 INFO  LogHandler:12 - Linked List
+2025-05-10 22:25:52 INFO  LogHandler:12 - Types of Linked List
+2025-05-10 22:25:56 INFO  LogHandler:12 - Linked List
+2025-05-10 22:25:57 INFO  LogHandler:12 - Implement Linked List in Python
+2025-05-10 22:26:00 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:01 INFO  LogHandler:12 - Traversal
+2025-05-10 22:26:05 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:06 INFO  LogHandler:12 - Insertion
+2025-05-10 22:26:09 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:10 INFO  LogHandler:12 - Deletion
+2025-05-10 22:26:14 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:15 INFO  LogHandler:12 - Assessment
+2025-05-10 22:26:19 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:21 INFO  LogHandler:12 - Assessment
+2025-05-10 22:26:24 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:26 INFO  LogHandler:12 - Assessment
+2025-05-10 22:26:30 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:31 INFO  LogHandler:12 - Assessment
+2025-05-10 22:26:35 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:37 INFO  LogHandler:12 - Assessment
+2025-05-10 22:26:40 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:42 INFO  LogHandler:12 - Assessment
+2025-05-10 22:26:46 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:47 INFO  LogHandler:12 - Assessment
+2025-05-10 22:26:51 INFO  LogHandler:12 - Linked List
+2025-05-10 22:26:52 INFO  LogHandler:12 - Assessment
+2025-05-10 22:26:58 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:26:58 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:26:58 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:27:01 INFO  LogHandler:12 - Linked List
+2025-05-10 22:27:03 INFO  LogHandler:12 - Assessment
+2025-05-10 22:27:09 INFO  LogHandler:12 - Linked List
+2025-05-10 22:27:10 INFO  LogHandler:12 - Assessment
+2025-05-10 22:27:10 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:27:14 INFO  LogHandler:12 - Linked List
+2025-05-10 22:27:15 INFO  LogHandler:12 - Assessment
+2025-05-10 22:27:15 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:27:19 INFO  LogHandler:12 - Linked List
+2025-05-10 22:27:19 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:27:23 INFO  LogHandler:12 - Linked List
+2025-05-10 22:27:24 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 22:27:29 INFO  LogHandler:12 - Queue
+2025-05-10 22:27:34 INFO  LogHandler:12 - Queue
+2025-05-10 22:27:34 INFO  LogHandler:12 - Implementation of Queue in Python
+2025-05-10 22:27:38 INFO  LogHandler:12 - Queue
+2025-05-10 22:27:38 INFO  LogHandler:12 - Implementation using collections.deque
+2025-05-10 22:27:42 INFO  LogHandler:12 - Queue
+2025-05-10 22:27:42 INFO  LogHandler:12 - Implementation using array
+2025-05-10 22:27:46 INFO  LogHandler:12 - Queue
+2025-05-10 22:27:47 INFO  LogHandler:12 - Queue Operations
+2025-05-10 22:27:50 INFO  LogHandler:12 - Queue
+2025-05-10 22:27:52 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:27:55 INFO  LogHandler:12 - Queue
+2025-05-10 22:27:57 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:28:01 INFO  LogHandler:12 - Queue
+2025-05-10 22:28:02 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:28:06 INFO  LogHandler:12 - Queue
+2025-05-10 22:28:07 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-10 22:28:11 INFO  LogHandler:12 - Queue
+2025-05-10 22:28:12 INFO  LogHandler:12 - Assessment
+2025-05-10 22:28:17 INFO  LogHandler:12 - No alert present.
+2025-05-10 22:28:17 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-10 22:28:17 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-10 22:28:21 INFO  LogHandler:12 - Queue
+2025-05-10 22:28:23 INFO  LogHandler:12 - Assessment
+2025-05-10 22:28:28 INFO  LogHandler:12 - Queue
+2025-05-10 22:28:30 INFO  LogHandler:12 - Assessment
+2025-05-10 22:28:30 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:28:30 INFO  LogHandler:12 - Assessment
+2025-05-10 22:28:33 INFO  LogHandler:12 - Queue
+2025-05-10 22:28:35 INFO  LogHandler:12 - Assessment
+2025-05-10 22:28:35 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-10 22:28:38 INFO  LogHandler:12 - Queue
+2025-05-10 22:28:39 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-10 22:28:43 INFO  LogHandler:12 - Queue
+2025-05-10 22:28:44 INFO  LogHandler:12 - NumpyNinja
+2025-05-10 22:28:46 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 22:28:46 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 22:28:46 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 22:28:49 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 22:28:49 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 22:28:49 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 22:28:51 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 22:28:51 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 22:28:51 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 22:28:54 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 22:28:54 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 22:28:54 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 22:28:57 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 22:28:57 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 22:28:57 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 22:28:59 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 22:29:00 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 22:29:00 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 22:29:02 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 22:29:02 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 22:29:02 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 22:29:05 INFO  DataStructuresSteps:27 - user is on: NumpyNinjapage
+2025-05-10 22:29:05 INFO  DataStructuresSteps:41 - if test is passed then user is on register page
+2025-05-10 22:29:05 INFO  DataStructuresSteps:47 - user is on: Registrationpage
+2025-05-10 22:29:05 INFO  DataStructuresSteps:127 - user is on : Login
+2025-05-10 22:29:08 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:09 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:10 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-10 22:29:12 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:14 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:15 INFO  StackStep:88 - User navigated to Operations in Stack Page
+2025-05-10 22:29:18 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:20 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:21 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:29:24 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:26 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:27 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:29:30 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:31 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:33 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:29:35 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:37 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:38 INFO  StackStep:88 - User navigated to Operations in Stack Page
+2025-05-10 22:29:40 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:42 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:42 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-10 22:29:45 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:47 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:47 INFO  StackStep:212 - User navigated to Implementation Page
+2025-05-10 22:29:51 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:52 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:54 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:29:56 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:29:58 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:29:59 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:30:02 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:30:04 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:30:05 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:30:08 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:30:09 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:30:10 INFO  StackStep:212 - User navigated to Implementation Page
+2025-05-10 22:30:13 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:30:14 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:30:14 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-10 22:30:17 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:30:19 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:30:20 INFO  StackStep:234 - User navigated to Application Page
+2025-05-10 22:30:23 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:30:25 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:30:26 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:30:29 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:30:30 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:30:32 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:30:34 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:30:36 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:30:38 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-10 22:30:41 INFO  StackStep:37 - Navigated to: Home page
+2025-05-10 22:30:42 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-10 22:30:43 INFO  StackStep:234 - User navigated to Application Page
+2025-05-10 22:30:50 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 22:30:54 INFO  DataStructuresSteps:58 - Tree
+2025-05-10 22:31:51 INFO  DataStructuresSteps:113 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-10 22:33:04 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 22:33:09 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 22:33:10 INFO  DataStructuresSteps:146 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-10 22:33:15 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 22:33:15 INFO  DataStructuresSteps:166 - console result:hello
+2025-05-10 22:33:20 INFO  DataStructuresSteps:121 - Assessment
+2025-05-10 22:33:20 INFO  DataStructuresSteps:173 - Overview of Trees
+2025-05-10 22:33:23 INFO  DataStructuresSteps:58 - Tree
+
+2025-05-11 00:15:27 INFO  LogHandler:12 - Tree
+2025-05-11 00:15:33 INFO  LogHandler:12 - Tree
+2025-05-11 00:15:40 INFO  LogHandler:12 - Tree
+2025-05-11 00:15:46 INFO  LogHandler:12 - Tree
+2025-05-11 00:15:53 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:00 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:06 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:12 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:17 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:23 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:28 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:33 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:38 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:44 INFO  LogHandler:12 - Tree
+2025-05-11 00:16:50 INFO  LogHandler:12 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-11 00:18:41 INFO  LogHandler:12 - Assessment
+2025-05-11 00:18:48 INFO  LogHandler:12 - Assessment
+2025-05-11 00:18:49 INFO  LogHandler:12 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-11 00:18:57 INFO  LogHandler:12 - Assessment
+2025-05-11 00:18:57 INFO  LogHandler:12 - console result:hello
+2025-05-11 00:19:03 INFO  LogHandler:12 - Assessment
+2025-05-11 00:19:03 INFO  LogHandler:12 - Overview of Trees
+2025-05-11 00:19:08 INFO  LogHandler:12 - Tree
+2025-05-11 08:46:34 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:46:34 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-11 08:46:39 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:46:39 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-11 08:46:44 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:46:45 INFO  LogHandler:12 - Time Complexity
+2025-05-11 08:46:45 INFO  LogHandler:12 - Practice Questions
+2025-05-11 08:46:50 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:46:50 INFO  LogHandler:12 - Time Complexity
+2025-05-11 08:46:53 INFO  LogHandler:12 - Assessment
+2025-05-11 08:46:58 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:47:01 INFO  LogHandler:12 - Assessment
+2025-05-11 08:47:06 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:47:09 INFO  LogHandler:12 - Assessment
+2025-05-11 08:47:11 INFO  LogHandler:12 - NameError: name 'hello' is not defined on line 1
+2025-05-11 08:47:15 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:47:18 INFO  LogHandler:12 - Assessment
+2025-05-11 08:47:23 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:47:25 INFO  LogHandler:12 - Assessment
+2025-05-11 08:47:25 INFO  LogHandler:12 - console result:hello
+2025-05-11 08:47:30 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:47:32 INFO  LogHandler:12 - Assessment
+2025-05-11 08:47:32 INFO  LogHandler:12 - Time Complexity
+2025-05-11 08:47:36 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 08:47:37 INFO  LogHandler:12 - Time Complexity
+2025-05-11 09:30:54 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-11 09:31:04 INFO  ArraysStep:89 - Navigated to: Arrays in Python page
+2025-05-11 09:31:17 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-11 09:31:29 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-11 09:31:40 INFO  ArraysStep:107 - Navigated to: Arrays tryEditor page
+2025-05-11 09:31:50 INFO  ArraysStep:89 - Navigated to: Arrays in Python page
+2025-05-11 09:32:00 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-11 09:32:12 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-11 09:32:24 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-11 09:32:37 INFO  ArraysStep:195 - Navigated to: Arrays Practice Question page
+2025-05-11 09:35:45 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-11 09:35:53 INFO  ArraysStep:433 - Navigated to: Arrays using List page
+2025-05-11 09:36:03 INFO  ArraysStep:433 - Navigated to: Arrays using List page
+2025-05-11 09:36:10 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-11 09:36:18 INFO  ArraysStep:462 - Navigated to: Basic Operations in List page
+2025-05-11 09:36:28 INFO  ArraysStep:462 - Navigated to: Basic Operations in List page
+2025-05-11 09:36:35 INFO  ArraysStep:73 - Navigated to: Arrays page
+2025-05-11 09:36:43 INFO  ArraysStep:486 - Navigated to: Applications of Array page
+2025-05-11 09:36:53 INFO  ArraysStep:486 - Navigated to: Applications of Array page
+2025-05-11 09:36:59 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:36:59 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-11 09:37:05 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:37:05 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-11 09:37:12 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:37:12 INFO  LogHandler:12 - Time Complexity
+2025-05-11 09:37:13 INFO  LogHandler:12 - Practice Questions
+2025-05-11 09:37:18 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:37:19 INFO  LogHandler:12 - Time Complexity
+2025-05-11 09:37:22 INFO  LogHandler:12 - Assessment
+2025-05-11 09:37:27 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:37:32 INFO  LogHandler:12 - Assessment
+2025-05-11 09:37:38 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:37:40 INFO  LogHandler:12 - Assessment
+2025-05-11 09:37:40 INFO  LogHandler:12 - NameError: name 'hello' is not defined on line 1
+2025-05-11 09:37:46 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:37:50 INFO  LogHandler:12 - Assessment
+2025-05-11 09:37:57 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:38:01 INFO  LogHandler:12 - Assessment
+2025-05-11 09:38:01 INFO  LogHandler:12 - console result:hello
+2025-05-11 09:38:07 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:38:09 INFO  LogHandler:12 - Assessment
+2025-05-11 09:38:09 INFO  LogHandler:12 - Time Complexity
+2025-05-11 09:38:15 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 09:38:16 INFO  LogHandler:12 - Time Complexity
+2025-05-11 09:38:22 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:38:23 INFO  LogHandler:12 - Graph
+2025-05-11 09:38:29 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:38:30 INFO  LogHandler:12 - Graph
+2025-05-11 09:38:30 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-11 09:38:36 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:38:40 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 09:38:45 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:38:49 INFO  LogHandler:12 - Assessment
+2025-05-11 09:38:54 INFO  LogHandler:12 - No alert present.
+2025-05-11 09:38:54 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-11 09:38:54 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-11 09:39:02 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:39:05 INFO  LogHandler:12 - Assessment
+2025-05-11 09:39:13 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:39:17 INFO  LogHandler:12 - Assessment
+2025-05-11 09:39:18 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 09:39:18 INFO  LogHandler:12 - Assessment
+2025-05-11 09:39:24 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:39:27 INFO  LogHandler:12 - Assessment
+2025-05-11 09:39:27 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 09:39:33 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:39:34 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-11 09:39:40 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:39:44 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 09:39:50 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:39:59 INFO  LogHandler:12 - No alert present.
+2025-05-11 09:40:00 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-11 09:40:00 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-11 09:40:05 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:40:17 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:40:20 INFO  LogHandler:12 - Assessment
+2025-05-11 09:40:21 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 09:40:26 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:40:30 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 09:40:36 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:40:38 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-11 09:40:44 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 09:40:45 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 09:40:50 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:40:54 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:40:54 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:40:58 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:40:59 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:03 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:03 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:07 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:08 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:12 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:13 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:16 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:17 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:21 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:22 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:26 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:31 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:36 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:40 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:45 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:49 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:41:56 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-11 09:42:02 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-11 09:42:09 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-11 09:42:15 INFO  LogHandler:12 - Title of the current page is : Stack
+2025-05-11 09:42:21 INFO  LogHandler:12 - Title of the current page is : Queue
+2025-05-11 09:42:27 INFO  LogHandler:12 - Title of the current page is : Tree
+2025-05-11 09:42:32 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-11 09:43:12 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:43:13 INFO  LogHandler:12 - Title of the current page is : Login
+2025-05-11 09:43:16 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 09:43:17 INFO  LogHandler:12 - Title of the current page is : Registration
+2025-05-11 09:43:28 INFO  LogHandler:12 - Linked List
+2025-05-11 09:43:35 INFO  LogHandler:12 - Linked List
+2025-05-11 09:43:37 INFO  LogHandler:12 - Introduction
+2025-05-11 09:43:43 INFO  LogHandler:12 - Linked List
+2025-05-11 09:43:45 INFO  LogHandler:12 - Creating Linked LIst
+2025-05-11 09:43:50 INFO  LogHandler:12 - Linked List
+2025-05-11 09:43:52 INFO  LogHandler:12 - Types of Linked List
+2025-05-11 09:43:58 INFO  LogHandler:12 - Linked List
+2025-05-11 09:44:00 INFO  LogHandler:12 - Implement Linked List in Python
+2025-05-11 09:44:06 INFO  LogHandler:12 - Linked List
+2025-05-11 09:44:08 INFO  LogHandler:12 - Traversal
+2025-05-11 09:44:14 INFO  LogHandler:12 - Linked List
+2025-05-11 09:44:15 INFO  LogHandler:12 - Insertion
+2025-05-11 09:44:21 INFO  LogHandler:12 - Linked List
+2025-05-11 09:44:22 INFO  LogHandler:12 - Deletion
+2025-05-11 09:44:28 INFO  LogHandler:12 - Linked List
+2025-05-11 09:44:31 INFO  LogHandler:12 - Assessment
+2025-05-11 09:44:36 INFO  LogHandler:12 - Linked List
+2025-05-11 09:44:39 INFO  LogHandler:12 - Assessment
+2025-05-11 09:44:45 INFO  LogHandler:12 - Linked List
+2025-05-11 09:44:50 INFO  LogHandler:12 - Assessment
+2025-05-11 09:44:56 INFO  LogHandler:12 - Linked List
+2025-05-11 09:44:59 INFO  LogHandler:12 - Assessment
+2025-05-11 09:45:05 INFO  LogHandler:12 - Linked List
+2025-05-11 09:45:11 INFO  LogHandler:12 - Assessment
+2025-05-11 09:45:17 INFO  LogHandler:12 - Linked List
+2025-05-11 09:45:22 INFO  LogHandler:12 - Assessment
+2025-05-11 09:45:28 INFO  LogHandler:12 - Linked List
+2025-05-11 09:45:31 INFO  LogHandler:12 - Assessment
+2025-05-11 09:45:37 INFO  LogHandler:12 - Linked List
+2025-05-11 09:45:42 INFO  LogHandler:12 - Assessment
+2025-05-11 09:45:47 INFO  LogHandler:12 - No alert present.
+2025-05-11 09:45:47 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-11 09:45:47 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-11 09:45:53 INFO  LogHandler:12 - Linked List
+2025-05-11 09:45:57 INFO  LogHandler:12 - Assessment
+2025-05-11 09:46:06 INFO  LogHandler:12 - Linked List
+2025-05-11 09:46:09 INFO  LogHandler:12 - Assessment
+2025-05-11 09:46:10 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 09:46:15 INFO  LogHandler:12 - Linked List
+2025-05-11 09:46:18 INFO  LogHandler:12 - Assessment
+2025-05-11 09:46:18 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 09:46:24 INFO  LogHandler:12 - Linked List
+2025-05-11 09:46:25 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-11 09:46:31 INFO  LogHandler:12 - Linked List
+2025-05-11 09:46:33 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 09:46:42 INFO  LogHandler:12 - Queue
+2025-05-11 09:46:49 INFO  LogHandler:12 - Queue
+2025-05-11 09:46:50 INFO  LogHandler:12 - Implementation of Queue in Python
+2025-05-11 09:46:56 INFO  LogHandler:12 - Queue
+2025-05-11 09:46:57 INFO  LogHandler:12 - Implementation using collections.deque
+2025-05-11 09:47:03 INFO  LogHandler:12 - Queue
+2025-05-11 09:47:04 INFO  LogHandler:12 - Implementation using array
+2025-05-11 09:47:10 INFO  LogHandler:12 - Queue
+2025-05-11 09:47:11 INFO  LogHandler:12 - Queue Operations
+2025-05-11 09:47:16 INFO  LogHandler:12 - Queue
+2025-05-11 09:47:21 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 09:47:27 INFO  LogHandler:12 - Queue
+2025-05-11 09:47:31 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 09:47:37 INFO  LogHandler:12 - Queue
+2025-05-11 09:47:40 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 09:47:46 INFO  LogHandler:12 - Queue
+2025-05-11 09:47:50 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 09:47:56 INFO  LogHandler:12 - Queue
+2025-05-11 09:48:00 INFO  LogHandler:12 - Assessment
+2025-05-11 09:48:06 INFO  LogHandler:12 - No alert present.
+2025-05-11 09:48:06 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-11 09:48:06 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-11 09:48:12 INFO  LogHandler:12 - Queue
+2025-05-11 09:48:15 INFO  LogHandler:12 - Assessment
+2025-05-11 09:48:23 INFO  LogHandler:12 - Queue
+2025-05-11 09:48:28 INFO  LogHandler:12 - Assessment
+2025-05-11 09:48:28 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 09:48:28 INFO  LogHandler:12 - Assessment
+2025-05-11 09:48:34 INFO  LogHandler:12 - Queue
+2025-05-11 09:48:38 INFO  LogHandler:12 - Assessment
+2025-05-11 09:48:38 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 09:48:44 INFO  LogHandler:12 - Queue
+2025-05-11 09:48:45 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-11 09:48:51 INFO  LogHandler:12 - Queue
+2025-05-11 09:48:52 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 09:48:56 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 09:48:56 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 09:48:56 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 09:49:00 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 09:49:01 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 09:49:01 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 09:49:05 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 09:49:05 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 09:49:05 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 09:49:10 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 09:49:11 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 09:49:11 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 09:49:15 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 09:49:16 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 09:49:16 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 09:49:21 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 09:49:22 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 09:49:22 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 09:49:26 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 09:49:26 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 09:49:26 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 09:49:31 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 09:49:32 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 09:49:32 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 09:49:32 INFO  LogHandler:12 - user is on : Login
+2025-05-11 09:49:39 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:49:39 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-11 09:49:47 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:49:48 INFO  StackStep:91 - User navigated to Operations in Stack Page
+2025-05-11 09:49:58 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:50:03 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:50:09 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:50:14 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:50:20 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:50:25 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:50:32 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:50:33 INFO  StackStep:91 - User navigated to Operations in Stack Page
+2025-05-11 09:50:40 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:50:40 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-11 09:50:48 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:50:49 INFO  StackStep:215 - User navigated to Implementation Page
+2025-05-11 09:50:58 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:51:02 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:51:08 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:51:13 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:51:20 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:51:25 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:51:31 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:51:32 INFO  StackStep:215 - User navigated to Implementation Page
+2025-05-11 09:51:39 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:51:40 INFO  StackStep:71 - User navigated to Stack Page
+2025-05-11 09:51:46 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:51:47 INFO  StackStep:237 - User navigated to Application Page
+2025-05-11 09:51:57 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:52:02 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:52:09 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:52:14 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:52:20 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:52:25 INFO  StackStep:109 - User navigated to Stacks tryEditor Page
+2025-05-11 09:52:31 INFO  StackStep:65 - User navigated to Stack Page
+2025-05-11 09:52:32 INFO  StackStep:237 - User navigated to Application Page
+2025-05-11 09:52:39 INFO  LogHandler:12 - Tree
+2025-05-11 09:52:45 INFO  LogHandler:12 - Tree
+2025-05-11 09:52:52 INFO  LogHandler:12 - Tree
+2025-05-11 09:52:58 INFO  LogHandler:12 - Tree
+2025-05-11 09:53:06 INFO  LogHandler:12 - Tree
+2025-05-11 09:53:14 INFO  LogHandler:12 - Tree
+2025-05-11 09:53:21 INFO  LogHandler:12 - Tree
+2025-05-11 09:53:29 INFO  LogHandler:12 - Tree
+2025-05-11 09:53:36 INFO  LogHandler:12 - Tree
+2025-05-11 09:53:43 INFO  LogHandler:12 - Tree
+2025-05-11 09:53:50 INFO  LogHandler:12 - Tree
+2025-05-11 09:53:57 INFO  LogHandler:12 - Tree
+2025-05-11 09:54:04 INFO  LogHandler:12 - Tree
+2025-05-11 09:54:13 INFO  LogHandler:12 - Tree
+2025-05-11 09:54:21 INFO  LogHandler:12 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-11 09:56:39 INFO  LogHandler:12 - Assessment
+2025-05-11 09:56:48 INFO  LogHandler:12 - Assessment
+2025-05-11 09:56:48 INFO  LogHandler:12 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-11 09:56:58 INFO  LogHandler:12 - Assessment
+2025-05-11 09:56:59 INFO  LogHandler:12 - console result:hello
+2025-05-11 09:57:07 INFO  LogHandler:12 - Assessment
+2025-05-11 09:57:08 INFO  LogHandler:12 - Overview of Trees
+2025-05-11 09:57:14 INFO  LogHandler:12 - Tree
+2025-05-11 10:21:49 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:21:49 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:21:55 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:21:56 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:22:04 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:22:04 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:22:05 INFO  LogHandler:12 - Please fill out this field.
+2025-05-11 10:22:12 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:22:12 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:22:20 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:22:21 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:24:37 INFO  ArraysStep:59 - Navigated to: Arrays page
+2025-05-11 10:24:44 INFO  ArraysStep:75 - Navigated to: Arrays in Python page
+2025-05-11 10:24:55 INFO  ArraysStep:93 - Navigated to: Arrays tryEditor page
+2025-05-11 10:25:06 INFO  ArraysStep:93 - Navigated to: Arrays tryEditor page
+2025-05-11 10:25:16 INFO  ArraysStep:93 - Navigated to: Arrays tryEditor page
+2025-05-11 10:25:23 INFO  ArraysStep:75 - Navigated to: Arrays in Python page
+2025-05-11 10:25:30 INFO  ArraysStep:181 - Navigated to: Arrays Practice Question page
+2025-05-11 10:25:38 INFO  ArraysStep:181 - Navigated to: Arrays Practice Question page
+2025-05-11 10:25:48 INFO  ArraysStep:181 - Navigated to: Arrays Practice Question page
+2025-05-11 10:25:57 INFO  ArraysStep:181 - Navigated to: Arrays Practice Question page
+2025-05-11 10:28:35 INFO  ArraysStep:59 - Navigated to: Arrays page
+2025-05-11 10:28:41 INFO  ArraysStep:419 - Navigated to: Arrays using List page
+2025-05-11 10:28:50 INFO  ArraysStep:419 - Navigated to: Arrays using List page
+2025-05-11 10:28:56 INFO  ArraysStep:59 - Navigated to: Arrays page
+2025-05-11 10:29:02 INFO  ArraysStep:448 - Navigated to: Basic Operations in List page
+2025-05-11 10:29:10 INFO  ArraysStep:448 - Navigated to: Basic Operations in List page
+2025-05-11 10:29:16 INFO  ArraysStep:59 - Navigated to: Arrays page
+2025-05-11 10:29:23 INFO  ArraysStep:472 - Navigated to: Applications of Array page
+2025-05-11 10:29:31 INFO  ArraysStep:472 - Navigated to: Applications of Array page
+2025-05-11 10:29:36 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:29:36 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-11 10:29:41 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:29:41 INFO  LogHandler:12 - Data Structures-Introduction
+2025-05-11 10:29:45 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:29:46 INFO  LogHandler:12 - Time Complexity
+2025-05-11 10:29:46 INFO  LogHandler:12 - Practice Questions
+2025-05-11 10:29:51 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:29:51 INFO  LogHandler:12 - Time Complexity
+2025-05-11 10:29:52 INFO  LogHandler:12 - Assessment
+2025-05-11 10:29:57 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:30:01 INFO  LogHandler:12 - Assessment
+2025-05-11 10:30:06 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:30:09 INFO  LogHandler:12 - Assessment
+2025-05-11 10:30:09 INFO  LogHandler:12 - NameError: name 'hello' is not defined on line 1
+2025-05-11 10:30:14 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:30:17 INFO  LogHandler:12 - Assessment
+2025-05-11 10:30:22 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:30:26 INFO  LogHandler:12 - Assessment
+2025-05-11 10:30:27 INFO  LogHandler:12 - console result:hello
+2025-05-11 10:30:32 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:30:35 INFO  LogHandler:12 - Assessment
+2025-05-11 10:30:35 INFO  LogHandler:12 - Time Complexity
+2025-05-11 10:30:40 INFO  LogHandler:12 - user is on data structure page:Data Structures-Introduction
+2025-05-11 10:30:40 INFO  LogHandler:12 - Time Complexity
+2025-05-11 10:30:45 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:30:46 INFO  LogHandler:12 - Graph
+2025-05-11 10:30:51 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:30:52 INFO  LogHandler:12 - Graph
+2025-05-11 10:30:52 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-11 10:30:56 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:30:58 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 10:31:03 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:31:07 INFO  LogHandler:12 - Assessment
+2025-05-11 10:31:12 INFO  LogHandler:12 - No alert present.
+2025-05-11 10:31:12 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-11 10:31:12 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-11 10:31:17 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:31:19 INFO  LogHandler:12 - Assessment
+2025-05-11 10:31:26 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:31:30 INFO  LogHandler:12 - Assessment
+2025-05-11 10:31:31 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 10:31:31 INFO  LogHandler:12 - Assessment
+2025-05-11 10:31:36 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:31:40 INFO  LogHandler:12 - Assessment
+2025-05-11 10:31:40 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 10:31:44 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:31:45 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-11 10:31:50 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:31:53 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 10:31:58 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:32:07 INFO  LogHandler:12 - No alert present.
+2025-05-11 10:32:07 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-11 10:32:07 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-11 10:32:13 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:32:23 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:32:25 INFO  LogHandler:12 - Assessment
+2025-05-11 10:32:25 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 10:32:30 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:32:33 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 10:32:37 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:32:38 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-11 10:32:43 INFO  LogHandler:12 - user is on data structure page:Graph
+2025-05-11 10:32:45 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:32:48 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:32:51 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:32:51 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:32:54 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:32:54 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:32:57 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:32:58 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:00 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:01 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:03 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:04 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:06 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:07 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:10 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:10 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:13 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:16 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:20 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:23 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:27 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:30 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:33:36 INFO  LogHandler:12 - Title of the current page is : Data Structures-Introduction
+2025-05-11 10:33:40 INFO  LogHandler:12 - Title of the current page is : Array
+2025-05-11 10:33:45 INFO  LogHandler:12 - Title of the current page is : Linked List
+2025-05-11 10:33:49 INFO  LogHandler:12 - Title of the current page is : Stack
+2025-05-11 10:33:54 INFO  LogHandler:12 - Title of the current page is : Queue
+2025-05-11 10:33:59 INFO  LogHandler:12 - Title of the current page is : Tree
+2025-05-11 10:34:03 INFO  LogHandler:12 - Title of the current page is : Graph
+2025-05-11 10:34:37 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:34:37 INFO  LogHandler:12 - Title of the current page is : Login
+2025-05-11 10:34:40 INFO  LogHandler:12 - Title of the current page is : NumpyNinja
+2025-05-11 10:34:40 INFO  LogHandler:12 - Title of the current page is : Registration
+2025-05-11 10:34:50 INFO  LogHandler:12 - Linked List
+2025-05-11 10:34:57 INFO  LogHandler:12 - Linked List
+2025-05-11 10:34:59 INFO  LogHandler:12 - Introduction
+2025-05-11 10:35:04 INFO  LogHandler:12 - Linked List
+2025-05-11 10:35:05 INFO  LogHandler:12 - Creating Linked LIst
+2025-05-11 10:35:10 INFO  LogHandler:12 - Linked List
+2025-05-11 10:35:11 INFO  LogHandler:12 - Types of Linked List
+2025-05-11 10:35:16 INFO  LogHandler:12 - Linked List
+2025-05-11 10:35:18 INFO  LogHandler:12 - Implement Linked List in Python
+2025-05-11 10:35:23 INFO  LogHandler:12 - Linked List
+2025-05-11 10:35:25 INFO  LogHandler:12 - Traversal
+2025-05-11 10:35:30 INFO  LogHandler:12 - Linked List
+2025-05-11 10:35:31 INFO  LogHandler:12 - Insertion
+2025-05-11 10:35:35 INFO  LogHandler:12 - Linked List
+2025-05-11 10:35:36 INFO  LogHandler:12 - Deletion
+2025-05-11 10:35:41 INFO  LogHandler:12 - Linked List
+2025-05-11 10:35:45 INFO  LogHandler:12 - Assessment
+2025-05-11 10:35:50 INFO  LogHandler:12 - Linked List
+2025-05-11 10:35:53 INFO  LogHandler:12 - Assessment
+2025-05-11 10:35:58 INFO  LogHandler:12 - Linked List
+2025-05-11 10:36:01 INFO  LogHandler:12 - Assessment
+2025-05-11 10:36:06 INFO  LogHandler:12 - Linked List
+2025-05-11 10:36:08 INFO  LogHandler:12 - Assessment
+2025-05-11 10:36:13 INFO  LogHandler:12 - Linked List
+2025-05-11 10:36:17 INFO  LogHandler:12 - Assessment
+2025-05-11 10:36:22 INFO  LogHandler:12 - Linked List
+2025-05-11 10:36:27 INFO  LogHandler:12 - Assessment
+2025-05-11 10:36:32 INFO  LogHandler:12 - Linked List
+2025-05-11 10:36:34 INFO  LogHandler:12 - Assessment
+2025-05-11 10:36:38 INFO  LogHandler:12 - Linked List
+2025-05-11 10:36:40 INFO  LogHandler:12 - Assessment
+2025-05-11 10:36:46 INFO  LogHandler:12 - No alert present.
+2025-05-11 10:36:46 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-11 10:36:46 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-11 10:36:50 INFO  LogHandler:12 - Linked List
+2025-05-11 10:36:52 INFO  LogHandler:12 - Assessment
+2025-05-11 10:37:00 INFO  LogHandler:12 - Linked List
+2025-05-11 10:37:03 INFO  LogHandler:12 - Assessment
+2025-05-11 10:37:03 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 10:37:08 INFO  LogHandler:12 - Linked List
+2025-05-11 10:37:11 INFO  LogHandler:12 - Assessment
+2025-05-11 10:37:12 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 10:37:16 INFO  LogHandler:12 - Linked List
+2025-05-11 10:37:17 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-11 10:37:23 INFO  LogHandler:12 - Linked List
+2025-05-11 10:37:24 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:37:27 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:37:27 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:37:30 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:37:30 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:37:37 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:37:37 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:37:38 INFO  LogHandler:12 - Please fill out this field.
+2025-05-11 10:37:40 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:37:40 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:37:44 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:37:44 INFO  LogHandler:12 - User is on login page
+2025-05-11 10:37:50 INFO  LogHandler:12 - Queue
+2025-05-11 10:37:56 INFO  LogHandler:12 - Queue
+2025-05-11 10:37:57 INFO  LogHandler:12 - Implementation of Queue in Python
+2025-05-11 10:38:02 INFO  LogHandler:12 - Queue
+2025-05-11 10:38:03 INFO  LogHandler:12 - Implementation using collections.deque
+2025-05-11 10:38:08 INFO  LogHandler:12 - Queue
+2025-05-11 10:38:09 INFO  LogHandler:12 - Implementation using array
+2025-05-11 10:38:14 INFO  LogHandler:12 - Queue
+2025-05-11 10:38:14 INFO  LogHandler:12 - Queue Operations
+2025-05-11 10:38:19 INFO  LogHandler:12 - Queue
+2025-05-11 10:38:24 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 10:38:28 INFO  LogHandler:12 - Queue
+2025-05-11 10:38:33 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 10:38:37 INFO  LogHandler:12 - Queue
+2025-05-11 10:38:40 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 10:38:45 INFO  LogHandler:12 - Queue
+2025-05-11 10:38:47 INFO  LogHandler:12 - Title of the current page is : Assessment
+2025-05-11 10:38:51 INFO  LogHandler:12 - Queue
+2025-05-11 10:38:55 INFO  LogHandler:12 - Assessment
+2025-05-11 10:39:01 INFO  LogHandler:12 - No alert present.
+2025-05-11 10:39:01 INFO  LogHandler:12 - Expected output from Excel: hello
+2025-05-11 10:39:01 INFO  LogHandler:12 - Actual output on screen: hello
+2025-05-11 10:39:07 INFO  LogHandler:12 - Queue
+2025-05-11 10:39:10 INFO  LogHandler:12 - Assessment
+2025-05-11 10:39:17 INFO  LogHandler:12 - Queue
+2025-05-11 10:39:20 INFO  LogHandler:12 - Assessment
+2025-05-11 10:39:20 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 10:39:20 INFO  LogHandler:12 - Assessment
+2025-05-11 10:39:25 INFO  LogHandler:12 - Queue
+2025-05-11 10:39:27 INFO  LogHandler:12 - Assessment
+2025-05-11 10:39:27 INFO  LogHandler:12 - Alert found: NameError: name 'hello' is not defined on line 1
+2025-05-11 10:39:32 INFO  LogHandler:12 - Queue
+2025-05-11 10:39:32 INFO  LogHandler:12 - Title of the current page is : Practice Questions
+2025-05-11 10:39:37 INFO  LogHandler:12 - Queue
+2025-05-11 10:39:38 INFO  LogHandler:12 - NumpyNinja
+2025-05-11 10:39:41 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 10:39:41 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 10:39:41 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 10:39:44 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 10:39:45 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 10:39:45 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 10:39:48 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 10:39:49 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 10:39:49 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 10:39:56 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 10:39:57 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 10:39:57 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 10:40:00 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 10:40:00 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 10:40:00 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 10:40:04 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 10:40:04 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 10:40:04 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 10:40:07 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 10:40:08 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 10:40:08 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 10:40:12 INFO  LogHandler:12 - user is on: NumpyNinjapage
+2025-05-11 10:40:12 INFO  LogHandler:12 - if test is passed then user is on register page
+2025-05-11 10:40:12 INFO  LogHandler:12 - user is on: Registrationpage
+2025-05-11 10:40:12 INFO  LogHandler:12 - user is on : Login
+2025-05-11 10:40:18 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:40:18 INFO  StackStep:57 - User navigated to Stack Page
+2025-05-11 10:40:24 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:40:25 INFO  StackStep:77 - User navigated to Operations in Stack Page
+2025-05-11 10:40:34 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:40:36 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:40:42 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:40:46 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:40:52 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:40:56 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:41:02 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:41:03 INFO  StackStep:77 - User navigated to Operations in Stack Page
+2025-05-11 10:41:13 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:41:14 INFO  StackStep:201 - User navigated to Implementation Page
+2025-05-11 10:41:22 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:41:26 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:41:31 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:41:35 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:41:40 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:41:45 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:41:50 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:41:51 INFO  StackStep:201 - User navigated to Implementation Page
+2025-05-11 10:41:57 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:41:57 INFO  StackStep:57 - User navigated to Stack Page
+2025-05-11 10:42:03 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:42:04 INFO  StackStep:223 - User navigated to Application Page
+2025-05-11 10:42:11 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:42:14 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:42:19 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:42:22 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:42:27 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:42:33 INFO  StackStep:95 - User navigated to Stacks tryEditor Page
+2025-05-11 10:42:39 INFO  StackStep:51 - User navigated to Stack Page
+2025-05-11 10:42:40 INFO  StackStep:223 - User navigated to Application Page
+2025-05-11 10:42:46 INFO  LogHandler:12 - Tree
+2025-05-11 10:42:50 INFO  LogHandler:12 - Tree
+2025-05-11 10:42:56 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:01 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:07 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:12 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:18 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:25 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:30 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:36 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:43 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:48 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:54 INFO  LogHandler:12 - Tree
+2025-05-11 10:43:59 INFO  LogHandler:12 - Tree
+2025-05-11 10:44:06 INFO  LogHandler:12 - test passed:Practice Questionsmatches withPractice Questions
+2025-05-11 10:46:12 INFO  LogHandler:12 - Assessment
+2025-05-11 10:46:21 INFO  LogHandler:12 - Assessment
+2025-05-11 10:46:21 INFO  LogHandler:12 - Alert message:NameError: name 'hello' is not defined on line 1
+2025-05-11 10:46:30 INFO  LogHandler:12 - Assessment
+2025-05-11 10:46:30 INFO  LogHandler:12 - console result:hello
+2025-05-11 10:46:38 INFO  LogHandler:12 - Assessment
+2025-05-11 10:46:38 INFO  LogHandler:12 - Overview of Trees
+2025-05-11 10:46:46 INFO  LogHandler:12 - Tree
+

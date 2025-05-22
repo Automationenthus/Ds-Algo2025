@@ -11,6 +11,7 @@ import org.testng.Assert;
 
 import driverFactory.DriverFactory;
 import dsUtilities.ExcelReader;
+import dsUtilities.LogHandler;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -20,11 +21,10 @@ import pageObject.RegisterPF;
 public class RegisterSteps {
 	WebDriver driver=DriverFactory.getDriver();
 	RegisterPF rp=new RegisterPF(driver);
-	private static final Logger logger = LogManager.getLogger(DataStructuresSteps.class);
 	ExcelReader reader=new ExcelReader("src/test/resources/TestData/PythonCode.xlsx");
 	@Given("user is on the homepage")
 	public void user_is_on_the_homepage() {
-		logger.info("user is on: " +driver.getTitle() +"page");
+		 LogHandler.info("user is on: " +driver.getTitle() +"page");
 	}
 
 	@When("user clicks on register link")
@@ -38,13 +38,13 @@ public class RegisterSteps {
 		String actualTitle=rp.getTitleOfPage();
 		String expectedTitle="Registration";
 		Assert.assertEquals(actualTitle, expectedTitle);
-		logger.info("if test is passed then user is on register page");
+		 LogHandler.info("if test is passed then user is on register page");
 	}
 
 
 	@Given("user is on rgister page")
 	public void user_is_on_rgister_page() {
-		logger.info("user is on: " +driver.getTitle() +"page");
+		 LogHandler.info("user is on: " +driver.getTitle() +"page");
 	}
 
 	@Then("user can see NumpyNinja logo,datastructures dropdown,siginin and register links")
@@ -103,14 +103,12 @@ public class RegisterSteps {
 			}
 	
 
-
 	@Then("user should land on home page with title {string} and see the message {string}")
 	public void user_should_land_on_home_page_with_title_and_see_the_message(String expectedTitle, String expectedMsg) {
 		String actualTitle=rp.getPageTitle();
-		//Assert.assertEquals(actualTitle, expectedTitle);
 		String actualMsg=rp.getErrorMsg();
 		Assert.assertTrue(actualMsg.contains(expectedMsg));
-		logger.info("user registered sucessfully" + actualTitle);
+		 LogHandler.info("user registered sucessfully" + actualTitle);
 		
 	}
 	
@@ -124,7 +122,7 @@ public class RegisterSteps {
 	public void user_should_land_on_the_page(String expectedTitle) {
 		String actualTitle=rp.getTitleOfPage();
 		Assert.assertEquals(actualTitle, expectedTitle);
-		logger.info("user is on : " +actualTitle);
+		 LogHandler.info("user is on : " +actualTitle);
 	}
 
 

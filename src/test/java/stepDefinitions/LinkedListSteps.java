@@ -4,8 +4,6 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 import java.io.IOException;
 import java.time.Duration;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -16,57 +14,44 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.LinkedListPF;
+import pageObject.LoginPF;
 import dsUtilities.ConfigReader;
 import driverFactory.DriverFactory;
-import dsUtilities.ExcelUtilityHelper1;
+import dsUtilities.ExcelUtilityHelper;
 import dsUtilities.LogHandler;
 
 public class LinkedListSteps {
 	
 	
 	WebDriver driver = DriverFactory.getDriver();
-	LogHandler logger;
-   // private static final Logger logger = LogManager.getLogger(LinkedListSteps.class);
     LinkedListPF llPage = new LinkedListPF(driver);
-    ExcelUtilityHelper1 excelUtil =new ExcelUtilityHelper1();
+    LoginPF lp= new LoginPF(driver);
+    ExcelUtilityHelper excelUtil =new ExcelUtilityHelper();
     
-    @Given("user is on login page")
-    public void user_is_on_login_page() {
-    	llPage.loginPage();
-    }
 
-    @When("user enters valid username and password")
-    public void user_enters_valid_username_and_password() {
-        String username = ConfigReader.getProperty("username");
-        String password = ConfigReader.getProperty("password");
-        llPage.enterUserName(username);
-        llPage.enterPassword(password);
-        llPage.clickLogin();
-    }
-
-//    @Then("user should be logged in successfully with {string} message")
-//    public void user_should_be_logged_in_successfully_with_message(String expectedMsg) {
-//        Assert.assertEquals(llPage.getMessage(), expectedMsg);
-//    }
-
-//    @Given("user is on home page")
-//    public void user_is_on_home_page() { 	
-//    	driver.get(ConfigReader.getProperty("url"));
-//    	//System.out.println("Current URL: " + driver.getCurrentUrl());
-//        logger.info(driver.getTitle());
-//    }
-//   
-//     
-	@Given("user is on home page to click LinkedList")
-	public void user_is_on_home_page_to_click_linked_list() {
-		 driver.get("https://dsportalapp.herokuapp.com/home");
+    @Given("user is on sign to app to click Linked List")
+	public void user_is_on_sign_to_app_to_click_linked_list() {
+    	lp.loginBackgroundForPages();
 	}
 
-	@When("user clicks on LinkedList GetStarted button")
-	public void user_clicks_on_linked_list_get_started_button() {
+	@When("user cliks on Linked List GetStarted button")
+	public void user_cliks_on_linked_list_get_started_button() {
 		llPage.navigateToLLPage();
+   	    LogHandler.info(llPage.pageTitle());
 	}
-
+	
+	@Then("user lands on Linked List page")
+	public void user_lands_on_linked_list_page() {
+		String actualTitle = llPage.pageTitle();  
+	    String expectedTitle = "Linked List";      
+	    Assert.assertEquals(actualTitle, expectedTitle);
+	}
+    
+	@When("user clicks on Introduction on LinkedList Page")
+	public void user_clicks_on_introduction_on_linked_list_page() {
+		llPage.clickIntroductionLink();
+	}
+		
 	@Then("user lands on LinkedList page and able to see NumpyNinja,Data structures dropdown,username and signout links")
 	public void user_lands_on_linked_list_page_and_able_to_see_numpy_ninja_data_structures_dropdown_username_and_signout_links() {
 		Assert.assertTrue(llPage.isNumpyNinjaVisible());
@@ -77,7 +62,7 @@ public class LinkedListSteps {
 
 	@Given("user is on linkedlist home page")
 	public void user_is_on_linkedlist_home_page() {
-	   llPage.navigateToLLPage();
+		llPage.clickIntroductionLink();
 	}
 
 	@When("user clicks on {string} link on linkedlist page")
@@ -88,12 +73,13 @@ public class LinkedListSteps {
 	@Then("user should be navigated to {string} page of linkedlist")
 	public void user_should_be_navigated_to_page_of_linkedlist(String topic) {
 	   llPage.verifyPageNavigation(topic);
-	   logger.info(llPage.pageTitle());
+	   LogHandler.info(llPage.pageTitle());
 	}
 	
 	@Given("user is on the {string} page of Linkedlist")
 	public void user_is_on_the_page_of_linkedlist(String topic) {
-		llPage.openLinkedListSubPage(topic);
+		llPage.clickIntroductionLink();
+		llPage.clickLinkedlistTopic(topic);
 	}
 
 	@When("user clicks on tryHere button of LinkedList page")
@@ -103,35 +89,37 @@ public class LinkedListSteps {
 
 	@Then("user should be navigated to Try Editor page with Run button on linkedlist")
 	public void user_should_be_navigated_to_try_editor_page_with_run_button_on_linkedlist() {
-		llPage.verifyTryEditorPage();
-		logger.info(llPage.pageTitle());
+		LogHandler.info(llPage.pageTitle());
 	}
 
 	@Given("The user is in the tryEditor page on Linkedlist page")
 	public void the_user_is_in_the_try_editor_page_on_linkedlist_page() {
-		llPage.tryEditorPage();
+	    llPage.clickIntroductionLink();
+		llPage.clickTryHere();
+		LogHandler.info(llPage.pageTitle());
 	}
 
 	@When("user writes Python code from {string} and {int}  on Linkedlist links and click the Run button")
-	public void user_writes_python_code_from_and_on_linkedlist_links_and_click_the_run_button(String sheetName, Integer rowNumber) throws InvalidFormatException, IOException {
-		String pythonCode = excelUtil.getPythonCodeFromExcel(sheetName, rowNumber);  
+	public void user_writes_python_code_from_and_on_linkedlist_links_and_click_the_run_button(String sheetName, Integer rowNumber) throws InvalidFormatException, IOException {  
         excelUtil.enterPythonCode(sheetName, rowNumber);
         llPage.clickRunButton();
-	    excelUtil.handleAlert(driver, logger);
+	    ExcelUtilityHelper.handleAlert(driver);
 	}
 
 	@Then("output should match with expected result from {string} and {int} for Linkedlist pages")
 	public void output_should_match_with_expected_result_from_and_for_linkedlist_pages(String sheetname, Integer rowNumber) throws InvalidFormatException, IOException {
 		String expectedMsg = excelUtil.getExpectedResultFromExcel(sheetname, rowNumber);
 	    String actualMsg = llPage.getOutputData(); 
-	    logger.info("Expected output from Excel: " + expectedMsg);
-	    logger.info("Actual output on screen: " + actualMsg);
+	    LogHandler.info("Expected output from Excel: " + expectedMsg);
+	    LogHandler.info("Actual output on screen: " + actualMsg);
 	    assertEquals(actualMsg.trim(), expectedMsg.trim(), "Output does not match expected result");
 	}
 
 	@Given("user is on try Editor page on Linkedlist")
 	public void user_is_on_try_editor_page_on_linkedlist() {
-		llPage.tryEditorPage();
+		llPage.clickIntroductionLink();
+		llPage.clickTryHere();
+		LogHandler.info(llPage.pageTitle());
 	}
 
 	@When("user clicks on run button without code for Linkedlist links")
@@ -141,7 +129,6 @@ public class LinkedListSteps {
 
 	@Then("user should see the error message in alert window Linkedlist links")
 	public void user_should_see_the_error_message_in_alert_window_linkedlist_links() {
-		//Assert.assertTrue(excelUtil.isAlertIsPresent());
     	try {
             // Wait a short moment to see if alert appears
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
@@ -154,10 +141,9 @@ public class LinkedListSteps {
 
 	@When("user clicks on run button with incorrect code from {string} and {int} for Linkedlist links")
 	public void user_clicks_on_run_button_with_incorrect_code_from_and_for_linkedlist_links(String sheetName, Integer rowNumber) throws InvalidFormatException, IOException {
-		String pythonCode = excelUtil.getPythonCodeFromExcel(sheetName, rowNumber);  
         excelUtil.enterPythonCode(sheetName, rowNumber);
         llPage.clickRunButton();
-	    excelUtil.handleAlert(driver, logger);
+	    ExcelUtilityHelper.handleAlert(driver);
 	}
 
 	@Then("user should see the error message in alert window and get the alert text for Linkedlist links")
@@ -168,19 +154,18 @@ public class LinkedListSteps {
 
 	@When("user types incorrect code from {string} and {int} on Linkedlist links")
 	public void user_types_incorrect_code_from_and_on_linkedlist_links(String sheetName, Integer rowNumber) throws InvalidFormatException, IOException {
-		String pythonCode = excelUtil.getPythonCodeFromExcel(sheetName, rowNumber);  
         excelUtil.enterPythonCode(sheetName, rowNumber);
         llPage.clickRunButton();
 	}
 
 	@Then("user should see alert window and can not click on run button on Linkedlist links")
 	public void user_should_see_alert_window_and_can_not_click_on_run_button_on_linkedlist_links() {
-		 excelUtil.handleAlert(driver, logger);
+		 ExcelUtilityHelper.handleAlert(driver);
 	}
 
 	@Given("user is on Introduction page Of LinkedList")
 	public void user_is_on_introduction_page_of_linked_list() {
-		llPage.openLinkedListSubPage("introduction");
+		llPage.clickIntroductionLink();
 	}
 
 	@When("user clicks on Practice Questions link on Linkedlist")
@@ -190,13 +175,14 @@ public class LinkedListSteps {
 
 	@Then("user should land on practice page on Linkedlist")
 	public void user_should_land_on_practice_page_on_linkedlist() {
-		llPage.verifyPracticeQuestionsPage();
-		logger.info(llPage.pageTitle());
+		String Title=llPage.pageTitle();
+		LogHandler.info("Title of the current page is : " + Title);
+	    Assert.assertEquals(Title, "Practice Questions", "Title not matched");
 	}
 
 	@Given("The user is on LinkedList page")
 	public void the_user_is_on_linked_list_page() {
-		llPage.navigateToLLPage();
+		llPage.clickIntroductionLink();
 	}
 
 	@When("The user clicks on Sign out button on Linkedlist page")
@@ -208,7 +194,7 @@ public class LinkedListSteps {
 	public void user_should_navigate_back_to_home_page_from_linkedlist_and_can_view_message(String expectedMsg) {
 		String actualMsg=llPage.logOutMessage();
     	Assert.assertEquals(actualMsg, expectedMsg); 
-    	logger.info(llPage.pageTitle());
+    	LogHandler.info(llPage.pageTitle());
 	}	
 }
 

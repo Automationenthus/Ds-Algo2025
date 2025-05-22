@@ -3,9 +3,6 @@ package pageObject;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
 import org.testng.Assert;
-
-import dsUtilities.ConfigReader;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,8 +15,12 @@ public class QueuePF {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+    
+    @FindBy(linkText = "Sign in")
+   	WebElement signIn;
+    
     @FindBy(xpath = "//a[@href='queue']")
-    private WebElement getStartQueue;
+    WebElement getStartQueue;
     
     @FindBy(linkText = "NumpyNinja")
 	WebElement numpylink;
@@ -80,9 +81,10 @@ public class QueuePF {
 		return signOutLink.isDisplayed();
 	}
 	
-//  public void getStartbtnclick() {
-//	getStartQueue.click();
-//}
+	
+	public void clickSignIn() {
+		 signIn.click();
+		}
     
     public void clickQueueTopic(String topic) {
         Map<String, WebElement> topicMap = new HashMap<>();
@@ -98,44 +100,30 @@ public class QueuePF {
 
         element.click();
     }
-
-    public void verifyPageNavigation(String topic) {
-        String expectedPath = getUrlPathFromTopic(topic);
-        String currentUrl = driver.getCurrentUrl().replaceAll("/$", "");
-        Assert.assertTrue(currentUrl.toLowerCase().contains(expectedPath.toLowerCase()),
-            "Expected to contain: " + expectedPath + " but got: " + currentUrl);
-    }
-
-    public void openQueueSubPage(String topic) {
-        //String subPageUrl = "https://dsportalapp.herokuapp.com/queue/" + getUrlPathFromTopic(topic) + "/";
-        String url = ConfigReader.getProperty("queueUrl")+ getUrlPathFromTopic(topic) + "/";
-       // driver.get(subPageUrl);
-        driver.get(url);
-    }
-
-    public void verifyTryEditorPage() {
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("/tryEditor"), "Did not navigate to Try Editor. URL: " + currentUrl);
-        Assert.assertTrue(runButton.isDisplayed(), "Run button is not displayed on Try Editor page.");
-    }
     
-    public void tryEditorPage() {
-		driver.get(ConfigReader.getProperty("tryEditorUrl"));	
-	}
-
-    private String getUrlPathFromTopic(String topic) {
+    
+    
+    private String getTitleFromTopic(String topic) {
         switch (topic.toLowerCase()) {
             case "implementation of queue in python":
-                return "implementation-lists";
+                return "Implementation of Queue in Python";
             case "implementation using collections.deque":
-                return "implementation-collections";
+                return "Implementation using collections.deque";
             case "implementation using array":
-                return "Implementation-array";
+                return "Implementation using array";
             case "queue operations":
-                return "QueueOp";
+                return "Queue Operations";
             default:
-                throw new IllegalArgumentException("Unknown topic for URL mapping: " + topic);
+                throw new IllegalArgumentException("Unknown topic for title mapping: " + topic);
         }
+    }
+
+    
+    public void verifyPageNavigation(String topic) {
+        String expectedTitle = getTitleFromTopic(topic);
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle, expectedTitle, 
+            "Expected title: \"" + expectedTitle + "\" but got: \"" + actualTitle + "\"");
     }
 
     
@@ -150,10 +138,10 @@ public class QueuePF {
         practiceQuestionsLink.click();
     }
 
-    public void verifyPracticeQuestionsPage() {
-        String url = driver.getCurrentUrl().toLowerCase();
-        Assert.assertTrue(url.contains("practice"), "Not navigated to the Practice Questions page. URL: " + url);
-    }
+    
+    public void clickImplementationOfQueueInPython() {
+		implementationOfQueueInPython.click();
+		}
     
     public void navigateToQueuePage() {
     	getStartQueue.click();

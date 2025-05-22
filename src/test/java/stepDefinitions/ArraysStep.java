@@ -24,6 +24,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.ArraysPage;
+import pageObject.LoginPF;
 
 
 
@@ -31,27 +32,15 @@ public class ArraysStep {
 	
 	WebDriver driver = DriverFactory.getDriver();
 	 ArraysPage arraysPage = new ArraysPage(driver);
+	 LoginPF lp= new LoginPF(driver);
 	 private static final Logger logger = LogManager.getLogger(ArraysStep.class);
 	 ExcelReader excelreader = new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
 	
 	 @Given("The User is in home page after sign in")
 	 public void the_user_is_in_home_page_after_sign_in() {
-	     driver.get(ConfigReader.getProperty("url")); 
-	 
-	     driver.findElement(By.linkText("Sign in")).click(); 
-	     String username = ConfigReader.getProperty("username");
-	     driver.findElement(By.id("id_username")).sendKeys(username);
-	     String password = ConfigReader.getProperty("password");
-	     driver.findElement(By.id("id_password")).sendKeys(password);
+		 lp.loginBackgroundForPages();
+	 }
 
-	     driver.findElement(By.xpath("//input[@value='Login']")).click();
-	     
-	     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	     wait.until(ExpectedConditions.titleContains("NumpyNinja"));
-
-
-	  Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
-			}
 
 	 @When("The user scrolls down to the Data Structures dropdown and selects Array")
 	 public void the_user_scrolls_down_to_the_data_structures_dropdown_and_selects_array() {

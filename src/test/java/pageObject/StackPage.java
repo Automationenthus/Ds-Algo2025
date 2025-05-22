@@ -177,8 +177,7 @@ public void navigateToApplicationsPage() {
 
 
 public void navigateToStackstryeditorPage() {
-	dropdownMenu.click();
-	StackOption.click();
+	gettingStartedStackBtn.click();
 	operationsInStackLink.click();
 	scrollToTryHere();   
     tryhereLink.click();
@@ -187,8 +186,7 @@ public void navigateToStackstryeditorPage() {
 
 
 public void navigateTostackspracticequestion() {
-	dropdownMenu.click();
-	StackOption.click();
+	gettingStartedStackBtn.click();
 	operationsInStackLink.click();
 	practiceQuestionsLink.click();
 }

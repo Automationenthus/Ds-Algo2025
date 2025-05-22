@@ -8,26 +8,14 @@ Feature: To test Tree functionality
     Then user lands  on the "Tree" page
     
   
-     Scenario: Verify that user is able to navigate to "Data Structures - Introduction" page and see header secetion elements
+    Scenario: Verify that user is able to navigate to Tree page and see header secetion elements
     Given user is on Tree page
     Then user  able to see NumpyNinja,Data structures dropdown,username and signout links on page
     
-  
+   
     
   Scenario Outline: Verify that user is able to navigate to all the links in tree page
     Given user is on Tree page
-
-
-  
-  Scenario: Verify that user is able to navigate to Tree page
-    Given user is on the home page
-    When user clicks the Getting Started button of Tree
-    Then user lands on the "tree" page
-
-  
-  Scenario Outline: Verify that user is able to navigate to all the links in tree page
-    Given user is on the Tree page
-
     When user clicks on "<Topic>" link
     Then user should be navigated to "<ExpectedTitle>" page
 
