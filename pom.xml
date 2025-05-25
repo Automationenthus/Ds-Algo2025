@@ -101,6 +101,21 @@
 
 </dependencies>
 
+<<<<<<< HEAD
+	<build>
+  <plugins>
+    <plugin>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-maven</artifactId>
+      <version>2.11.2</version>
+      <configuration>
+        <resultsDirectory>C:/Workspace/Ds-Algo2025/allure-results</resultsDirectory>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+
+=======
 
  <build>
     <plugins>
@@ -128,4 +143,5 @@
 </build>
 	
 	
+>>>>>>> main
 </project>

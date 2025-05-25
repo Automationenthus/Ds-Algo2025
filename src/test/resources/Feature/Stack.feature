@@ -98,4 +98,4 @@ Scenario: Verify that user is able to navigate to "Application" page
   Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Application" page
     Given The user is on the Application page
     When The user clicks Practice Questionb button in stack
-    #Then The user should be redirected to Practice page in stack
+    Then The user should be redirected to Practice page in stack

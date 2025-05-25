@@ -21,6 +21,7 @@ public class Hooks {
 		
 		driver = DriverFactory.initDriver();
 		String url = ConfigReader.getProperty("url");
+
 		if (url == null || url.isEmpty()) {
 			throw new RuntimeException("URL not specified in config.properties");
 		}

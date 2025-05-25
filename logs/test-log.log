@@ -3859,7 +3859,6 @@
 2025-05-03 16:24:52 INFO  StackStep:36 - Navigated to: Home page
 2025-05-03 16:24:54 INFO  StackStep:52 - User navigated to Home Page
 2025-05-03 16:24:54 INFO  StackStep:244 - User navigated to Application Page
-=======
 2025-04-28 08:24:37 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-04-28 08:24:39 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-04-28 08:24:39 INFO  DataStructuresSteps:57 - Data Structures-Introduction
@@ -6426,8 +6425,6 @@
 2025-05-02 08:29:51 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-05-02 08:30:04 INFO  DataStructuresSteps:33 - NumpyNinja
 2025-05-02 08:30:04 INFO  DataStructuresSteps:33 - Login
-
-<<<<<<< HEAD
 2025-05-05 17:21:16 INFO  ArraysStep:42 - User navigated to Home Page
 2025-05-05 17:21:17 INFO  ArraysStep:73 - Navigated to: Home page
 2025-05-05 17:21:21 INFO  ArraysStep:42 - User navigated to Home Page
@@ -8036,7 +8033,6 @@
 2025-05-09 13:48:05 INFO  LoginSteps:59 - User is on login page
 2025-05-09 13:48:10 INFO  LoginSteps:45 - NumpyNinja
 2025-05-09 13:48:11 INFO  LoginSteps:59 - User is on login page
-=======
 2025-05-07 00:00:41 INFO  ArraysStep:42 - User navigated to Home Page
 2025-05-07 00:00:42 INFO  ArraysStep:73 - Navigated to: Home page
 2025-05-07 00:00:45 INFO  ArraysStep:42 - User navigated to Home Page
@@ -9896,6 +9892,139 @@
 2025-05-09 17:26:04 INFO  StackStep:37 - Navigated to: Home page
 2025-05-09 17:26:07 INFO  StackStep:62 - User navigated to Stack Page
 2025-05-09 17:26:08 INFO  StackStep:234 - User navigated to Application Page
+<<<<<<< HEAD
+2025-05-12 14:23:27 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-12 14:23:34 INFO  ArraysStep:86 - Navigated to: Arrays in Python page
+2025-05-12 14:23:41 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-12 14:23:48 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-12 14:23:55 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-12 14:24:01 INFO  ArraysStep:86 - Navigated to: Arrays in Python page
+2025-05-12 14:24:07 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-12 14:24:14 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-12 14:24:20 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-12 14:24:27 INFO  ArraysStep:192 - Navigated to: Arrays Practice Question page
+2025-05-12 14:26:25 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-12 14:26:31 INFO  ArraysStep:430 - Navigated to: Arrays using List page
+2025-05-12 14:26:37 INFO  ArraysStep:430 - Navigated to: Arrays using List page
+2025-05-12 14:26:42 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-12 14:26:47 INFO  ArraysStep:459 - Navigated to: Basic Operations in List page
+2025-05-12 14:26:53 INFO  ArraysStep:459 - Navigated to: Basic Operations in List page
+2025-05-12 14:26:58 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-12 14:27:05 INFO  ArraysStep:483 - Navigated to: Applications of Array page
+2025-05-12 14:27:11 INFO  ArraysStep:483 - Navigated to: Applications of Array page
+2025-05-12 14:27:13 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:27:15 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:27:16 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-12 14:27:18 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:27:21 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:27:22 INFO  StackStep:88 - User navigated to Operations in Stack Page
+2025-05-12 14:27:25 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:27:27 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:27:29 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:27:31 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:27:33 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:27:35 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:27:38 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:27:40 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:27:42 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:27:44 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:27:46 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:27:47 INFO  StackStep:88 - User navigated to Operations in Stack Page
+2025-05-12 14:27:49 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:27:51 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:27:52 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-12 14:27:54 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:27:56 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:27:58 INFO  StackStep:212 - User navigated to Implementation Page
+2025-05-12 14:28:01 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:28:03 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:28:05 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:28:07 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:28:09 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:28:11 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:28:13 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:28:16 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:28:19 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:28:22 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:28:25 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:28:26 INFO  StackStep:212 - User navigated to Implementation Page
+2025-05-12 14:28:30 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:28:32 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:28:33 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-12 14:28:36 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:28:39 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:28:40 INFO  StackStep:234 - User navigated to Application Page
+2025-05-12 14:28:44 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:28:47 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:28:49 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:28:52 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:28:56 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:28:58 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:29:01 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:29:04 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:29:06 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-12 14:29:09 INFO  StackStep:37 - Navigated to: Home page
+2025-05-12 14:29:12 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-12 14:29:13 INFO  StackStep:234 - User navigated to Application Page
+=======
+2025-05-09 22:20:18 INFO  ArraysStep:70 - Navigated to: Arrays page
+2025-05-09 22:20:24 INFO  ArraysStep:86 - Navigated to: Arrays in Python page
+2025-05-09 22:20:32 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-09 22:20:38 INFO  ArraysStep:104 - Navigated to: Arrays tryEditor page
+2025-05-09 22:24:08 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:10 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:10 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-09 22:24:13 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:16 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:16 INFO  StackStep:88 - User navigated to Operations in Stack Page
+2025-05-09 22:24:20 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:22 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:24 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:24:26 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:28 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:30 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:24:33 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:35 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:37 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:24:39 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:41 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:42 INFO  StackStep:88 - User navigated to Operations in Stack Page
+2025-05-09 22:24:45 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:47 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:47 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-09 22:24:50 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:52 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:52 INFO  StackStep:212 - User navigated to Implementation Page
+2025-05-09 22:24:56 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:24:58 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:24:59 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:25:02 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:04 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:06 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:25:08 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:10 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:12 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:25:15 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:17 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:18 INFO  StackStep:212 - User navigated to Implementation Page
+2025-05-09 22:25:20 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:22 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:23 INFO  StackStep:68 - User navigated to Stack Page
+2025-05-09 22:25:25 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:27 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:28 INFO  StackStep:234 - User navigated to Application Page
+2025-05-09 22:25:31 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:33 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:35 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:25:37 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:39 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:41 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:25:43 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:46 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:47 INFO  StackStep:106 - User navigated to Stacks tryEditor Page
+2025-05-09 22:25:50 INFO  StackStep:37 - Navigated to: Home page
+2025-05-09 22:25:52 INFO  StackStep:62 - User navigated to Stack Page
+2025-05-09 22:25:53 INFO  StackStep:234 - User navigated to Application Page
 2025-05-10 10:55:57 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
 2025-05-10 10:55:57 INFO  DataStructuresSteps:64 - Data Structures-Introduction
 2025-05-10 10:56:02 INFO  DataStructuresSteps:50 - user is on data structure page:Data Structures-Introduction
@@ -10195,7 +10324,6 @@
 2025-05-10 13:29:11 INFO  LogHandler:12 - Assessment
 2025-05-10 13:29:12 INFO  LogHandler:12 - Overview of Trees
 2025-05-10 13:29:16 INFO  LogHandler:12 - Tree
-
 2025-05-10 14:54:38 INFO  LogHandler:12 - Graph
 2025-05-10 14:54:38 INFO  LogHandler:12 - Title of the current page is : Graph
 2025-05-10 14:54:43 INFO  LogHandler:12 - Title of the current page is : Assessment
@@ -11922,6 +12050,9 @@
 2025-05-11 10:46:38 INFO  LogHandler:12 - Assessment
 2025-05-11 10:46:38 INFO  LogHandler:12 - Overview of Trees
 2025-05-11 10:46:46 INFO  LogHandler:12 - Tree
+<<<<<<< HEAD
+
+=======
 2025-05-12 09:38:59 INFO  ArraysStep:59 - Navigated to: Arrays page
 2025-05-12 09:39:09 INFO  ArraysStep:75 - Navigated to: Arrays in Python page
 2025-05-12 09:39:27 INFO  ArraysStep:93 - Navigated to: Arrays tryEditor page
@@ -13428,3 +13559,5 @@
 2025-05-12 14:18:12 INFO  ArraysStep:60 - Navigated to: Arrays page
 2025-05-12 14:18:19 INFO  ArraysStep:473 - Navigated to: Applications of Array page
 2025-05-12 14:18:28 INFO  ArraysStep:473 - Navigated to: Applications of Array page
+
+>>>>>>> main

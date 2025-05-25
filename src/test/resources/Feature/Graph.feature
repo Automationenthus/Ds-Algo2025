@@ -1,3 +1,4 @@
+
 Feature: Graph feature in DSAlgo
 
   Background: 
@@ -103,3 +104,4 @@ Feature: Graph feature in DSAlgo
     Given The user is on Graph page
     When The user clicks on Sign out button on Graph Page
     Then user should navigate back to Home page from Graph and can view "Logged out successfully" message
+

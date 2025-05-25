@@ -7,7 +7,17 @@
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
+<<<<<<< HEAD
+          <include name="runScenario" invocation-numbers="49 2 21 37 24 25 43 13"/>
+=======
+
+          <include name="runScenario" invocation-numbers="2 8 14"/>
+
+          <include name="runScenario" invocation-numbers="2 39 41 137 13 141 15 112 145 147 21 24 25 153 185"/>
+
           <include name="runScenario" invocation-numbers="2 21 24 25 26 13"/>
+
+>>>>>>> main
         </methods>
       </class> <!-- testRunner.DsalgoRunner -->
     </classes>

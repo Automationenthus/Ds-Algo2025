@@ -1,3 +1,4 @@
+
 Feature: Queue feature in DSAlgo
 
   Background: 
@@ -75,3 +76,4 @@ Feature: Queue feature in DSAlgo
     Given The user is on Queue page
     When The user clicks on Sign out button on Queue page
     Then user should navigate back to Home page from queue and can view "Logged out successfully" message
+
