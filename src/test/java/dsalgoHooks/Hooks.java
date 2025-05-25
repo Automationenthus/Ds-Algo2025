@@ -1,5 +1,7 @@
 package dsalgoHooks;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import driverFactory.DriverFactory;
 import dsUtilities.ConfigReader;
@@ -16,18 +18,31 @@ public class Hooks {
 	@Before
 
 	public void setUp() {
-		ConfigReader.initProperties();
+		
 		driver = DriverFactory.initDriver();
 		String url = ConfigReader.getProperty("url");
+
 		if (url == null || url.isEmpty()) {
 			throw new RuntimeException("URL not specified in config.properties");
 		}
 		driver.get(url);
 	}
+	
+	@After(order = 1)
+	public void takeScreenShotOnFailure(Scenario scenario) {
+		if(driver != null && scenario.isFailed()) {
+			TakesScreenshot ts=(TakesScreenshot) driver;
+			byte[]src=ts.getScreenshotAs(OutputType.BYTES);
+			scenario.attach(src, "image/png", "screenshot");
+		}
+		
+	}
+	
+	
 
-	@After
+	@After(order=0)
 	public void tearDown() {
 		DriverFactory.quitDriver(); // Close browser
 	}
-
+	
 }

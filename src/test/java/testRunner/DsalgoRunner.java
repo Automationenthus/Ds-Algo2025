@@ -1,10 +1,5 @@
 package testRunner;
 
-
-//import org.junit.runner.RunWith;
-//import org.junit.runner.RunWith;
-
-
 import org.junit.runner.RunWith;
 
 import org.testng.annotations.DataProvider;
@@ -12,7 +7,6 @@ import org.testng.annotations.DataProvider;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-//@RunWith(Cucumber.class) //Junit execution
 
 @CucumberOptions(
 	    plugin = {
@@ -23,7 +17,7 @@ import io.cucumber.testng.CucumberOptions;
 	        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 	    }, 
 	    monochrome = false,
-	    features = { "src/test/resources/Feature/" },
+	    features = { "src/test/resources/Feature/Arrays.feature" },
 	    glue = { "stepDefinitions", "dsalgoHooks" }
 	)
 	public class DsalgoRunner extends AbstractTestNGCucumberTests {
@@ -32,5 +26,6 @@ import io.cucumber.testng.CucumberOptions;
 	    public Object[][] scenarios() {
 	        return super.scenarios();
 	    }
+
 	}
 

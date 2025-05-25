@@ -55,21 +55,6 @@ public class ExcelReader {
         return allRowsData;  // Return the list of all row data
     }
 }
-//  public static void main(String[] args) {
-////        // Path to your Excel file
-//       String filePath = "src/test/resources/TestData/PythonCode.xlsx"; 
-//        
-//        // Create an instance of ExcelReader
-//        ExcelReader reader = new ExcelReader(filePath);
-////
-////        // Fetch all rows data from the "pythoncode" sheet
-//        List<Map<String, String>> allRowsData = reader.readAllRows("pythoncode");
-////
-////        // Print the data of each row
-//        for (int i = 0; i < allRowsData.size(); i++) {
-//            System.out.println("Row " + (i + 1) + ": " + allRowsData.get(i));
-//        }
-//    }
 
 
 

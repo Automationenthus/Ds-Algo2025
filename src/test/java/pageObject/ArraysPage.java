@@ -7,6 +7,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -83,6 +84,7 @@ public class ArraysPage {
 
 	    @FindBy(id = "output")
 	    private WebElement outputArea;
+	    
 	    
 	    public WebElement getRunButton() {
 	        return runButton;
@@ -367,7 +369,7 @@ public boolean isElementVisible(WebElement element) {
     } catch (NoSuchElementException | StaleElementReferenceException e) {
         return false;
     }
-}
+} 
 
 public boolean isQuestionDisplayed() {
     try {

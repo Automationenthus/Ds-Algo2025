@@ -21,33 +21,23 @@ import dsUtilities.ExcelReader;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObject.LoginPF;
 import pageObject.StackPage;
 
 public class StackStep {
 	
 	WebDriver driver = DriverFactory.getDriver();
 	 StackPage stackpage = new StackPage(driver);
+	 LoginPF lp= new LoginPF(driver);
 	 private static final Logger logger = LogManager.getLogger(StackStep.class);
-	 ExcelReader reader= new ExcelReader("src/test/resources/testdata/DsAlgo_PracticeuestionCode.xlsx");
+	 String path=ConfigReader.getProperty("practice_questions_excelPath");
+	 ExcelReader reader= new ExcelReader(path);
 	 
 
 @Given("The User is in the home page after sign in")
 public void the_user_is_in_the_home_page_after_sign_in() {
-	driver.get(ConfigReader.getProperty("url"));
-    logger.info("Navigated to: Home page");
-    
-	driver.findElement(By.linkText("Sign in")).click(); // Click the "Sign in" link 
-    String username = ConfigReader.getProperty("username");// Type the username from config.properties
-    driver.findElement(By.id("id_username")).sendKeys(username);
-    String password = ConfigReader.getProperty("password");// Type the password from config.properties
-    driver.findElement(By.id("id_password")).sendKeys(password);
-    driver.findElement(By.xpath("//input[@value='Login']")).click();// Click the "Login" button
+	lp.loginBackgroundForPages();
 
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    wait.until(ExpectedConditions.titleContains("NumpyNinja"));
-    
-	 Assert.assertTrue(driver.getTitle().contains("NumpyNinja"), "Login failed or incorrect page");
-    
  }
 
 @When("The user scrolls down to the Data Structures dropdown and selects Stack")
